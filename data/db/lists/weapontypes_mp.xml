@@ -2,32 +2,43 @@
 <WeaponTypes>
 	<WeaponType>
 		<Name>LeaderPower</Name>
-		<DamageModifier rating="1" type="Light">0.850000024</DamageModifier>
-		<DamageModifier rating="1" type="LightRush">0.850000024</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">0.850000024</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.300000012</DamageModifier>
+		<DamageModifier rating="1" type="Light">1</DamageModifier>
+		<DamageModifier rating="1" type="LightRush">1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">0.8</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.6</DamageModifier>
 		<DamageModifier rating="1" type="SentinelLight">1</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader">1.10000002</DamageModifier>
-		<DamageModifier rating="1" type="MediumScout">1.10000002</DamageModifier>
-		<DamageModifier rating="1" type="Medium">1.04999995</DamageModifier>
-		<DamageModifier rating="1" type="MediumHero">1.04999995</DamageModifier>
-		<DamageModifier rating="1" type="MediumAA">1.04999995</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumScout">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumHero">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAA">0.8</DamageModifier>
 		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
-		<DamageModifier rating="1" type="HeavyAir">1.14999998</DamageModifier>
-		<DamageModifier rating="1" type="HeavyInfantry">1.10000002</DamageModifier>
-		<DamageModifier rating="1" type="HeavyInCover">0.300000012</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeaderInCover">0.600000024</DamageModifier>
-		<DamageModifier rating="1" type="HunterShield">0.5</DamageModifier>
-		<DamageModifier rating="1" type="Heavy">1.20000005</DamageModifier>
-		<DamageModifier rating="1" type="Building">1</DamageModifier>
-		<DamageModifier rating="1" type="Shielded">0.5</DamageModifier>
-		<DamageModifier rating="1" type="Flood">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeaderInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.6</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>LeaderPowerNonFlying</Name>
-		<DamageModifier rating="1" type="Light">0.850000024</DamageModifier>
-		<DamageModifier rating="1" type="LightRush">0.850000024</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored">0.850000024</DamageModifier>
+		<DamageModifier rating="1" type="Light">1</DamageModifier>
+		<DamageModifier rating="1" type="LightRush">1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">0.8</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="SentinelLight">1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumScout">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumHero">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAA">0.8</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeaderInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.6</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>SmallArms</Name>
@@ -96,16 +107,16 @@
 		<DamageModifier rating="1" type="Light">2.2</DamageModifier>
 		<DamageModifier rating="1" type="LightRush">2.2</DamageModifier>
 		<DamageModifier rating="1" type="LightArmored">1.8</DamageModifier>
-		<DamageModifier rating="1" type="LightInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.6</DamageModifier>
 		<DamageModifier rating="1" type="SentinelLight">1</DamageModifier>
 		<DamageModifier rating="1" type="CovenantLeader">1.2</DamageModifier>
 		<DamageModifier rating="1" type="MediumScout">1.6</DamageModifier>
 		<DamageModifier rating="1" type="Medium">1.2</DamageModifier>
-		<DamageModifier rating="1" type="MediumHero">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumHero">1.2</DamageModifier>
 		<DamageModifier rating="1" type="MediumAA">1</DamageModifier>
 		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
 		<DamageModifier rating="1" type="HeavyAir">1</DamageModifier>
-		<DamageModifier rating="1" type="HeavyInfantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.6</DamageModifier>
 		<DamageModifier rating="1" type="HeavyInCover">0.4</DamageModifier>
 		<DamageModifier rating="1" type="CovenantLeaderInCover">0.6</DamageModifier>
 		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
@@ -113,14 +124,23 @@
 	</WeaponType>
 	<WeaponType>
 		<Name>WarthogRam</Name>
-		<DamageModifier rating="1" type="Light" reflectDamageFactor="0.550000012" bowlable="true">1.29999995</DamageModifier>
-		<DamageModifier rating="1" type="LightRush" reflectDamageFactor="0.550000012" bowlable="true">1.5</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored" reflectDamageFactor="0.550000012" bowlable="true">1.5</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader" reflectDamageFactor="0.699999988" rammable="true">0.75</DamageModifier>
-		<DamageModifier rating="1" type="MediumScout" reflectDamageFactor="0.550000012" rammable="true">1.70000005</DamageModifier>
-		<DamageModifier rating="1" type="MediumHero" reflectDamageFactor="0.699999988" rammable="true">3.20000005</DamageModifier>
-		<DamageModifier rating="1" type="HeavyInfantry" reflectDamageFactor="0.600000024" bowlable="true">0.850000024</DamageModifier>
-		<DamageModifier rating="1" type="Medium" reflectDamageFactor="0.899999976" rammable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="Light" reflectDamageFactor="0.4" bowlable="true">1.6</DamageModifier>
+		<DamageModifier rating="1" type="LightRush" reflectDamageFactor="0.4" bowlable="true">1.6</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover" reflectDamageFactor="0" bowlable="false">0</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored" reflectDamageFactor="0.4" bowlable="true">1.6</DamageModifier>
+		<DamageModifier rating="1" type="SentinelLight" reflectDamageFactor="0.300000012" rammable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader" reflectDamageFactor="0.6" rammable="true">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Medium" reflectDamageFactor="0.8" rammable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumScout" reflectDamageFactor="0.6" rammable="true">1.8</DamageModifier>
+		<DamageModifier rating="1" type="MediumHero" reflectDamageFactor="0.6" rammable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAA" reflectDamageFactor="1" rammable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry" reflectDamageFactor="0.6" rammable="true">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInCover" reflectDamageFactor="0" bowlable="false">0</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeaderInCover" reflectDamageFactor="0" bowlable="false">0</DamageModifier>
+		<DamageModifier rating="1" type="Heavy" reflectDamageFactor="2" rammable="true">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Building" reflectDamageFactor="3" rammable="true">0.8</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>SmallArmsScouts</Name>
@@ -145,14 +165,23 @@
 	</WeaponType>
 	<WeaponType>
 		<Name>ScoutRam</Name>
-		<DamageModifier rating="1" type="Light" reflectDamageFactor="0.550000012" bowlable="true">1.29999995</DamageModifier>
-		<DamageModifier rating="1" type="LightRush" reflectDamageFactor="0.550000012" bowlable="true">1.5</DamageModifier>
-		<DamageModifier rating="1" type="LightArmored" reflectDamageFactor="0.550000012" bowlable="true">1.5</DamageModifier>
-		<DamageModifier rating="1" type="CovenantLeader" reflectDamageFactor="0.699999988" rammable="true">0.75</DamageModifier>
-		<DamageModifier rating="1" type="MediumScout" reflectDamageFactor="0.550000012" rammable="true">1.70000005</DamageModifier>
-		<DamageModifier rating="1" type="MediumHero" reflectDamageFactor="0.699999988" rammable="true">3.20000005</DamageModifier>
-		<DamageModifier rating="1" type="HeavyInfantry" reflectDamageFactor="0.600000024" bowlable="true">0.850000024</DamageModifier>
-		<DamageModifier rating="1" type="Medium" reflectDamageFactor="0.899999976" rammable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="Light" reflectDamageFactor="0.6" bowlable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="LightRush" reflectDamageFactor="0.6" bowlable="true">1.6</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover" reflectDamageFactor="0" bowlable="false">0</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored" reflectDamageFactor="0.6" bowlable="true">1.6</DamageModifier>
+		<DamageModifier rating="1" type="SentinelLight" reflectDamageFactor="0.300000012" rammable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader" reflectDamageFactor="0.6" rammable="true">1.2</DamageModifier>
+		<DamageModifier rating="1" type="Medium" reflectDamageFactor="0.8" rammable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumScout" reflectDamageFactor="0.6" rammable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumHero" reflectDamageFactor="0.6" rammable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAA" reflectDamageFactor="1" rammable="true">1.4</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry" reflectDamageFactor="0.6" rammable="true">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInCover" reflectDamageFactor="0" bowlable="false">0</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeaderInCover" reflectDamageFactor="0" bowlable="false">0</DamageModifier>
+		<DamageModifier rating="1" type="Heavy" reflectDamageFactor="2" rammable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="Building" reflectDamageFactor="3" rammable="true">0.8</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>SuicideGrunt</Name>
@@ -218,7 +247,7 @@
 		<DamageModifier rating="1" type="LightInCover">0.6</DamageModifier>
 		<DamageModifier rating="1" type="LightRush">1</DamageModifier>
 		<DamageModifier rating="1" type="LightArmored">0.8</DamageModifier>
-		<DamageModifier rating="1" type="SentinelLight">1.79999995</DamageModifier>
+		<DamageModifier rating="1" type="SentinelLight">1.8</DamageModifier>
 		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
 		<DamageModifier rating="1" type="MediumScout">3</DamageModifier>
 		<DamageModifier rating="1" type="Medium">2.6</DamageModifier>
@@ -255,13 +284,23 @@
 	<WeaponType>
 		<Name>Beam</Name>
 		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="Light">1.6</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="LightRush">1.6</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1.6</DamageModifier>
+		<DamageModifier rating="1" type="SentinelLight">1</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1.6</DamageModifier>
+		<DamageModifier rating="1" type="MediumScout">1.4</DamageModifier>
 		<DamageModifier rating="1" type="Medium">1</DamageModifier>
-		<DamageModifier rating="1" type="MediumHero">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumHero">1.2</DamageModifier>
 		<DamageModifier rating="1" type="MediumAA">1</DamageModifier>
-		<DamageModifier rating="1" type="MediumAir">0.449999988</DamageModifier>
-		<DamageModifier rating="1" type="HeavyAir">0.5</DamageModifier>
-		<DamageModifier rating="1" type="HeavyInfantry">0.899999976</DamageModifier>
-		<DamageModifier rating="1" type="Building">2.70000005</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.6</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0.6</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInCover">0.8</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeaderInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">2.8</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>TankExplosive</Name>

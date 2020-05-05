@@ -26,7 +26,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>Ram</Name>
-		<WeaponType>WarthogRam</WeaponType>
+		<WeaponType>ScoutRam</WeaponType>
 		<DamagePerSecond>400</DamagePerSecond>
 		<ThrowUnits />
 		<FlailThrownUnits />
@@ -61,7 +61,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>RamSecondary</Name>
-		<WeaponType>WarthogRam</WeaponType>
+		<WeaponType>ScoutRam</WeaponType>
 		<DamagePerSecond>150</DamagePerSecond>
 		<ThrowUnits />
 		<FlailThrownUnits />
