@@ -5,7 +5,7 @@
 		<AttackRate>2</AttackRate>
 		<DamagePerSecond>150</DamagePerSecond>
 		<WeaponType>Ultimates</WeaponType>
-		<Projectile>fx_proj_vultureNuke_01</Projectile>
+		<Projectile>fx_proj_incendiarycannon_01</Projectile>
 		<ImpactEffect size="Large">LargeExplosionImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
@@ -114,7 +114,7 @@
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>190</DamagePerSecond>
 		<WeaponType>Ultimates</WeaponType>
-		<Projectile>fx_proj_vultureNuke_01</Projectile>
+		<Projectile>fx_proj_incendiarycannon_01</Projectile>
 		<ImpactEffect size="Large">LargeExplosionImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
