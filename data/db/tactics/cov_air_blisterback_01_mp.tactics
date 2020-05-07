@@ -2,8 +2,8 @@
 <TacticData>
 	<Weapon>
 		<Name>PlasmaCannon</Name>
-		<AttackRate>1.5</AttackRate>
-		<DamagePerSecond>225</DamagePerSecond>
+		<AttackRate>3.5</AttackRate>
+		<DamagePerSecond>325</DamagePerSecond>
 		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>pow_gp_megaTurret</Projectile>
 		<ImpactEffect size="Large">MediumPlasmaExplosion</ImpactEffect>
@@ -40,7 +40,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>CorruptedPlasmaCannon</Name>
-		<AttackRate>0.5</AttackRate>
+		<AttackRate>2.5</AttackRate>
 		<DamagePerSecond>425</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_corrupted_shadeplasma_01</Projectile>
@@ -78,8 +78,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>BlisterbackArtillery</Name>
-		<AttackRate>0.1</AttackRate>
-		<DamagePerSecond>350</DamagePerSecond>
+		<AttackRate>2.1</AttackRate>
+		<DamagePerSecond>450</DamagePerSecond>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>1</PreAttackCooldownMax>
 		<PostAttackCooldownMin>2.20000005</PostAttackCooldownMin>
@@ -133,7 +133,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>CorruptedBlisterbackArtillery</Name>
-		<AttackRate>0.1</AttackRate>
+		<AttackRate>2.1</AttackRate>
 		<DamagePerSecond>470</DamagePerSecond>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>1</PreAttackCooldownMax>
@@ -188,7 +188,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>PlasmaCannonSiphon</Name>
-		<AttackRate>0.5</AttackRate>
+		<AttackRate>3.5</AttackRate>
 		<DamagePerSecond>425</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
@@ -227,8 +227,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>BlisterbackArtillerySiphon</Name>
-		<AttackRate>0.1</AttackRate>
-		<DamagePerSecond>370</DamagePerSecond>
+		<AttackRate>2.1</AttackRate>
+		<DamagePerSecond>570</DamagePerSecond>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>1</PreAttackCooldownMax>
 		<PostAttackCooldownMin>2.20000005</PostAttackCooldownMin>

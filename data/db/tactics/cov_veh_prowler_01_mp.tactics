@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>ShadeTurret</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>60</DamagePerSecond>
+		<DamagePerSecond>120</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
@@ -43,7 +43,7 @@
 	<Weapon>
 		<Name>Artillery</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>754</DamagePerSecond>
+		<DamagePerSecond>654</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>vfx_dlc2_units_plasmagrenadetrail</Projectile>
 		<ImpactEffect size="Large">MediumPlasmaExplosion</ImpactEffect>
@@ -126,7 +126,7 @@
 	<Weapon>
 		<Name>ArtillerySiphon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>254</DamagePerSecond>
+		<DamagePerSecond>854</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
 		<ImpactEffect size="Small">SmallPlasmaExplosion</ImpactEffect>

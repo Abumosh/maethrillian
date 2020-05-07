@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>RocketLauncher_Left</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>108</DamagePerSecond>
+		<DamagePerSecond>128</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_rocket_01_mp</Projectile>
 		<MaxVelocityLead>6.1500001</MaxVelocityLead>
@@ -80,7 +80,7 @@
 	<Weapon>
 		<Name>Autocannon</Name>
 		<AttackRate>0.2</AttackRate>
-		<DamagePerSecond>1550</DamagePerSecond>
+		<DamagePerSecond>650</DamagePerSecond>
 		<WeaponType>ReaverAutocannon</WeaponType>
 		<Projectile>fx_proj_plasmaturret</Projectile>
 		<ImpactEffect size="Medium">PlasmaPistolImpact</ImpactEffect>
