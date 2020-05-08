@@ -10042,8 +10042,8 @@
 		<ActiveAbilityType>Garrison</ActiveAbilityType>
 		<HealValue>1.3</HealValue>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">3</Pop>
-		<Cost ResourceType="Supplies">250</Cost>
+		<Pop Type="Unit">4</Pop>
+		<Cost ResourceType="Supplies">350</Cost>
 		<Cost ResourceType="Power">75</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,9,0">UNSC_Health</HPBar>
