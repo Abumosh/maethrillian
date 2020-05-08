@@ -6875,7 +6875,6 @@
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">Grunt_AmbushMine1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="Grunt_AmbushMine1">Grunt_AmbushMine2</Effect>
 			<Effect type="UnlockableGodPower" tier="1">Grunt_MethaneWagon</Effect>
 			<Effect type="UnlockableGodPower" tier="2">Grunt_CeaseFire1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="Grunt_CeaseFire1">Grunt_CeaseFire2</Effect>

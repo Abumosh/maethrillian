@@ -17,8 +17,8 @@
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<ProjectileLaunchDirY />
-		<PostAttackCooldownMin>1.5</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>RocketLauncher_Right</Name>
@@ -38,8 +38,8 @@
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<ProjectileLaunchDirY />
-		<PostAttackCooldownMin>1.5</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>Autocannon</Name>

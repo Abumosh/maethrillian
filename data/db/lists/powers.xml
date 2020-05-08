@@ -14287,8 +14287,8 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
-			<Cost Supplies="60" Power="60" />
-			<AutoRecharge>90000</AutoRecharge>
+			<Cost Supplies="120" Power="120" />
+			<AutoRecharge>105000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -14551,12 +14551,12 @@
 		<Attributes>
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<ProcOnSquadSpawned />
 			<ProcWhenActiveOnly />
 			<BuffName>Ceasefire</BuffName>
 			<ProcBuffName>Ceasefire</ProcBuffName>
-			<Cost Supplies="0" Power="100" />
+			<Cost Supplies="100" Power="100" />
 			<DisplayNameID>5012</DisplayNameID>
 			<RolloverTextID>5013</RolloverTextID>
 			<PrereqTextID>252</PrereqTextID>
@@ -14584,18 +14584,31 @@
 				<Data type="protoobject" name="CastVfx" />
 				<Data type="protoobject" name="BuffActivateFX" />
 			</DataLevel>
+			<DataLevel level="0">
+				<Data type="bool" name="AffectsAllByFilterType">true</Data>
+				<Data type="objecttype" name="FilterType">Unit</Data>
+				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
+				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
+				<Data type="float" name="BuffDuration">15</Data>
+				<Data type="float" name="SlowModifier">1.5</Data>
+				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="bool" name="AffectsEnemies">false</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+			</DataLevel>
 		</Attributes>
 	</Power>
 	<Power name="Grunt_CeaseFire2">
 		<Attributes>
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<ProcOnSquadSpawned />
 			<ProcWhenActiveOnly />
 			<BuffName>Ceasefire</BuffName>
 			<ProcBuffName>Ceasefire</ProcBuffName>
-			<Cost Supplies="0" Power="150" />
+			<Cost Supplies="150" Power="150" />
 			<DisplayNameID>5012</DisplayNameID>
 			<RolloverTextID>5013</RolloverTextID>
 			<PrereqTextID>252</PrereqTextID>
@@ -14607,7 +14620,7 @@
 			</FlashUI>
 			<DataLevel level="0">
 				<Data type="bool" name="BuffDurationInfinite">false</Data>
-				<Data type="float" name="BuffDuration">23</Data>
+				<Data type="float" name="BuffDuration">20</Data>
 				<Data type="bool" name="AffectsLeaderPowers">true</Data>
 				<Data type="bool" name="AffectsEnemies">true</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
@@ -14622,6 +14635,52 @@
 				<Data type="sound" name="CeasefireTalkingHead">PLAY_DIA_2D_BAN_CeaseFireBeg</Data>
 				<Data type="protoobject" name="CastVfx" />
 				<Data type="protoobject" name="BuffActivateFX" />
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="GruntSpeedBuff1">
+		<Attributes>
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>BuffAllies</AIPowerUseType>
+			<Cost Supplies="175" Power="100" />
+			<AutoRecharge>100000</AutoRecharge>
+			<BuffName>UnstableConcoction</BuffName>
+			<UIRadius>24</UIRadius>
+			<Decal>Point</Decal>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DontRecordGameStats />
+			<DataLevel level="0">
+				<Data type="bool" name="AffectsAllByFilterType">true</Data>
+				<Data type="objecttype" name="FilterType">Unit</Data>
+				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
+				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
+				<Data type="float" name="BuffDuration">15</Data>
+				<Data type="float" name="SlowModifier">1.5</Data>
+				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="bool" name="AffectsEnemies">false</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="protoobject" name="CastVfx">vfx_unitvfx_sharedunitvfx_sharedunitcommanderbuffs_vehrecyclingcast</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BUF_BAN_LekgoloPilotingCast</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -14696,11 +14755,11 @@
 			<DataLevel level="0">
 				<Data type="protoobject" name="RepairObject">vfx_dlc5_powers_goblinhustle1</Data>
 				<Data type="protoobject" name="RepairAttachment">fx_repairing</Data>
-				<Data type="float" name="RepairRadius">20</Data>
+				<Data type="float" name="RepairRadius">24</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="float" name="TickDuration">1</Data>
-				<Data type="int" name="NumTicks">3</Data>
-				<Data type="float" name="RepairPercentMaxHealthPerTick">0.075000003</Data>
+				<Data type="int" name="NumTicks">4</Data>
+				<Data type="float" name="RepairPercentMaxHealthPerTick">0.045</Data>
 				<Data type="float" name="CooldownTimeIfDamaged">0</Data>
 				<Data type="bool" name="IgnorePlacement">false</Data>
 				<Data type="bool" name="HealAny">false</Data>
@@ -14745,8 +14804,8 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">8</Data>
-				<Data type="float" name="SlowModifier">1.39999998</Data>
+				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="SlowModifier">1.4</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -14824,11 +14883,11 @@
 			<DataLevel level="0">
 				<Data type="protoobject" name="RepairObject">vfx_dlc5_powers_goblinhustle2</Data>
 				<Data type="protoobject" name="RepairAttachment">fx_repairing</Data>
-				<Data type="float" name="RepairRadius">30</Data>
+				<Data type="float" name="RepairRadius">32</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="float" name="TickDuration">1</Data>
-				<Data type="int" name="NumTicks">4</Data>
-				<Data type="float" name="RepairPercentMaxHealthPerTick">0.075000003</Data>
+				<Data type="int" name="NumTicks">6</Data>
+				<Data type="float" name="RepairPercentMaxHealthPerTick">0.045</Data>
 				<Data type="float" name="CooldownTimeIfDamaged">0</Data>
 				<Data type="bool" name="IgnorePlacement">false</Data>
 				<Data type="bool" name="HealAny">false</Data>
@@ -14873,8 +14932,8 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">8</Data>
-				<Data type="float" name="SlowModifier">1.39999998</Data>
+				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="SlowModifier">1.4</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
