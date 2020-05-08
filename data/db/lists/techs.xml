@@ -4116,7 +4116,16 @@
                 <Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
             </Effect>																	
             <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_serina_cryomarines_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
+                <Target type="ProtoUnit">unsc_bldg_command_01</Target>
+            </Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_serina_cryomarines_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_02</Target>
+            </Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_serina_cryomarines_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_03</Target>
+            </Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_serina_cryomarines_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_04</Target>
             </Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_veh_jerome_mantis_01</Target>
@@ -4128,7 +4137,7 @@
                 <Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
             </Effect>																	
             <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_johnson_colossus_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+                <Target type="ProtoUnit">unsc_bldg_fieldarmory_01</Target>
             </Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_air_serina_pegasus_01</Target>
@@ -5205,7 +5214,16 @@
                 <Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
             </Effect>																	
             <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+                <Target type="ProtoUnit">cov_bldg_builder_01_base</Target>
+            </Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
+                <Target type="ProtoUnit">cov_bldg_builder_02_base</Target>
+            </Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
+                <Target type="ProtoUnit">cov_bldg_builder_03_base</Target>
+            </Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
+                <Target type="ProtoUnit">cov_bldg_builder_04_base</Target>
             </Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">cov_air_spirit_01</Target>

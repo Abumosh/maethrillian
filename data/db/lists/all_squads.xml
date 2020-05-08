@@ -2740,9 +2740,9 @@
 		<ActiveAbilityType>Garrison</ActiveAbilityType>
 		<BuildPoints>16</BuildPoints>
 		<Pop Type="Unit">3</Pop>
-		<Cost ResourceType="Supplies">270</Cost>
-		<Cost ResourceType="Power">90</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
+		<Cost ResourceType="Supplies">360</Cost>
+		<Cost ResourceType="Power">180</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -8105,7 +8105,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">unsc_air_nightingale_01</Unit>
+			<Unit count="1" role="normal">unsc_air_pelicangunship_01</Unit>
 		</Units>
 		<Flag>DiesWhenFrozen</Flag>
 		<Flag>Repairable</Flag>
@@ -8269,9 +8269,9 @@
 		<ActiveAbilityType>ShatterMissile</ActiveAbilityType>
 		<BuildPoints>13</BuildPoints>
 		<Pop Type="Unit">2</Pop>
-		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="Supplies">160</Cost>
 		<Cost ResourceType="Power">50</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,4.30499983,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -9684,7 +9684,7 @@
 		<Pop Type="Unit">2</Pop>
 		<Cost resourcetype="Supplies">80</Cost>
 		<Cost resourcetype="Power">40</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -10067,10 +10067,10 @@
 		<AIAttackRank>3.5</AIAttackRank>
 		<ActiveAbilityType>Garrison</ActiveAbilityType>
 		<HealValue>1.3</HealValue>
-		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">4</Pop>
-		<Cost ResourceType="Supplies">350</Cost>
-		<Cost ResourceType="Power">75</Cost>
+		<BuildPoints>13</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">300</Cost>
+		<Cost ResourceType="Power">150</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,9,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -10320,10 +10320,10 @@
 		<AIAttackRank>3.5</AIAttackRank>
 		<ActiveAbilityType>Garrison</ActiveAbilityType>
 		<BuildPoints>12</BuildPoints>
-		<Pop Type="Decimus">0</Pop>
+		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">100</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,14,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -10366,9 +10366,9 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Pop Type="Unit">4</Pop>
-		<Cost ResourceType="Supplies">750</Cost>
+		<Cost ResourceType="Supplies">280</Cost>
 		<Cost ResourceType="Power">120</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<BuildPoints>14</BuildPoints>
 		<Units>
 			<Unit count="1" role="normal">unsc_veh_johnson_colossus_01</Unit>
@@ -10615,10 +10615,10 @@
 		<AIAttackRank>10</AIAttackRank>
 		<UnlockableActiveAbilityType>CryoLockdown</UnlockableActiveAbilityType>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
+		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">270</Cost>
 		<Cost ResourceType="Power">275</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,7.5,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
