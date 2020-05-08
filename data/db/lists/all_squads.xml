@@ -78,7 +78,7 @@
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">4</Pop>
+		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">700</Cost>
 		<Cost ResourceType="Power">50</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -220,7 +220,7 @@
 		<AIAttackRank>0</AIAttackRank>
 		<ActiveAbilityType>Garrison</ActiveAbilityType>
 		<BuildPoints>13</BuildPoints>
-		<Pop Type="Unit">3</Pop>
+		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">225</Cost>
 		<Cost ResourceType="Power">90</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>

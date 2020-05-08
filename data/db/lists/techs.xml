@@ -2655,19 +2655,19 @@
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_veh_wraithapc_01_upgrade1" relativity="Absolute">
@@ -4116,15 +4116,15 @@
                 <Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
             </Effect>																	
             <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_serina_cryomarines_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01</Target>
+                <Target type="ProtoUnit">unsc_bldg_barracks_01</Target>
             </Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_serina_cryomarines_01" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_serina_cryomarines_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_02</Target>
             </Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_serina_cryomarines_01" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_serina_cryomarines_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_03</Target>
             </Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_serina_cryomarines_01" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_serina_cryomarines_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_04</Target>
             </Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">

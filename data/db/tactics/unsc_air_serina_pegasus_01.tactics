@@ -48,7 +48,7 @@
 	<Weapon>
 		<Name>CryoRay</Name>
 		<AttackRate>0.125</AttackRate>
-		<DamagePerSecond>900</DamagePerSecond>
+		<DamagePerSecond>700</DamagePerSecond>
 		<WeaponType>ChainGun</WeaponType>
 		<Projectile>fx_proj_pegasus_cryobeam</Projectile>
 		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
@@ -71,7 +71,7 @@
 	<Weapon>
 		<Name>CryoRayUpgrade</Name>
 		<AttackRate>0.125</AttackRate>
-		<DamagePerSecond>600</DamagePerSecond>
+		<DamagePerSecond>800</DamagePerSecond>
 		<WeaponType>ChainGun</WeaponType>
 		<Projectile>fx_proj_pegasus_cryobeamupgrade</Projectile>
 		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
