@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Chaingun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>737</DamagePerSecond>
+		<DamagePerSecond>537</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_incendiarycannon_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
@@ -78,7 +78,7 @@
 	<Weapon>
 		<Name>ChaingunJohnson</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>737</DamagePerSecond>
+		<DamagePerSecond>537</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_incendiarycannon_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
@@ -157,7 +157,7 @@
 	<Weapon>
 		<Name>ChaingunJohnson1</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>737</DamagePerSecond>
+		<DamagePerSecond>537</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_incendiarycannon_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>

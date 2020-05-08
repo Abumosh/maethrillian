@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Railgun</Name>
 		<AttackRate>2.5</AttackRate>
-		<DamagePerSecond>1085</DamagePerSecond>
+		<DamagePerSecond>885</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
@@ -35,8 +35,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>StandardGun</Name>
-		<AttackRate>5</AttackRate>
-		<DamagePerSecond>231</DamagePerSecond>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>331</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
@@ -57,8 +57,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>RailgunJohnson</Name>
-		<AttackRate>5</AttackRate>
-		<DamagePerSecond>203</DamagePerSecond>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>403</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
@@ -92,7 +92,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>StandardGunJohnson</Name>
-		<AttackRate>5</AttackRate>
+		<AttackRate>2</AttackRate>
 		<DamagePerSecond>254</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
@@ -116,8 +116,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>RailgunJohnson1</Name>
-		<AttackRate>5</AttackRate>
-		<DamagePerSecond>203</DamagePerSecond>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>403</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
@@ -151,7 +151,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>StandardGunJohnson1</Name>
-		<AttackRate>5</AttackRate>
+		<AttackRate>2</AttackRate>
 		<DamagePerSecond>254</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>

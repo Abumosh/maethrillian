@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Machinegun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
+		<DamagePerSecond>160</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_machineGun_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -28,8 +28,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>Cannon</Name>
-		<AttackRate>6</AttackRate>
-		<DamagePerSecond>800</DamagePerSecond>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>700</DamagePerSecond>
 		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>fx_proj_cannon_03</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>

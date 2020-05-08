@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>CryoSpray</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>31</DamagePerSecond>
+		<DamagePerSecond>310</DamagePerSecond>
 		<Projectile>fx_proj_cryobeam_01</Projectile>
 		<WeaponType>AntiBuildingFire</WeaponType>
 		<MaxVelocityLead>15</MaxVelocityLead>
@@ -43,7 +43,7 @@
 	<Weapon>
 		<Name>InCoverCryoSpray</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>31</DamagePerSecond>
+		<DamagePerSecond>310</DamagePerSecond>
 		<Projectile>fx_proj_cryobeam_01</Projectile>
 		<WeaponType>AntiBuildingFire</WeaponType>
 		<MaxVelocityLead>15</MaxVelocityLead>
@@ -83,7 +83,7 @@
 	<Weapon>
 		<Name>CryoSprayUpgrade</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>44</DamagePerSecond>
+		<DamagePerSecond>440</DamagePerSecond>
 		<Projectile>fx_proj_cryobeamupgrade</Projectile>
 		<WeaponType>AntiBuildingFire</WeaponType>
 		<MaxVelocityLead>15</MaxVelocityLead>
@@ -127,7 +127,7 @@
 		<Projectile>fx_proj_cryobeamupgrade</Projectile>
 		<WeaponType>AntiBuildingFire</WeaponType>
 		<MaxVelocityLead>15</MaxVelocityLead>
-		<MaxRange>40</MaxRange>
+		<MaxRange>400</MaxRange>
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
 		<TargetPriority type="Building">3</TargetPriority>
