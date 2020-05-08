@@ -493,8 +493,8 @@
 		<StartingSquad FlyIn="false" Offset="50,0,-10">cov_inf_gruntswarm_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="50,0,0">cov_inf_gruntswarm_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_gruntswarm_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,-10">cov_inf_gruntswarm_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,10">cov_inf_gruntswarm_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="50,0,-10">cov_veh_grunt_bruteChopper_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,10">cov_veh_grunt_bruteChopper_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
