@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <CommandXP>
 	<XPGain>
-		<PerSecond>1.39999998</PerSecond>
-		<EnemySquadKilled>5</EnemySquadKilled>
-		<OwnSquadKilled>3</OwnSquadKilled>
-		<DamageDealt dmgAmount="3000">1</DamageDealt>
-		<BaseStructureBuilt>40</BaseStructureBuilt>
-		<UpgradeResearched>40</UpgradeResearched>
-		<ForwardBaseBuilt>60</ForwardBaseBuilt>
-		<EnemyStructureDestroyed>50</EnemyStructureDestroyed>
-		<OwnStructureDestroyed>12</OwnStructureDestroyed>
-		<ResourcePointCaptured>40</ResourcePointCaptured>
-		<NeutralDominationPointCaptured>40</NeutralDominationPointCaptured>
-		<EnemyDominationPointCaptured bonusPerSecondOccupied="0.25" bonusMax="300">40</EnemyDominationPointCaptured>
-		<CollectibleRecovered>40</CollectibleRecovered>
-		<InitialCP>0</InitialCP>
-		<InitialLevel>0</InitialLevel>
+		<PerSecond>0</PerSecond>
+		<EnemySquadKilled>0</EnemySquadKilled>
+		<OwnSquadKilled>0</OwnSquadKilled>
+		<DamageDealt dmgAmount="3000">0</DamageDealt>
+		<BaseStructureBuilt>0</BaseStructureBuilt>
+		<UpgradeResearched>0</UpgradeResearched>
+		<ForwardBaseBuilt>0</ForwardBaseBuilt>
+		<EnemyStructureDestroyed>0</EnemyStructureDestroyed>
+		<OwnStructureDestroyed>0</OwnStructureDestroyed>
+		<ResourcePointCaptured>0</ResourcePointCaptured>
+		<NeutralDominationPointCaptured>0</NeutralDominationPointCaptured>
+		<EnemyDominationPointCaptured bonusPerSecondOccupied="0.25" bonusMax="300">0</EnemyDominationPointCaptured>
+		<CollectibleRecovered>0</CollectibleRecovered>
+		<InitialCP>999</InitialCP>
+		<InitialLevel>999</InitialLevel>
 	</XPGain>
 	<Levels>
-		<Level>6</Level>
-		<Level>600</Level>
-		<Level>1300</Level>
-		<Level>2000</Level>
-		<Level>3000</Level>
-		<Level>4000</Level>
-		<Level>5000</Level>
-		<Level>6000</Level>
-		<Level>7000</Level>
-		<Level>7900</Level>
-		<Level>8900</Level>
-		<Level>10200</Level>
-		<Level>11500</Level>
-		<Level>13000</Level>
-		<Level>14500</Level>
-		<Level>16100</Level>
-		<Level>18000</Level>
-		<Level>20000</Level>
+		<Level>9999991</Level>
+		<Level>9999992</Level>
+		<Level>9999993</Level>
+		<Level>9999994</Level>
+		<Level>9999995</Level>
+		<Level>9999996</Level>
+		<Level>9999997</Level>
+		<Level>9999998</Level>
+		<Level>9999999</Level>
+		<Level>99999991</Level>
+		<Level>99999992</Level>
+		<Level>99999993</Level>
+		<Level>99999994</Level>
+		<Level>99999995</Level>
+		<Level>99999996</Level>
+		<Level>99999997</Level>
+		<Level>99999998</Level>
+		<Level>99999999</Level>
 	</Levels>
 	<SquadBonuses>
 		<Squad name="unsc_inf_marine_01">0</Squad>
