@@ -239,7 +239,7 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_air_pelicangunship_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_air_pelicangunship_02_base</Target>
             </Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
@@ -4154,7 +4154,7 @@
             <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_serina_hero_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
             </Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_pelicangunship_02_base" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_pelicangunship_02_base" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpjerome_01" relativity="Absolute">
