@@ -3873,8 +3873,9 @@
 		<DBID>1915</DBID>
 		<DisplayNameID>24174</DisplayNameID>
 		<RolloverTextID>24175</RolloverTextID>
-		<Cost resourcetype="Power">350</Cost>
-		<Cost resourcetype="HQLevel">3</Cost>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">450</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>30</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -3883,12 +3884,6 @@
 				<Target type="ProtoUnit">cov_inf_suicideGrunt_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="SprintSuicideBombAV" relativity="Absolute">
-				<Target type="ProtoUnit">cov_inf_suicideGrunt_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="OnDeathBomb" relativity="Absolute">
-				<Target type="ProtoUnit">cov_inf_suicideGrunt_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="OnDeathBombAV" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_suicideGrunt_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="Suicide_02">
@@ -3907,6 +3902,7 @@
 		<ResearchPoints>30</ResearchPoints>
 		<Prereqs>
 			<TechStatus status="Active">cov_basic</TechStatus>
+			<TechStatus status="Active">cov_suicideGrunt_upgrade1</TechStatus>
 		</Prereqs>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
