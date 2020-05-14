@@ -3346,13 +3346,9 @@
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
-		<ResearchAnim>Upgrade</ResearchAnim>
 		<Flag>UniqueProtoUnitInstance</Flag>
 		<Effects>
 			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_turretAI_01_mp</Effect>
-			<Effect type="Data" amount="200" subtype="Cost" Resource="Power" relativity="Absolute">
-				<Target type="Unit" />
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_turret_upgradeAV" type="Normal">
@@ -3367,13 +3363,9 @@
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
-		<ResearchAnim>Upgrade</ResearchAnim>
 		<Flag>UniqueProtoUnitInstance</Flag>
 		<Effects>
 			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_turretAV_01_mp</Effect>
-			<Effect type="Data" amount="200" subtype="Cost" Resource="Power" relativity="Absolute">
-				<Target type="Unit" />
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_turret_upgradeAA" type="Normal">
@@ -3388,13 +3380,9 @@
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
-		<ResearchAnim>Upgrade</ResearchAnim>
 		<Flag>UniqueProtoUnitInstance</Flag>
 		<Effects>
 			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_turretAA_01_mp</Effect>
-			<Effect type="Data" amount="200" subtype="Cost" Resource="Power" relativity="Absolute">
-				<Target type="Unit" />
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_turret_unbreakablemegaturretupgrade_1" type="Normal">
