@@ -235,10 +235,10 @@
 		<Prereqs>
 			<TechStatus status="Active">Basic</TechStatus>
 		</Prereqs>
-		<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_air_pelicangunship_01</Target>
 			</Effect>
-		    <Effects>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_air_pelicangunship_02_base</Target>
             </Effect>
@@ -839,32 +839,32 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="for_building_turret_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_turretsocket_01_sp</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_04</Target>
+			</Effect>
 		</Effects>
 	</Tech>
-	<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade1" relativity="Absolute">
-		<Target type="ProtoUnit">unsc_bldg_command_01</Target>
-	</Effect>
-	<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade1" relativity="Absolute">
-		<Target type="ProtoUnit">unsc_bldg_command_02</Target>
-	</Effect>
-	<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade1" relativity="Absolute">
-		<Target type="ProtoUnit">unsc_bldg_command_03</Target>
-	</Effect>
-	<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade1" relativity="Absolute">
-		<Target type="ProtoUnit">unsc_bldg_command_04</Target>
-	</Effect>
-	<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade2" relativity="Absolute">
-		<Target type="ProtoUnit">unsc_bldg_command_01</Target>
-	</Effect>
-	<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade2" relativity="Absolute">
-		<Target type="ProtoUnit">unsc_bldg_command_02</Target>
-	</Effect>
-	<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade2" relativity="Absolute">
-		<Target type="ProtoUnit">unsc_bldg_command_03</Target>
-	</Effect>
-	<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mongoose_upgrade2" relativity="Absolute">
-		<Target type="ProtoUnit">unsc_bldg_command_04</Target>
-	</Effect>
 	<Tech name="unsc_supplypad_upgrade1" type="Normal">
 		<DBID>1962</DBID>
 		<DisplayNameID>1006</DisplayNameID>
