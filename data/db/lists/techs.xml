@@ -3348,23 +3348,8 @@
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<ResearchAnim>Upgrade</ResearchAnim>
 		<Flag>UniqueProtoUnitInstance</Flag>
-		<Flag>NotExclusive</Flag>
 		<Effects>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="AntiInfantryAttackAction" relativity="Absolute" IsBuildingUpgrade="true">
-				<Target type="Unit" />
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="StandardAttackAIAction" relativity="Absolute">
-				<Target type="Unit" />
-			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="StandardAttackAction" relativity="Absolute">
-				<Target type="Unit" />
-			</Effect>
-			<Effect type="Data" amount="1.14999998" subtype="Hitpoints" relativity="Percent">
-				<Target type="Unit" />
-			</Effect>
-			<Effect type="Data" amount="100" subtype="SaleCost" Resource="Power" relativity="Absolute">
-				<Target type="Unit" />
-			</Effect>
+			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_turretAI_01</Effect>
 			<Effect type="Data" amount="200" subtype="Cost" Resource="Power" relativity="Absolute">
 				<Target type="Unit" />
 			</Effect>
@@ -3384,17 +3369,8 @@
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<ResearchAnim>Upgrade</ResearchAnim>
 		<Flag>UniqueProtoUnitInstance</Flag>
-		<Flag>NotExclusive</Flag>
 		<Effects>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="AntiVehicleAttackAction" relativity="Absolute" IsBuildingUpgrade="true">
-				<Target type="Unit" />
-			</Effect>
-			<Effect type="Data" amount="1.14999998" subtype="Hitpoints" relativity="Percent">
-				<Target type="Unit" />
-			</Effect>
-			<Effect type="Data" amount="100" subtype="SaleCost" Resource="Power" relativity="Absolute">
-				<Target type="Unit" />
-			</Effect>
+			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_turretAV_01</Effect>
 			<Effect type="Data" amount="200" subtype="Cost" Resource="Power" relativity="Absolute">
 				<Target type="Unit" />
 			</Effect>
@@ -3414,17 +3390,8 @@
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<ResearchAnim>Upgrade</ResearchAnim>
 		<Flag>UniqueProtoUnitInstance</Flag>
-		<Flag>NotExclusive</Flag>
 		<Effects>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="AntiAirAttackAction" relativity="Absolute" IsBuildingUpgrade="true">
-				<Target type="Unit" />
-			</Effect>
-			<Effect type="Data" amount="1.14999998" subtype="Hitpoints" relativity="Percent">
-				<Target type="Unit" />
-			</Effect>
-			<Effect type="Data" amount="100" subtype="SaleCost" Resource="Power" relativity="Absolute">
-				<Target type="Unit" />
-			</Effect>
+			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_turretAA_01</Effect>
 			<Effect type="Data" amount="200" subtype="Cost" Resource="Power" relativity="Absolute">
 				<Target type="Unit" />
 			</Effect>
