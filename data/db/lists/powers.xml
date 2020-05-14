@@ -6432,9 +6432,6 @@
 			<ProcOnPowerGranted />
 			<ProcOnSquadSpawned />
 			<ProcBuffName>BoundlessRageProc</ProcBuffName>
-			<ProcObjectTypeFilter>cov_veh_scarab_01</ProcObjectTypeFilter>
-			<ProcObjectTypeFilter>cov_veh_scarab_01_base</ProcObjectTypeFilter>
-			<ProcObjectTypeFilter>cov_veh_scarab_01_mp</ProcObjectTypeFilter>
 			<Cost Supplies="0" Power="0" />
 			<DisplayNameID>5012</DisplayNameID>
 			<RolloverTextID>5013</RolloverTextID>
@@ -6447,6 +6444,7 @@
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
+				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
 				<Data type="float" name="DamageDealtModifier">1.05f</Data>
 				<Data type="float" name="SlowModifier">1.1f</Data>
@@ -10541,12 +10539,12 @@
 			<DataLevel level="0">
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
 				<Data type="bool" name="OverwritesSelf">true</Data>
-				<Data type="float" name="PillageGlobalCostScalar">1.29999995</Data>
+				<Data type="float" name="PillageGlobalCostScalar">1.25</Data>
 			</DataLevel>
 			<DataLevel level="1">
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
 				<Data type="bool" name="OverwritesSelf">true</Data>
-				<Data type="float" name="PillageGlobalCostScalar">1.60000002</Data>
+				<Data type="float" name="PillageGlobalCostScalar">1.55</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -10835,9 +10833,6 @@
 			<TechScript>_POWER_Bloodlust</TechScript>
 			<ProcOnSquadKill />
 			<ProcBuffName>BloodlustProc</ProcBuffName>
-			<ProcObjectTypeFilter>cov_veh_scarab_01</ProcObjectTypeFilter>
-			<ProcObjectTypeFilter>cov_veh_scarab_01_base</ProcObjectTypeFilter>
-			<ProcObjectTypeFilter>cov_veh_scarab_01_mp</ProcObjectTypeFilter>
 			<Cost Supplies="0" Power="0" />
 			<DisplayNameID>5012</DisplayNameID>
 			<RolloverTextID>5013</RolloverTextID>
@@ -10850,6 +10845,7 @@
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
+				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="float" name="BuffDuration">6</Data>
 				<Data type="float" name="DamageDealtModifier">1.5</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_bloodlustactivate_01</Data>
@@ -15681,7 +15677,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">16</Pop>
-			<Cost Supplies="800" Power="250" />
+			<Cost Supplies="840" Power="370" />
 			<AutoRecharge>200000</AutoRecharge>
 			<UIRadius>12</UIRadius>
 			<Decal>AoE_Medium</Decal>
@@ -15702,7 +15698,7 @@
 				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
 				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
 			</FlashUI>
-			<DataLevel level="0">
+			<BaseDataLevel>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -15713,13 +15709,15 @@
 				<Data type="float" name="WaitDuration">3</Data>
 				<Data type="protoobject" name="Gunship">cov_air_grunt_spiritGunship_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritAssault_I</Data>
+			</BaseDataLevel>
+			<DataLevel level="0">	
 				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
-						<ProtoSquadID>cov_inf_heavygrunt_01</ProtoSquadID>
+						<ProtoSquadID>cov_inf_generic_heavygrunt</ProtoSquadID>
 						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>cov_inf_heavygrunt_01</ProtoSquadID>
+						<ProtoSquadID>cov_inf_generic_heavygrunt</ProtoSquadID>
 						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
@@ -15743,7 +15741,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">26</Pop>
-			<Cost Supplies="1300" Power="320" />
+			<Cost Supplies="1300" Power="490" />
 			<AutoRecharge>200000</AutoRecharge>
 			<UIRadius>22</UIRadius>
 			<Decal>AoE_Medium</Decal>
@@ -15764,7 +15762,7 @@
 				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
 				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
 			</FlashUI>
-			<DataLevel level="0">
+			<BaseDataLevel>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -15775,21 +15773,19 @@
 				<Data type="float" name="WaitDuration">3</Data>
 				<Data type="protoobject" name="Gunship">cov_air_grunt_spiritGunship_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritAssault_III</Data>
+			</BaseDataLevel>
+			<DataLevel level="0">	
 				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
-						<ProtoSquadID>cov_inf_heavygrunt_01</ProtoSquadID>
+						<ProtoSquadID>cov_inf_generic_heavygrunt</ProtoSquadID>
 						<VeterancyLevel>2</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>cov_inf_heavygrunt_01</ProtoSquadID>
+						<ProtoSquadID>cov_inf_generic_heavygrunt</ProtoSquadID>
 						<VeterancyLevel>2</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>cov_inf_heavygrunt_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>cov_inf_bruteRider_01</ProtoSquadID>
+						<ProtoSquadID>cov_inf_generic_heavygrunt</ProtoSquadID>
 						<VeterancyLevel>2</VeterancyLevel>
 					</Drop>
 					<Drop>
@@ -15802,11 +15798,11 @@
 					</Drop>
 					<Drop>
 						<ProtoSquadID>cov_veh_grunt_methanewagon_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>cov_veh_grunt_methanewagon_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -21686,11 +21682,8 @@
 			<ProcObjectTypeFilter>Building</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>TurretBuilding</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>Unit</ProcObjectTypeFilter>
-			<ProcObjectTypeFilter>cov_veh_scarab_01</ProcObjectTypeFilter>
-			<ProcObjectTypeFilter>cov_veh_scarab_01_base</ProcObjectTypeFilter>
-			<ProcObjectTypeFilter>cov_veh_scarab_01_mp</ProcObjectTypeFilter>
-			<BuffHealingOverride healPercentPerTickOverride="0.0149999997" healTickRateOverride="2">Building</BuffHealingOverride>
-			<BuffHealingOverride healPercentPerTickOverride="0.0149999997" healTickRateOverride="2">TurretBuilding</BuffHealingOverride>
+			<BuffHealingOverride healPercentPerTickOverride="0" healTickRateOverride="2">Building</BuffHealingOverride>
+			<BuffHealingOverride healPercentPerTickOverride="0" healTickRateOverride="2">TurretBuilding</BuffHealingOverride>
 			<BuffHealingOverride healPercentPerTickOverride="0.0149999997" healTickRateOverride="2">Hero</BuffHealingOverride>
 			<Cost Supplies="0" Power="0" />
 			<DisplayNameID>5012</DisplayNameID>
@@ -21704,6 +21697,7 @@
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
+				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
 				<Data type="float" name="HealPercentPerTick">0.0299999993</Data>
 				<Data type="float" name="HealTickRate">2</Data>
