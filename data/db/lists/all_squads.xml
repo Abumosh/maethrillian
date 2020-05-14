@@ -9377,8 +9377,8 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="6" role="normal">unsc_inf_generic_malemarine_01</Unit>
-			<Unit count="6" role="normal">unsc_inf_generic_femalemarine_01</Unit>
+			<Unit count="5" role="normal">unsc_inf_rm_marineguard_01</Unit>
+			<Unit count="5" role="normal">unsc_inf_generic_femalemarine_01</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
