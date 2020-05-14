@@ -8105,7 +8105,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">unsc_air_pelicangunship_01</Unit>
+			<Unit count="1" role="normal">unsc_air_nightingale_01</Unit>
 		</Units>
 		<Flag>DiesWhenFrozen</Flag>
 		<Flag>Repairable</Flag>
@@ -8172,44 +8172,9 @@
 	</Squad>
 	<Squad name="unsc_air_pelicangunship_01" dbid="7720381227858783404" parent_element="unsc_air_pelicangunship_01_sp" />
 	<Squad name="unsc_air_pelicangunship_01_base" dbid="1037580463349090612">
-		<CombatRank>6</CombatRank>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_wasp</PortraitIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>23675</DisplayNameID>
-		<RolloverTextID>23676</RolloverTextID>
-		<RoleTextID>509</RoleTextID>
-		<PrereqTextID>233</PrereqTextID>
-		<SubSelectSort>7300</SubSelectSort>
-		<HealValue>4.5</HealValue>
-		<CryoPoints>150</CryoPoints>
-		<LeashDistance>15</LeashDistance>
-		<LeashDeadzone>15</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<MinimapIcon size="8">Triangle</MinimapIcon>
-		<AIAttackRank>3.5</AIAttackRank>
-		<MinimapIcon size="8">Triangle</MinimapIcon>
-		<BuildPoints>13</BuildPoints>
-		<Pop Type="Unit">4</Pop>
-		<Cost ResourceType="Supplies">210</Cost>
-		<Cost ResourceType="Power">120</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
 		<Units>
 			<Unit count="1" role="normal">unsc_air_pelicangunship_01</Unit>
 		</Units>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<Selection>
-			<ConformToTerrain>false</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>None</StencilType>
-		</Selection>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<AvoidanceMass>None</AvoidanceMass>
-		<HPBar offset="0,3.07500005,0">UNSC_Health</HPBar>
-		<Flag>DiesWhenFrozen</Flag>
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Birth>FlyIn</Birth>
-		<AvoidanceMass>Normal</AvoidanceMass>
 	</Squad>
 	<Squad name="unsc_air_pelicangunship_01_mp" parent_element="unsc_air_pelicangunship_01_base" dbid="9043655082678658548" />
 	<Squad name="unsc_air_pelicangunship_01_sp" parent_element="unsc_air_pelicangunship_01_base" dbid="9064770103982659642" />
@@ -8355,6 +8320,46 @@
 		<VeterancyBar Centered="UNSC_Star_Centered_Vulture">UNSC_Star_Vulture</VeterancyBar>
 		<Units>
 			<Unit count="1" role="normal">unsc_air_vulture_01</Unit>
+		</Units>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<Birth>FlyIn</Birth>
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Vulture_01</Counters>
+	</Squad>
+	<Squad name="unsc_air_pelicangunship_02_base" dbid="7039022248042297571">
+		<CombatRank>7</CombatRank>
+		<HealValue>2</HealValue>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_vulture</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>30305</DisplayNameID>
+		<RolloverTextID>30315</RolloverTextID>
+		<RoleTextID>508</RoleTextID>
+		<PrereqTextID>236</PrereqTextID>
+		<SubSelectSort>400</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<CryoPoints>150</CryoPoints>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<AIAttackRank>14</AIAttackRank>
+		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
+		<BuildPoints>15</BuildPoints>
+		<Pop Type="Unit">4</Pop>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Cost ResourceType="Power">75</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
+		<HPBar offset="0,8.61000061,0" sizeX="12.0f" sizeY="3.0f">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered_Vulture">UNSC_Ability_Vulture</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered_Vulture">UNSC_Star_Vulture</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_air_pelicangunship_01</Unit>
 		</Units>
 		<Flag>DiesWhenFrozen</Flag>
 		<Flag>Repairable</Flag>
@@ -10069,7 +10074,7 @@
 		<HealValue>1.3</HealValue>
 		<BuildPoints>13</BuildPoints>
 		<Pop Type="Unit">3</Pop>
-		<Cost ResourceType="Supplies">300</Cost>
+		<Cost ResourceType="Supplies">350</Cost>
 		<Cost ResourceType="Power">150</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,9,0">UNSC_Health</HPBar>

@@ -2,8 +2,8 @@
 <TacticData>
 	<Weapon>
 		<Name>LeechBeam</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>200</DamagePerSecond>
+		<AttackRate>0.2</AttackRate>
+		<DamagePerSecond>700</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>vfx_episode2_units_leechBeam</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
@@ -37,8 +37,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>LeechBeamUpgrade</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>295</DamagePerSecond>
+		<AttackRate>0.2</AttackRate>
+		<DamagePerSecond>1295</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>vfx_episode2_units_leechBeam</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>

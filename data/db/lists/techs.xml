@@ -238,7 +238,9 @@
 		<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_air_pelicangunship_01</Target>
 			</Effect>
-		<Effects>
+		    <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_air_pelicangunship_02_base</Target>
+            </Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_minibaseNoSocks</Target>
 			</Effect>
@@ -1983,10 +1985,10 @@
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_air_pelicangunship_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">flood_inf_infectfrm_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_infectfrm_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_infectfrm_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_infectfrm_01" relativity="Absolute">
@@ -4151,7 +4153,7 @@
             <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_serina_hero_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
             </Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_pelicangunship_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_pelicangunship_02_base" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpjerome_01" relativity="Absolute">
