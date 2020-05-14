@@ -238,7 +238,8 @@
 		<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_air_pelicangunship_01</Target>
 			</Effect>
-		    <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+		    <Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_air_pelicangunship_02_base</Target>
             </Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
