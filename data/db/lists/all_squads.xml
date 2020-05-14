@@ -24,7 +24,6 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -79,7 +78,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
 		<BuildPoints>35</BuildPoints>
-		<Pop Type="Unit">8</Pop>
 		<Cost ResourceType="Supplies">700</Cost>
 		<Cost ResourceType="Power">50</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -105,7 +103,6 @@
 	<Squad name="cov_air_blisterback_01_mp" parent_element="cov_air_blisterback_01_base" dbid="6387017892735471683">
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
-		<Pop Type="Unit">-1</Pop>
 		<Cost ResourceType="Supplies">600</Cost>
 		<Cost ResourceType="Power">50</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -116,7 +113,6 @@
 	<Squad name="cov_air_blisterback_01_yapyap" parent_element="cov_air_blisterback_01_base" dbid="592825096509403694">
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
-		<Pop Type="Unit">-1</Pop>
 		<Cost ResourceType="Supplies">650</Cost>
 		<Cost ResourceType="Power">10</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -139,7 +135,6 @@
 		<LeashDistance>0</LeashDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>0</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">50</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
@@ -204,7 +199,6 @@
 		<AIAttackRank>0</AIAttackRank>
 		<ActiveAbilityType>Garrison</ActiveAbilityType>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">225</Cost>
 		<Cost ResourceType="Power">90</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -249,7 +243,6 @@
 		<AIAttackRank>0</AIAttackRank>
 		<ActiveAbilityType>Garrison</ActiveAbilityType>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">315</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -297,7 +290,6 @@
 		<AIAttackRank>0</AIAttackRank>
 		<ActiveAbilityType>AreaCloak</ActiveAbilityType>
 		<BuildPoints>35</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">550</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -346,7 +338,6 @@
 		<PrereqTextID>243</PrereqTextID>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">6</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -384,7 +375,6 @@
 		<AggroDistance>18.4500008</AggroDistance>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">0</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -458,7 +448,6 @@
 		<PrereqTextID>243</PrereqTextID>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">6</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -507,7 +496,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="2,12,0">COV_Bldg_Health</HPBar>
@@ -550,7 +538,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="2,12,0">COV_Bldg_Health</HPBar>
@@ -597,7 +584,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -656,7 +642,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">Cov_Health</HPBar>
@@ -694,7 +679,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>Rage</ActiveAbilityType>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="HonorGuard">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -747,7 +731,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>Rage</ActiveAbilityType>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="HonorGuard">1</Pop>
 		<Cost ResourceType="Supplies">575</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -792,7 +775,6 @@
 		<AIAttackRank>1.20000005</AIAttackRank>
 		<ActiveAbilityType>StasisGrenade</ActiveAbilityType>
 		<BuildPoints>18</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">110</Cost>
 		<Cost ResourceType="Power">60</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -828,7 +810,6 @@
 		<AIAttackRank>1.20000005</AIAttackRank>
 		<ActiveAbilityType>StasisGrenade</ActiveAbilityType>
 		<BuildPoints>18</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">180</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -869,7 +850,6 @@
 		<AIAttackRank>1</AIAttackRank>
 		<UnlockableActiveAbilityType>PersonalStealthCloak</UnlockableActiveAbilityType>
 		<BuildPoints>13</BuildPoints>
-		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">100</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
@@ -999,7 +979,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>SiphonCorruption</ActiveAbilityType>
 		<BuildPoints>18</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">230</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -1057,7 +1036,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>HandAttack</ActiveAbilityType>
 		<BuildPoints>40</BuildPoints>
-		<Pop Type="HonorGuard">1</Pop>
 		<Cost ResourceType="Supplies">450</Cost>
 		<Cost ResourceType="Power">400</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -1127,7 +1105,6 @@
 		<AIAttackRank>1.20000005</AIAttackRank>
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>17</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">110</Cost>
 		<Cost ResourceType="Power">65</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -1201,7 +1178,6 @@
 		<AIAttackRank>1.20000005</AIAttackRank>
 		<ActiveAbilityType>Ram</ActiveAbilityType>
 		<BuildPoints>16</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">110</Cost>
 		<Cost ResourceType="Power">75</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -1247,7 +1223,6 @@
 		<AIAttackRank>0</AIAttackRank>
 		<ActiveAbilityType>Grenade</ActiveAbilityType>
 		<BuildPoints>22</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<HealValue>1.75</HealValue>
 		<Cost ResourceType="Supplies">220</Cost>
 		<Cost ResourceType="Power">40</Cost>
@@ -1300,7 +1275,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>HandAttack</ActiveAbilityType>
 		<BuildPoints>30</BuildPoints>
-		<Pop Type="HonorGuard">1</Pop>
 		<Cost ResourceType="Supplies">350</Cost>
 		<Cost ResourceType="Power">275</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -1367,8 +1341,6 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<BobbleHead>UNSC_Spartan</BobbleHead>
 		<MinimapIcon size="8">Circle</MinimapIcon>
-		<Pop Type="Unit">10</Pop>
-		<Pop Type="Decimus">1</Pop>
 		<HPBar offset="0,10,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -1419,7 +1391,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>HandAttack</ActiveAbilityType>
 		<BuildPoints>40</BuildPoints>
-		<Pop Type="HonorGuard">1</Pop>
 		<Cost ResourceType="Supplies">450</Cost>
 		<Cost ResourceType="Power">400</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -1493,7 +1464,6 @@
 		<AIAttackRank>0</AIAttackRank>
 		<ActiveAbilityType>DisruptionField</ActiveAbilityType>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">240</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -1571,7 +1541,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<UnlockableActiveAbilityType>DisruptionField</UnlockableActiveAbilityType>
 		<BuildPoints>32</BuildPoints>
-		<Pop Type="HonorGuard">1</Pop>
 		<Cost ResourceType="Supplies">175</Cost>
 		<Cost ResourceType="Power">135</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -1615,7 +1584,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.5,0">COV_Health</HPBar>
@@ -1645,7 +1613,6 @@
 		<ChillDecayPerSecond>20</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="cov_inf_gruntswarm_01_frommine" parent_element="cov_inf_gruntswarm_01" dbid="15057269565369737646">
-		<Pop Type="Unit">-2</Pop>
 		<Units override_type="absolute">
 			<Unit count="1" role="leader">cov_inf_gruntswarmleader_01_frommine</Unit>
 			<Unit count="4" role="normal">cov_inf_gruntswarm_01_frommine</Unit>
@@ -1671,7 +1638,6 @@
 		<AIAttackRank>1</AIAttackRank>
 		<UnlockableActiveAbilityType>Mines</UnlockableActiveAbilityType>
 		<BuildPoints>13</BuildPoints>
-		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">100</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
@@ -1729,7 +1695,6 @@
 		<AIAttackRank>1</AIAttackRank>
 		<UnlockableActiveAbilityType>Grenade</UnlockableActiveAbilityType>
 		<BuildPoints>16</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">120</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
@@ -1787,7 +1752,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">5</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">200</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -1913,7 +1877,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>2</AIAttackRank>
 		<BuildPoints>16</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">80</Cost>
 		<Cost ResourceType="Power">110</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -1983,7 +1946,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>0</AIAttackRank>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">240</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -2030,7 +1992,6 @@
 		<AIAttackRank>5</AIAttackRank>
 		<ActiveAbilityType>Ram</ActiveAbilityType>
 		<BuildPoints>30</BuildPoints>
-		<Pop Type="Unit">5</Pop>
 		<Cost ResourceType="Supplies">220</Cost>
 		<Cost ResourceType="Power">130</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -2061,7 +2022,6 @@
 	</Squad>
 	<Squad name="cov_inf_lekgologoliath_01_mp" parent_element="cov_inf_lekgologoliath_01_base" dbid="4458089981678850207">
 		<BuildPoints>17</BuildPoints>
-		<Pop Type="Unit">-1</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">80</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -2069,7 +2029,6 @@
 	<Squad name="cov_inf_lekgologoliath_01_sp" parent_element="cov_inf_lekgologoliath_01_base" dbid="4444592376933581121" />
 	<Squad name="cov_inf_lekgologoliath_01_yapyap" parent_element="cov_inf_lekgologoliath_01_base" dbid="8657169069444479810">
 		<BuildPoints>17</BuildPoints>
-		<Pop Type="Unit">-1</Pop>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -2172,7 +2131,6 @@
 		<AIAttackRank>1.20000005</AIAttackRank>
 		<ActiveAbilityType>SuicideBomb</ActiveAbilityType>
 		<BuildPoints>14</BuildPoints>
-		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">100</Cost>
 		<Cost ResourceType="Power">25</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -2471,7 +2429,6 @@
 		<AIAttackRank>2.4000001</AIAttackRank>
 		<ActiveAbilityType>Ram</ActiveAbilityType>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">280</Cost>
 		<Cost ResourceType="Power">20</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -2582,7 +2539,6 @@
 		<AIAttackRank>2.20000005</AIAttackRank>
 		<ActiveAbilityType>Ram</ActiveAbilityType>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">265</Cost>
 		<Cost ResourceType="Power">20</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -2648,7 +2604,6 @@
 		<AIAttackRank>2.70000005</AIAttackRank>
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">5</Pop>
 		<Cost ResourceType="Supplies">175</Cost>
 		<Cost ResourceType="Power">225</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -2715,7 +2670,6 @@
 		<AIAttackRank>3.5</AIAttackRank>
 		<ActiveAbilityType>DisruptionField</ActiveAbilityType>
 		<BuildPoints>26</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">120</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -2770,7 +2724,6 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>3</AIAttackRank>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">150</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -2848,7 +2801,6 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<BuildPoints>27</BuildPoints>
-		<Pop Type="Unit">5</Pop>
 		<Cost ResourceType="Supplies">400</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -2872,7 +2824,6 @@
 		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
 	<Squad name="cov_veh_prowler_01_mp" parent_element="cov_veh_prowler_01_base" dbid="17976226261245907365">
-		<Pop Type="Unit">-1</Pop>
 		<Cost ResourceType="Supplies">320</Cost>
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
@@ -2905,7 +2856,6 @@
 		<AIAttackRank>30</AIAttackRank>
 		<ActiveAbilityType>ScarabDisruptionField</ActiveAbilityType>
 		<BuildPoints>120</BuildPoints>
-		<Pop Type="Unit">40</Pop>
 		<Cost ResourceType="Supplies">2000</Cost>
 		<Cost ResourceType="Power">2000</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -2975,7 +2925,6 @@
 		<AIAttackRank>2.20000005</AIAttackRank>
 		<ActiveAbilityType>Join</ActiveAbilityType>
 		<BuildPoints>21</BuildPoints>
-		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">200</Cost>
 		<Cost ResourceType="Power">10</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -3024,7 +2973,6 @@
 		<AIAttackRank>3.5</AIAttackRank>
 		<ActiveAbilityType>Garrison</ActiveAbilityType>
 		<BuildPoints>28</BuildPoints>
-		<Pop Type="Unit">5</Pop>
 		<Cost ResourceType="Supplies">380</Cost>
 		<Cost ResourceType="Power">100</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -3066,7 +3014,6 @@
 		<AIAttackRank>3.5</AIAttackRank>
 		<ActiveAbilityType>Garrison</ActiveAbilityType>
 		<BuildPoints>28</BuildPoints>
-		<Pop Type="Unit">5</Pop>
 		<Cost ResourceType="Supplies">480</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -3116,7 +3063,6 @@
 		<AIAttackRank>7</AIAttackRank>
 		<UnlockableActiveAbilityType>PreemptiveVehicleMissiles</UnlockableActiveAbilityType>
 		<BuildPoints>36</BuildPoints>
-		<Pop Type="Unit">6</Pop>
 		<Cost ResourceType="Supplies">550</Cost>
 		<Cost ResourceType="Power">40</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -3285,7 +3231,6 @@
 		<AggroDistance>15.375</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>28</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<HPBar offset="0,3.07500005,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -3315,7 +3260,6 @@
 		<Units>
 			<Unit count="1" role="normal">cpgn_air_pelican_01</Unit>
 		</Units>
-		<Pop Type="Unit">0</Pop>
 		<Flag>KBAware</Flag>
 		<Selection>
 			<ConformToTerrain>false</ConformToTerrain>
@@ -3335,7 +3279,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>30</BuildPoints>
-		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">4</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
@@ -3373,7 +3316,6 @@
 		<Units>
 			<Unit count="1" role="normal">cpgn_inf_bombGrunt_01</Unit>
 		</Units>
-		<Pop Type="Unit">1</Pop>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
 		<Selection>
@@ -3451,7 +3393,6 @@
 		<Units>
 			<Unit count="4" role="normal">unsc_inf_odst_01</Unit>
 		</Units>
-		<Pop Type="Unit">3</Pop>
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
 		<Flag>KBAware</Flag>
@@ -3526,7 +3467,6 @@
 		<Units>
 			<Unit count="1" role="normal">cpgn_inf_spartanMG_01</Unit>
 		</Units>
-		<Pop Type="Unit">0</Pop>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>CreateAudioReactions</Flag>
@@ -3560,7 +3500,6 @@
 		<Units>
 			<Unit count="1" role="normal">cpgn_inf_spartanRocket_01</Unit>
 		</Units>
-		<Pop Type="Unit">0</Pop>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>UseNameForSelectionDecal</Flag>
@@ -3593,7 +3532,6 @@
 		<Units>
 			<Unit count="1" role="normal">cpgn_inf_spartanSniper_01</Unit>
 		</Units>
-		<Pop Type="Unit">0</Pop>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>CreateAudioReactions</Flag>
@@ -4019,7 +3957,6 @@
 		<DazeResist>0.25</DazeResist>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>120</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">3000</Cost>
 		<Cost ResourceType="Power">6</Cost>
 		<Cost ResourceType="HQLevel">4</Cost>
@@ -4075,7 +4012,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>40</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<HPBar offset="0,7.38000011,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -4135,7 +4071,6 @@
 		<Units>
 			<Unit count="1" role="normal">cpgnh_anders_01</Unit>
 		</Units>
-		<Pop Type="Unit">0</Pop>
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
 		<Flag>UseNameForMenuIcon</Flag>
@@ -4248,7 +4183,6 @@
 		<AggroDistance>15.375</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -4287,7 +4221,6 @@
 		<AggroDistance>15.375</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
@@ -4425,7 +4358,6 @@
 		<Units override_type="absolute">
 			<Unit count="1" role="normal">cpgnh_spdecimus_01</Unit>
 		</Units>
-		<Pop Type="Unit">0</Pop>
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
 		<Flag>UseNameForMenuIcon</Flag>
@@ -4475,7 +4407,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>0</AIAttackRank>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">175</Cost>
 		<Cost ResourceType="Power">30</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -4626,7 +4557,6 @@
 		<AvoidanceMass>Light</AvoidanceMass>
 	</Squad>
 	<Squad name="cpgnh_p01_warthogspartan_01" dbid="12058883268133283633" parent_element="unsc_veh_warthog_01">
-		<Pop Type="Unit">0</Pop>
 		<Units override_type="absolute">
 			<Unit count="1" role="normal">cpgnh_p01_warthogspartan_01</Unit>
 		</Units>
@@ -4682,7 +4612,6 @@
 	<Squad name="cpgnh_veh_emptyhog_01" dbid="12132746482505891067" parent_element="unsc_veh_warthog_01">
 		<LeashDistance>0</LeashDistance>
 		<AggroDistance>0</AggroDistance>
-		<Pop Type="Unit">0</Pop>
 		<Units>
 			<Unit count="1" role="normal">cpgnh_veh_emptyhog_01</Unit>
 		</Units>
@@ -4709,8 +4638,6 @@
 		<Cost ResourceType="Power">200</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<BuildPoints>5</BuildPoints>
-		<Pop Type="Unit">-9</Pop>
-		<Pop Type="Spartan">1</Pop>
 	</Squad>
 	<Squad name="cpgnh_veh_marinelocust_01" dbid="7123990881428016148">
 		<CombatRank>5</CombatRank>
@@ -4727,7 +4654,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">30</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -4763,7 +4689,6 @@
 		<DazeResist>0.100000001</DazeResist>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>160</BuildPoints>
-		<Pop Type="Unit">20</Pop>
 		<Cost ResourceType="Supplies">1500</Cost>
 		<Cost ResourceType="Power">580</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -4804,7 +4729,6 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">210</Cost>
 		<Cost ResourceType="Power">55</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -4845,7 +4769,6 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">210</Cost>
 		<Cost ResourceType="Power">55</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -4886,7 +4809,6 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">210</Cost>
 		<Cost ResourceType="Power">55</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -4928,7 +4850,6 @@
 		<AIAttackRank>8</AIAttackRank>
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
 		<BuildPoints>35</BuildPoints>
-		<Pop Type="Unit">6</Pop>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -4965,7 +4886,6 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
 		<ActiveAbilityType>Block</ActiveAbilityType>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -5000,7 +4920,6 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
 		<ActiveAbilityType>Block</ActiveAbilityType>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -5045,7 +4964,6 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
 		<ActiveAbilityType>Block</ActiveAbilityType>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -5112,7 +5030,6 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">0.5</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -5165,7 +5082,6 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -5215,7 +5131,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
 		<BuildPoints>35</BuildPoints>
-		<Pop Type="Unit">7</Pop>
 		<Cost ResourceType="Supplies">700</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -5257,7 +5172,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>3</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -5298,7 +5212,6 @@
 		<ActiveAbilityType>HandAttack</ActiveAbilityType>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>50</BuildPoints>
-		<Pop Type="Unit">9</Pop>
 		<Cost ResourceType="Supplies">900</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,20,0">UNSC_Health</HPBar>
@@ -5352,7 +5265,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>9</BuildPoints>
-		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">70</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -5399,7 +5311,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>3</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">0</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -5441,7 +5352,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>35</BuildPoints>
-		<Pop Type="Unit">6</Pop>
 		<Cost ResourceType="Supplies">600</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -5491,7 +5401,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>10</BuildPoints>
-		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">100</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -5547,7 +5456,6 @@
 		<AIAttackRank>1.5</AIAttackRank>
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>8</BuildPoints>
-		<Pop Type="Unit">0.5</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -5614,7 +5522,6 @@
 		<AIAttackRank>1.5</AIAttackRank>
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>8</BuildPoints>
-		<Pop Type="Unit">0.5</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -5666,7 +5573,6 @@
 		<AIAttackRank>1.5</AIAttackRank>
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>8</BuildPoints>
-		<Pop Type="Unit">0.5</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -5718,7 +5624,6 @@
 		<AIAttackRank>1.5</AIAttackRank>
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>18</BuildPoints>
-		<Pop Type="Unit">0.5</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -5770,7 +5675,6 @@
 		<AIAttackRank>1.5</AIAttackRank>
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>18</BuildPoints>
-		<Pop Type="Unit">0.5</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -5815,7 +5719,6 @@
 		<AIAttackRank>1.20000005</AIAttackRank>
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>8</BuildPoints>
-		<Pop Type="Unit">0.699999988</Pop>
 		<Cost ResourceType="Supplies">130</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -5908,7 +5811,6 @@
 		<AIAttackRank>1.5</AIAttackRank>
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>18</BuildPoints>
-		<Pop Type="Unit">0.5</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -5960,7 +5862,6 @@
 		<AIAttackRank>1.5</AIAttackRank>
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>8</BuildPoints>
-		<Pop Type="Unit">0.5</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -6056,7 +5957,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>18</BuildPoints>
-		<Pop Type="Unit">0.5</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -6107,7 +6007,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>7</BuildPoints>
-		<Pop Type="Unit">0.5</Pop>
 		<Cost resourcetype="Supplies">70</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -6153,7 +6052,6 @@
 		<AIAttackRank>2.5</AIAttackRank>
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>7</BuildPoints>
-		<Pop Type="Unit">0.699999988</Pop>
 		<Cost ResourceType="Supplies">75</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -6198,7 +6096,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>18</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -6247,7 +6144,6 @@
 		<AIAttackRank>2.4000001</AIAttackRank>
 		<ActiveAbilityType>Ram</ActiveAbilityType>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">2.5</Pop>
 		<Cost ResourceType="Supplies">280</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -6303,7 +6199,6 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<BuildPoints>27</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">400</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -6349,7 +6244,6 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
 		<BuildPoints>44</BuildPoints>
-		<Pop Type="Unit">6</Pop>
 		<Cost ResourceType="Supplies">650</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -6401,7 +6295,6 @@
 		<AIAttackRank>3.5</AIAttackRank>
 		<ActiveAbilityType>Ram</ActiveAbilityType>
 		<BuildPoints>24</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -6455,7 +6348,6 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>7</AIAttackRank>
 		<BuildPoints>36</BuildPoints>
-		<Pop Type="Unit">5</Pop>
 		<Cost ResourceType="Supplies">550</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -6505,7 +6397,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">290</Cost>
 		<Cost ResourceType="Power">28</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -6611,7 +6502,6 @@
 		<AggroDistance>15.375</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
@@ -6649,7 +6539,6 @@
 		<AggroDistance>15.375</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
@@ -6688,7 +6577,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>30</BuildPoints>
-		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">4</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -6727,7 +6615,6 @@
 		<AggroDistance>15.375</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
@@ -6761,7 +6648,6 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -6822,7 +6708,6 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
 		<BuildPoints>70</BuildPoints>
-		<Pop Type="Unit">20</Pop>
 		<Cost ResourceType="Supplies">3000</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -6876,7 +6761,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">30</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -6918,7 +6802,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -6967,7 +6850,6 @@
 		<AggroDistance>15.375</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -7007,8 +6889,6 @@
 		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
 		<HealValue>3</HealValue>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
-		<Pop Type="Unit">30</Pop>
-		<Pop Type="Retriever">1</Pop>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -7198,7 +7078,6 @@
 		<AggroDistance>21.5249996</AggroDistance>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<BuildPoints>12</BuildPoints>
-		<Pop Type="Unit">1</Pop>
 		<Cost resourcetype="Supplies">1</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -7342,7 +7221,6 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">375</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -7387,7 +7265,6 @@
 		<AIAttackRank>35</AIAttackRank>
 		<ActiveAbilityType>UberTargetingVehicleMissiles</ActiveAbilityType>
 		<BuildPoints>120</BuildPoints>
-		<Pop Type="Unit">40</Pop>
 		<Cost ResourceType="Supplies">2000</Cost>
 		<Cost ResourceType="Power">2000</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -7435,7 +7312,6 @@
 		<LeashDistance>0</LeashDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>0</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">50</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
@@ -7471,7 +7347,6 @@
 		<LeashDistance>0</LeashDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>0</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">50</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
@@ -7513,7 +7388,6 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">375</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -7551,7 +7425,6 @@
 		<LeashDistance>0</LeashDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>0</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">50</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
@@ -7588,7 +7461,6 @@
 		<AggroDistance>18.4500008</AggroDistance>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">0</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -7633,7 +7505,6 @@
 		<AIAttackRank>0</AIAttackRank>
 		<ActiveAbilityType>SmokeBomb</ActiveAbilityType>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">400</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -7676,7 +7547,6 @@
 		<SubSelectSort>7300</SubSelectSort>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>18</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">6</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -7728,7 +7598,6 @@
 		<SubSelectSort>7300</SubSelectSort>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>18</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">6</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -7772,7 +7641,6 @@
 		<AIAttackRank>2</AIAttackRank>
 		<ActiveAbilityType>ShatterMissile</ActiveAbilityType>
 		<BuildPoints>30</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">100</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -7814,7 +7682,6 @@
 		<AIAttackRank>2</AIAttackRank>
 		<ActiveAbilityType>ShatterMissile</ActiveAbilityType>
 		<BuildPoints>30</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">350</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -7848,7 +7715,6 @@
 		<LeashDistance>0</LeashDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>0</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">50</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
@@ -7892,7 +7758,6 @@
 		<AIAttackRank>14</AIAttackRank>
 		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
 		<BuildPoints>40</BuildPoints>
-		<Pop Type="Unit">9</Pop>
 		<Cost ResourceType="Supplies">750</Cost>
 		<Cost ResourceType="Power">75</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -8000,7 +7865,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -8038,7 +7902,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -8071,7 +7934,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -8108,7 +7970,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">2</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -8126,7 +7987,6 @@
 		<TurnRadius min="2" max="5" />
 	</Squad>
 	<Squad name="unsc_bldg_johnsonbunker_01_mp" parent_element="unsc_bldg_johnsonbunker_01" dbid="11328930882930120153">
-		<Pop Type="Unit">-2</Pop>
 	</Squad>
 	<Squad name="unsc_bldg_johnsonbunker_02" parent_element="unsc_bldg_johnsonbunker_01" dbid="3996938695010277358">
 		<Units override_type="absolute">
@@ -8152,7 +8012,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -8190,7 +8049,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -8229,7 +8087,6 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
 		<ActiveAbilityType>Block</ActiveAbilityType>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -8265,7 +8122,6 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
 		<ActiveAbilityType>Block</ActiveAbilityType>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -8300,7 +8156,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -8334,7 +8189,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -8369,7 +8223,6 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
 		<ActiveAbilityType>Block</ActiveAbilityType>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -8403,7 +8256,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -8437,7 +8289,6 @@
 		<AggroDistance>0</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Unit">0</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
@@ -8532,7 +8383,6 @@
 		<Units>
 			<Unit count="1" role="normal">unsc_inf_csheroodst_01</Unit>
 		</Units>
-		<Pop Type="Unit">0</Pop>
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
 		<Flag>KBAware</Flag>
@@ -8566,7 +8416,6 @@
 		<AggroDistance>21.5249996</AggroDistance>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<BuildPoints>26</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">180</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -8611,7 +8460,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>2.5</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">120</Cost>
 		<Cost ResourceType="Power">150</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -8656,7 +8504,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<UnlockableActiveAbilityType>Flamewall</UnlockableActiveAbilityType>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -8701,7 +8548,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<UnlockableActiveAbilityType>Flamewall</UnlockableActiveAbilityType>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">575</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -8754,7 +8600,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>16</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost resourcetype="Supplies">80</Cost>
 		<Cost resourcetype="Power">50</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -8830,7 +8675,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>18</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -8885,7 +8729,6 @@
 			<Unit count="3" role="normal">unsc_inf_heroodst_01</Unit>
 			<Unit count="1" role="normal">unsc_inf_heroodstsniper_01</Unit>
 		</Units>
-		<Pop Type="Unit">0</Pop>
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
 		<Flag>KBAware</Flag>
@@ -8910,7 +8753,6 @@
 			<Unit count="3" role="normal">unsc_inf_heroodst_01_mp</Unit>
 			<Unit count="1" role="normal">unsc_inf_heroodstsniper_01_mp</Unit>
 		</Units>
-		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -8930,7 +8772,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -8977,7 +8818,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">575</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -9027,7 +8867,6 @@
 		<AIAttackRank>1.5</AIAttackRank>
 		<UnlockableActiveAbilityType>Grenade</UnlockableActiveAbilityType>
 		<BuildPoints>18</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -9074,7 +8913,6 @@
 		<UnlockableActiveAbilityType>Hijack</UnlockableActiveAbilityType>
 		<AggroDistance>9.22500038</AggroDistance>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -9104,7 +8942,6 @@
 		<UnlockableActiveAbilityType>Hijack</UnlockableActiveAbilityType>
 		<AggroDistance>9.22500038</AggroDistance>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">575</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -9144,7 +8981,6 @@
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Circle</MinimapIcon>
-		<Pop Type="Unit">4</Pop>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -9182,7 +9018,6 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<UnlockableActiveAbilityType>Hijack</UnlockableActiveAbilityType>
 		<BuildPoints>40</BuildPoints>
-		<Pop Type="Unit">10</Pop>
 		<Pop Type="Rhino">1</Pop>
 		<Cost ResourceType="Supplies">700</Cost>
 		<Cost ResourceType="Power">200</Cost>
@@ -9228,7 +9063,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<UnlockableActiveAbilityType>SpawnBuddy</UnlockableActiveAbilityType>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -9273,7 +9107,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<UnlockableActiveAbilityType>SpawnBuddy</UnlockableActiveAbilityType>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">575</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -9319,7 +9152,6 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<UnlockableActiveAbilityType>Hijack</UnlockableActiveAbilityType>
 		<BuildPoints>40</BuildPoints>
-		<Pop Type="Unit">10</Pop>
 		<Pop Type="Rhino">1</Pop>
 		<Cost ResourceType="Supplies">700</Cost>
 		<Cost ResourceType="Power">200</Cost>
@@ -9368,7 +9200,6 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<UnlockableActiveAbilityType>Hijack</UnlockableActiveAbilityType>
 		<BuildPoints>40</BuildPoints>
-		<Pop Type="Unit">10</Pop>
 		<Pop Type="Rhino">1</Pop>
 		<Cost ResourceType="Supplies">700</Cost>
 		<Cost ResourceType="Power">200</Cost>
@@ -9417,7 +9248,6 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>14</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost resourcetype="Supplies">80</Cost>
 		<Cost resourcetype="Power">40</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -9466,7 +9296,6 @@
 		<AIAttackRank>2.5</AIAttackRank>
 		<ActiveAbilityType>PersonalStealthCloak</ActiveAbilityType>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">75</Cost>
 		<Cost ResourceType="Power">150</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -9493,7 +9322,6 @@
 		<FrozenThreshold>100</FrozenThreshold>
 		<ChillDecayPerSecond>20</ChillDecayPerSecond>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">-1</Pop>
 		<Cost ResourceType="Supplies">75</Cost>
 		<Cost ResourceType="Power">135</Cost>
 	</Squad>
@@ -9502,7 +9330,6 @@
 		<FrozenThreshold>100</FrozenThreshold>
 		<ChillDecayPerSecond>20</ChillDecayPerSecond>
 		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">-1</Pop>
 		<Cost ResourceType="Supplies">175</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -9641,7 +9468,6 @@
 	<Squad name="unsc_inf_SPmarine_01" dbid="18291378940646715798" formationType="Flock" parent_element="unsc_inf_marine_01" />
 	<Squad name="unsc_inf_SPmarine_02" dbid="18291377841135087587" formationType="Flock" parent_element="unsc_inf_marine_02" />
 	<Squad name="unsc_inf_sp_spartan_01" dbid="17336507362027136664" parent_element="unsc_inf_spartan_01">
-		<Pop Type="Unit">0</Pop>
 		<HPBar offset="0,5.22749996,0">UNSC_HealthShield</HPBar>
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<UnlockableActiveAbilityType>Hijack</UnlockableActiveAbilityType>
@@ -9830,7 +9656,6 @@
 		<AIAttackRank>3.5</AIAttackRank>
 		<ActiveAbilityType>Garrison</ActiveAbilityType>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">75</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -9873,7 +9698,6 @@
 		<AIAttackRank>3.5</AIAttackRank>
 		<ActiveAbilityType>Garrison</ActiveAbilityType>
 		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">350</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -9916,7 +9740,6 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>22</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">280</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -9974,7 +9797,6 @@
 		<AIAttackRank>12</AIAttackRank>
 		<UnlockableActiveAbilityType>VehicleMissile</UnlockableActiveAbilityType>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -10025,7 +9847,6 @@
 		<AIAttackRank>12</AIAttackRank>
 		<UnlockableActiveAbilityType>VehicleMissile</UnlockableActiveAbilityType>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">575</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -10082,7 +9903,6 @@
 		<AIAttackRank>8</AIAttackRank>
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
 		<BuildPoints>35</BuildPoints>
-		<Pop Type="Unit">6</Pop>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -10132,7 +9952,6 @@
 		<LeashDeadzone>15</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
-		<Pop Type="Unit">0</Pop>
 		<HPBar offset="0,8.61000061,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -10151,7 +9970,6 @@
 		<Counters>Grizzly_01</Counters>
 	</Squad>
 	<Squad name="unsc_veh_grizzly_01" dbid="6098115684249566326" parent_element="unsc_veh_grizzlybase_01">
-		<Pop Type="Unit">10</Pop>
 		<Cost ResourceType="Supplies">850</Cost>
 		<Cost ResourceType="Power">140</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -10183,7 +10001,6 @@
 		<AIAttackRank>3.5</AIAttackRank>
 		<ActiveAbilityType>Garrison</ActiveAbilityType>
 		<BuildPoints>30</BuildPoints>
-		<Pop Type="Decimus">1</Pop>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Cost ResourceType="Power">100</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -10228,7 +10045,6 @@
 		<HPBar offset="0,14,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Pop Type="Unit">9</Pop>
 		<Cost ResourceType="Supplies">750</Cost>
 		<Cost ResourceType="Power">120</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -10268,7 +10084,6 @@
 		<HPBar offset="0,14,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Pop Type="Unit">9</Pop>
 		<Cost ResourceType="Supplies">750</Cost>
 		<Cost ResourceType="Power">120</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -10325,7 +10140,6 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>27</BuildPoints>
-		<Pop Type="Unit">5</Pop>
 		<Cost ResourceType="Supplies">400</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -10377,7 +10191,6 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>2.20000005</AIAttackRank>
 		<BuildPoints>24</BuildPoints>
-		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">220</Cost>
 		<Cost ResourceType="Power">15</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -10404,7 +10217,6 @@
 		<Cost ResourceType="Supplies">220</Cost>
 		<Cost ResourceType="Power">15</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
-		<Pop Type="Unit">1</Pop>
 		<BuildPoints>26</BuildPoints>
 		<FrozenThreshold>100</FrozenThreshold>
 		<ChillDecayPerSecond>20</ChillDecayPerSecond>
@@ -10414,7 +10226,6 @@
 		<Cost ResourceType="Supplies">220</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
-		<Pop Type="Unit">1</Pop>
 		<BuildPoints>26</BuildPoints>
 		<FrozenThreshold>100</FrozenThreshold>
 		<ChillDecayPerSecond>20</ChillDecayPerSecond>
@@ -10443,7 +10254,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<UnlockableActiveAbilityType>VehicleMissile</UnlockableActiveAbilityType>
 		<BuildPoints>44</BuildPoints>
-		<Pop Type="Unit">7</Pop>
 		<Cost ResourceType="Supplies">650</Cost>
 		<Cost ResourceType="Power">50</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -10501,7 +10311,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<UnlockableActiveAbilityType>CryoLockdown</UnlockableActiveAbilityType>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -10550,7 +10359,6 @@
 		<AIAttackRank>10</AIAttackRank>
 		<UnlockableActiveAbilityType>CryoLockdown</UnlockableActiveAbilityType>
 		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">575</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -10636,7 +10444,6 @@
 		<AIAttackRank>3.5</AIAttackRank>
 		<ActiveAbilityType>Ram</ActiveAbilityType>
 		<BuildPoints>24</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -10690,7 +10497,6 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>2.5</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">170</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
