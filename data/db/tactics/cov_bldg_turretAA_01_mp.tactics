@@ -21,21 +21,34 @@
 		<Hardpoint>Gun_Standard</Hardpoint>
 	</Weapon>
 	<Weapon>
-		<Name>AntiInfantryWeapon</Name>
-		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>110</DamagePerSecond>
-		<WeaponType>AntiInfantry</WeaponType>
-		<Projectile>fx_proj_needler_01</Projectile>
-		<ImpactEffect size="Medium">GruntGoblinNeedlerImpact</ImpactEffect>
-		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>70</MaxRange>
-		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="Aircraft">-1</TargetPriority>
-		<TargetPriority type="GroundVehicle">-1</TargetPriority>
-		<TargetPriority type="TurretBuilding">-1</TargetPriority>
-		<TargetPriority type="Building">-1</TargetPriority>
+		<Name>AntiAirWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>90</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_rocket_01</Projectile>
+		<ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<TargetPriority type="Flying">9</TargetPriority>
 		<UseGroupRange />
-		<Hardpoint>Gun_AI</Hardpoint>
+		<Hardpoint>Gun_AA</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ProjectileLaunchDirY />
 	</Weapon>
 	<Action>
 		<Name>DeliverBuilding</Name>
