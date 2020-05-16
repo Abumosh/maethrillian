@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="Deployed">
+	<model name="Deployed">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/turret_gun01/deployed/mesh_deployed01</file>
+				<damagefile>units/covenant/structure/turret_gun01/deployed/legs</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Pivot" tobone="socketbone_pivot_0" frombone="GrannyRootBone_pivot_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedDeployingTurretSteam" tobone="bone_root" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/BuildingsLights/banish_turret_Light" tobone="bone_vfx_center001" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle01_base</file>
+				<weight>4</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle02_base</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.0659999996" end="1" name="Play_SFX_3D_BLD_BAN_TurretLegMove" tobone="GrannyRootBone_deployed01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.171999931" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_leg04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.215000004" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_leg02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.42899999" end="1" name="Play_SFX_3D_BLD_BAN_TurretLegMove" tobone="GrannyRootBone_deployed01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.493000001" end="1" name="Play_SFX_3D_BLD_BAN_TurretLegMove" tobone="GrannyRootBone_deployed01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.500999987" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_leg02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.504999995" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_leg04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.58099997" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_leg03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.582000017" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_leg01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.800000012" end="1" name="Play_SFX_3D_BLD_BAN_TurretLegMove" tobone="GrannyRootBone_deployed01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.903999984" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_leg03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.916999996" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_leg01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/attack01_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Gun_Standard">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/turret_gun01/deployed/mesh_standard_gun_0</file>
+				<damagefile>units/covenant/structure/turret_gun01/deployed/standard_gun</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle01_gun_standard</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle02_gun_standard</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.133000001" end="1" name="Play_SFX_3D_BLD_BAN_TurretBarrelMove" tobone="GrannyRootBone_standard_gun_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.358999997" end="1" name="Play_SFX_3D_BLD_BAN_TurretBarrelMove" tobone="GrannyRootBone_standard_gun_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.814999998" end="1" name="Play_SFX_3D_BLD_BAN_TurretBarrelMove" tobone="GrannyRootBone_standard_gun_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/attack01_gun_standard</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0.0419999994" end="1" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.0419999994" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/BanishedTurretStandardGunMuzzle" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.171000004" end="1" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.171000004" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/BanishedTurretStandardGunMuzzle" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.300999999" end="1" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.300999999" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/BanishedTurretStandardGunMuzzle" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.42899999" end="1" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.42899999" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/BanishedTurretStandardGunMuzzle" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.550000012" end="1" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.550000012" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/BanishedTurretStandardGunMuzzle" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.677999973" end="1" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.677999973" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/BanishedTurretStandardGunMuzzle" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.737999976" end="1" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.737999976" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/BanishedTurretStandardGunMuzzle" tobone="bone_vfx_MuzzleGunRight002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.934000015" end="1" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.934000015" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/BanishedTurretStandardGunMuzzle" tobone="bone_vfx_MuzzleGunLeft002" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Gun_AA">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/turret_gun01/deployed/mesh_antiAir_gun_0</file>
+				<damagefile>units/covenant/structure/turret_gun01/deployed/aa_gun</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle01_gun_AA</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle02_gun_AA</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.133000001" end="1" name="Play_SFX_3D_BLD_BAN_TurretBarrelMove" tobone="GrannyRootBone_antiAir_gun_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.358999997" end="1" name="Play_SFX_3D_BLD_BAN_TurretBarrelMove" tobone="GrannyRootBone_antiAir_gun_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.814999998" end="1" name="Play_SFX_3D_BLD_BAN_TurretBarrelMove" tobone="GrannyRootBone_antiAir_gun_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="AA_Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/attack01_gun_AA</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.165999994" end="1" name="Play_SFX_3D_WPN_BAN_TurretAntiAir_Fire" tobone="GrannyRootBone_antiAir_gun_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.174999997" end="1" tobone="bone_vfx_MuzzleAntiAirRight01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.174999997" end="1" tobone="bone_vfx_MuzzleAntiAirLeft01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.174999997" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/BanishedTurretAAGunMuzzle" tobone="bone_vfx_MuzzleAntiAirRight01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.174999997" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/BanishedTurretAAGunMuzzle" tobone="bone_vfx_MuzzleAntiAirLeft01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Pivot">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/turret_gun01/deployed/mesh_pivot_0</file>
+				<damagefile>units/covenant/structure/turret_gun01/deployed/empty</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Gun_Standard" tobone="socketbone_standard_gun_0" frombone="GrannyRootBone_standard_gun_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Gun_AI" tobone="socketbone_antiInf_gun_0" frombone="GrannyRootBone_antiInf_gun_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Gun_AV" tobone="socketbone_antiVeh_gun_0" frombone="GrannyRootBone_antiVeh_gun_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Gun_AA" tobone="socketbone_antiAir_gun_0" frombone="GrannyRootBone_antiAir_gun_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle01_pivot</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle02_pivot</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/attack01_pivot</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Deploying">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/turret_gun01/deploying/mesh_deploying01</file>
+				<damagefile>units/covenant/structure/turret_gun01/deploying/legs</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Hologram" tobone="GrannyRootBone_deploying01" frombone="GrannyRootBone_hologram_turret" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deploying/incoming_idle01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="Play_SFX_3D_BLD_BAN_Hologram" tobone="GrannyRootBone_hologram_turret" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="Play_SFX_3D_BLD_BAN_PlotAppears" tobone="GrannyRootBone_hologram_turret" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="Play_SFX_3D_BLD_BAN_DestructionMute" tobone="GrannyRootBone_deploying01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deploying/incoming01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.5" end="1" name="Play_SFX_3D_BLD_BAN_DestructionUnmute" tobone="GrannyRootBone_deploying01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deploying/abort01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deploying/landing01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deploying/dropoff01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.894999981" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedCircularStandardGroundImpact" tobone="bone_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="CameraShake" start="0" position_type="Time" position="0.899999976" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0.5" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.901000023" end="1" name="Play_SFX_3D_BLD_BAN_TurretDrop" tobone="GrannyRootBone_deploying01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Deploy" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deploying/deploy01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedDeployingTurretSteamBottom" tobone="bone_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_BLD_BAN_TurretDeploy" tobone="GrannyRootBone_deploying01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.363999993" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_leg01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.472000003" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_leg03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.57099998" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_leg02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.666999996" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedHarpoonForerunnerImpact" tobone="bone_vfx_leg04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="20" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.852999985" end="1" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedDeployingTurretSteam" tobone="bone_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="10" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedDeployingTurretPlasma" tobone="bone_root" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+	</model>
+	<model name="Spirit">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/vehicles/spirit01/mesh_spirit01</file>
+			</asset>
+			<attach type="ModelRef" name="Spirit_Right_Hatch" tobone="socketbone_hatch_right_01" frombone="GrannyRootBone_hatch_right_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Spirit_Left_Hatch" tobone="socketbone_hatch_left_01" frombone="GrannyRootBone_hatch_left_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasma" tobone="bone_vfx_LeftPlasma" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasma" tobone="bone_vfx_RightPlasma" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/incoming_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/incoming01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_RightPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_LeftPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_VEH_SpiritBuildingDeliveryTurretIncoming" tobone="GrannyRootBone_spirit01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/abort01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_RightPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="4.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_LeftPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="4.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_VEH_SpiritBuildingDeliveryTurretAbort" tobone="GrannyRootBone_spirit01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/landing01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_RightPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_LeftPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/dropoff01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_RightPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="4.5999999" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/SpiritPlasmaActivated" tobone="bone_vfx_LeftPlasma" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="4.5999999" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Takeoff" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/takeoff01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/outgoing01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/pelican01/airpad01/incoming_idle01</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0.99999995529651686</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.99999997764825821</Value>
+							<Alpha>0.019999999552965164</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.019999999552965164</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.99999995529651686</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_VEH_PelicanDestruct" tobone="bone_engine_left_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/BanishedAirExplosionLarge" tobone="b_root" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+	</model>
+	<model name="Spirit_Left_Hatch">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/vehicles/spirit01/mesh_hatch_left_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/incoming_idle01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/incoming01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/abort01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/landing01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/dropoff01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Takeoff" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/takeoff01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/outgoing01_hatch_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Spirit_Right_Hatch">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/vehicles/spirit01/mesh_hatch_right_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/incoming_idle01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/incoming01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/abort01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/landing01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/dropoff01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Takeoff" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/takeoff01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/aerial/spirit01/turretgun01/outgoing01_hatch_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Hologram">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/hologram_turret/mesh_hologram_turret</file>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlareTeleportIN" tobone="bone_vfx_Flare02" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlareTeleportIN" tobone="bone_vfx_Flare03" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlareTeleportIN" tobone="bone_vfx_Flare04" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlares" tobone="bone_vfx_Flare03" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlares" tobone="bone_vfx_Flare04" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedFlares" tobone="bone_vfx_Flare02" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/empty_plot/maxanim_empty_idle_empty_plot</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsTurretIDLE" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Incoming" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsTurretIDLE" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Abort" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsTurretOUT" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Landing" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsTurretIDLE" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="HoverIdle" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsTurretOUT" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Deploy" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/hologram_building/maxanim_empty_hologram_building</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Active_Plot">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/empty_plot/mesh_empty_plot</file>
+				<damagefile>units/covenant/structure/main_hq_dressing01/active_plot_turrets/active_plot_turrets</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Spirit" tobone="GrannyRootBone_empty_plot" frombone="GrannyRootBone_spirit01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Deploying" tobone="GrannyRootBone_empty_plot" frombone="GrannyRootBone_deploying01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Hologram_Projector" tobone="GrannyRootBone_empty_plot" frombone="GrannyRootBone_active_plot_turrets" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<point pointType="Impact" bone="bone_impact_01" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>units/covenant/structure/main_hq_dressing01/empty_plot/maxanim_empty_idle_empty_plot</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="Play_SFX_3D_BLD_BAN_Hologram" tobone="GrannyRootBone_empty_plot" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Hologram_Projector">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/active_plot_turrets/mesh_active_plot_turrets</file>
+			</asset>
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedBasePadDust" tobone="GrannyRootBone_active_plot_fabricator" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+	</model>
+	<model name="Hologram_Queued">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/main_hq_dressing01/hologram_queued_turret/mesh_hologram_turret</file>
+			</asset>
+			<attach type="ModelRef" name="Hologram_Projector" tobone="GrannyRootBone_hologram_turret" frombone="GrannyRootBone_active_plot_turrets" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotTurretTeleportIN" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/BuildingVFX/SharedBuildingVFX/BanishedPlotHologramsTurretIDLE" tobone="bone_vfx_Hologram" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/empty/2frames</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="Play_SFX_3D_BLD_BAN_PlotAppears" tobone="GrannyRootBone_hologram_turret" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<logic type="BuildingCompletion">
+		<logicdata value="p-1" modelref="Hologram_Queued" weight="1" />
+		<logicdata value="p0" modelref="Active_Plot" weight="1" />
+		<logicdata value="p100" modelref="Deployed" weight="1" />
+	</logic>
+</visual>
