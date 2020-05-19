@@ -10307,6 +10307,33 @@
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Effects>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="LekgoloPincerBeam1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="LekgoloPincerBeam1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="LekgoloPincerBeam1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="LekgoloPincerBeam2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="LekgoloPincerBeam2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="LekgoloPincerBeam2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="LekgoloPincerBeam3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="LekgoloPincerBeam3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="LekgoloPincerBeam3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
 			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="Unbrk_ScatterBeam1_mp" relativity="Percent">
 				<Target type="Player" />
 			</Effect>
@@ -10623,7 +10650,9 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">CovBoundlessLeech</Effect>
+			<Effect type="UnlockableGodPower" tier="1">LekgoloPincerBeam1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="LekgoloPincerBeam1">LekgoloPincerBeam2</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="LekgoloPincerBeam2">LekgoloPincerBeam3</Effect>
 			<Effect type="UnlockableGodPower" tier="1">ArbiterConduitofRage1</Effect>
 			<Effect type="UnlockableGodPower" tier="2">ArbiterPlasmaBolt1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt1">ArbiterPlasmaBolt2</Effect>
