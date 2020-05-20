@@ -209,7 +209,7 @@
 				<Data type="float" name="RandomiseSpawnRadiusMax">28</Data>
 				<Data type="float" name="SpokeRotationOffset">0</Data>
 				<Data type="float" name="PatrolDuration">17</Data>
-				<Data type="protosquad" name="AircraftSquad">pow_gp_sesa_scatterbeam_01</Data>
+				<Data type="protosquad" name="AircraftSquad">pow_gp_sesa_scatterbeam_02</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_OFF_ScatterBeamsLv1_MP</Data>
 				<Data type="bool" name="TieToTheGround">true</Data>
 				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m1-5s</Data>
@@ -260,7 +260,7 @@
 				<Data type="float" name="RandomiseSpawnRadiusMax">28</Data>
 				<Data type="float" name="SpokeRotationOffset">0</Data>
 				<Data type="float" name="PatrolDuration">21</Data>
-				<Data type="protosquad" name="AircraftSquad">pow_gp_sesa_scatterbeam_01</Data>
+				<Data type="protosquad" name="AircraftSquad">pow_gp_sesa_scatterbeam_03</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_OFF_ScatterBeamsLv1_MP</Data>
 				<Data type="bool" name="TieToTheGround">true</Data>
 				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m1-5s</Data>

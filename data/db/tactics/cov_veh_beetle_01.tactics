@@ -5,7 +5,7 @@
 		<AttackRate>0.100000001</AttackRate>
 		<DamagePerSecond>250</DamagePerSecond>
 		<WeaponType>Beam</WeaponType>
-		<Projectile>fx_beetlebeam</Projectile>
+		<Projectile>fx_impervioushunterbeamupgrade</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
 		<MaxVelocityLead>2.46000004</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
