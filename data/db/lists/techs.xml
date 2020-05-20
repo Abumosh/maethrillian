@@ -2455,7 +2455,7 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_locust_01_mp_blitz" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_beetle_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
@@ -3689,7 +3689,7 @@
                 <Target type="ProtoSquad">cov_veh_gorgon_01</Target>
                 <Target type="ProtoSquad">cov_veh_arbitergorgon_01</Target>
                 <Target type="ProtoSquad">cov_veh_locust_01</Target>
-                <Target type="ProtoSquad">cov_veh_locust_01_mp_blitz</Target>
+                <Target type="ProtoSquad">cov_veh_beetle_01</Target>
                 <Target type="ProtoSquad">cov_veh_wraith_01</Target>
                 <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
                 <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
@@ -3774,7 +3774,7 @@
                 <Target type="ProtoSquad">cov_veh_gorgon_01</Target>
                 <Target type="ProtoSquad">cov_veh_arbitergorgon_01</Target>
                 <Target type="ProtoSquad">cov_veh_locust_01</Target>
-                <Target type="ProtoSquad">cov_veh_locust_01_mp_blitz</Target>
+                <Target type="ProtoSquad">cov_veh_beetle_01</Target>
                 <Target type="ProtoSquad">cov_veh_wraith_01</Target>
                 <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
                 <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
@@ -3859,7 +3859,7 @@
                 <Target type="ProtoSquad">cov_veh_gorgon_01</Target>
                 <Target type="ProtoSquad">cov_veh_arbitergorgon_01</Target>
                 <Target type="ProtoSquad">cov_veh_locust_01</Target>
-                <Target type="ProtoSquad">cov_veh_locust_01_mp_blitz</Target>
+                <Target type="ProtoSquad">cov_veh_beetle_01</Target>
                 <Target type="ProtoSquad">cov_veh_wraith_01</Target>
                 <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
                 <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
@@ -8976,11 +8976,11 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_locust_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_locust_01_mp_blitz" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_beetle_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_veh_locust_01_mp_blitz</Target>
+				<Target type="ProtoSquad">cov_veh_beetle_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

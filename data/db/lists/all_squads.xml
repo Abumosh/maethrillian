@@ -3655,7 +3655,7 @@
 		<Tactics>cov_veh_locust_01_mp.tactics</Tactics>
 	</Squad>
 	<Squad name="cov_veh_locust_01_sp" parent_element="cov_veh_locust_01_base" dbid="15158496091250718490" />
-	<Squad name="cov_veh_locust_01_mp_blitz" dbid="15261052440451981076">
+	<Squad name="cov_veh_beetle_01" dbid="15261052440451981076">
 		<CombatRank>5</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_chimera</PortraitIcon>
 		<MinimapScale>1</MinimapScale>
@@ -3678,7 +3678,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">cov_veh_locust_01_mp_blitz</Unit>
+			<Unit count="1" role="normal">cov_veh_beetle_01</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
