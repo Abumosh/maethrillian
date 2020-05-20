@@ -28845,7 +28845,7 @@
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
-				<Data type="float" name="BuffDuration">7</Data>
+				<Data type="float" name="BuffDuration">6</Data>
 				<Data type="float" name="DamageDealtModifier">1.15</Data>
 				<Data type="float" name="SlowModifier">1.15</Data>
 				<Data type="float" name="HealPercentPerTick">0.03</Data>
@@ -28875,9 +28875,9 @@
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
-				<Data type="float" name="BuffDuration">7</Data>
-				<Data type="float" name="DamageDealtModifier">1.2</Data>
-				<Data type="float" name="SlowModifier">1.2</Data>
+				<Data type="float" name="BuffDuration">6</Data>
+				<Data type="float" name="DamageDealtModifier">1.25</Data>
+				<Data type="float" name="SlowModifier">1.25</Data>
 				<Data type="float" name="HealPercentPerTick">0.03</Data>
 				<Data type="float" name="HealTickRate">0.5</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_floodfeast_02</Data>
@@ -28912,7 +28912,6 @@
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
 				<Data type="float" name="DamageDealtModifier">1.05f</Data>
 				<Data type="float" name="SlowModifier">1.05</Data>
-				<Data type="float" name="DamageMitigationScalar">0.95</Data>
 				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
 				<Data type="objecttype" name="BuffActivateFXOverrideType1">Flying</Data>
 				<Data type="protoobject" name="BuffActivateFXOverride1">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
@@ -28922,7 +28921,6 @@
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
 				<Data type="float" name="DamageDealtModifier">1.075f</Data>
 				<Data type="float" name="SlowModifier">1.075</Data>
-				<Data type="float" name="DamageMitigationScalar">0.925</Data>
 				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
 				<Data type="objecttype" name="BuffActivateFXOverrideType1">Flying</Data>
 				<Data type="protoobject" name="BuffActivateFXOverride1">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
@@ -29027,8 +29025,8 @@
             <PowerType>AreaBuff</PowerType>
             <AIPowerUseType>BuffAllies</AIPowerUseType>
             <BuffName>VehicleRecycle</BuffName>
-            <Cost Supplies="500" Power="550" />
-            <AutoRecharge>150000</AutoRecharge>
+            <Cost Supplies="600" Power="300" />
+            <AutoRecharge>240000</AutoRecharge>
             <UIRadius>4</UIRadius>
             <Decal>Point</Decal>
             <DisplayNameID>5000</DisplayNameID>
@@ -29056,7 +29054,7 @@
                 <Data type="objecttype" name="FilterExcludeType2">Building</Data>
 				<Data type="objecttype" name="FilterExcludeType3">TurretBuilding</Data>
 				<Data type="objecttype" name="FilterExcludeType4">UberUnit</Data>
-                <Data type="float" name="BuffDuration">150</Data>
+                <Data type="float" name="BuffDuration">120</Data>
                 <Data type="bool" name="AffectsEnemies">false</Data>
                 <Data type="bool" name="AffectsSelfOnly">true</Data>
                 <Data type="int" name="MaxProcsAllUnits">8</Data>
@@ -35437,7 +35435,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>Reveal</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
-			<Cost Supplies="0" Power="50" />
+			<Cost Supplies="150" Power="150" />
 			<AutoRecharge>140000</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
