@@ -16,7 +16,6 @@
 			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/LichTrail" tobone="bone_vfx_trailLeft" syncanims="false" disregardorient="false" removeimmediately="true" />
 			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/LichEngines" tobone="bone_vfx_eninge02" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/LichEngines" tobone="bone_vfx_eninge01" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="engine" tobone="socketbone_engine_01" frombone="bone_vfx_eninge01" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/ScarabHeadlight" tobone="socketbone_beam_01" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ParticleFile" name="vfx/episode2/Units/UnitCorruption" tobone="socketbone_beam_01" syncanims="false" disregardorient="true" removeimmediately="false" />
 			<attach type="ParticleFile" name="vfx/episode2/Units/ScarabCorrupted_Mouth" tobone="socketbone_beam_01" syncanims="false" disregardorient="false" removeimmediately="false" />

@@ -4906,8 +4906,13 @@ The Sentinels temporarily guard a set area.</str>
 	<str id="UIENT.cov_air_traininglich_01.RadialEdge.ShortDescr">Uber unit</str>
 	<str id="UIENT.cov_air_corruptedlich_01.RADIALCENTER.NAME">VOLATILE LICH VANGUARD</str>
 	<str id="UIENT.cov_air_corruptedlich_01.RADIALEDGE.NAME">VOLATILE LICH VANGUARD</str>
-	<str id="UIENT.cov_air_corruptedlich_01.RADIALEDGE.ROLE">UBER</str>
-	<str id="UIENT.cov_air_corruptedlich_01.RadialEdge.ShortDescr">Uber unit</str>
+	<str id="UIENT.cov_air_corruptedlich_01.RADIALEDGE.ROLE">SUPER UNIT</str>
+	<str id="UIENT.cov_air_corruptedlich_01.RADIALEDGE.SHORTDESCR">Very high damage
+Beam creates pools of infused gel
+Can set the infused gel on fire
+Slow moving
+Very heavy armor
+Traverses all terrain</str>
 	<str id="UIENT.cov_veh_methanescarab_01_base.RADIALCENTER.NAME">THE GOOD STUFF</str>
 	<str id="UIENT.cov_veh_methanescarab_01_base.RADIALEDGE.NAME">THE GOOD STUFF</str>
 	<str id="UIENT.cov_veh_methanescarab_01_base.RADIALEDGE.ROLE">UBER</str>
@@ -5015,10 +5020,10 @@ Versatile Plasma Caster weapon</str>
 	<str id="UIENT.cov_sesahereticleader_upgrade2.RadialEdge.Name">UNLOCK HOLO-DRONE DECOYS</str>
 	<str id="UIENT.cov_sesahereticleader_upgrade2.RadialEdge.Role">UPGRADE</str>
 	<str id="UIENT.cov_sesahereticleader_upgrade2.RadialEdge.ShortDescr">2 holo-drone decoys + small dmg/health buff</str>
-	<str id="UIENT.cov_sesahereticleader_upgrade3.RadialCenter.Name">PLASMA CASTER</str>
-	<str id="UIENT.cov_sesahereticleader_upgrade3.RadialEdge.Name">PLASMA CASTER</str>
+	<str id="UIENT.cov_sesahereticleader_upgrade3.RadialCenter.Name">PLASMA CANNON</str>
+	<str id="UIENT.cov_sesahereticleader_upgrade3.RadialEdge.Name">PLASMA CANNON</str>
 	<str id="UIENT.cov_sesahereticleader_upgrade3.RadialEdge.Role">UPGRADE</str>
-	<str id="UIENT.cov_sesahereticleader_upgrade3.RadialEdge.ShortDescr">Gives Sesa 'Refumee a plasma caster and a grenade attack</str>
+	<str id="UIENT.cov_sesahereticleader_upgrade3.RadialEdge.ShortDescr">Gives Sesa 'Refumee a plasma cannon and a grenade attack</str>
 	<str id="UIENT.CovSpiritSesaGunship1.RadialCenter.Name">SPIRIT ASSAULT I</str>
 	<str id="UIENT.CovSpiritSesaGunship1.RadialEdge.Name">SPIRIT ASSAULT I</str>
 	<str id="UIENT.CovSpiritSesaGunship1.RADIALEDGE.ROLE">ACTIVE POWER</str>
