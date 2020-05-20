@@ -4339,8 +4339,8 @@ Upgrade to 2 roots with Cancerous Growth.</str>
 	<str id="UIENT.Flood_Barrage2.RADIALEDGE.NAME">CONVICTING PESTILENCE II</str>
 	<str id="UIENT.Flood_Barrage2.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.Flood_Barrage2.RADIALEDGE.SHORTDESCR">Activate to bombard a target area with infected debris from the Indulgence of Conviction.</str>
-	<str id="UIENT.Flood_InfantryRecycle.RADIALCENTER.NAME">GET BACK OUT THERE</str>
-	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.NAME">GET BACK OUT THERE</str>
+	<str id="UIENT.Flood_InfantryRecycle.RADIALCENTER.NAME">OUTBREAK</str>
+	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.NAME">OUTBREAK</str>
 	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.SALESPITCH">While active, the first 8 flood units you lose will respawn at your home base.
 Does not affect ABOMINATION, Egg, Hive, or Root.</str>
