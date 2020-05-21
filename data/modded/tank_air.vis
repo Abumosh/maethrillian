@@ -193,6 +193,13 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.774999976" end="1" name="Play_SFX_3D_BLD_UNSC_TurretAirGunLower" tobone="GrannyRootBone_cannon_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/structure/turret_antiair_gun01/deployed/idle_01_cannon</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
 	<model name="wolverine01_wheel_left">
 		<component>
 			<asset type="Model">
