@@ -264,10 +264,10 @@
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="50,0,-20">unsc_inf_generic_marine</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="50,0,0">cov_inf_generic_grunt</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,-20">unsc_veh_tank_air_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,0">unsc_veh_tank_generic_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,-20">unsc_veh_tank_inf_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,0">unsc_veh_tank_veh_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="50,0,-20">unsc_veh_cobra_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="50,0,0">unsc_veh_cobra_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="50,0,-20">unsc_veh_cobra_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="50,0,0">unsc_veh_cobra_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
