@@ -223,7 +223,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.TITLE.HIGHCHARITY</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.BODY.HIGHCHARITY</value>
-		<value>UIEP2.CODEX.M01LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_highcharity</value>
 		<value>0</value>
 		<value>13</value>
@@ -811,7 +811,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.BUILDBAN.TITLE.MEGATURRET</value>
 		<value>UIEP2.CODEX.BUILDBAN.BODY.MEGATURRET</value>
-		<value>UIEP2.CODEX.M05LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_bldg_megaturret</value>
 		<value>0</value>
 		<value>16</value>
@@ -1387,7 +1387,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.UNITSBAN.TITLE.VORIDUSUNIT</value>
 		<value>UIEP2.CODEX.UNITSBAN.BODY.VORIDUSUNIT</value>
-		<value>UIEP2.CODEX.M01LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_inf_corruptedwarlord</value>
 		<value>0</value>
 		<value>34</value>
@@ -1399,7 +1399,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.UNITSBAN.TITLE.VOLATILESCARAB</value>
 		<value>UIEP2.CODEX.UNITSBAN.BODY.VOLATILESCARAB</value>
-		<value>UIEP2.CODEX.M01LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_inf_corruptedscarab</value>
 		<value>0</value>
 		<value>35</value>
@@ -1411,7 +1411,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.UNITSBAN.TITLE.PAVIUMUNIT</value>
 		<value>UIEP2.CODEX.UNITSBAN.BODY.PAVIUMUNIT</value>
-		<value>UIEP2.CODEX.M02LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_inf_mortarwarlord</value>
 		<value>0</value>
 		<value>36</value>
@@ -1423,7 +1423,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.UNITSBAN.TITLE.WRAITHAPC</value>
 		<value>UIEP2.CODEX.UNITSBAN.BODY.WRAITHAPC</value>
-		<value>UIEP2.CODEX.M03LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_inf_wraithapc</value>
 		<value>0</value>
 		<value>37</value>
@@ -1435,7 +1435,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.UNITSBAN.TITLE.BRUTEGRENADIER</value>
 		<value>UIEP2.CODEX.UNITSBAN.BODY.BRUTEGRENADIER</value>
-		<value>UIEP2.CODEX.M04LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_inf_grenadier</value>
 		<value>0</value>
 		<value>38</value>
@@ -1447,7 +1447,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.UNITSBAN.TITLE.INFUSEDENGINEER</value>
 		<value>UIEP2.CODEX.UNITSBAN.BODY.INFUSEDENGINEER</value>
-		<value>UIEP2.CODEX.M05LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_inf_corruptedengineer</value>
 		<value>0</value>
 		<value>39</value>
@@ -2143,7 +2143,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIDLC4.CODEX.CAMPAIGN.TITLE.NEWCOMMANDER.M01A</value>
 		<value>UIDLC4.CODEX.CAMPAIGN.BODY.NEWCOMMANDER.M01A</value>
-		<value>UIDLC4.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_dlcm01a</value>
 		<value>6d10821aa8604a42b83132faab5624f3</value>
 		<value>25</value>
@@ -2155,7 +2155,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIDLC4.CODEX.CAMPAIGN.TITLE.HOLDFAST.M01B</value>
 		<value>UIDLC4.CODEX.CAMPAIGN.BODY.HOLDFAST.M01B</value>
-		<value>UIDLC4.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_dlcm01b</value>
 		<value>6d10821aa8604a42b83132faab5624f3</value>
 		<value>26</value>
@@ -2167,7 +2167,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIDLC4.CODEX.CAMPAIGN.TITLE.FLOATSLOW.M02A</value>
 		<value>UIDLC4.CODEX.CAMPAIGN.BODY.FLOATSLOW.M02A</value>
-		<value>UIDLC4.CODEX.M02.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_dlcm02a</value>
 		<value>6d10821aa8604a42b83132faab5624f3</value>
 		<value>27</value>
@@ -2179,7 +2179,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIDLC4.CODEX.CAMPAIGN.TITLE.TENSEDBOLT.M02B</value>
 		<value>UIDLC4.CODEX.CAMPAIGN.BODY.TENSEDBOLT.M02B</value>
-		<value>UIDLC4.CODEX.M02.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_dlcm02b</value>
 		<value>6d10821aa8604a42b83132faab5624f3</value>
 		<value>28</value>
@@ -2191,7 +2191,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.CAMPAIGN.TITLE.PANDORASBOX.M01_01</value>
 		<value>UIEP2.CODEX.CAMPAIGN.BODY.PANDORASBOX.M01_01</value>
-		<value>UIEP2.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_PandorasBox</value>
 		<value>0</value>
 		<value>29</value>
@@ -2203,7 +2203,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.CAMPAIGN.TITLE.PANDORASBOX.M01_02</value>
 		<value>UIEP2.CODEX.CAMPAIGN.BODY.PANDORASBOX.M01_02</value>
-		<value>UIEP2.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_PandorasBox</value>
 		<value>0</value>
 		<value>30</value>
@@ -2215,7 +2215,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.CAMPAIGN.TITLE.BROTHERSINARMS.M02_01</value>
 		<value>UIEP2.CODEX.CAMPAIGN.BODY.BROTHERSINARMS.M02_01</value>
-		<value>UIEP2.CODEX.M02.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_brothersinarms</value>
 		<value>0</value>
 		<value>31</value>
@@ -2227,7 +2227,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.CAMPAIGN.TITLE.BROTHERSINARMS.M02_02</value>
 		<value>UIEP2.CODEX.CAMPAIGN.BODY.BROTHERSINARMS.M02_02</value>
-		<value>UIEP2.CODEX.M02.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_brothersinarms</value>
 		<value>0</value>
 		<value>32</value>
@@ -2239,7 +2239,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.CAMPAIGN.TITLE.WARPEDREFLECTIONS.M03</value>
 		<value>UIEP2.CODEX.CAMPAIGN.BODY.WARPEDREFLECTIONS.M03</value>
-		<value>UIEP2.CODEX.M03.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_WarpedReflections</value>
 		<value>0</value>
 		<value>34</value>
@@ -2251,7 +2251,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.CAMPAIGN.TITLE.TREADCAREFULLY.M03</value>
 		<value>UIEP2.CODEX.CAMPAIGN.BODY.TREADCAREFULLY.M03</value>
-		<value>UIEP2.CODEX.M03.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_TreadCarefully</value>
 		<value>0</value>
 		<value>35</value>
@@ -2263,7 +2263,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.CAMPAIGN.TITLE.IDLEHANDS.M04_01</value>
 		<value>UIEP2.CODEX.CAMPAIGN.BODY.IDLEHANDS.M04_01</value>
-		<value>UIEP2.CODEX.M04.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_idlehands</value>
 		<value>0</value>
 		<value>36</value>
@@ -2275,7 +2275,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.CAMPAIGN.TITLE.IDLEHANDS.M04_02</value>
 		<value>UIEP2.CODEX.CAMPAIGN.BODY.IDLEHANDS.M04_02</value>
-		<value>UIEP2.CODEX.M04.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_idlehands</value>
 		<value>0</value>
 		<value>37</value>
@@ -2287,7 +2287,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.CAMPAIGN.TITLE.UNCOMFORTABLETRUTH.M05_01</value>
 		<value>UIEP2.CODEX.CAMPAIGN.BODY.UNCOMFORTABLETRUTH.M05_01</value>
-		<value>UIEP2.CODEX.M05.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_UncomfortableTruth</value>
 		<value>0</value>
 		<value>38</value>
@@ -2299,7 +2299,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.CAMPAIGN.TITLE.UNCOMFORTABLETRUTH.M05_02</value>
 		<value>UIEP2.CODEX.CAMPAIGN.BODY.UNCOMFORTABLETRUTH.M05_02</value>
-		<value>UIEP2.CODEX.M05.COLLECT.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_UncomfortableTruth</value>
 		<value>0</value>
 		<value>39</value>
@@ -2311,7 +2311,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODUNITS.TITLE.EGG</value>
 		<value>UIEP2.CODEX.FLOODUNITS.BODY.EGG</value>
-		<value>UIEP2.CODEX.M03LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_blg_fld_egg</value>
 		<value>0</value>
 		<value>4</value>
@@ -2323,7 +2323,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODUNITS.TITLE.RUPTURE</value>
 		<value>UIEP2.CODEX.FLOODUNITS.BODY.RUPTURE</value>
-		<value>UIEP2.CODEX.M02LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_blg_fld_burster</value>
 		<value>0</value>
 		<value>1</value>
@@ -2335,7 +2335,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODUNITS.TITLE.PODINFECTORS</value>
 		<value>UIEP2.CODEX.FLOODUNITS.BODY.PODINFECTORS</value>
-		<value>UIEP2.CODEX.M02LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_blg_fld_infector</value>
 		<value>0</value>
 		<value>3</value>
@@ -2347,7 +2347,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODUNITS.TITLE.SEEDERINFECTORS</value>
 		<value>UIEP2.CODEX.FLOODUNITS.BODY.SEEDERINFECTORS</value>
-		<value>UIEP2.CODEX.M03LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_blg_fld_airinfector</value>
 		<value>0</value>
 		<value>5</value>
@@ -2359,7 +2359,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODUNITS.TITLE.VEHICLEINFECTOR</value>
 		<value>UIEP2.CODEX.FLOODUNITS.BODY.VEHICLEINFECTOR</value>
-		<value>UIEP2.CODEX.M03LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_blg_fld_vehinfector</value>
 		<value>0</value>
 		<value>8</value>
@@ -2371,7 +2371,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODUNITS.TITLE.SPAWNER</value>
 		<value>UIEP2.CODEX.FLOODUNITS.BODY.SPAWNER</value>
-		<value>UIEP2.CODEX.M04LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_blg_fld_spawner</value>
 		<value>0</value>
 		<value>9</value>
@@ -2383,7 +2383,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODUNITS.TITLE.INFECTED</value>
 		<value>UIEP2.CODEX.FLOODUNITS.BODY.INFECTED</value>
-		<value>UIEP2.CODEX.M02LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_blg_fld_infected</value>
 		<value>0</value>
 		<value>2</value>
@@ -2395,7 +2395,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODUNITS.TITLE.HIVECOMMANDER</value>
 		<value>UIEP2.CODEX.FLOODUNITS.BODY.HIVECOMMANDER</value>
-		<value>UIEP2.CODEX.M03LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_blg_fld_abomination</value>
 		<value>0</value>
 		<value>7</value>
@@ -2407,7 +2407,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODUNITS.TITLE.HIVE</value>
 		<value>UIEP2.CODEX.FLOODUNITS.BODY.HIVE</value>
-		<value>UIEP2.CODEX.M03LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_blg_fld_hivemind</value>
 		<value>0</value>
 		<value>6</value>
@@ -2419,7 +2419,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODUNITS.TITLE.COCOONEDBASES</value>
 		<value>UIEP2.CODEX.FLOODUNITS.BODY.COCOONEDBASES</value>
-		<value>UIEP2.CODEX.M05LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_blg_fld_CocoonedBase</value>
 		<value>0</value>
 		<value>11</value>
@@ -2431,7 +2431,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.TITLE.THEFLOOD</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.BODY.THEFLOOD</value>
-		<value>UIEP2.CODEX.M02LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_Flood</value>
 		<value>0</value>
 		<value>2</value>
@@ -2443,7 +2443,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.TITLE.BLIGHTLANDS</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.BODY.BLIGHTLANDS</value>
-		<value>UIEP2.CODEX.M03LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_blightlands</value>
 		<value>0</value>
 		<value>5</value>
@@ -2455,7 +2455,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.TITLE.KEYMINDS</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.BODY.KEYMINDS</value>
-		<value>UIEP2.CODEX.M04LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_keyminds</value>
 		<value>0</value>
 		<value>8</value>
@@ -2467,7 +2467,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.TITLE.GRAVEMIND</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.BODY.GRAVEMIND</value>
-		<value>UIEP2.CODEX.M05LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_gravemind</value>
 		<value>0</value>
 		<value>10</value>
@@ -2479,7 +2479,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.TITLE.INFECTIONFORM</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.BODY.INFECTIONFORM</value>
-		<value>UIEP2.CODEX.M02LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_infectionform</value>
 		<value>0</value>
 		<value>3</value>
@@ -2491,7 +2491,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.TITLE.COMBATFORMS</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.BODY.COMBATFORMS</value>
-		<value>UIEP2.CODEX.M02LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_combatforms</value>
 		<value>0</value>
 		<value>4</value>
@@ -2503,7 +2503,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.TITLE.PUREFORMS</value>
 		<value>UIEP2.CODEX.FLOODHISTORY.BODY.PUREFORMS</value>
-		<value>UIEP2.CODEX.M03LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_pureform</value>
 		<value>0</value>
 		<value>6</value>
@@ -2515,7 +2515,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIEP2.CODEX.FLOODUNITS.TITLE.PROTOGRAVEMIND</value>
 		<value>UIEP2.CODEX.FLOODUNITS.BODY.PROTOGRAVEMIND</value>
-		<value>UIEP2.CODEX.M05LOGS.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fld_gravemind</value>
 		<value>0</value>
 		<value>9</value>
@@ -2527,7 +2527,7 @@
 		<value>../textures/frontend/Codex/img_lockedCodex</value>
 		<value>UIGLOB.CODEX.MPMAPS.TITLE.FORTJORDAN</value>
 		<value>UIGLOB.CODEX.MPMAPS.BODY.FORTJORDAN</value>
-		<value>UIGLOB.CODEX.MULTIPLAYERMAP.UNLOCKCONDITION</value>
+		<value>UIGLOB.CODEX.M01.COLLECT.UNLOCKCONDITION</value>
 		<value>../textures/frontend/Codex/HomePageTile/fe_CampHomPageCodexTile_fortjordan</value>
 		<value>0</value>
 		<value>0</value>
