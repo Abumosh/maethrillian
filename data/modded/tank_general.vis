@@ -9,7 +9,7 @@
 				<file>units/unsc/vehicles/wolverine01/mesh_wolverine01</file>
 				<damagefile>units/unsc/vehicles/wolverine01/wolverine01</damagefile>
 			</asset>
-			<attach type="ModelRef" name="Turret" tobone="socketbone_turret" frombone="GrannyRootBone_turret" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="TurretHouse" tobone="socketbone_turret" frombone="GrannyRootBone_turret" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="wolverine01_wheel_left" tobone="socketbone_wheel_front_left" frombone="GrannyRootBone_wheel_front_left" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="wolverine01_wheel_right" tobone="socketbone_wheel_front_right" frombone="GrannyRootBone_wheel_front_right" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/Headlight" tobone="bone_vfx_LeftHeadLight" syncanims="false" disregardorient="false" removeimmediately="false" />
@@ -118,6 +118,60 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.624000013" end="1" name="PLAY_SFX_3D_VEH_Tread_MVS_Surface" tobone="GrannyRootBone_wolverine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.63499999" end="1" name="PLAY_SFX_3D_VEH_Tread_Skids_Surface" tobone="GrannyRootBone_wolverine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.643999994" end="1" name="PLAY_SFX_3D_VEH_UNSC_WolverineHijackEngineRevs" tobone="GrannyRootBone_wolverine01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="TurretHouse">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/vehicles/wolverine01/mesh_turret</file>
+				<damagefile>units/unsc/vehicles/wolverine01/turret</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Turret" tobone="socketbone_cannon" frombone="GrannyRootBone_cannon" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="MissileAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/wolverine01/anchor_down_attack_01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/wolverine01/anchor_down_idle_01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/wolverine01/walk_01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="2" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/wolverine01/walk_01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GrenadeLauncherAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/wolverine01/anchor_down_idle_01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/wolverine01/spartan_hijack_wolverine_turret_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/wolverine01/spartan_hijack_wolverine_turret_loop</file>
+				<weight>1</weight>
 			</asset>
 		</anim>
 	</model>
