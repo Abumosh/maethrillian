@@ -1,0 +1,115 @@
+frontend {
+	multiplayer {
+		multiplayerMenu { 
+			screen {
+				source = "default\flash\screens_frontend_multiplayer_MultiplayerMenu.swf";
+				priority = screen-normal;
+				scale-mode = preserve-aspect;
+				anchor-horizontal = left;
+				anchor-vertical = middle;
+			}
+
+			menuTilePlay {
+				.header {					
+					.textB {
+						.label {
+							@extend = "common.UIFontStyles.largeHeaderColoured";
+							text = "UIGLOB.MAINMENUPAGE.HEADERS.STRIKE";
+						}
+					}
+					
+					.textC {
+						.label {
+							font-size = 34;
+							@extend = "common.UIFontStyles.whiteTextColour";
+							text-align = "center";
+						}
+					}
+					
+					.textD {
+						.label {
+							@extend = "common.UIFontStyles.bodyTextSmall";
+							text-align = "right";
+							text = "UIGLOB.MAINMENUPAGE.PLAYPANEL.WINPERCENT";
+						}
+					}
+				}
+				
+				.item0 {
+					.imageA { image-rendering = smooth; }
+					.textA {
+						@extend = "common.UIFontStyles.largeHeaderOffline";
+						text-align = center;
+						text-multiline = true;
+					}
+					.textB {
+						@extend = "common.UIFontStyles.bodyTextColoured";
+						text-align = center;
+						text-multiline = true;
+					}
+				}
+				
+				.item1 {
+					.imageA { 
+						image-rendering = smooth;
+						image-fit = "preserve-fit";
+					}
+					.textA {
+						@extend = "common.UIFontStyles.bodyText";
+						@extend = "common.UIFontStyles.RMdropShadowSmall";
+					}
+				}
+				
+				@extend = "common.UIFontStyles.expandingMenuTileBG";
+					
+				.label {
+					@extend = "common.UIFontStyles.expandingHeaderText";
+					text = "UIGLOB.MAINMENUPAGE.PLAYPANEL.TITLE";
+				}
+			}
+
+			menuTilePlay:idle {}
+			menuTilePlay:over {	sound = "PLAY_SFX_2D_UI_Over_MultiplayerMenu_Play"; }
+			menuTilePlay:down {	sound = "PLAY_SFX_2D_UI_Down_MultiplayerMenu_Play"; }
+			menuTilePlay:focus { sound = "PLAY_SFX_2D_UI_Focus_MultiplayerMenu_Play";}
+			
+			
+			menuTileSkirmish:idle {
+				.header {
+					.textB {
+						.label {
+							@extend = "common.UIFontStyles.largeHeaderColoured";
+							text-align = "center";
+							font-size-max = 40;
+							font-size-min = 22;
+						}
+					}
+				}
+				
+				.item0 {
+					.imageA {
+						image-path = "../textures/frontend/MenuTiles/img_tile_skirmish";
+					}
+					
+					.textA {
+						.label {
+							@extend = "common.UIFontStyles.bodyTextColoured";
+							text-align = "center";						
+						}
+					}
+				}
+				
+				@extend = "common.UIFontStyles.expandingMenuTileBG";
+					
+				.label {
+					@extend = "common.UIFontStyles.expandingHeaderText";
+					text = "UIGLOB.MAINMENUPAGE.PLAYPANEL.TITLE";
+				}
+			}
+				
+			menuTileSkirmish:over {	sound = "PLAY_SFX_2D_UI_Over_MultiplayerMenu_Skirmish";}
+			menuTileSkirmish:down {sound = "PLAY_SFX_2D_UI_Down_MultiplayerMenu_Skirmish";}
+			menuTileSkirmish:focus {sound = "PLAY_SFX_2D_UI_Focus_MultiplayerMenu_Skirmish";}
+		}
+	}
+}

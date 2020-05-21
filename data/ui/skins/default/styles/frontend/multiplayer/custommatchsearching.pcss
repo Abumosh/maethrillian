@@ -1,0 +1,58 @@
+frontend {
+	multiplayer {
+		customMatch {
+			searching {
+				screen {
+					source = "default\flash\screens_frontend_multiplayer_CustomMatchSearching.swf";
+					priority = screen-normal;
+					scale-mode = preserve-aspect;
+					anchor-horizontal = left;
+					anchor-vertical = middle;
+				}
+
+				playlistImage {
+					/*image-path = "../textures/frontend/BlitzPlaylist/img_playlist_strongholds_large";*/
+					image-rendering = smooth;
+					image-fit = preserve-fit;
+				}
+				rankIcon {
+					/*image-path = "../textures/frontend/PlaylistRankImage";*/
+					image-rendering = smooth;
+					align-vertical = "center";
+					image-fit = preserve-fit;
+				}
+				rankIconBG {
+					image-path = "../textures/frontend/img_findMatchIconBase";
+					image-rendering = smooth;
+					align-vertical = "center";
+					image-fit = preserve-fit;
+				}
+				mainHeaderText {
+					@extend = "common.UIFontStyles.hugeHeader";
+					text-truncate-to-fit = true;
+					font-size-fit = "50";
+				}
+				subHeaderText {
+					@extend = "common.UIFontStyles.bodyText";
+				}
+				leaderSelectCountText {
+					@extend = "common.UIFontStyles.standardHeader";
+					text-scale-mode = "movie";
+				}
+				rankTitleText {
+					@extend = "common.UIFontStyles.bodyText";
+					text-align = center;
+				}
+				rankText {
+					@extend = "common.UIFontStyles.standardHeaderColoured";
+					text-align = center;
+				}
+				tipText {
+					@extend = "common.UIFontStyles.bodyText";
+					text-align = right;
+					text-multiline = "true";
+				}
+			}
+		}
+	}
+}
