@@ -5219,7 +5219,7 @@
 				<Target type="ProtoSquad">cov_veh_gorgon_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_veh_locust_01</Target>
+				<Target type="ProtoSquad">unsc_veh_cobra_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">for_veh_scorpion_01</Target>
@@ -5323,15 +5323,11 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
 			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">ForDropSquad1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="ForDropSquad1">ForDropSquad3</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="ForDropSquad3">ForDropSquad2</Effect>
-			<Effect type="UnlockableGodPower" tier="1">UnscArkWeakerDefense1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="UnscArkWeakerDefense1">UnscArkWeakerDefense2</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="UnscArkWeakerDefense2">UnscArkWeakerDefense3</Effect>
-			<Effect type="UnlockableGodPower" tier="2">UnscHoloDecoy1</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="UnscHoloDecoy1">UnscHoloDecoy2</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="UnscHoloDecoy2">UnscGhostInTheMachine</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscHoloDecoy1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHoloDecoy1">UnscHoloDecoy2</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHoloDecoy2">UnscGhostInTheMachine</Effect>
+			<Effect type="UnlockableGodPower" tier="1"></Effect>
+			<Effect type="UnlockableGodPower" tier="2"></Effect>
 			<Effect type="UnlockableGodPower" tier="2">LekgoloSwarmHeal1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="LekgoloSwarmHeal1">LekgoloSwarmHeal2</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="LekgoloSwarmHeal2">LekgoloSwarmHeal3</Effect>
@@ -5341,8 +5337,9 @@
 			<Effect type="UnlockableGodPower" tier="3">CovCleansingBeamPath1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="4">UnscLureBeacon</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscSentinelSynergy</Effect>
+			<Effect type="UnlockableGodPower" tier="4">ForDropSquad3</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="ForDropSquad3">ForDropSquad2</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovBoundlessRage</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscControllerSentinel</Effect>
 			<Effect type="Data" subtype="Enable">
