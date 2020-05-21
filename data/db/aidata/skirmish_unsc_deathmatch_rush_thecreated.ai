@@ -20,7 +20,7 @@
 			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>UnscMedDrones1_MP</LeaderPowerType>
+			<LeaderPowerType>LekgoloSwarmHeal1</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
@@ -30,30 +30,23 @@
 			<MinimumHealPointsToHeal>16000</MinimumHealPointsToHeal>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>ForDropSquad1</LeaderPowerType>
+			<LeaderPowerType>LekgoloWormBuff1</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>1</MinimumTargetPopToCast>
+			<MinimumTargetPopToCast>5</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>ForDropSquad2</LeaderPowerType>
+			<LeaderPowerType>CovHunterSpiritAssault</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
-			<NumberOfTimesToBeUsed>6</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>ForDropSquad3</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
 			<NumberOfTimesToBeUsed>67</NumberOfTimesToBeUsed>
 			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
@@ -68,6 +61,19 @@
 			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
+			<LeaderPowerType>UnscHoloDecoy2_MP</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Jerome_LowPopInspire1</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
 			<LeaderPowerType>CovCleansingBeamPath2_MP</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>2</AssignedMissionID>
@@ -75,6 +81,9 @@
 			<AssignedMissionID>4</AssignedMissionID>
 			<NumberOfTimesToBeUsed>3</NumberOfTimesToBeUsed>
 			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscSentinelSynergy</LeaderPowerType>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>CovCleansingBeamPath3_MP</LeaderPowerType>
@@ -86,34 +95,25 @@
 			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>UnscArkWeakerDefense1</LeaderPowerType>
+			<LeaderPowerType>LekgoloSwarmHeal2</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>5</MinimumTargetPopToCast>
+			<NumberOfTimesToBeUsed>50</NumberOfTimesToBeUsed>
+			<MinimumHealPointsToHeal>16000</MinimumHealPointsToHeal>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>UnscArkWeakerDefense2</LeaderPowerType>
+			<LeaderPowerType>LekgoloSwarmHeal3</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
 			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
+			<NumberOfTimesToBeUsed>50</NumberOfTimesToBeUsed>
+			<MinimumHealPointsToHeal>16000</MinimumHealPointsToHeal>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>UnscArkWeakerDefense3</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>15</MinimumTargetPopToCast>
+			<LeaderPowerType>Jerome_LowPopInspire2</LeaderPowerType>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscArkDefense1</LeaderPowerType>
@@ -146,15 +146,22 @@
 			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>UnscArkCleansing</LeaderPowerType>
+			<LeaderPowerType>UnscGhostInTheMachine</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<NumberOfTimesToBeUsed>100000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscControllerSentinel</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
 			<AssignedMissionID>5</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovBoundlessRage</LeaderPowerType>
 		</LeaderPower>
 		<Mission>
 			<MissionType>Forage</MissionType>
@@ -868,7 +875,7 @@
 			<MissionType>Reserves</MissionType>
 			<SquadTypeToSend>pow_for_andersultimate_01</SquadTypeToSend>
 			<AlternateSquadTypeToSend>for_veh_scorpion_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_locust_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_cobra_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<PrerequisiteTech>unsc_tech_reinforcements_2</PrerequisiteTech>
 		</Mission>
@@ -887,7 +894,7 @@
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
 			<SquadTypeToSend>pow_for_andersultimate_01</SquadTypeToSend>
 			<AlternateSquadTypeToSend>for_veh_scorpion_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_locust_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_cobra_01</AlternateSquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
 			<SquadTypeToSend>unsc_veh_warthogspartan_01</SquadTypeToSend>

@@ -40,7 +40,7 @@
 		</Selection>
 		<Birth>Trained</Birth>
 		<AvoidanceMass>Normal</AvoidanceMass>
-		<Counters>Wolverine_01</Counters>
+		<Counters>Hunters_01</Counters>
 	</Squad>
 	<Squad name="Flood" dbid="11545679860153930939" />
 	<Squad name="FlyingFlood" dbid="16256726101795934130" />

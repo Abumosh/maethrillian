@@ -5164,6 +5164,67 @@
 			<Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase3sock_01" ToType="unsc_bldg_minibase3sock_01_for" />
 		</Effects>
 	</Tech>
+	<Tech name="forerunner_instant_upgrade2" type="Normal">
+		<DBID>2041</DBID>
+		<DisplayNameID>1072</DisplayNameID>
+		<RolloverTextID>1073</RolloverTextID>
+		<ResearchPoints>5</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchAnim>Upgrade</ResearchAnim>
+		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_commandstrongholds_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_commandstrongholds_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_commandstrongholds_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_04</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="unsc_LeaderIsabel" type="Normal">
 		<DBID>1917</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -5325,9 +5386,9 @@
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscHoloDecoy1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHoloDecoy1">UnscHoloDecoy2</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHoloDecoy2">UnscGhostInTheMachine</Effect>
-			<Effect type="UnlockableGodPower" tier="1"></Effect>
-			<Effect type="UnlockableGodPower" tier="2"></Effect>
+			<Effect type="UnlockableGodPower" tier="1">LekgoloWormBuff1</Effect>
+			<Effect type="UnlockableGodPower" tier="2">Jerome_LowPopInspire1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="Jerome_LowPopInspire1">Jerome_LowPopInspire2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">LekgoloSwarmHeal1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="LekgoloSwarmHeal1">LekgoloSwarmHeal2</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="LekgoloSwarmHeal2">LekgoloSwarmHeal3</Effect>
@@ -5338,15 +5399,17 @@
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscSentinelSynergy</Effect>
-			<Effect type="UnlockableGodPower" tier="4">ForDropSquad3</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="ForDropSquad3">ForDropSquad2</Effect>
-			<Effect type="UnlockableGodPower" tier="5">CovBoundlessRage</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovHunterSpiritAssault</Effect>
+			<Effect type="UnlockableGodPower" tier="5">UnscGhostInTheMachine</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscControllerSentinel</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">forerunner_instant_upgrade</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">forerunner_instant_upgrade2</Target>
 			</Effect>
 		</Effects>
 	</Tech>
