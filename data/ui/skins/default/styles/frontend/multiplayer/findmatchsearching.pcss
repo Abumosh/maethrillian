@@ -1,0 +1,49 @@
+frontend {
+	multiplayer {
+		findMatchSearching {
+			screen {
+				source = "default\flash\screens_frontend_multiplayer_FindMatchSearching.swf";
+				priority = screen-normal;
+				scale-mode = preserve-aspect;
+				anchor-horizontal = left;
+				anchor-vertical = middle;
+			}
+
+			playlistRankImage {
+				align-horizontal = "center";
+				align-vertical = "center";
+			}
+			
+			bgImage{
+				image-path = "../textures/maps/frontend/placeholder";
+				@extend = "common.UIFontStyles.centerStretchImage";
+			}
+			
+			playlistRankTitleText {
+				@extend = "common.UIFontStyles.bodyText";
+				text = "UIMP.FINDMATCHPAGE.PLAYLIST.RANK";
+				text-align = "center";
+			}
+			
+			playlistRankText {
+				@extend = "common.UIFontStyles.standardHeader";
+				text-align = "center";
+				
+			}
+			
+			playerSearchTitleText {
+				@extend = "common.UIFontStyles.hugeHeader";
+				text = "UIMP.FINDMATCHPAGE.HOPPER.TEAM.TITLE";
+				text-align = "center";
+			}
+			
+			playerSearchText {
+				@extend = "common.UIFontStyles.largeHeader";
+				text = "UIMP.MATCHMAKING.SEARCHING";
+				text-align = "center";
+			}
+
+			playerSearchProgressBar {}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+frontend {
+	multiplayer {
+		findMatch {
+			
+			screen {
+				source = "default\flash\screens_frontend_multiplayer_FindMatch.swf";
+				priority = screen-normal;
+				scale-mode = preserve-aspect;
+				anchor-horizontal = left;
+				anchor-vertical = middle;
+			}
+			
+
+			grid {
+
+				focus-behaviour = true;
+				spacing-row = "5";
+  
+                #FindMatchButton {
+
+                	.label {
+						@extend = "common.UIFontStyles.bodyTextNoWrap";
+					}
+				
+					.image {
+						@extend = "common.UIFontStyles.centerStretchImage";
+
+						effect-glow = "true";
+		                effect-glow-y = "16";
+		                effect-glow-x = "16";
+	               		effect-glow-strength = "0.25";
+		                effect-glow-color = "0x45749b"; 
+					}
+                }
+            }
+
+			playlistHeader {
+			
+				@extend = "common.UIFontStyles.expandingHeaderBG";
+							
+				.label {
+					@extend = "frontend.colors.commonLabelLight";
+					font-size = "24";
+					text-align = left;
+					text-scale-mode = "movie";
+					text = "UIMP.FINDMATCHPAGE.TITLE.PLAYLIST";
+				}
+			}
+			
+		}
+	}
+}
