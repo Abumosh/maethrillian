@@ -1,51 +1,25 @@
 frontend {
 	multiplayer {
-		multiplayerMenu { 
+		tournamentLobby {
 			screen {
-				source = "default\flash\screens_frontend_multiplayer_MultiplayerMenu.swf";
+				source = "default\flash\screens_frontend_multiplayer_TournamentLobby.swf";
 				priority = screen-normal;
 				scale-mode = preserve-aspect;
 				anchor-horizontal = left;
 				anchor-vertical = middle;
 			}
 			
-			
-			menuTileSkirmish:idle {
-				.header {
-					.textB {
-						.label {
-							@extend = "common.UIFontStyles.largeHeaderColoured";
-							text-align = "center";
-							font-size-max = 40;
-							font-size-min = 22;
-						}
-					}
-				}
-				
-				.item0 {
-					.imageA {
-						image-path = "../textures/frontend/MenuTiles/img_tile_skirmish";
-					}
-					
-					.textA {
-						.label {
-							@extend = "common.UIFontStyles.bodyTextColoured";
-							text-align = "center";						
-						}
-					}
-				}
-				
-				@extend = "common.UIFontStyles.expandingMenuTileBG";
-					
-				.label {
-					@extend = "common.UIFontStyles.expandingHeaderText";
-					text = "UIGLOB.MAINMENUPAGE.PLAYPANEL.TITLE";
-				}
+			matchNumber {
+				font-size = "34";
+				text-multiline = false;
+				@extend = "common.UIFontStyles.whiteTextColour";
 			}
-				
-			menuTileSkirmish:over {	sound = "PLAY_SFX_2D_UI_Over_MultiplayerMenu_Skirmish";}
-			menuTileSkirmish:down {sound = "PLAY_SFX_2D_UI_Down_MultiplayerMenu_Skirmish";}
-			menuTileSkirmish:focus {sound = "PLAY_SFX_2D_UI_Focus_MultiplayerMenu_Skirmish";}
+			
+			playlistImage {
+				image-path = "../textures/frontend/BlitzPlaylist/img_playlist_strongholds_large";
+				image-rendering = smooth;
+				image-fit = preserve-fit;
+			}
 		}
 	}
 }
