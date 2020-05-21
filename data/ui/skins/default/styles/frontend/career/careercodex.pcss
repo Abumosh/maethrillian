@@ -1,0 +1,154 @@
+frontend {
+	career {
+		codex {
+			screen {
+                source = "default\flash\screens_frontend_career_CareerCodex.swf";
+                priority = screen-normal;
+				scale-mode = preserve-aspect;
+                anchor-horizontal = left;
+                anchor-vertical =  middle;
+            }
+			
+			codexPanel{
+				focus-behaviour = true;
+				image-substitution = true;
+				.scrollUp{
+				}
+				
+				.scrollDown{
+				}
+				
+				.verticalScrollTab{
+					spacing = "2";
+					direction = "forward";
+					orientation = "vertical";
+					align-horizontal = "left";
+				}
+				
+				.pageBar {
+					@extend = "common.UIFontStyles.paginationBar";
+				}
+				
+				.pageCount {
+					@extend = "frontend.colors.commonLabelLight";
+					font-size = "22";
+					text-align = left;
+					text-scale-mode = "movie";
+				}
+				
+				.pageLabel {
+					@extend = "frontend.colors.commonLabelLight";
+					font-size = "22";
+					text-align = left;
+					text-scale-mode = "movie";
+				}
+				
+				.pageTitle {
+					@extend = "frontend.colors.commonLabelLight";
+					font-size = "34";
+					text-align = left;
+					text-scale-mode = "movie";
+				}
+
+				.navLeft {
+					.label {
+						@extend = "common.UIFontStyles.bodyText";
+						text-multiline = false;
+						text = "UIGLOB.MAINMENUPAGE.GLOBAL.BUTTONXBONE.LB";
+					}
+				}
+				
+				.navRight {
+					.label {
+						@extend = "common.UIFontStyles.bodyText";
+						text-multiline = false;
+						text = "UIGLOB.MAINMENUPAGE.GLOBAL.BUTTONXBONE.RB";
+					}
+				} 
+				
+				.grid {
+					spacing-row = "10";
+
+					#CodexButton {
+						.button {
+							.label {
+								/* @extend = "common.UIFontStyles.expandingHeaderText"; */
+								text-align = "left";
+								font-size = "20"; 
+							}
+						
+							.image {
+								/* @extend = "common.UIFontStyles.centerFitImage"; */
+								image-rendering = "smooth";
+								image-fit = "preserve-crop";
+							}						
+						}
+					}
+					#CodexButton:over { sound = "PLAY_SFX_2D_UI_ChangeSelection"; }
+					#CodexButton:focus { sound = "PLAY_SFX_2D_UI_ChangeSelection"; }
+				}
+				
+				.codexDetailsPanel
+				{
+					.verticalScrollTab{
+					spacing = "2";
+					direction = "forward";
+					orientation = "vertical";
+					align-horizontal = "left";
+					}
+					
+					.scrollDown{
+					}
+					
+					.scrollUp{
+					}
+					
+					.codexDescription {
+						@extend = "common.UIFontStyles.standardHeader";
+						text-multiline = "true";
+						font-size = "24";
+						text-html = true;
+					}
+					
+					.codexImage {
+						/* image-path = "../textures/frontend/Codex/img_lockedCodex"; */
+						image-rendering = "smooth";
+					}
+					
+					.codexTitle{
+						@extend = "common.UIFontStyles.largeHeaderColoured";
+						text-html = true;
+						text-align = left;
+					}
+				}
+				
+				.codexLockedPanel
+				{
+					.unlockedConditionsTitle {
+						@extend = "common.UIFontStyles.standardHeader";
+						text = "UIGLOB.CODEX.UNLOCKCONDITIONS";
+						text-align = "center";
+					}
+					.unlockedConditionsText {
+						text-html = true;
+						@extend = "common.UIFontStyles.standardHeaderColoured";
+						text-align = "center";
+					}
+				
+					.codexLockedTitle {
+						@extend = "common.UIFontStyles.largeHeader";
+						text = "UIGLOB.CODEX.CAMPAIGN.LOCKEDCODEXTITLE";
+						text-align = "center";
+					}
+
+					.codexLockedImage {
+						image-path = "../textures/frontend/Codex/img_lockedCodex";
+						image-rendering = "smooth";
+						align-horizontal = "center";
+						align-vertical = "center";
+					}
+				}
+			}
+		}
+	}
+}
