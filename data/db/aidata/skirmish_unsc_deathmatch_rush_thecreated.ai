@@ -307,7 +307,7 @@
 		</Building>
 		<Tech>
 			<TechToResearch>unsc_marine_upgrade1</TechToResearch>
-			<PrerequisiteSightingObjectType>unsc_veh_mongoose_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectType>unsc_inf_generic_marine</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>3</PrerequisiteSightingObjectCount>
 			<PrerequisiteObtainedObjectType>unsc_inf_generic_marine</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
@@ -354,7 +354,7 @@
 		<Building>
 			<BuildingType>unsc_bldg_turret_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteSightingObjectType>unsc_veh_mongoose_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectType>unsc_inf_generic_marine</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>5</PrerequisiteSightingObjectCount>
 		</Building>
 		<Mission>
@@ -399,7 +399,7 @@
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>unsc_veh_mongoose_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectType>unsc_inf_generic_marine</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
@@ -432,7 +432,7 @@
 		<Mission>
 			<MissionType>BaseScout</MissionType>
 			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
 		</Mission>
@@ -672,7 +672,7 @@
 		<Mission>
 			<MissionType>BaseScout</MissionType>
 			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
 		</Mission>
@@ -757,7 +757,7 @@
 			<TargetType>_Settlement</TargetType>
 			<TargetBaseType>Expansion</TargetBaseType>
 			<TargetMustBeOwnedByEnemy>true</TargetMustBeOwnedByEnemy>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<TimeUntilSquadsAreReplaced>30</TimeUntilSquadsAreReplaced>

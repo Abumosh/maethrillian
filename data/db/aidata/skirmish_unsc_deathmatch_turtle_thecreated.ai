@@ -164,11 +164,6 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 		</LeaderPower>
-		<Tech>
-			<TechToResearch>unsc_mongoose_upgrade1</TechToResearch>
-			<PrerequisiteObtainedObjectType>unsc_veh_mongoose_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Tech>
 		<Building>
 			<BuildingType>unsc_bldg_reactor_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
@@ -250,7 +245,7 @@
 			<TargetBaseType>Mini</TargetBaseType>
 			<TargetType>_Settlement</TargetType>
 			<TargetBaseType>Mini</TargetBaseType>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -281,7 +276,7 @@
 			<MissionType>Attack</MissionType>
 			<TargetType>_Infantry</TargetType>
 			<MissionID>1</MissionID>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>unsc_inf_flamemarine_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
@@ -293,7 +288,7 @@
 			<MissionType>Attack</MissionType>
 			<TargetType>_Infantry</TargetType>
 			<MissionID>1</MissionID>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>unsc_inf_serina_cryomarines_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
@@ -305,7 +300,7 @@
 			<MissionType>Attack</MissionType>
 			<TargetType>_Infantry</TargetType>
 			<MissionID>1</MissionID>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>cov_inf_bruterider_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
@@ -317,7 +312,7 @@
 			<MissionType>Attack</MissionType>
 			<TargetType>_Infantry</TargetType>
 			<MissionID>1</MissionID>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>cov_inf_generic_brutejumppack</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
@@ -329,7 +324,7 @@
 			<MissionType>Attack</MissionType>
 			<TargetType>_Infantry</TargetType>
 			<MissionID>1</MissionID>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>cov_inf_generic_arbiterenforcer</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
@@ -341,7 +336,7 @@
 			<MissionType>Attack</MissionType>
 			<TargetType>_Infantry</TargetType>
 			<MissionID>1</MissionID>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>cov_inf_lekgologoliath_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>3</PrerequisiteSightingObjectCount>
@@ -388,19 +383,19 @@
 		<Building>
 			<BuildingType>unsc_bldg_turret_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-			<PrerequisiteSightingObjectType>unsc_veh_mongoose_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectType>unsc_inf_generic_marine</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>2</PrerequisiteSightingObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>unsc_bldg_turret_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteSightingObjectType>unsc_veh_mongoose_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectType>unsc_inf_generic_marine</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>unsc_bldg_turret_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
-			<PrerequisiteSightingObjectType>unsc_veh_mongoose_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectType>unsc_inf_generic_marine</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>8</PrerequisiteSightingObjectCount>
 		</Building>
 		<Building>
@@ -615,7 +610,7 @@
 			<TargetType>_Settlement</TargetType>
 			<TargetBaseType>Expansion</TargetBaseType>
 			<TargetMustBeOwnedByEnemy>true</TargetMustBeOwnedByEnemy>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<TimeUntilSquadsAreReplaced>30</TimeUntilSquadsAreReplaced>
@@ -731,7 +726,7 @@
 		<Mission>
 			<MissionType>BaseScout</MissionType>
 			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
 		</Mission>
@@ -743,7 +738,7 @@
 		<Mission>
 			<MissionType>BaseScout</MissionType>
 			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
 		</Mission>
@@ -771,7 +766,7 @@
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<TargetMustBeOwnedByEnemy>true</TargetMustBeOwnedByEnemy>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<TimeUntilSquadsAreReplaced>30</TimeUntilSquadsAreReplaced>
@@ -948,7 +943,7 @@
 		<Mission>
 			<MissionType>BaseScout</MissionType>
 			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
 		</Mission>
