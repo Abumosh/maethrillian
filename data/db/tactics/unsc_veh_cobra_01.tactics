@@ -3,14 +3,14 @@
 	<Weapon>
 		<Name>Railgun</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>269</DamagePerSecond>
+		<DamagePerSecond>312</DamagePerSecond>
 		<WeaponType>ArmorPiercing</WeaponType>
-		<Projectile>fx_proj_cobragausscannon_01</Projectile>
-		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
+		<Projectile>fx_proj_cannon_01</Projectile>
+		<ImpactEffect size="medium">MediumBallisticImpact</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>120</MaxRange>
 		<MinRange>6</MinRange>
-		<Accuracy>0.25</Accuracy>
+		<Accuracy>0.6</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
 		<MovingMaxDeviation>5</MovingMaxDeviation>
@@ -21,7 +21,7 @@
 				<Type>Segment</Type>
 				<Length>25</Length>
 				<Width>2.5</Width>
-				<DamageRatio>75</DamageRatio>
+				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
