@@ -5,7 +5,7 @@
 		<AttackRate>0.25</AttackRate>
 		<DamagePerSecond>150</DamagePerSecond>
 		<WeaponType>ArmorPiercing</WeaponType>
-		<Projectile>fx_proj_empweapon_01</Projectile>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
 		<MaxVelocityLead>45</MaxVelocityLead>
 		<MaxRange>50</MaxRange>
@@ -20,7 +20,7 @@
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
 		<TargetPriority type="Infantry">6</TargetPriority>
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
 		<PostAttackCooldownMin>1.5</PostAttackCooldownMin>
@@ -48,8 +48,8 @@
 		<AttackRate>0.25</AttackRate>
 		<DamagePerSecond>1</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
-		<Projectile>fx_proj_energyWeb_01</Projectile>
-		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
+		<Projectile>fx_proj_gaussCannon_01</Projectile>
+		<ImpactEffect size="medium">GaussImpact</ImpactEffect>
 		<MaxVelocityLead>45</MaxVelocityLead>
 		<MaxRange>100</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -86,7 +86,9 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>Attack</Anim>
 		<Weapon>EmpSpecial</Weapon>
-		<DontLoopAttackAnim />
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+		<DontAutoRestart />
 	</Action>
 	<Action>
 		<Name>GarrisonTeleport</Name>
