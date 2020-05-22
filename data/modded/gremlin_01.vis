@@ -10,7 +10,6 @@
 				<damagefile>dlc2/pack1/units/unsc/vehicles/battle_apc/battle_apc</damagefile>
 			</asset>
 			<attach type="ModelRef" name="turret" tobone="socketbone_turret_01" frombone="GrannyRootBone_turret_01" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="turret2" tobone="socketbone_turret_01" frombone="GrannyRootBone_turret_01" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="peashooter_right" tobone="socketbone_peashooter_right_01" frombone="GrannyRootBone_peashooter_right_01" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="wheel_left_01" tobone="socketbone_wheel_01_left" frombone="GrannyRootBone_wheel_01_left" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="wheel_left_02" tobone="socketbone_wheel_02_left" frombone="GrannyRootBone_wheel_02_left" syncanims="true" disregardorient="false" removeimmediately="false" />
@@ -27,24 +26,6 @@
 			<attach type="FoliageForceFile" name="Foliage/warthog" tobone="bone_vfx_FrontRightWheel" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="FoliageForceFile" name="Foliage/warthog" tobone="bone_vfx_RearLeftWheel" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="FoliageForceFile" name="Foliage/warthog" tobone="bone_vfx_RearRightWheel" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<point pointType="Cover" bone="socketbone_gunslot_front_01" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_front_02" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_front_03" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_right_02" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_right_01" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_left_02" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_left_01" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_right_04" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_right_03" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_left_04" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_left_03" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_left_06" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_left_05" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_right_06" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_right_05" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_left_08" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_right_07" pointData="Metal" />
-			<point pointType="Cover" bone="socketbone_gunslot_left_07" pointData="Metal" />
 			<point pointType="Board" bone="bone_hijack_0" pointData="Metal" />
 		</component>
 		<anim type="DoorOpen" exitAction="Transition" tweenTime="0" tweenToAnimation="DoorOpenIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
@@ -303,35 +284,6 @@
 			</asset>
 		</anim>
 	</model>
-	<model name="Turret">
-		<component>
-			<asset type="Model">
-				<uvOffset channel="0" uOfs="0" vOfs="0" />
-				<uvOffset channel="1" uOfs="0" vOfs="0" />
-				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>units/unsc/structure/turret_emp_gun01/deployed/mesh_turret_0</file>
-			</asset>
-			<attach type="ModelRef" name="cannon" tobone="socketbone_cannon_0" frombone="GrannyRootBone_cannon_0" syncanims="true" disregardorient="false" removeimmediately="false" />
-		</component>
-		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
-			<asset type="Anim">
-				<file>animations/unsc/structure/turret_emp_gun01/deployed/idle_01_turret</file>
-				<weight>1</weight>
-			</asset>
-		</anim>
-		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
-			<asset type="Anim">
-				<file>animations/unsc/structure/turret_emp_gun01/deployed/attack_01_turret</file>
-				<weight>1</weight>
-			</asset>
-		</anim>
-		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
-			<asset type="Anim">
-				<file>animations/unsc/structure/turret_emp_gun01/deployed/idle_01_turret</file>
-				<weight>1</weight>
-			</asset>
-		</anim>
-	</model>
 	<model name="cannon">
 		<component>
 			<asset type="Model">
@@ -371,7 +323,7 @@
 			</asset>
 		</anim>
 	</model>
-	<model name="Turret2">
+	<model name="Turret">
 		<component>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
@@ -380,6 +332,7 @@
 				<file>units/unsc/structure/turret_standard_gun01/deployed/mesh_turret_0</file>
 				<damagefile>units/unsc/structure/turret_standard_gun01/deployed/turret_head</damagefile>
 			</asset>
+			<attach type="ModelRef" name="cannon" tobone="socketbone_cannon_0" frombone="GrannyRootBone_cannon_0" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</component>
 		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">

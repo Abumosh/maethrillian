@@ -42,6 +42,48 @@
 		<AvoidanceMass>Normal</AvoidanceMass>
 		<Counters>Hunters_01</Counters>
 	</Squad>
+	<Squad name="unsc_veh_gremlin_01" dbid="5446182514361578582">
+		<CombatRank>5</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_wolverine</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3022</DisplayNameID>
+		<RolloverTextID>3023</RolloverTextID>
+		<RoleTextID>505</RoleTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<SubSelectSort>1400</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>2.5</AIAttackRank>
+		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
+		<BuildPoints>26</BuildPoints>
+		<Pop Type="Unit">4</Pop>
+		<Cost ResourceType="Supplies">350</Cost>
+		<Cost ResourceType="Power">210</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_veh_gremlin_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<SquadType>BasicVehicle_Tech</SquadType>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Hunters_01</Counters>
+	</Squad>
 	<Squad name="Flood" dbid="11545679860153930939" />
 	<Squad name="FlyingFlood" dbid="16256726101795934130" />
 	<Squad name="Forerunner" dbid="12943458503600554757" />
