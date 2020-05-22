@@ -14,6 +14,7 @@
 				<damagefile>units/unsc/vehicles/wolverine01/wolverine01</damagefile>
 			</asset>
 			<attach type="ModelRef" name="Turret" tobone="socketbone_turret" frombone="GrannyRootBone_turret" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Pivot" tobone="socketbone_turret" frombone="GrannyRootBone_turret" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="wolverine01_wheel_left" tobone="socketbone_wheel_front_left" frombone="GrannyRootBone_wheel_front_left" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="wolverine01_wheel_right" tobone="socketbone_wheel_front_right" frombone="GrannyRootBone_wheel_front_right" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/Headlight" tobone="bone_vfx_LeftHeadLight" syncanims="false" disregardorient="false" removeimmediately="false" />
@@ -367,7 +368,7 @@
 				<file>units/unsc/vehicles/wolverine01/mesh_wolverine01</file>
 				<damagefile>units/unsc/vehicles/wolverine01/wolverine01</damagefile>
 			</asset>
-			<attach type="ModelRef" name="LockdownTurret" tobone="socketbone_turret" frombone="GrannyRootBone_turret" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="PivotLockDown" tobone="socketbone_turret" frombone="GrannyRootBone_turret" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="wolverine01_wheel_left" tobone="socketbone_wheel_front_left" frombone="GrannyRootBone_wheel_front_left" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="wolverine01_wheel_right" tobone="socketbone_wheel_front_right" frombone="GrannyRootBone_wheel_front_right" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/Headlight" tobone="bone_vfx_LeftHeadLight" syncanims="false" disregardorient="false" removeimmediately="false" />
@@ -698,6 +699,122 @@
 			<asset type="Anim">
 				<file>episode2/pack1/animations/unsc/vehicles/scorpion01/scorpion_transform_01_cannon</file>
 				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Pivot">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/turret_gun01/deployed/mesh_pivot_0</file>
+				<damagefile>units/covenant/structure/turret_gun01/deployed/empty</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Gun_Standard" tobone="socketbone_standard_gun_0" frombone="GrannyRootBone_standard_gun_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Gun_AI" tobone="socketbone_antiInf_gun_0" frombone="GrannyRootBone_antiInf_gun_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Gun_AV" tobone="socketbone_antiVeh_gun_0" frombone="GrannyRootBone_antiVeh_gun_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Gun_AA" tobone="socketbone_antiAir_gun_0" frombone="GrannyRootBone_antiAir_gun_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle01_pivot</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle02_pivot</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/attack01_pivot</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/wolverine01/anchor_down_01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/wolverine01/anchor_up_01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="PivotLockDown">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/turret_gun01/deployed/mesh_pivot_0</file>
+				<damagefile>units/covenant/structure/turret_gun01/deployed/empty</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Gun_AV" tobone="socketbone_antiVeh_gun_0" frombone="GrannyRootBone_antiVeh_gun_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle01_pivot</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle02_pivot</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/attack01_pivot</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/wolverine01/anchor_down_01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/wolverine01/anchor_up_01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Gun_AV">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/structure/turret_gun01/deployed/mesh_antiVeh_gun_0</file>
+				<damagefile>units/covenant/structure/turret_gun01/deployed/av_gun</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle01_gun_AV</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/idle02_gun_AV</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.133000001" end="1" name="Play_SFX_3D_BLD_BAN_TurretBarrelMove" tobone="GrannyRootBone_standard_gun_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.358999997" end="1" name="Play_SFX_3D_BLD_BAN_TurretBarrelMove" tobone="GrannyRootBone_standard_gun_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.814999998" end="1" name="Play_SFX_3D_BLD_BAN_TurretBarrelMove" tobone="GrannyRootBone_standard_gun_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/structure/turretgun01/deployed/attack01_gun_AV</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.169" end="1" name="Play_SFX_3D_WPN_BAN_TurretAntiVehicle_Fire" tobone="GrannyRootBone_antiVeh_gun_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.180000007" end="1" tobone="bone_vfx_MuzzleAntiVehGun01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.180000007" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/BanishedTurretAVGunMuzzle" tobone="bone_vfx_MuzzleAntiVehGun01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 		</anim>
 	</model>
