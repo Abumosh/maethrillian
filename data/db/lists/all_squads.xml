@@ -11,7 +11,7 @@
 		<SubSelectSort>1400</SubSelectSort>
 		<LeashDistance>0</LeashDistance>
 		<LeashDeadzone>12</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
+		<LeashRecallDelay>2510</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>2.5</AIAttackRank>
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
@@ -53,7 +53,7 @@
 		<SubSelectSort>1400</SubSelectSort>
 		<LeashDistance>0</LeashDistance>
 		<LeashDeadzone>12</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
+		<LeashRecallDelay>2520</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>2.5</AIAttackRank>
 		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
