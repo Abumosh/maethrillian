@@ -14,7 +14,7 @@
 			<ShowLimit />
 			<LeaderPower />
 			<NotAffectedByCeasefire />
-			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<ShowTargetHighlight ObjectType="Military" Relation="Enemy" />
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
 			<IconLocation>8</IconLocation>
 			<FlashUI>
@@ -38,6 +38,7 @@
 				<Data type="objecttype" name="FilterExcludeType">CantBeOvercharged</Data>
 				<Data type="bool" name="AffectsBuildingsUnderConstruction">false</Data>
 				<Data type="float" name="BuffDuration">30</Data>
+				<Data type="bool" name="AffectsSelfOnly">false</Data>
 				<Data type="bool" name="AffectsAllies">false</Data>
 				<Data type="bool" name="AffectsEnemies">true</Data>
 				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
@@ -67,7 +68,7 @@
 			<ShowLimit />
 			<LeaderPower />
 			<NotAffectedByCeasefire />
-			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<ShowTargetHighlight ObjectType="Military" Relation="Enemy" />
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
 			<IconLocation>8</IconLocation>
 			<FlashUI>
@@ -91,6 +92,7 @@
 				<Data type="objecttype" name="FilterExcludeType">CantBeOvercharged</Data>
 				<Data type="bool" name="AffectsBuildingsUnderConstruction">false</Data>
 				<Data type="float" name="BuffDuration">40</Data>
+				<Data type="bool" name="AffectsSelfOnly">false</Data>
 				<Data type="bool" name="AffectsAllies">false</Data>
 				<Data type="bool" name="AffectsEnemies">true</Data>
 				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
@@ -120,7 +122,7 @@
 			<ShowLimit />
 			<LeaderPower />
 			<NotAffectedByCeasefire />
-			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<ShowTargetHighlight ObjectType="Military" Relation="Enemy" />
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
 			<IconLocation>8</IconLocation>
 			<FlashUI>
@@ -144,6 +146,7 @@
 				<Data type="objecttype" name="FilterExcludeType">CantBeOvercharged</Data>
 				<Data type="bool" name="AffectsBuildingsUnderConstruction">false</Data>
 				<Data type="float" name="BuffDuration">45</Data>
+				<Data type="bool" name="AffectsSelfOnly">false</Data>
 				<Data type="bool" name="AffectsAllies">false</Data>
 				<Data type="bool" name="AffectsEnemies">true</Data>
 				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
