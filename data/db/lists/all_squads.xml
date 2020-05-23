@@ -19,7 +19,7 @@
 		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">350</Cost>
 		<Cost ResourceType="Power">210</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -58,10 +58,10 @@
 		<AIAttackRank>2.5</AIAttackRank>
 		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
 		<BuildPoints>26</BuildPoints>
-		<Pop Type="Unit">4</Pop>
-		<Cost ResourceType="Supplies">350</Cost>
-		<Cost ResourceType="Power">210</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">280</Cost>
+		<Cost ResourceType="Power">295</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>

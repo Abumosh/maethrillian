@@ -477,4 +477,5 @@
 	<Icon type="uniticon" name="Vehicle" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_veh_infected_ghost_01">-1</Icon>
 	<Icon type="uniticon" name="Vehicle" SizeX="8" SizeZ="8" Intensity1="1" Intensity2="2" Intensity3="2" owner="flood_veh_infected_gorgon_01">-1</Icon>
 	<Icon type="uniticon" name="Vehicle" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="unsc_veh_cobra_01">-1</Icon>
+	<Icon type="uniticon" name="Vehicle" SizeX="6" SizeZ="6" Intensity1="1" Intensity2="2" Intensity3="2" owner="unsc_veh_gremlin_01">-1</Icon>
 </FlashMovieDefinition>
