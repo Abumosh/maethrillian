@@ -38,7 +38,9 @@
 				<Data type="objecttype" name="FilterExcludeType">CantBeOvercharged</Data>
 				<Data type="bool" name="AffectsBuildingsUnderConstruction">false</Data>
 				<Data type="float" name="BuffDuration">30</Data>
+				<Data type="bool" name="AffectsAllies">false</Data>
 				<Data type="bool" name="AffectsEnemies">true</Data>
+				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
 				<Data type="float" name="TurretDamageDealtScalar">0.9f</Data>
 				<Data type="float" name="ResourceRateScalar">0.9f</Data>
 				<Data type="float" name="ResearchProductionRateScalar">0.75f</Data>
@@ -89,7 +91,9 @@
 				<Data type="objecttype" name="FilterExcludeType">CantBeOvercharged</Data>
 				<Data type="bool" name="AffectsBuildingsUnderConstruction">false</Data>
 				<Data type="float" name="BuffDuration">40</Data>
+				<Data type="bool" name="AffectsAllies">false</Data>
 				<Data type="bool" name="AffectsEnemies">true</Data>
+				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
 				<Data type="float" name="TurretDamageDealtScalar">0.85f</Data>
 				<Data type="float" name="ResourceRateScalar">0.85f</Data>
 				<Data type="float" name="ResearchProductionRateScalar">0.75f</Data>
@@ -140,7 +144,9 @@
 				<Data type="objecttype" name="FilterExcludeType">CantBeOvercharged</Data>
 				<Data type="bool" name="AffectsBuildingsUnderConstruction">false</Data>
 				<Data type="float" name="BuffDuration">45</Data>
+				<Data type="bool" name="AffectsAllies">false</Data>
 				<Data type="bool" name="AffectsEnemies">true</Data>
+				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
 				<Data type="float" name="TurretDamageDealtScalar">0.8f</Data>
 				<Data type="float" name="ResourceRateScalar">0.8f</Data>
 				<Data type="float" name="ResearchProductionRateScalar">0.7f</Data>
