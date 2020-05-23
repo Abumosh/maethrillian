@@ -26,7 +26,7 @@
 			<MinimumHealPointsToHeal>1000</MinimumHealPointsToHeal>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>Unbrk_Overcharge1</LeaderPowerType>
+			<LeaderPowerType>Sesa_Downcharge1_mp</LeaderPowerType>
 			<TargetType>_Building</TargetType>
 			<NumberOfTimesToBeUsed>5</NumberOfTimesToBeUsed>
 		</LeaderPower>
@@ -59,12 +59,12 @@
 			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>Unbrk_Overcharge2</LeaderPowerType>
+			<LeaderPowerType>Sesa_Downcharge2_mp</LeaderPowerType>
 			<TargetType>_Building</TargetType>
 			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>Unbrk_Overcharge3</LeaderPowerType>
+			<LeaderPowerType>Sesa_Downcharge3_mp</LeaderPowerType>
 			<TargetType>_Building</TargetType>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 		</LeaderPower>

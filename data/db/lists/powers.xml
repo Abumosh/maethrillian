@@ -1,5 +1,158 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="Sesa_Downcharge1_mp">
+		<Attributes>
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>BuffOverchargeAllies</AIPowerUseType>
+			<BuffName>HeavyMetal</BuffName>
+			<Cost Supplies="175" Power="125" />
+			<AutoRecharge>140000</AutoRecharge>
+			<UIRadius>9</UIRadius>
+			<Decal>AOE_Small</Decal>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>8</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="float" name="AreaRadius">8</Data>
+				<Data type="objecttype" name="FilterType">Building</Data>
+				<Data type="objecttype" name="FilterType2">TurretBuilding</Data>
+				<Data type="objecttype" name="FilterType3">_ProductionBuilding</Data>
+				<Data type="objecttype" name="FilterType4">ProductionBuildingNotBase</Data>
+				<Data type="objecttype" name="FilterType5">ResourceGenerationBuilding</Data>
+				<Data type="objecttype" name="FilterExcludeType">CantBeOvercharged</Data>
+				<Data type="bool" name="AffectsBuildingsUnderConstruction">false</Data>
+				<Data type="float" name="BuffDuration">30</Data>
+				<Data type="bool" name="AffectsEnemies">true</Data>
+				<Data type="float" name="TurretDamageDealtScalar">0.9f</Data>
+				<Data type="float" name="ResourceRateScalar">0.9f</Data>
+				<Data type="float" name="ResearchProductionRateScalar">0.75f</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="protoobject" name="BuffActivateFX">fx_OverchargeCast</Data>
+				<Data type="protoobject" name="BuffDeactivateFX">fx_OverchargeEnd</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_BUF_OverchargeCast</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Sesa_Downcharge2_mp">
+		<Attributes>
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>BuffOverchargeAllies</AIPowerUseType>
+			<BuffName>HeavyMetal</BuffName>
+			<Cost Supplies="250" Power="150" />
+			<AutoRecharge>140000</AutoRecharge>
+			<UIRadius>16</UIRadius>
+			<Decal>AOE_Medium</Decal>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>8</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="float" name="AreaRadius">15</Data>
+				<Data type="objecttype" name="FilterType">Building</Data>
+				<Data type="objecttype" name="FilterType2">TurretBuilding</Data>
+				<Data type="objecttype" name="FilterType3">_ProductionBuilding</Data>
+				<Data type="objecttype" name="FilterType4">ProductionBuildingNotBase</Data>
+				<Data type="objecttype" name="FilterType5">ResourceGenerationBuilding</Data>
+				<Data type="objecttype" name="FilterExcludeType">CantBeOvercharged</Data>
+				<Data type="bool" name="AffectsBuildingsUnderConstruction">false</Data>
+				<Data type="float" name="BuffDuration">40</Data>
+				<Data type="bool" name="AffectsEnemies">true</Data>
+				<Data type="float" name="TurretDamageDealtScalar">0.85f</Data>
+				<Data type="float" name="ResourceRateScalar">0.85f</Data>
+				<Data type="float" name="ResearchProductionRateScalar">0.75f</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="protoobject" name="BuffActivateFX">fx_OverchargeCast</Data>
+				<Data type="protoobject" name="BuffDeactivateFX">fx_OverchargeEnd</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_BUF_OverchargeCast</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Sesa_Downcharge3_mp">
+		<Attributes>
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>BuffOverchargeAllies</AIPowerUseType>
+			<BuffName>HeavyMetal</BuffName>
+			<Cost Supplies="300" Power="200" />
+			<AutoRecharge>140000</AutoRecharge>
+			<UIRadius>17</UIRadius>
+			<Decal>AOE_Medium</Decal>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>8</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="float" name="AreaRadius">16</Data>
+				<Data type="objecttype" name="FilterType">Building</Data>
+				<Data type="objecttype" name="FilterType2">TurretBuilding</Data>
+				<Data type="objecttype" name="FilterType3">_ProductionBuilding</Data>
+				<Data type="objecttype" name="FilterType4">ProductionBuildingNotBase</Data>
+				<Data type="objecttype" name="FilterType5">ResourceGenerationBuilding</Data>
+				<Data type="objecttype" name="FilterExcludeType">CantBeOvercharged</Data>
+				<Data type="bool" name="AffectsBuildingsUnderConstruction">false</Data>
+				<Data type="float" name="BuffDuration">45</Data>
+				<Data type="bool" name="AffectsEnemies">true</Data>
+				<Data type="float" name="TurretDamageDealtScalar">0.8f</Data>
+				<Data type="float" name="ResourceRateScalar">0.8f</Data>
+				<Data type="float" name="ResearchProductionRateScalar">0.7f</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="protoobject" name="BuffActivateFX">fx_OverchargeCast</Data>
+				<Data type="protoobject" name="BuffDeactivateFX">fx_OverchargeEnd</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_BUF_OverchargeCast</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="UnscControllerSentinel">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>

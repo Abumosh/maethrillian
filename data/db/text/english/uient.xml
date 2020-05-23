@@ -5169,4 +5169,19 @@ Light armor</str>
 	<str id="UIENT.unsc_veh_gremlin_01.RadialEdge.Name">GREMLIN</str>
 	<str id="UIENT.unsc_veh_gremlin_01.RadialEdge.Role">EMP WEAPON</str>
 	<str id="UIENT.unsc_veh_gremlin_01.RadialEdge.ShortDescr">The Gremlin is a lightly armored vehicle that fires an EMP gun. It is good against enemy ground vehicles but less effective against infantry.</str>
+	<str id="UIENT.Sesa_Downcharge1_mp.RADIALCENTER.NAME">BREAKDOWN I</str>
+	<str id="UIENT.Sesa_Downcharge1_mp.RADIALEDGE.NAME">BREAKDOWN I</str>
+	<str id="UIENT.Sesa_Downcharge1_mp.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.Sesa_Downcharge1_mp.RADIALEDGE.SALESPITCH">Briefly decreases the output of all targeted structures - production rate, resource rate and damage.</str>
+	<str id="UIENT.Sesa_Downcharge1_mp.RADIALEDGE.SHORTDESCR">Activate to temporarily decrease the output of all targeted structures - production rate, resource rate and damage.</str>
+	<str id="UIENT.Sesa_Downcharge1_mp.RADIALEDGE.UPGRADEPITCH">Increases the targeted area.</str>
+	<str id="UIENT.Sesa_Downcharge2_mp.RADIALCENTER.NAME">BREAKDOWN II</str>
+	<str id="UIENT.Sesa_Downcharge2_mp.RADIALEDGE.NAME">BREAKDOWN II</str>
+	<str id="UIENT.Sesa_Downcharge2_mp.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.Sesa_Downcharge2_mp.RADIALEDGE.SHORTDESCR">Activate to temporarily decrease the output of all targeted structures - production rate, resource rate and damage.</str>
+	<str id="UIENT.Sesa_Downcharge2_mp.RADIALEDGE.UPGRADEPITCH">Further decreases the targeted area.</str>
+	<str id="UIENT.Sesa_Downcharge3_mp.RADIALCENTER.NAME">BREAKDOWN III</str>
+	<str id="UIENT.Sesa_Downcharge3_mp.RADIALEDGE.NAME">BREAKDOWN III</str>
+	<str id="UIENT.Sesa_Downcharge3_mp.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.Sesa_Downcharge3_mp.RADIALEDGE.SHORTDESCR">Activate to temporarily decrease the output of all targeted structures - production rate, resource rate and damage.</str>
 </string_table>

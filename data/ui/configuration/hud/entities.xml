@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <group>
 	<entry>
+		<key>Sesa_Downcharge1_mp</key>
+		<value>..\textures\hud\icons\entityIcons\powers\Unbrk_Overcharge_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\CovBuffRage1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>Sesa_Downcharge2_mp</key>
+		<value>..\textures\hud\icons\entityIcons\powers\Unbrk_Overcharge_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\CovBuffRage1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>Sesa_Downcharge3_mp</key>
+		<value>..\textures\hud\icons\entityIcons\powers\Unbrk_Overcharge_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\CovBuffRage1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
 		<key>unsc_veh_gremlin_01</key>
 		<value>..\textures\hud\icons\entityIcons\unsc_veh_gremlin_01</value>
 		<value>..\textures\hud\icons\entityIcons\cov_air_blisterback_01_ability_icon</value>

@@ -9326,9 +9326,9 @@
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CovScoutMine1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="CovScoutMine1">CovScoutMine2</Effect>
-			<Effect type="UnlockableGodPower" tier="1">Unbrk_Overcharge1_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_Overcharge1_mp">Unbrk_Overcharge2_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_Overcharge2_mp">Unbrk_Overcharge3_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="1">Sesa_Downcharge1_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="Sesa_Downcharge1_mp">Sesa_Downcharge2_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="Sesa_Downcharge2_mp">Sesa_Downcharge3_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="2">CovExtraction1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="CovExtraction1">CovExtraction2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscArkDefense1</Effect>
