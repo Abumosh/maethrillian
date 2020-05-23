@@ -875,7 +875,7 @@
 			<MissionType>Reserves</MissionType>
 			<SquadTypeToSend>pow_for_andersultimate_01</SquadTypeToSend>
 			<AlternateSquadTypeToSend>for_veh_scorpion_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_cobra_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_gremlin_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<PrerequisiteTech>unsc_tech_reinforcements_2</PrerequisiteTech>
 		</Mission>
@@ -894,7 +894,7 @@
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
 			<SquadTypeToSend>pow_for_andersultimate_01</SquadTypeToSend>
 			<AlternateSquadTypeToSend>for_veh_scorpion_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_cobra_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_gremlin_01</AlternateSquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
 			<SquadTypeToSend>unsc_veh_warthogspartan_01</SquadTypeToSend>
