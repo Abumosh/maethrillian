@@ -18202,7 +18202,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="250" Power="250" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -18320,7 +18320,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="350" Power="350" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<IconLocation>0</IconLocation>
@@ -18459,7 +18459,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="450" Power="450" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<IconLocation>0</IconLocation>
@@ -22423,8 +22423,8 @@
 	</Power>
 	<Power name="LekgoloPincerBeam1">
 		<Attributes>
-			<Cost Supplies="280" Power="175" />
-			<AutoRecharge>145000</AutoRecharge>
+			<Cost Supplies="300" Power="200" />
+			<AutoRecharge>180000</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>OrbitalWithDirection</AIPowerUseType>
 			<UIRadius>23.5</UIRadius>
@@ -22465,7 +22465,7 @@
 	<Power name="LekgoloPincerBeam2">
 		<Attributes>
 			<Cost Supplies="400" Power="300" />
-			<AutoRecharge>145000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>OrbitalWithDirection</AIPowerUseType>
 			<UIRadius>28.5</UIRadius>
@@ -22505,8 +22505,8 @@
 	</Power>
 	<Power name="LekgoloPincerBeam3">
 		<Attributes>
-			<Cost Supplies="500" Power="415" />
-			<AutoRecharge>145000</AutoRecharge>
+			<Cost Supplies="500" Power="400" />
+			<AutoRecharge>180000</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>OrbitalWithDirection</AIPowerUseType>
 			<UIRadius>33</UIRadius>
@@ -22599,7 +22599,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">25</Pop>
-			<Cost Supplies="1380" Power="960" />
+			<Cost Supplies="1460" Power="1010" />
 			<AutoRecharge>360000</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -22650,11 +22650,11 @@
 					</Drop>
 					<Drop>
 						<ProtoSquadID>cov_veh_locust_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>cov_veh_gorgon_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>

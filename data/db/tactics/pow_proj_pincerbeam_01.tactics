@@ -18,8 +18,8 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>13</Radius>
-				<DamageRatio>5</DamageRatio>
+				<Radius>14</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
