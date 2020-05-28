@@ -1013,7 +1013,7 @@ Increases damage and range</str>
 	<str id="UIENT.cov_suicideGrunt_upgrade1.RadialCenter.Name">KNOCK KNOCK!</str>
 	<str id="UIENT.cov_suicideGrunt_upgrade1.RadialEdge.Name">KNOCK KNOCK!</str>
 	<str id="UIENT.cov_suicideGrunt_upgrade1.RadialEdge.Role">UNIT UPGRADE</str>
-	<str id="UIENT.cov_suicideGrunt_upgrade1.RadialEdge.ShortDescr">More damage to vehicles</str>
+	<str id="UIENT.cov_suicideGrunt_upgrade1.RadialEdge.ShortDescr">More damage and stuns vehicles for 3 seconds</str>
 	<str id="UIENT.cov_suicideGrunt_upgrade2.RadialCenter.Name">NEW "RECRUITS"</str>
 	<str id="UIENT.cov_suicideGrunt_upgrade2.RadialEdge.Name">NEW "RECRUITS"</str>
 	<str id="UIENT.cov_suicideGrunt_upgrade2.RadialEdge.Role">ARMY UPGRADE</str>
