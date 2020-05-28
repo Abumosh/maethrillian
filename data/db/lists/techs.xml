@@ -3244,6 +3244,9 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_02" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_turret_unbreakablemegaturretupgrade_1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
@@ -7133,20 +7136,19 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">Unbrk_OrbitalEye1_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="1">Unbrk_UltraMines1_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="1">Unbrk_Overcharge1_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_Overcharge1_mp">Unbrk_Overcharge2_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_Overcharge2_mp">Unbrk_Overcharge3_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="2">Unbrk_HealingArea1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="Unbrk_HealingArea1">Unbrk_HealingArea2</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="Unbrk_HealingArea2">Unbrk_HealingArea3</Effect>
-			<Effect type="UnlockableGodPower" tier="2">Unbrk_FullRecycle</Effect>
+			<Effect type="UnlockableGodPower" tier="2">Unbrk_OrbitalEye1_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Unbrk_ScatterBeam1_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam1_mp">Unbrk_ScatterBeam2_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam2_mp">Unbrk_ScatterBeam3_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="3">Unbrk_UltraMines1_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_UltraMines1_mp">Unbrk_UltraMines2_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="4">Unbrk_WraithAPC</Effect>
+			<Effect type="UnlockableGodPower" tier="3">Unbrk_WraithAPC</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovTeleport1</Effect>
 			<Effect type="UnlockableGodPower" tier="4">Unbrk_MegaTurretDrop</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Unbrk_InvulnerableStr</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Unbrk_LichAssault</Effect>
@@ -7154,6 +7156,9 @@
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_03" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_turret_unbreakablemegaturretupgrade_1" relativity="Absolute">
@@ -7277,7 +7282,38 @@
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.05" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.0476190476" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_01_mp</Target>
+				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_02_mp</Target>
+				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam1_mp" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam2_mp" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam3_mp" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_leader_scatterbeam_buff_03" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">cov_leader_scatterbeam_buff_02</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">800</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>100</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.04545454545" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_01_mp</Target>
 				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_02_mp</Target>
 				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_03_mp</Target>

@@ -10925,7 +10925,7 @@
 			<PowerType>AircraftPatrol</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
-			<Cost Supplies="600" Power="200" />
+			<Cost Supplies="700" Power="300" />
 			<AutoRecharge>240000</AutoRecharge>
 			<UIRadius>35</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -10960,7 +10960,7 @@
 				<Data type="int" name="NumAircraftPerWave">7</Data>
 				<Data type="float" name="SpawnRadius">35</Data>
 				<Data type="float" name="SpokeRotationOffset">10</Data>
-				<Data type="float" name="PatrolDuration">45</Data>
+				<Data type="float" name="PatrolDuration">40</Data>
 				<Data type="protosquad" name="AircraftSquad">cov_air_banshee_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_VEH_FORE_SentinelGroupFlyIn</Data>
 			</DataLevel>
@@ -33267,7 +33267,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Pop type="Unit">14</Pop>
-			<Cost Supplies="700" Power="465" />
+			<Cost Supplies="730" Power="475" />
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
@@ -34783,7 +34783,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="600" Power="600" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>360000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -36100,6 +36100,9 @@
 			<DataLevel level="2">
 				<Data type="int" name="NumAircraftPerWave">9</Data>
 			</DataLevel>
+			<DataLevel level="3">
+				<Data type="int" name="NumAircraftPerWave">10</Data>
+			</DataLevel>
 		</Attributes>
 	</Power>
 	<Power name="Unbrk_ScatterBeam2_mp">
@@ -36157,6 +36160,9 @@
 			<DataLevel level="2">
 				<Data type="int" name="NumAircraftPerWave">9</Data>
 			</DataLevel>
+			<DataLevel level="3">
+				<Data type="int" name="NumAircraftPerWave">10</Data>
+			</DataLevel>
 		</Attributes>
 	</Power>
 	<Power name="Unbrk_ScatterBeam3_mp">
@@ -36213,6 +36219,9 @@
 			</DataLevel>
 			<DataLevel level="2">
 				<Data type="int" name="NumAircraftPerWave">9</Data>
+			</DataLevel>
+			<DataLevel level="3">
+				<Data type="int" name="NumAircraftPerWave">10</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -36584,15 +36593,6 @@
 				<Data type="bool" name="CanDropOnSquads">false</Data>
 				<Data type="bool" name="NoDropNearBase">true</Data>
 				<Data type="unitdrops" name="unitdrops">
-					<Drop>
-						<ProtoObjectID>fx_mine_unbrk_mine_01_mp</ProtoObjectID>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>fx_mine_unbrk_mine_01_mp</ProtoObjectID>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>fx_mine_unbrk_mine_01_mp</ProtoObjectID>
-					</Drop>
 					<Drop>
 						<ProtoObjectID>fx_mine_unbrk_mine_01_mp</ProtoObjectID>
 					</Drop>
