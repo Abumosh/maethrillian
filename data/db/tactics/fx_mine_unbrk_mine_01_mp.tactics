@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>PlasmaMine</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>3000</DamagePerSecond>
+		<DamagePerSecond>1200</DamagePerSecond>
 		<UseDPSasDPA />
 		<ImpactEffect size="Medium">PlasmaMineExplosion01</ImpactEffect>
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="2" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4" />
@@ -37,7 +37,7 @@
 	<Weapon>
 		<Name>PlasmaMineReduced</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>1000</DamagePerSecond>
+		<DamagePerSecond>400</DamagePerSecond>
 		<UseDPSasDPA />
 		<ImpactEffect size="Medium">PlasmaMineExplosion01</ImpactEffect>
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="2" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4" />

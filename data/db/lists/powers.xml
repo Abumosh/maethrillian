@@ -35217,9 +35217,8 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>BunkerDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Pop type="Unit">7</Pop>
-			<Cost Supplies="500" Power="75" />
-			<AutoRecharge>180000</AutoRecharge>
+			<Cost Supplies="500" Power="150" />
+			<AutoRecharge>210000</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -36551,7 +36550,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
-			<Cost Supplies="300" Power="300" />
+			<Cost Supplies="150" Power="150" />
 			<AutoRecharge>120000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
@@ -36586,9 +36585,9 @@
 				<Data type="bool" name="AreaDropMode">true</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
 				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
-				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
-				<Data type="float" name="AreaDropExpandingStep">22</Data>
-				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">23</Data>
+				<Data type="float" name="AreaDropInitialCircularDistanceOffset">-10</Data>
+				<Data type="float" name="AreaDropExpandingStep">10</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">20</Data>
 				<Data type="bool" name="OneProjectilePerUnit">true</Data>
 				<Data type="bool" name="CanDropOnSquads">false</Data>
 				<Data type="bool" name="NoDropNearBase">true</Data>
