@@ -2,10 +2,66 @@
 <Powers>
 	<Power name="Forerunner_DisruptionBomb">
 		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<SoundName>TurretDrop</SoundName>
+			<Cost Supplies="250" Power="500" />
+			<ProcPowerName>Forerunner_PowerCancel</ProcPowerName>
+			<AutoRecharge>240000</AutoRecharge>
+			<UIRadius>48</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>1</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>true</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">false</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">false</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">0.5</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.200000003</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="sound" name="FiredSound" />
+				<Data type="protoobject" name="Projectile">pow_gp_EP2EMPTowerDrop_01</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>for_disuptionbomb_01</ProtoSquadID>
+						<ProjectileOverride>pow_gp_EP2EMPTowerDrop_01</ProjectileOverride>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Forerunner_PowerCancel">
+		<Attributes>
+			<NotAffectedByCeasefire />
 			<PowerType>Disruption</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
-			<Cost Supplies="250" Power="500" />
-			<AutoRecharge>240000</AutoRecharge>
+			<Cost Supplies="0" />
+			<AutoRecharge>0</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<DisplayNameID>5008</DisplayNameID>
 			<RolloverTextID>5009</RolloverTextID>
@@ -19,10 +75,10 @@
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
-				<Data type="float" name="DisruptionTimeSec">60</Data>
-				<Data type="float" name="DisruptionRadius">45</Data>
+				<Data type="float" name="DisruptionTimeSec">1</Data>
+				<Data type="float" name="DisruptionRadius">30</Data>
 				<Data type="float" name="PulseSpacing">1</Data>
-				<Data type="float" name="DisruptionStartTime">1</Data>
+				<Data type="float" name="DisruptionStartTime">0</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -34,7 +90,7 @@
 				<Data type="float" name="BomberBombHeight">30</Data>
 				<Data type="float" name="BomberSpeed">155</Data>
 				<Data type="float" name="BomberFlyOutTime">2.20000005</Data>
-				<Data type="protoobject" name="DisruptionObject">for_disuptionbomb_01</Data>
+				<Data type="protoobject" name="DisruptionObject">fx_creepDisruptionPower</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
