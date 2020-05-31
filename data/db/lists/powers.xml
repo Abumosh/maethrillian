@@ -75,10 +75,10 @@
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
-				<Data type="float" name="DisruptionTimeSec">1</Data>
-				<Data type="float" name="DisruptionRadius">30</Data>
+				<Data type="float" name="DisruptionTimeSec">65</Data>
+				<Data type="float" name="DisruptionRadius">45</Data>
 				<Data type="float" name="PulseSpacing">1</Data>
-				<Data type="float" name="DisruptionStartTime">0</Data>
+				<Data type="float" name="DisruptionStartTime">1</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />

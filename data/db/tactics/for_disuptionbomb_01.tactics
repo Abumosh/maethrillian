@@ -9,7 +9,6 @@
 		<ImpactEffect size="Small">LargeEMPImpact</ImpactEffect>
 		<MaxVelocityLead>999</MaxVelocityLead>
 		<MaxRange>45</MaxRange>
-		<Buff BuffType="Forerunner_PowerCancel">60</Buff>
 		<HardPoint>PlasmaCannonLeftTurret</HardPoint>
 	</Weapon>
 	<Action>
