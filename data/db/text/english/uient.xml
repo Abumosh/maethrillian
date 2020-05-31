@@ -1604,19 +1604,22 @@ Can be used by all players.</str>
 	<str id="UIENT.CovSpiritGunship1.RadialCenter.Name">WARCHIEF ASSAULT I</str>
 	<str id="UIENT.CovSpiritGunship1.RadialEdge.Name">WARCHIEF ASSAULT I</str>
 	<str id="UIENT.COVSPIRITGUNSHIP1.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.COVSPIRITGUNSHIP1.RADIALEDGE.SALESPITCH">Deploys two Suicide Grunts.</str>
+	<str id="UIENT.COVSPIRITGUNSHIP1.RADIALEDGE.SALESPITCH">Deploys a Warchief Marauder and a Brute assualt squad.</str>
 	<str id="UIENT.CovSpiritGunship1.RadialEdge.ShortDescr">Activate to get a drop-off of: 
-2 Suicide Grunts.</str>
-	<str id="UIENT.COVSPIRITGUNSHIP1.RADIALEDGE.UPGRADEPITCH">Upgrades and vets up the Grunts.
-Adds one Jump Pack Brute squad.</str>
+1 Warchief Maruader.
+2 Brute Squads.
+2 Jump Pack Brute.</str>
+	<str id="UIENT.COVSPIRITGUNSHIP1.RADIALEDGE.UPGRADEPITCH">Adds one more Warchief Maruader and
+one more Jump Pack Brute.</str>
 	<str id="UIENT.CovSpiritGunship2.RadialCenter.Name">WARCHIEF ASSAULT II</str>
 	<str id="UIENT.CovSpiritGunship2.RadialEdge.Name">WARCHIEF ASSAULT II</str>
 	<str id="UIENT.COVSPIRITGUNSHIP2.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.CovSpiritGunship2.RadialEdge.ShortDescr">Activate to get a drop-off of:
-2 upgraded veteran Suicide Grunts.
-1 veteran Jump Pack Brute.</str>
-	<str id="UIENT.COVSPIRITGUNSHIP2.RADIALEDGE.UPGRADEPITCH">Adds one more Jump Pack Brute.
-Upgrades and fully vets up all squads.</str>
+2 Warchief Maruader.
+2 Brute Squads.
+3 Jump Pack Brute.</str>
+	<str id="UIENT.COVSPIRITGUNSHIP2.RADIALEDGE.UPGRADEPITCH">Adds one more Warchief Maruader and
+one more Jump Pack Brute.</str>
 	<str id="UIENT.CovSpiritGunship3.RadialCenter.Name">SPIRIT ASSAULT III</str>
 	<str id="UIENT.CovSpiritGunship3.RadialEdge.Name">SPIRIT ASSAULT III</str>
 	<str id="UIENT.COVSPIRITGUNSHIP3.RADIALEDGE.ROLE">ACTIVE POWER</str>
