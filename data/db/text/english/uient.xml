@@ -5188,6 +5188,7 @@ Light armor</str>
 	<str id="UIENT.Forerunner_DisruptionBomb.RADIALEDGE.NAME">DISRUPTION BOMB</str>
 	<str id="UIENT.Forerunner_DisruptionBomb.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.Forerunner_DisruptionBomb.RADIALEDGE.SHORTDESCR">Disrupts existing Leader Powers and prevents new Leader Powers from being initiated in a small area for 1 minute.</str>
+	<str id="UIENT.Forerunner_DisruptionBomb.RADIALEDGE.SALESPITCH">Disrupts existing Leader Powers and prevents new Leader Powers from being initiated in a small area for 1 minute.</str>
 	<str id="UIENT.for_disuptionbomb_01.RADIALCENTER.NAME">DISRUPTION EMITTER</str>
 	<str id="UIENT.for_disuptionbomb_01.RADIALEDGE.NAME">DISRUPTION EMITTER</str>
 	<str id="UIENT.for_disuptionbomb_01.RADIALEDGE.ROLE">DISRUPTION EMITTER</str>
