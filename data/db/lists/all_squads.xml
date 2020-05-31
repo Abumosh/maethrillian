@@ -9752,7 +9752,7 @@
 		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">30</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
