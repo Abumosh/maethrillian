@@ -582,6 +582,11 @@
 			<value>3</value>
 		</entry>
 		<entry>
+			<key>cov_veh_prowler_rally_01_mp</key>
+			<value>banished_unit_vehicle</value>
+			<value>3</value>
+		</entry>
+		<entry>
 			<key>cov_veh_wraith_01</key>
 			<value>banished_unit_vehicle</value>
 			<value>3</value>
