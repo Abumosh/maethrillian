@@ -2,10 +2,50 @@
 <Powers>
 	<Power name="Forerunner_DisruptionBomb">
 		<Attributes>
+			<NotAffectedByCeasefire />
+			<PowerType>Disruption</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<Cost Supplies="0" />
+			<AutoRecharge>0</AutoRecharge>
+			<UIRadius>30</UIRadius>
+			<DisplayNameID>5008</DisplayNameID>
+			<RolloverTextID>5009</RolloverTextID>
+			<PrereqTextID>5009</PrereqTextID>
+			<ShowLimit />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>1</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<ProcOnLeaderPowerCast />
+			<ProcPowerName>Forerunner_PowerCancel</ProcPowerName>
+			<DataLevel level="0">
+				<Data type="float" name="DisruptionTimeSec">65</Data>
+				<Data type="float" name="DisruptionRadius">45</Data>
+				<Data type="float" name="PulseSpacing">1</Data>
+				<Data type="float" name="DisruptionStartTime">1</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="PulseSound" />
+				<Data type="protoobject" name="Bomber">fx_creepDisruptionPowerNullBomber</Data>
+				<Data type="float" name="BomberBombTime">1.20000005</Data>
+				<Data type="float" name="BomberFlyinDistance">210</Data>
+				<Data type="float" name="BomberFlyinHeight">90</Data>
+				<Data type="float" name="BomberBombHeight">30</Data>
+				<Data type="float" name="BomberSpeed">155</Data>
+				<Data type="float" name="BomberFlyOutTime">2.20000005</Data>
+				<Data type="protoobject" name="DisruptionObject">fx_creepDisruptionPower</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Forerunner_PowerCancel">
+		<Attributes>
 			<PowerType>UnitDrop</PowerType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="250" Power="500" />
-			<ProcPowerName>Forerunner_PowerCancel</ProcPowerName>
 			<AutoRecharge>240000</AutoRecharge>
 			<UIRadius>48</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -52,45 +92,6 @@
 						<PlayTrainAnim>true</PlayTrainAnim>
 					</Drop>
 				</Data>
-			</DataLevel>
-		</Attributes>
-	</Power>
-	<Power name="Forerunner_PowerCancel">
-		<Attributes>
-			<NotAffectedByCeasefire />
-			<PowerType>Disruption</PowerType>
-			<AIPowerUseType>Orbital</AIPowerUseType>
-			<Cost Supplies="0" />
-			<AutoRecharge>0</AutoRecharge>
-			<UIRadius>30</UIRadius>
-			<DisplayNameID>5008</DisplayNameID>
-			<RolloverTextID>5009</RolloverTextID>
-			<PrereqTextID>5009</PrereqTextID>
-			<ShowLimit />
-			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
-			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
-			<IconLocation>1</IconLocation>
-			<FlashUI>
-				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
-				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
-			</FlashUI>
-			<DataLevel level="0">
-				<Data type="float" name="DisruptionTimeSec">65</Data>
-				<Data type="float" name="DisruptionRadius">45</Data>
-				<Data type="float" name="PulseSpacing">1</Data>
-				<Data type="float" name="DisruptionStartTime">1</Data>
-				<Data type="sound" name="HudUpSound" />
-				<Data type="sound" name="HudAbortSound" />
-				<Data type="sound" name="HudFireSound" />
-				<Data type="sound" name="PulseSound" />
-				<Data type="protoobject" name="Bomber">fx_creepDisruptionPowerNullBomber</Data>
-				<Data type="float" name="BomberBombTime">1.20000005</Data>
-				<Data type="float" name="BomberFlyinDistance">210</Data>
-				<Data type="float" name="BomberFlyinHeight">90</Data>
-				<Data type="float" name="BomberBombHeight">30</Data>
-				<Data type="float" name="BomberSpeed">155</Data>
-				<Data type="float" name="BomberFlyOutTime">2.20000005</Data>
-				<Data type="protoobject" name="DisruptionObject">fx_creepDisruptionPower</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
