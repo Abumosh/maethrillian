@@ -5184,4 +5184,11 @@ Light armor</str>
 	<str id="UIENT.Sesa_Downcharge3_mp.RADIALEDGE.NAME">BREAKDOWN III</str>
 	<str id="UIENT.Sesa_Downcharge3_mp.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.Sesa_Downcharge3_mp.RADIALEDGE.SHORTDESCR">Activate to temporarily decrease the output of all targeted structures - production rate, resource rate and damage.</str>
+	<str id="UIENT.Forerunner_DisruptionBomb.RADIALCENTER.NAME">DISRUPTION BOMB</str>
+	<str id="UIENT.Forerunner_DisruptionBomb.RADIALEDGE.NAME">DISRUPTION BOMB</str>
+	<str id="UIENT.Forerunner_DisruptionBomb.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.Forerunner_DisruptionBomb.RADIALEDGE.SHORTDESCR">Disrupts existing Leader Powers and prevents new Leader Powers from being initiated in a small area for 1 minute.</str>
+	<str id="UIENT.for_disuptionbomb_01.RADIALCENTER.NAME">DISRUPTION EMITTER</str>
+	<str id="UIENT.for_disuptionbomb_01.RADIALEDGE.NAME">DISRUPTION EMITTER</str>
+	<str id="UIENT.for_disuptionbomb_01.RADIALEDGE.ROLE">DISRUPTION EMITTER</str>
 </string_table>

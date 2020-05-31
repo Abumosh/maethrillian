@@ -5390,8 +5390,7 @@
 			<Effect type="UnlockableGodPower" tier="1">UnscHoloDecoy1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHoloDecoy1">UnscHoloDecoy2</Effect>
 			<Effect type="UnlockableGodPower" tier="1">LekgoloWormBuff1</Effect>
-			<Effect type="UnlockableGodPower" tier="2">Jerome_LowPopInspire1</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="Jerome_LowPopInspire1">Jerome_LowPopInspire2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">Forerunner_DisruptionBomb</Effect>
 			<Effect type="UnlockableGodPower" tier="2">LekgoloSwarmHeal1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="LekgoloSwarmHeal1">LekgoloSwarmHeal2</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="LekgoloSwarmHeal2">LekgoloSwarmHeal3</Effect>

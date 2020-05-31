@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Squads>
+	<Squad name="for_disuptionbomb_01" dbid="15734856543115354099">
+		<CombatRank>5</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23632</DisplayNameID>
+		<RolloverTextID>23633</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<SubSelectSort>5075</SubSelectSort>
+		<LeashDistance>12.3000002</LeashDistance>
+		<LeashDeadzone>3.07500005</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<BuildPoints>1</BuildPoints>
+		<Pop Type="Unit">0</Pop>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">0</Cost>
+		<HPBar offset="2,12,0">COV_Bldg_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+		</Selection>
+		<TurnRadius min="2" max="5" />
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">for_disuptionbomb_01</Unit>
+		</Units>
+	</Squad>
 	<Squad name="unsc_veh_cobra_01" dbid="5446182514361578582">
 		<CombatRank>5</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_wolverine</PortraitIcon>

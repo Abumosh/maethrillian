@@ -2,6 +2,11 @@
 <group>
 	<group name="entities">
 		<entry>
+			<key>for_disuptionbomb_01</key>
+			<value>EP2_DistruptionTower</value>
+			<value>1</value>
+		</entry>
+		<entry>
 			<key>unsc_veh_gremlin_01</key>
 			<value>unsc_unit_vehicle</value>
 			<value>3</value>
