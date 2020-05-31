@@ -71,7 +71,15 @@
 			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>Jerome_LowPopInspire1</LeaderPowerType>
+			<LeaderPowerType>Forerunner_DisruptionBomb</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>CovCleansingBeamPath2_MP</LeaderPowerType>
@@ -111,9 +119,6 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<NumberOfTimesToBeUsed>50</NumberOfTimesToBeUsed>
 			<MinimumHealPointsToHeal>16000</MinimumHealPointsToHeal>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>Jerome_LowPopInspire2</LeaderPowerType>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscArkDefense1</LeaderPowerType>

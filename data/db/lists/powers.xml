@@ -22,7 +22,7 @@
 			<ProcOnLeaderPowerCast />
 			<ProcPowerName>Forerunner_PowerCancel</ProcPowerName>
 			<DataLevel level="0">
-				<Data type="float" name="DisruptionTimeSec">65</Data>
+				<Data type="float" name="DisruptionTimeSec">62</Data>
 				<Data type="float" name="DisruptionRadius">45</Data>
 				<Data type="float" name="PulseSpacing">1</Data>
 				<Data type="float" name="DisruptionStartTime">1</Data>
