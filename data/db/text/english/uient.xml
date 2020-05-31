@@ -1601,16 +1601,16 @@ Explodes on contact, also provides vision within a small area.</str>
 Can be used by all players.</str>
 	<str id="UIENT.COVSLIPSTREAMRIFT.RADIALEDGE.SHORTDESCR">Activate to place two connected teleporation nodes. 
 Can be used by all players.</str>
-	<str id="UIENT.CovSpiritGunship1.RadialCenter.Name">SPIRIT ASSAULT I</str>
-	<str id="UIENT.CovSpiritGunship1.RadialEdge.Name">SPIRIT ASSAULT I</str>
+	<str id="UIENT.CovSpiritGunship1.RadialCenter.Name">WARCHIEF ASSAULT I</str>
+	<str id="UIENT.CovSpiritGunship1.RadialEdge.Name">WARCHIEF ASSAULT I</str>
 	<str id="UIENT.COVSPIRITGUNSHIP1.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.COVSPIRITGUNSHIP1.RADIALEDGE.SALESPITCH">Deploys two Suicide Grunts.</str>
 	<str id="UIENT.CovSpiritGunship1.RadialEdge.ShortDescr">Activate to get a drop-off of: 
 2 Suicide Grunts.</str>
 	<str id="UIENT.COVSPIRITGUNSHIP1.RADIALEDGE.UPGRADEPITCH">Upgrades and vets up the Grunts.
 Adds one Jump Pack Brute squad.</str>
-	<str id="UIENT.CovSpiritGunship2.RadialCenter.Name">SPIRIT ASSAULT II</str>
-	<str id="UIENT.CovSpiritGunship2.RadialEdge.Name">SPIRIT ASSAULT II</str>
+	<str id="UIENT.CovSpiritGunship2.RadialCenter.Name">WARCHIEF ASSAULT II</str>
+	<str id="UIENT.CovSpiritGunship2.RadialEdge.Name">WARCHIEF ASSAULT II</str>
 	<str id="UIENT.COVSPIRITGUNSHIP2.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.CovSpiritGunship2.RadialEdge.ShortDescr">Activate to get a drop-off of:
 2 upgraded veteran Suicide Grunts.

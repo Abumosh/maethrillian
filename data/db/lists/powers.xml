@@ -33082,8 +33082,8 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
-			<Pop type="Unit">10</Pop>
-			<Cost Supplies="530" Power="200" />
+			<Pop type="Unit">14</Pop>
+			<Cost Supplies="730" Power="230" />
 			<AutoRecharge>20000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
@@ -33119,6 +33119,9 @@
 			<DataLevel level="0">
 				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
+						<ProtoSquadID>cov_veh_prowler_rally_01_mp</ProtoSquadID>
+					</Drop>
+					<Drop>
 						<ProtoSquadID>cov_inf_generic_grunt</ProtoSquadID>
 						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
@@ -33140,8 +33143,8 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
-			<Pop type="Unit">15</Pop>
-			<Cost Supplies="630" Power="250" />
+			<Pop type="Unit">21</Pop>
+			<Cost Supplies="1130" Power="310" />
 			<AutoRecharge>20000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
@@ -33177,8 +33180,10 @@
 			<DataLevel level="0">
 				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
-						<ProtoSquadID>cov_inf_generic_grunt</ProtoSquadID>
-						<VeterancyLevel>1</VeterancyLevel>
+						<ProtoSquadID>cov_veh_prowler_rally_01_mp</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_veh_prowler_rally_01_mp</ProtoSquadID>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>cov_inf_generic_grunt</ProtoSquadID>

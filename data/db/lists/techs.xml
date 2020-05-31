@@ -5635,7 +5635,6 @@
 			<Effect type="UnlockableGodPower" tier="1">CovLucrativeExpansion1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="CovLucrativeExpansion1">CovLucrativeExpansion2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">CovPlasmaMines1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="CovPlasmaMines1_MP">CovPlasmaMines2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2">CovDyingBreath</Effect>
 			<Effect type="UnlockableGodPower" tier="3">CovStructuralShielding1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovStructuralShielding1">CovStructuralShielding2</Effect>
@@ -5644,7 +5643,7 @@
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovSpiritGunship1">CovSpiritGunship2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovCleansingBeamPath1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovTeleport1</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovInvulnerability</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovPlanetaryCleansing</Effect>
