@@ -12414,7 +12414,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">4</Pop>
-			<Cost Supplies="170" Power="250" />
+			<Cost Supplies="190" Power="270" HQLevel="2"/>
 			<AutoRecharge>150000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
@@ -12453,7 +12453,7 @@
 					<Drop>
 						<ProtoSquadID>unsc_inf_cyclops_01</ProtoSquadID>
 						<ProjectileOverride>unsc_air_odstPodcyclops_01</ProjectileOverride>
-						<VeterancyLevel>1</VeterancyLevel>
+						<VeterancyLevel>2</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -13266,7 +13266,7 @@
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Cost Supplies="860" Power="100" />
+			<Cost Supplies="825" Power="160" />
 			<Pop type="Unit">12</Pop>
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>4</UIRadius>
@@ -14228,7 +14228,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">27</Pop>
-			<Cost Supplies="2475" Power="520" />
+			<Cost Supplies="2310" Power="550" />
 			<AutoRecharge>360000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -25869,7 +25869,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">23</Pop>
-			<Cost Supplies="1390" Power="520" />
+			<Cost Supplies="1430" Power="580" />
 			<AutoRecharge>360000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
@@ -38023,7 +38023,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">10</Pop>
-			<Cost Supplies="770" Power="150" />
+			<Cost Supplies="750" Power="170" />
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
@@ -38071,7 +38071,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">20</Pop>
-			<Cost Supplies="1540" Power="200" />
+			<Cost Supplies="1500" Power="240" />
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
