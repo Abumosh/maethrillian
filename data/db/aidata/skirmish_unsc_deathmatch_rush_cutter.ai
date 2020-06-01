@@ -535,7 +535,6 @@
 			<PrerequisiteObtainedObjectType>unsc_bldg_command_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
 		</Building>
-
 		<Mission>
 			<MissionID>4</MissionID>
 			<MissionType>Attack</MissionType>
