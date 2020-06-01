@@ -2210,13 +2210,13 @@ Increases damage of friendly air and vehicles.</str>
 	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALCENTER.NAME">VEHICLE SYMBIOTES I</str>
 	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.NAME">VEHICLE SYMBIOTES I</str>
 	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.SALESPITCH">Affected vehicles and buildings gain increased range and armor.</str>
-	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.SHORTDESCR">Activate to permanently increase the range and armor of all vehicles and buildings in the AoE. Does not stack.</str>
-	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.UPGRADEPITCH">Further increases the AoE, allowing you to affect more vehicles and buildings.</str>
+	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.SALESPITCH">Affected vehicles gain increased range and armor.</str>
+	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.SHORTDESCR">Activate to permanently increase the range and armor of all vehicles in the AoE. Does not stack.</str>
+	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.UPGRADEPITCH">Further increases the AoE, and allows you to affect Lekgolo type units (except Heroes).</str>
 	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALCENTER.NAME">VEHICLE SYMBIOTES II</str>
 	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.NAME">VEHICLE SYMBIOTES II</str>
 	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.SHORTDESCR">Activate to permanently increase the range and armor of all vehicles and buildings in the AoE. Does not stack.</str>
+	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.SHORTDESCR">Activate to permanently increase the range and armor of all vehicles and Lekgolo units in the AoE. Does not stack.</str>
 	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.UPGRADEPITCH">Further increases the AoE, allowing you to affect more vehicles and buildings.</str>
 	<str id="UIENT.LEKGOLOWORMBUFF3.RADIALCENTER.NAME">VEHICLE SYMBIOTES III</str>
 	<str id="UIENT.LEKGOLOWORMBUFF3.RADIALEDGE.NAME">VEHICLE SYMBIOTES III</str>
