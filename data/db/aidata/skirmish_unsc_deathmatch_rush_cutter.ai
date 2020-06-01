@@ -15,6 +15,96 @@
 			<LeaderPowerType>UnscRaidTech1</LeaderPowerType>
 		</LeaderPower>
 		<LeaderPower>
+			<LeaderPowerType>UnscLotusMines1_MP</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<AssignedMissionID>6</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscOdstDrop</LeaderPowerType>
+			<TargetType>MiniHQBuilding</TargetType>
+			<NumberOfTimesToBeUsed>3</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscOdstDrop</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<AssignedMissionID>6</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscBombingRun1</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<AssignedMissionID>6</AssignedMissionID>
+			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscOrbitalBattleGroup</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<AssignedMissionID>6</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscPelicanGunship</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<AssignedMissionID>6</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscBombingRun2</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<AssignedMissionID>6</AssignedMissionID>
+			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscTurretDrop1</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<AssignedMissionID>6</AssignedMissionID>
+			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscBombingRun3</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<AssignedMissionID>6</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
 			<LeaderPowerType>UnscMedDrones1_MP</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>1</AssignedMissionID>
@@ -24,83 +114,9 @@
 			<MinimumHealPointsToHeal>18000</MinimumHealPointsToHeal>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>UnscBombingRun1</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscBombingRun2</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscBombingRun3</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscPelicanGunship</LeaderPowerType>
-			<TargetType>_Enemy</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscOrbitalBattleGroup</LeaderPowerType>
-			<TargetType>_Enemy</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscMedDrones2_MP</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
-			<MinimumHealPointsToHeal>18000</MinimumHealPointsToHeal>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscMedDrones3_MP</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumHealPointsToHeal>20000</MinimumHealPointsToHeal>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscOdstDrop</LeaderPowerType>
-			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-		</LeaderPower>
-		<LeaderPower>
 			<LeaderPowerType>UnscRaidTech2</LeaderPowerType>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscTurretDrop1</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
+			<PrerequisiteSightingObjectType>Jerome</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscTurretDrop2</LeaderPowerType>
@@ -108,98 +124,106 @@
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<AssignedMissionID>6</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscCyclopsDrop</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<AssignedMissionID>6</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CutterBattleHardened1</LeaderPowerType>
+			<LeaderPowerType>UnscMedDrones2_MP</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<AssignedMissionID>6</AssignedMissionID>
+			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
+			<MinimumHealPointsToHeal>18000</MinimumHealPointsToHeal>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CutterBattleHardened2</LeaderPowerType>
+			<LeaderPowerType>UnscMedDrones3_MP</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<AssignedMissionID>6</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumHealPointsToHeal>20000</MinimumHealPointsToHeal>
 		</LeaderPower>
+		<Building>
+			<BuildingType>unsc_bldg_supplypad_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+		</Building>
+		<Building>
+			<BuildingType>unsc_bldg_supplypad_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+		</Building>
+		<Building>
+			<BuildingType>unsc_bldg_supplypad_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+		</Building>
 		<Mission>
-			<MissionType>Forage</MissionType>
+			<MissionType>BaseScout</MissionType>
+			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
 			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-		</Mission>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-		</Mission>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-		</Mission>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<DontTakeSquadsFromThisMission>false</DontTakeSquadsFromThisMission>
 		</Mission>
 		<Building>
-			<BuildingType>unsc_bldg_barracks_01</BuildingType>
+			<BuildingType>unsc_bldg_reactor_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+		</Building>
+		<Building>
+			<BuildingType>unsc_bldg_reactor_02</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
 		</Building>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_flameMarine_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
 		</Mission>
 		<Building>
-			<BuildingType>unsc_bldg_supplypad_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<BuildingType>unsc_bldg_minibase1sock_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_reactor_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>unsc_bldg_fieldArmory_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
 		</Building>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_flameMarine_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-			<PrerequisiteObtainedObjectType>unsc_bldg_supplypad_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Mission>
+		<Building>
+			<BuildingType>unsc_bldg_minibase1sock_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_fieldArmory_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Building>
 		<Building>
 			<BuildingType>unsc_bldg_supplypad_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
 		</Building>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_flameMarine_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-			<PrerequisiteObtainedObjectType>unsc_bldg_supplypad_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Mission>
 		<Building>
-			<BuildingType>unsc_bldg_reactor_01</BuildingType>
+			<BuildingType>unsc_bldg_barracks_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
 		</Building>
 		<Mission>
@@ -207,13 +231,13 @@
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
 			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>true</ReturnToRallyPoint>
 			<PrerequisiteObtainedObjectType>unsc_bldg_supplypad_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
+			<DontTakeSquadsFromThisMission>false</DontTakeSquadsFromThisMission>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
 		<Mission>
@@ -227,6 +251,49 @@
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
 		</Mission>
 		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>unsc_inf_sniper_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteObtainedObjectType>unsc_bldg_barracks_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Mission>
+		<Tech>
+			<TechToResearch>unsc_spartan_upgrade1_laser</TechToResearch>
+			<PrerequisiteObtainedObjectType>unsc_inf_spartan_mpjerome_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Mission>
+			<MissionType>Attack</MissionType>
+			<TargetType>MiniHQBuilding</TargetType>
+			<FocusFireOnTarget>true</FocusFireOnTarget>
+			<MissionID>1</MissionID>
+			<SquadTypeToSend>unsc_inf_flameMarine_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>3</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>13</NumberOfSquadsToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>6</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>14</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<TargetClosestObjectsToRandomEnemyFirst>false</TargetClosestObjectsToRandomEnemyFirst>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<StreamReplaceSquads>true</StreamReplaceSquads>
+			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
+			<PrerequisiteObtainedObjectType>unsc_bldg_reactor_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Mission>
+		<Building>
+			<BuildingType>unsc_bldg_reactor_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+		</Building>
+		<Building>
+			<BuildingType>unsc_bldg_reactor_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+		</Building>
+		<Mission>
 			<MissionType>Attack</MissionType>
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Expansion</TargetBaseType>
@@ -237,7 +304,7 @@
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Start</TargetBaseType>
 			<FocusFireOnTarget>true</FocusFireOnTarget>
-			<MissionID>1</MissionID>
+			<MissionID>2</MissionID>
 			<SquadTypeToSend>unsc_inf_flameMarine_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>6</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>13</NumberOfSquadsToSend>
@@ -253,156 +320,26 @@
 			<PrerequisiteObtainedObjectType>unsc_bldg_reactor_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Mission>
+		<Tech>
+			<TechToResearch>unsc_marine_upgrade1</TechToResearch>
+			<PrerequisiteObtainedObjectType>unsc_inf_generic_marine</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
+		</Tech>
 		<Building>
-			<BuildingType>unsc_bldg_reactor_02</BuildingType>
+			<BuildingType>unsc_bldg_command_03</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_supplypad_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteLeaderPower>UnscMedDrones1_MP</PrerequisiteLeaderPower>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_supplypad_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_03</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Tech>
-			<TechToResearch>unsc_marine_upgrade1</TechToResearch>
-			<PrerequisiteSightingObjectType>unsc_veh_mongoose_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
-			<PrerequisiteObtainedObjectType>unsc_inf_generic_marine</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>unsc_marine_upgrade1</TechToResearch>
-			<PrerequisiteSightingObjectType>cov_veh_brutechopper_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
-			<PrerequisiteObtainedObjectType>unsc_inf_generic_marine</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>unsc_marine_upgrade1</TechToResearch>
-			<PrerequisiteSightingObjectType>cov_veh_skitterer_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>9</PrerequisiteSightingObjectCount>
-			<PrerequisiteObtainedObjectType>unsc_inf_generic_marine</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>unsc_marine_upgrade1</TechToResearch>
-			<PrerequisiteSightingObjectType>cov_veh_ghost_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
-			<PrerequisiteObtainedObjectType>unsc_inf_generic_marine</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Building>
-			<BuildingType>unsc_bldg_turret_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteSightingObjectType>cov_veh_ghost_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_turret_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteSightingObjectType>cov_veh_brutechopper_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_turret_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteSightingObjectType>cov_veh_skitterer_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>9</PrerequisiteSightingObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_turret_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteSightingObjectType>unsc_veh_mongoose_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
-		</Building>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_veh_wolverine_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>unsc_air_destroyer_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>unsc_air_destroyer_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_cyclops_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>cov_veh_scarab_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_air_vulture_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>cov_veh_scarab_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>unsc_veh_mongoose_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>cov_veh_brutechopper_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>cov_veh_skitterer_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>9</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>cov_veh_ghost_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>BaseScout</MissionType>
-			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
-		</Mission>
-		<Building>
-			<BuildingType>unsc_bldg_command_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>unsc_bldg_reactor_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Tech>
+			<TechToResearch>unsc_spartan_upgrade2_laser</TechToResearch>
+			<PrerequisiteObtainedObjectType>unsc_inf_spartan_mpjerome_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Building>
+			<BuildingType>unsc_bldg_supplypad_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>4</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_command_03</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Mission>
@@ -432,65 +369,69 @@
 			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
 		</Mission>
 		<Building>
+			<BuildingType>unsc_bldg_command_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_supplypad_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
 			<BuildingType>unsc_bldg_supplypad_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>5</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_reactor_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_command_03</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_reactor_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_vehicledepot_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_03</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>unsc_bldg_command_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>unsc_bldg_airpad_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_03</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>unsc_bldg_command_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>unsc_bldg_supplypad_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_command_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>unsc_bldg_command_02</BuildingType>
 			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_03</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>unsc_bldg_command_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
-			<BuildingType>unsc_bldg_fieldArmory_01</BuildingType>
+			<BuildingType>unsc_bldg_barracks_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_supplypad_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>6</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_reactor_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_supplypad_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>6</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_reactor_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Building>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>unsc_air_nightingale_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>unsc_inf_sniper_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>_Infantry</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Tech>
+			<TechToResearch>unsc_tech_global_infantry_01</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Infantry</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>unsc_inf_cyclops_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>_Vehicle</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>3</PrerequisiteSightingObjectCount>
+		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
 			<SquadTypeToSend>unsc_veh_wolverine_01</SquadTypeToSend>
@@ -498,73 +439,10 @@
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
 			<PrerequisiteSightingObjectType>_Air</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_veh_wolverine_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>_Air</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>10</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_cyclops_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>_Vehicle</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>8</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_cyclops_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>7</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>_Vehicle</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>12</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_sniper_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>cov_inf_hunter_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_sniper_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>cov_inf_hunter_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_sniper_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>unsc_inf_cyclops_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>5</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_sniper_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>unsc_inf_cyclops_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>8</PrerequisiteSightingObjectCount>
-		</Mission>
-		<Mission>
-			<MissionID>2</MissionID>
+			<MissionID>3</MissionID>
 			<MissionType>Attack</MissionType>
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Expansion</TargetBaseType>
@@ -573,9 +451,15 @@
 			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Start</TargetBaseType>
-			<SquadTypeToSend>unsc_veh_warthog_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>5</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>10</NumberOfSquadsToSend>
+			<SquadTypeToSend>unsc_inf_sniper_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
+			<SquadTypeToSend>unsc_inf_cyclops_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>4</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<SquadTypeToSend>unsc_air_nightingale_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
@@ -589,116 +473,6 @@
 			<StreamReplaceSquads>true</StreamReplaceSquads>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
-		<Building>
-			<BuildingType>unsc_bldg_turret_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>4</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_siegegun_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_watchtower_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Tech>
-			<TechToResearch>unsc_tech_global_vehicle_01</TechToResearch>
-			<PrerequisiteObtainedObjectType>_Vehicle</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>unsc_tech_global_vehicle_02</TechToResearch>
-			<PrerequisiteObtainedObjectType>_Vehicle</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>unsc_spartan_upgrade1_laser</TechToResearch>
-			<PrerequisiteObtainedObjectType>unsc_inf_spartan_mpjerome_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>unsc_tech_reinforcements_1</TechToResearch>
-			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>10</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>unsc_spartan_upgrade2_laser</TechToResearch>
-			<PrerequisiteObtainedObjectType>unsc_inf_spartan_mpjerome_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Mission>
-			<MissionType>BaseScout</MissionType>
-			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
-		</Mission>
-		<Building>
-			<BuildingType>unsc_bldg_command_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_reactor_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_reactor_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_reactor_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_vehicledepot_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_airpad_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_command_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_vehicledepot_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_supplypad_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>7</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_turret_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>10</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_siegegun_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_watchtower_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_command_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Building>
 		<Mission>
 			<MissionType>Scout</MissionType>
 			<TargetType>_Settlement</TargetType>
@@ -720,7 +494,7 @@
 			<TargetType>_Settlement</TargetType>
 			<TargetBaseType>Expansion</TargetBaseType>
 			<TargetMustBeOwnedByEnemy>true</TargetMustBeOwnedByEnemy>
-			<SquadTypeToSend>unsc_veh_mongoose_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<TimeUntilSquadsAreReplaced>30</TimeUntilSquadsAreReplaced>
@@ -734,11 +508,36 @@
 		<Building>
 			<BuildingType>unsc_bldg_command_04</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_vehicledepot_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>unsc_bldg_reactor_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
+		<Building>
+			<BuildingType>unsc_bldg_reactor_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_command_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>unsc_bldg_reactor_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_command_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>unsc_bldg_vehicledepot_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_command_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>unsc_bldg_supplypad_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>7</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_command_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
+		</Building>
+
 		<Mission>
-			<MissionID>3</MissionID>
+			<MissionID>4</MissionID>
 			<MissionType>Attack</MissionType>
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Expansion</TargetBaseType>
@@ -747,6 +546,12 @@
 			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Start</TargetBaseType>
+			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>5</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>10</NumberOfSquadsToSend>
+			<SquadTypeToSend>unsc_inf_cyclops_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>4</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<SquadTypeToSend>unsc_veh_warthog_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>6</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
@@ -770,19 +575,19 @@
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
 		<Tech>
-			<TechToResearch>unsc_warthog_upgrade3</TechToResearch>
-			<PrerequisiteObtainedObjectType>unsc_veh_warthog_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>unsc_scorpion_upgrade2</TechToResearch>
-			<PrerequisiteObtainedObjectType>unsc_veh_scorpion_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
 			<TechToResearch>unsc_cyclops_upgrade1</TechToResearch>
 			<PrerequisiteObtainedObjectType>unsc_inf_cyclops_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>unsc_air_vulture_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+		</Mission>
+		<Tech>
+			<TechToResearch>unsc_tech_global_infantry_02</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Infantry</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
 			<TechToResearch>unsc_sniper_upgrade1</TechToResearch>
@@ -791,13 +596,13 @@
 		</Tech>
 		<Tech>
 			<TechToResearch>unsc_tech_reinforcements_2</TechToResearch>
-			<PrerequisiteTech>unsc_warthog_upgrade3</PrerequisiteTech>
+			<PrerequisiteTech>unsc_sniper_upgrade1</PrerequisiteTech>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>10</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>unsc_tech_global_vehicle_03</TechToResearch>
-			<PrerequisiteObtainedObjectType>_Vehicle</PrerequisiteObtainedObjectType>
+			<TechToResearch>unsc_tech_global_infantry_03</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Infantry</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
@@ -836,9 +641,8 @@
 		</Tech>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_air_destroyer_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_air_vulture_01</SquadTypeToSend>
 			<AlternateSquadTypeToSend>unsc_veh_scorpion_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_air_vulture_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<PrerequisiteTech>unsc_tech_reinforcements_2</PrerequisiteTech>
 		</Mission>
@@ -851,13 +655,12 @@
 			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Start</TargetBaseType>
-			<MissionID>4</MissionID>
+			<MissionID>5</MissionID>
 			<SquadTypeToSend>unsc_air_nightingale_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>5</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
-			<SquadTypeToSend>unsc_air_destroyer_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_air_vulture_01</SquadTypeToSend>
 			<AlternateSquadTypeToSend>unsc_veh_scorpion_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_air_vulture_01</AlternateSquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
 			<SquadTypeToSend>unsc_inf_spartan_mpjerome_01</SquadTypeToSend>
@@ -876,5 +679,40 @@
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>10</PrerequisiteObtainedObjectCount>
 		</Tech>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>unsc_air_vulture_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+		</Mission>
+		<Mission>
+			<MissionType>Attack</MissionType>
+			<TargetType>_Base</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
+			<TargetType>_Base</TargetType>
+			<TargetBaseType>Start</TargetBaseType>
+			<MissionID>6</MissionID>
+			<SquadTypeToSend>unsc_air_hornet_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<SquadTypeToSend>unsc_air_vulture_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>4</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>7</NumberOfSquadsToSend>
+			<SquadTypeToSend>unsc_air_nightingale_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<SquadTypeToSend>unsc_inf_spartan_mpjerome_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>2</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
+			<StreamReplaceSquads>true</StreamReplaceSquads>
+			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
+			<PrerequisiteObtainedObjectType>unsc_air_destroyer_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Mission>
 	</Table>
 </Tables>
