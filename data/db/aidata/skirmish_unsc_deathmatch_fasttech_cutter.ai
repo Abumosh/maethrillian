@@ -282,6 +282,8 @@
 		<Building>
 			<BuildingType>unsc_bldg_fieldArmory_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_supplypad_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Mission>
 			<MissionType>Forage</MissionType>

@@ -172,15 +172,11 @@
 		</LeaderPower>
 		<Building>
 			<BuildingType>unsc_bldg_supplypad_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
 		</Building>
 		<Building>
 			<BuildingType>unsc_bldg_supplypad_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-		</Building>
-		<Building>
-			<BuildingType>unsc_bldg_supplypad_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
 		</Building>
 		<Mission>
 			<MissionType>BaseScout</MissionType>
@@ -195,6 +191,10 @@
 		</Building>
 		<Building>
 			<BuildingType>unsc_bldg_reactor_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+		</Building>
+		<Building>
+			<BuildingType>unsc_bldg_supplypad_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
 		</Building>
 		<Mission>
@@ -214,6 +214,8 @@
 		<Building>
 			<BuildingType>unsc_bldg_fieldArmory_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_supplypad_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Mission>
 			<MissionType>Forage</MissionType>
