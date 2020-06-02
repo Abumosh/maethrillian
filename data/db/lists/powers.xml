@@ -12203,7 +12203,7 @@
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
-			<Cost Supplies="900" Power="600" />
+			<Cost Supplies="800" Power="600" />
 			<AutoRecharge>300000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
@@ -12233,7 +12233,7 @@
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_invulnerability</Data>
-				<Data type="float" name="DamageMitigationScalar">0.3</Data>
+				<Data type="float" name="DamageMitigationScalar">0.25</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -13185,7 +13185,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">24</Pop>
-			<Cost Supplies="1530" Power="310" />
+			<Cost Supplies="1420" Power="420" HQLevel="3" />
 			<AutoRecharge>360000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
@@ -13266,7 +13266,7 @@
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Cost Supplies="825" Power="160" />
+			<Cost Supplies="825" Power="160" HQLevel="2"/>
 			<Pop type="Unit">12</Pop>
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>4</UIRadius>
@@ -14228,7 +14228,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">27</Pop>
-			<Cost Supplies="2310" Power="550" />
+			<Cost Supplies="2310" Power="550" HQLevel="3" />
 			<AutoRecharge>360000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -21150,7 +21150,7 @@
 		<Attributes>
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<BuffName>Invulnerability</BuffName>
+			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="500" Power="200" />
 			<AutoRecharge>240000</AutoRecharge>
 			<UIRadius>4</UIRadius>
@@ -21182,6 +21182,7 @@
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_invulnerability</Data>
+				<Data type="float" name="DamageMitigationScalar">0.5</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -21193,8 +21194,8 @@
 		<Attributes>
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<BuffName>Invulnerability</BuffName>
-			<Cost Supplies="700" Power="300" />
+			<BuffName>HeavyMetal</BuffName>
+			<Cost Supplies="600" Power="300" />
 			<AutoRecharge>240000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
@@ -21221,10 +21222,11 @@
 				<Data type="bool" name="AffectsAllByFilterType">true</Data>
 				<Data type="objecttype" name="FilterType">Mech</Data>
 				<Data type="float" name="BuffDuration">10</Data>
-				<Data type="float" name="SlowModifier">1.5</Data>
+				<Data type="float" name="SlowModifier">1.6</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_invulnerability</Data>
+				<Data type="float" name="DamageMitigationScalar">0.35</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -22599,7 +22601,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">25</Pop>
-			<Cost Supplies="1460" Power="1010" />
+			<Cost Supplies="1460" Power="1010" HQLevel="3" />
 			<AutoRecharge>360000</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -22666,7 +22668,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>WallDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
-			<Cost Supplies="0" Power="0" />
+			<Cost Supplies="150" Power="50" />
 			<AutoRecharge>90000</AutoRecharge>
 			<UIRadius>3</UIRadius>
 			<Decal>Drop</Decal>
@@ -25868,7 +25870,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">23</Pop>
-			<Cost Supplies="1430" Power="580" />
+			<Cost Supplies="1430" Power="580" HQLevel="3"/>
 			<AutoRecharge>360000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
@@ -38022,7 +38024,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">10</Pop>
-			<Cost Supplies="750" Power="170" />
+			<Cost Supplies="750" Power="170" HQLevel="2"/>
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
@@ -38060,6 +38062,7 @@
 					</Drop>
 					<Drop>
 						<ProtoSquadID>unsc_veh_warthog_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -38070,7 +38073,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">20</Pop>
-			<Cost Supplies="1500" Power="240" />
+			<Cost Supplies="1500" Power="240" HQLevel="2"/>
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>

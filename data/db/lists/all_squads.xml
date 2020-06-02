@@ -2707,6 +2707,9 @@
 		<HealValue>1.75</HealValue>
 	</Squad>
 	<Squad name="cov_veh_prowler_rally_01_mp" dbid="10777214392984915205">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
 		<CombatRank>5</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_fox</PortraitIcon>
 		<MinimapScale>1</MinimapScale>

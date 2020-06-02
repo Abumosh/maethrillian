@@ -2111,14 +2111,14 @@ Increases damage of friendly air and vehicles.</str>
 	<str id="UIENT.JOHNSONMECHBUFF.RADIALCENTER.NAME">MECH OVERCHARGE I</str>
 	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.NAME">MECH OVERCHARGE I</str>
 	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.SALESPITCH">For a short time, all mechs you control become invulnerable and receive a speed boost.</str>
-	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.SHORTDESCR">Activate to make all mechs temporarily invulnerable and receive a speed boost.</str>
-	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.UPGRADEPITCH">Increases the duration of the power and speed boost.</str>
+	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.SALESPITCH">For a short time, all mechs you control receive an armor buff and a speed boost.</str>
+	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.SHORTDESCR">Activate to give all mechs a 50% armor buff and a 50% speed boost for 7 seconds.</str>
+	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.UPGRADEPITCH">Increases the duration of the power, armor buff, and speed boost.</str>
 	<str id="UIENT.JOHNSONMECHBUFF2.RADIALCENTER.NAME">MECH OVERCHARGE II</str>
 	<str id="UIENT.JOHNSONMECHBUFF2.RADIALEDGE.NAME">MECH OVERCHARGE II</str>
 	<str id="UIENT.JOHNSONMECHBUFF2.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.JOHNSONMECHBUFF2.RADIALEDGE.SALESPITCH">For a short time, all mechs you control become invulnerable and receive a speed boost.</str>
-	<str id="UIENT.JOHNSONMECHBUFF2.RADIALEDGE.SHORTDESCR">Activate to make all mechs temporarily invulnerable and receive a speed boost.</str>
+	<str id="UIENT.JOHNSONMECHBUFF2.RADIALEDGE.SALESPITCH">For a short time, all mechs you control receive an armor buff and a speed boost.</str>
+	<str id="UIENT.JOHNSONMECHBUFF2.RADIALEDGE.SHORTDESCR">Activate to give all mechs a 65% armor buff and a 60% speed boost for 10 seconds.</str>
 	<str id="UIENT.Kill.RadialCenter.Name">RECYCLE</str>
 	<str id="UIENT.Kill.RadialEdge.Name">RECYCLE</str>
 	<str id="UIENT.KILL.RADIALEDGE.ROLE" />
@@ -2191,11 +2191,13 @@ Increases damage of friendly air and vehicles.</str>
 	<str id="UIENT.LEKGOLOSWARMHEAL3_SP.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.LEKGOLOSWARMHEAL3_SP.RADIALEDGE.SHORTDESCR">Activate to call in Engineers to heal and repair units for a duration.</str>
 	<str id="UIENT.LEKGOLOSWARMHEAL3_SP.RADIALEDGE.UPGRADEPITCH">Adds another Engineer and further increases their duration and target area.</str>
-	<str id="UIENT.LEKGOLOWALLS1.RADIALCENTER.NAME">LIVING BARRIER I</str>
-	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.NAME">LIVING BARRIER I</str>
+	<str id="UIENT.LEKGOLOWALLS1.RADIALCENTER.NAME">LIVING BARRIER</str>
+	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.NAME">LIVING BARRIER</str>
 	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.SALESPITCH">Drops a wall of Lekgolo to halt ground troop movement.</str>
-	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.SHORTDESCR">Activate to drop a wall of Lekgolo to halt ground troop movement.</str>
+	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.SALESPITCH">Drops a wall of Lekgolo to halt ground troop movement that buffs Lekgolo units and debuffs enemies.</str>
+	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.SHORTDESCR">Activate to drop a wall of Lekgolo to halt ground troop movement.
+Buffs Lekgolo unit armor and damage by 10%.
+Debuffs enemy unit armor by 10% and slows by 20%.</str>
 	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.UPGRADEPITCH">Increases length, strength and duration.</str>
 	<str id="UIENT.LEKGOLOWALLS2.RADIALCENTER.NAME">LIVING BARRIER II</str>
 	<str id="UIENT.LEKGOLOWALLS2.RADIALEDGE.NAME">LIVING BARRIER II</str>
@@ -2211,12 +2213,12 @@ Increases damage of friendly air and vehicles.</str>
 	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.NAME">VEHICLE SYMBIOTES I</str>
 	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.SALESPITCH">Affected vehicles gain increased range and armor.</str>
-	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.SHORTDESCR">Activate to permanently increase the range and armor of all vehicles in the AoE. Does not stack.</str>
+	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.SHORTDESCR">Activate to permanently increase the range (20%) and armor (10%) of all vehicles in the AoE. Does not stack.</str>
 	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.UPGRADEPITCH">Further increases the AoE, and allows you to affect Lekgolo type units (except Heroes).</str>
 	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALCENTER.NAME">VEHICLE SYMBIOTES II</str>
 	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.NAME">VEHICLE SYMBIOTES II</str>
 	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.SHORTDESCR">Activate to permanently increase the range and armor of all vehicles and Lekgolo units in the AoE. Does not stack.</str>
+	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.SHORTDESCR">Activate to permanently increase the range (20%) and armor (10%) of all vehicles and Lekgolo units in the AoE. Does not stack.</str>
 	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.UPGRADEPITCH">Further increases the AoE, allowing you to affect more vehicles and buildings.</str>
 	<str id="UIENT.LEKGOLOWORMBUFF3.RADIALCENTER.NAME">VEHICLE SYMBIOTES III</str>
 	<str id="UIENT.LEKGOLOWORMBUFF3.RADIALEDGE.NAME">VEHICLE SYMBIOTES III</str>
