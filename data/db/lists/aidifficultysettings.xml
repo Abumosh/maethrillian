@@ -349,7 +349,7 @@
 			<DataPoint Input="0" Output="0" />
 			<DataPoint Input="0.340000004" Output="0" />
 			<DataPoint Input="0.670000017" Output="1" />
-			<DataPoint Input="1" Output="0" />
+			<DataPoint Input="1" Output="1" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffUseTurtleStrategies" InputLabel="Difficulty" OutputLabel="Bool" Comment="Should the AI use Turtle strategies">

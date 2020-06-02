@@ -24,11 +24,13 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<AssignedMissionID>6</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>5</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscOdstDrop</LeaderPowerType>
-			<TargetType>MiniHQBuilding</TargetType>
+			<TargetType>_Minibase</TargetType>
 			<NumberOfTimesToBeUsed>3</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>5</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscOdstDrop</LeaderPowerType>
@@ -40,6 +42,7 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<AssignedMissionID>6</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscBombingRun1</LeaderPowerType>
@@ -51,6 +54,7 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<AssignedMissionID>6</AssignedMissionID>
 			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscOrbitalBattleGroup</LeaderPowerType>
@@ -62,6 +66,7 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<AssignedMissionID>6</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscPelicanGunship</LeaderPowerType>
@@ -73,6 +78,7 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<AssignedMissionID>6</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>40</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscBombingRun2</LeaderPowerType>
@@ -83,6 +89,7 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<AssignedMissionID>6</AssignedMissionID>
 			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscTurretDrop1</LeaderPowerType>
@@ -94,6 +101,7 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<AssignedMissionID>6</AssignedMissionID>
 			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscBombingRun3</LeaderPowerType>
@@ -103,6 +111,7 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<AssignedMissionID>6</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscMedDrones1_MP</LeaderPowerType>
@@ -127,6 +136,7 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<AssignedMissionID>6</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscCyclopsDrop</LeaderPowerType>
@@ -138,6 +148,7 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<AssignedMissionID>6</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscMedDrones2_MP</LeaderPowerType>
@@ -195,7 +206,7 @@
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
 		</Mission>
 		<Building>
-			<BuildingType>unsc_bldg_minibase1sock_01</BuildingType>
+			<BuildingType>_Minibase</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>unsc_bldg_reactor_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
@@ -213,7 +224,7 @@
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
 		</Mission>
 		<Building>
-			<BuildingType>unsc_bldg_minibase1sock_01</BuildingType>
+			<BuildingType>_Minibase</BuildingType>
 			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>unsc_bldg_fieldArmory_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
@@ -225,6 +236,8 @@
 		<Building>
 			<BuildingType>unsc_bldg_barracks_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_reactor_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Mission>
 			<MissionType>Defend</MissionType>
@@ -267,7 +280,7 @@
 		</Tech>
 		<Mission>
 			<MissionType>Attack</MissionType>
-			<TargetType>MiniHQBuilding</TargetType>
+			<TargetType>_Minibase</TargetType>
 			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<MissionID>1</MissionID>
 			<SquadTypeToSend>unsc_inf_flameMarine_01</SquadTypeToSend>
