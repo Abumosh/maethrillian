@@ -305,6 +305,18 @@
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
 		</Building>
 		<Building>
+			<BuildingType>unsc_bldg_command_03</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_reactor_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>unsc_bldg_supplypad_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>unsc_bldg_command_03</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
 			<BuildingType>unsc_bldg_reactor_02</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
 		</Building>
