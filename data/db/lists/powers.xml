@@ -10611,8 +10611,8 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">7</Pop>
-			<Cost Supplies="600" Power="60" />
-			<AutoRecharge>165000</AutoRecharge>
+			<Cost Supplies="530" Power="160" />
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>23</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -10665,8 +10665,8 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">16</Pop>
-			<Cost Supplies="1600" Power="170" />
-			<AutoRecharge>165000</AutoRecharge>
+			<Cost Supplies="1430" Power="290" />
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -31726,8 +31726,8 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">24</Pop>
-			<Cost Supplies="1690" Power="380" />
-			<AutoRecharge>330000</AutoRecharge>
+			<Cost Supplies="1660" Power="470" />
+			<AutoRecharge>360000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
