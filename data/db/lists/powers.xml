@@ -33085,7 +33085,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Pop type="Unit">14</Pop>
 			<Cost Supplies="730" Power="230" />
-			<AutoRecharge>20000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -33146,7 +33146,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Pop type="Unit">21</Pop>
 			<Cost Supplies="1130" Power="310" />
-			<AutoRecharge>20000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
