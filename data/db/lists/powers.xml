@@ -28522,7 +28522,6 @@
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>fld_bldg_drophivebase_01</ProtoSquadID>
-						<NoProjectileLanding />
 						<PlayTrainAnim>true</PlayTrainAnim>
 						<ConformToSlopedTerrain />
 					</Drop>
