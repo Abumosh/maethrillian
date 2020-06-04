@@ -130,7 +130,7 @@
 		<PhysicsForceMin>500</PhysicsForceMin>
 		<PhysicsForceMax>700</PhysicsForceMax>
 		<AOERadius>14</AOERadius>
-		<Daze TargetType="GroundVehicle" MovementModifier="0" AOEEffect="false" SmartTargeting="false">3.0f</Daze>
+		<Daze TargetType="GroundVehicle" MovementModifier="0" AOEEffect="true" SmartTargeting="false">2.0f</Daze>
 		<TargetPriority type="Infantry">7</TargetPriority>
 		<TargetPriority type="Building">2</TargetPriority>
 		<TargetPriority type="GroundVehicle">7</TargetPriority>
