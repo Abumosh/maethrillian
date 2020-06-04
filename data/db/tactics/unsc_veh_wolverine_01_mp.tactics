@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>MissileLauncher</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>220</DamagePerSecond>
+		<DamagePerSecond>210</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -23,7 +23,7 @@
 	<Weapon>
 		<Name>GrenadeLauncher</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
+		<DamagePerSecond>90</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_grenade_01</Projectile>
 		<ImpactEffect size="Medium">SmallGrenadeExplosion</ImpactEffect>
