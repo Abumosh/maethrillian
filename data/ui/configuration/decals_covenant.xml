@@ -184,6 +184,7 @@
 	<Icon type="uniticon" name="Vehicle" SizeX="8" SizeZ="8" Intensity1="1" Intensity2="2" Intensity3="2" owner="cov_veh_gorgon_01">-1</Icon>
 	<Icon type="uniticon" name="Vehicle" SizeX="8" SizeZ="8" Intensity1="1" Intensity2="2" Intensity3="2" owner="cov_veh_locust_01">-1</Icon>
 	<Icon type="uniticon" name="Vehicle" SizeX="8" SizeZ="8" Intensity1="1" Intensity2="2" Intensity3="2" owner="cov_veh_prowler_01">-1</Icon>
+	<Icon type="uniticon" name="Vehicle" SizeX="8" SizeZ="8" Intensity1="1" Intensity2="2" Intensity3="2" owner="cov_veh_prowler_rally_01_mp">-1</Icon>
 	<Icon type="uniticon" name="VehicleLarge" SizeX="24" SizeZ="24" Intensity1="1" Intensity2="2" Intensity3="2" owner="cov_veh_scarab_01">-1</Icon>
 	<Icon type="uniticon" name="Vehicle" SizeX="8" SizeZ="8" Intensity1="1" Intensity2="2" Intensity3="2" owner="cov_veh_wraith_01">-1</Icon>
 	<Icon type="uniticon" name="Vehicle" SizeX="5" SizeZ="5" Intensity1="1" Intensity2="2" Intensity3="2" owner="cov_veh_skitterer_01">-1</Icon>
