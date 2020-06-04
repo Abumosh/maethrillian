@@ -12,188 +12,101 @@
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
 		</Settings>
 		<LeaderPower>
-			<LeaderPowerType>CovSkitterer</LeaderPowerType>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CutterBattleHardened1</LeaderPowerType>
-			<PrerequisiteLeaderPower>CovSkitterer</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>LekgoloPincerBeam1</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>CutterBattleHardened1</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovPlasmaMines1</LeaderPowerType>
+			<LeaderPowerType>FloodEggDrop1</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>3</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>LekgoloPincerBeam1</PrerequisiteLeaderPower>
+			<NumberOfTimesToBeUsed>1000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>5</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CovMassAssault</LeaderPowerType>
+			<LeaderPowerType>FloodEggDrop2</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>CovPlasmaMines1</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovPlasmaMines2</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>15</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>CovMassAssault</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>LekgoloEverlasting</LeaderPowerType>
-			<PrerequisiteLeaderPower>CovPlasmaMines2</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>LekgoloPincerBeam2</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>LekgoloEverlasting</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>LekgoloPincerBeam3</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>45</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>LekgoloPincerBeam2</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>LekgoloSwarmHeal1</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
 			<MinimumHealPointsToHeal>10000</MinimumHealPointsToHeal>
-			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
-			<PrerequisiteLeaderPower>LekgoloPincerBeam3</PrerequisiteLeaderPower>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>LekgoloSwarmHeal2</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
+			<LeaderPowerType>FloodWormBuff</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
+			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Flood_Barrage1</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<MinimumHealPointsToHeal>10000</MinimumHealPointsToHeal>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Flood_Emerge_Infectors</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>FloodWormBuff2</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>FloodFeast1</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Flood_Barrage2</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<MinimumHealPointsToHeal>10000</MinimumHealPointsToHeal>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Flood_Emerge_Infectors2</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>FloodBuff</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>FloodFeast2</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Flood_InfantryRecycle</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
 			<MinimumHealPointsToHeal>15000</MinimumHealPointsToHeal>
 			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
-			<PrerequisiteLeaderPower>LekgoloSwarmHeal1</PrerequisiteLeaderPower>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>LekgoloSwarmHeal3</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<MinimumHealPointsToHeal>20000</MinimumHealPointsToHeal>
-			<NumberOfTimesToBeUsed>10002</NumberOfTimesToBeUsed>
-			<PrerequisiteLeaderPower>LekgoloSwarmHeal2</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovWormBuff1</LeaderPowerType>
-			<TargetType>BasicVehicle</TargetType>
-			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>LekgoloSwarmHeal3</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovWormBuff2</LeaderPowerType>
-			<TargetType>BasicVehicle</TargetType>
-			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>CovWormBuff1</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovWormBuff3</LeaderPowerType>
-			<TargetType>BasicVehicle</TargetType>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<MinimumTargetPopToCast>40</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>CovWormBuff2</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>LekgoloWalls1</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>CovWormBuff3</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>LekgoloWalls2</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>40</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>LekgoloWalls1</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovHunterSpiritAssault</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>LekgoloWalls2</PrerequisiteLeaderPower>
+			<LeaderPowerType>FloodBaseDrop1</LeaderPowerType>
+			<TargetType>_Minibase</TargetType>
+			<NumberOfTimesToBeUsed>5</NumberOfTimesToBeUsed>
 		</LeaderPower>
 		<Mission>
 			<MissionType>Forage</MissionType>

@@ -12,61 +12,64 @@
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
 		</Settings>
 		<LeaderPower>
-			<LeaderPowerType>LekgoloSwarmHeal3</LeaderPowerType>
+			<LeaderPowerType>FloodEggDrop2</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
-			<MinimumHealPointsToHeal>20000</MinimumHealPointsToHeal>
+			<AssignedMissionID>4</AssignedMissionID>
+			<MinimumHealPointsToHeal>10000</MinimumHealPointsToHeal>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>LekgoloPincerBeam3</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
+			<LeaderPowerType>FloodWormBuff2</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
 			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>LekgoloWalls2</LeaderPowerType>
+			<LeaderPowerType>FloodFeast1</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Flood_Barrage2</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<MinimumHealPointsToHeal>10000</MinimumHealPointsToHeal>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Flood_Emerge_Infectors2</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
-			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovSkitterer</LeaderPowerType>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovWormBuff2</LeaderPowerType>
-			<TargetType>BasicVehicle</TargetType>
+			<AssignedMissionID>4</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
+			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CovHunterSpiritAssault</LeaderPowerType>
+			<LeaderPowerType>FloodBuff</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>FloodFeast2</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Flood_InfantryRecycle</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
-			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
+			<AssignedMissionID>4</AssignedMissionID>
+			<MinimumHealPointsToHeal>15000</MinimumHealPointsToHeal>
+			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CovMassAssault</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
+			<LeaderPowerType>FloodBaseDrop1</LeaderPowerType>
+			<TargetType>_Minibase</TargetType>
+			<NumberOfTimesToBeUsed>5</NumberOfTimesToBeUsed>
 		</LeaderPower>
 		<Mission>
 			<MissionType>Scout</MissionType>
