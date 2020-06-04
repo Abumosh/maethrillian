@@ -9348,22 +9348,13 @@
 				<Target type="ProtoUnit">cov_bldg_minibase3sock_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_base_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_base_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_base_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_03_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_base_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_base_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_base_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_03_fl</Target>
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
 			</Effect>
 		</Effects>
 	</Tech>
