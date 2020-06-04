@@ -18,7 +18,7 @@
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<UseGroupRange />
-		<Hardpoint>Gun_Standard</Hardpoint>
+		<Hardpoint>Gun_AI</Hardpoint>
 	</Weapon>
 	<Weapon>
 		<Name>AntiInfantryWeapon</Name>
@@ -58,6 +58,8 @@
 		<ActionType>RangedAttack</ActionType>	
 		<Anim SoundLoopStartEvent="Play_SFX_3D_WPN_BAN_TurretAntiInfantry_FireLoop" SoundLoopEndEvent="Stop_SFX_3D_WPN_BAN_TurretAntiInfantry_FireLoop">Attack_AI</Anim>
 		<Weapon>AntiInfantryWeapon</Weapon>
+		<PersistBetweenOpps />
+		<FullBodyAttackAnim />
 	</Action>
 	<Tactic>
 		<TargetRule>

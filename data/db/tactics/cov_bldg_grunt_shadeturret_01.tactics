@@ -4,7 +4,7 @@
 		<Name>ShadePlasma</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>100</DamagePerSecond>
-		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
 		<ImpactEffect size="Medium">SmallPlasmaExplosion</ImpactEffect>
 		<MaxVelocityLead>35</MaxVelocityLead>
@@ -25,7 +25,7 @@
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>0</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<MaxRange>1.84500003</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>

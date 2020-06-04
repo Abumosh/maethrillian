@@ -19,6 +19,42 @@
 		<value>upgrade</value>
 	</entry>
 	<entry>
+		<key>cov_leader_scatterbeam_buff_03</key>
+		<value>..\textures\hud\icons\entityIcons\powers\Unbrk_ScatterBeams_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscScatterbomb1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_leader_scatterbeam_buff_03.RADIALEDGE.NAME</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>cov_leader_pincerbeam_buff_01</key>
+		<value>..\textures\hud\icons\entityIcons\powers\LekgoloPincerBeam1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\LekgoloPincerBeam1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\LekgoloPincerBeam1_icon</value>
+		<value>UIENT.cov_leader_pincerbeam_buff_01.RADIALEDGE.NAME</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>cov_leader_pincerbeam_buff_02</key>
+		<value>..\textures\hud\icons\entityIcons\powers\LekgoloPincerBeam1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\LekgoloPincerBeam1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\LekgoloPincerBeam1_icon</value>
+		<value>UIENT.cov_leader_pincerbeam_buff_02.RADIALEDGE.NAME</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>cov_leader_pincerbeam_buff_03</key>
+		<value>..\textures\hud\icons\entityIcons\powers\LekgoloPincerBeam1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\LekgoloPincerBeam1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\LekgoloPincerBeam1_icon</value>
+		<value>UIENT.cov_leader_pincerbeam_buff_03.RADIALEDGE.NAME</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
 		<key>Unbrk_MegaTurretDrop</key>
 		<value>..\textures\hud\icons\entityIcons\powers\Unbrk_MegaTurret_icon</value>
 		<value>..\textures\hud\icons\entityIcons\powers\UnscTurretDrop1_ability_icon</value>
@@ -373,6 +409,15 @@
 		<key>cov_veh_prowler_01</key>
 		<value>..\textures\hud\icons\entityIcons\cov_veh_prowler_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_veh_prowler_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_veh_prowler_01.RadialEdge.Name</value>
+		<value>UIENT.cov_veh_prowler_01.RadialEdge.Role</value>
+		<value>vehicle</value>
+	</entry>
+	<entry>
+		<key>cov_veh_prowler_rally_01_mp</key>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_rm_prowler_02_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_rm_prowler_02_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
 		<value>UIENT.cov_veh_prowler_01.RadialEdge.Name</value>
 		<value>UIENT.cov_veh_prowler_01.RadialEdge.Role</value>

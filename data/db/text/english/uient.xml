@@ -1013,7 +1013,7 @@ Increases damage and range</str>
 	<str id="UIENT.cov_suicideGrunt_upgrade1.RadialCenter.Name">KNOCK KNOCK!</str>
 	<str id="UIENT.cov_suicideGrunt_upgrade1.RadialEdge.Name">KNOCK KNOCK!</str>
 	<str id="UIENT.cov_suicideGrunt_upgrade1.RadialEdge.Role">UNIT UPGRADE</str>
-	<str id="UIENT.cov_suicideGrunt_upgrade1.RadialEdge.ShortDescr">More damage to vehicles</str>
+	<str id="UIENT.cov_suicideGrunt_upgrade1.RadialEdge.ShortDescr">More damage and stuns vehicles for 3 seconds</str>
 	<str id="UIENT.cov_suicideGrunt_upgrade2.RadialCenter.Name">NEW "RECRUITS"</str>
 	<str id="UIENT.cov_suicideGrunt_upgrade2.RadialEdge.Name">NEW "RECRUITS"</str>
 	<str id="UIENT.cov_suicideGrunt_upgrade2.RadialEdge.Role">ARMY UPGRADE</str>
@@ -1128,11 +1128,12 @@ Units are produced faster</str>
 	<str id="UIENT.COV_TURRET_UNBREAKABLEMEGATURRETUPGRADE_2.RADIALEDGE.NAME">COMPOUND DETONATORS</str>
 	<str id="UIENT.COV_TURRET_UNBREAKABLEMEGATURRETUPGRADE_2.RADIALEDGE.ROLE">TURRET UPGRADE</str>
 	<str id="UIENT.COV_TURRET_UNBREAKABLEMEGATURRETUPGRADE_2.RADIALEDGE.SHORTDESCR">An unstable core is added to the shells,
-increasing the damage on impact</str>
+increasing the damage by 20%</str>
 	<str id="UIENT.COV_TURRET_UNBREAKABLEMEGATURRETUPGRADE_3.RADIALCENTER.NAME">MEGA TURRET SHIELD</str>
 	<str id="UIENT.COV_TURRET_UNBREAKABLEMEGATURRETUPGRADE_3.RADIALEDGE.NAME">MEGA TURRET SHIELD</str>
 	<str id="UIENT.COV_TURRET_UNBREAKABLEMEGATURRETUPGRADE_3.RADIALEDGE.ROLE">TURRET UPGRADE</str>
-	<str id="UIENT.COV_TURRET_UNBREAKABLEMEGATURRETUPGRADE_3.RADIALEDGE.SHORTDESCR">Adds a shield to the Mega Turret</str>
+	<str id="UIENT.COV_TURRET_UNBREAKABLEMEGATURRETUPGRADE_3.RADIALEDGE.SHORTDESCR">Adds a shield to the Mega Turret,
+and increases damage by another 20%</str>
 	<str id="UIENT.cov_turret_upgradeAA.RadialCenter.Name">ANTI-AIR UPGRADE</str>
 	<str id="UIENT.cov_turret_upgradeAA.RadialEdge.Name">ADD ANTI-AIR UPGRADE</str>
 	<str id="UIENT.cov_turret_upgradeAA.RadialEdge.Role">TURRET UPGRADE</str>
@@ -1600,22 +1601,25 @@ Explodes on contact, also provides vision within a small area.</str>
 Can be used by all players.</str>
 	<str id="UIENT.COVSLIPSTREAMRIFT.RADIALEDGE.SHORTDESCR">Activate to place two connected teleporation nodes. 
 Can be used by all players.</str>
-	<str id="UIENT.CovSpiritGunship1.RadialCenter.Name">SPIRIT ASSAULT I</str>
-	<str id="UIENT.CovSpiritGunship1.RadialEdge.Name">SPIRIT ASSAULT I</str>
+	<str id="UIENT.CovSpiritGunship1.RadialCenter.Name">WARCHIEF ASSAULT I</str>
+	<str id="UIENT.CovSpiritGunship1.RadialEdge.Name">WARCHIEF ASSAULT I</str>
 	<str id="UIENT.COVSPIRITGUNSHIP1.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.COVSPIRITGUNSHIP1.RADIALEDGE.SALESPITCH">Deploys two Suicide Grunts.</str>
+	<str id="UIENT.COVSPIRITGUNSHIP1.RADIALEDGE.SALESPITCH">Deploys a Warchief Marauder and a Brute assualt squad.</str>
 	<str id="UIENT.CovSpiritGunship1.RadialEdge.ShortDescr">Activate to get a drop-off of: 
-2 Suicide Grunts.</str>
-	<str id="UIENT.COVSPIRITGUNSHIP1.RADIALEDGE.UPGRADEPITCH">Upgrades and vets up the Grunts.
-Adds one Jump Pack Brute squad.</str>
-	<str id="UIENT.CovSpiritGunship2.RadialCenter.Name">SPIRIT ASSAULT II</str>
-	<str id="UIENT.CovSpiritGunship2.RadialEdge.Name">SPIRIT ASSAULT II</str>
+1 Warchief Maruader.
+2 Brute Squads.
+2 Jump Pack Brute.</str>
+	<str id="UIENT.COVSPIRITGUNSHIP1.RADIALEDGE.UPGRADEPITCH">Adds one more Warchief Maruader and
+one more Jump Pack Brute.</str>
+	<str id="UIENT.CovSpiritGunship2.RadialCenter.Name">WARCHIEF ASSAULT II</str>
+	<str id="UIENT.CovSpiritGunship2.RadialEdge.Name">WARCHIEF ASSAULT II</str>
 	<str id="UIENT.COVSPIRITGUNSHIP2.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.CovSpiritGunship2.RadialEdge.ShortDescr">Activate to get a drop-off of:
-2 upgraded veteran Suicide Grunts.
-1 veteran Jump Pack Brute.</str>
-	<str id="UIENT.COVSPIRITGUNSHIP2.RADIALEDGE.UPGRADEPITCH">Adds one more Jump Pack Brute.
-Upgrades and fully vets up all squads.</str>
+2 Warchief Maruader.
+2 Brute Squads.
+3 Jump Pack Brute.</str>
+	<str id="UIENT.COVSPIRITGUNSHIP2.RADIALEDGE.UPGRADEPITCH">Adds one more Warchief Maruader and
+one more Jump Pack Brute.</str>
 	<str id="UIENT.CovSpiritGunship3.RadialCenter.Name">SPIRIT ASSAULT III</str>
 	<str id="UIENT.CovSpiritGunship3.RadialEdge.Name">SPIRIT ASSAULT III</str>
 	<str id="UIENT.COVSPIRITGUNSHIP3.RADIALEDGE.ROLE">ACTIVE POWER</str>
@@ -2107,14 +2111,14 @@ Increases damage of friendly air and vehicles.</str>
 	<str id="UIENT.JOHNSONMECHBUFF.RADIALCENTER.NAME">MECH OVERCHARGE I</str>
 	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.NAME">MECH OVERCHARGE I</str>
 	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.SALESPITCH">For a short time, all mechs you control become invulnerable and receive a speed boost.</str>
-	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.SHORTDESCR">Activate to make all mechs temporarily invulnerable and receive a speed boost.</str>
-	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.UPGRADEPITCH">Increases the duration of the power and speed boost.</str>
+	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.SALESPITCH">For a short time, all mechs you control receive an armor buff and a speed boost.</str>
+	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.SHORTDESCR">Activate to give all mechs a 50% armor buff and a 50% speed boost for 7 seconds.</str>
+	<str id="UIENT.JOHNSONMECHBUFF.RADIALEDGE.UPGRADEPITCH">Increases the duration of the power, armor buff, and speed boost.</str>
 	<str id="UIENT.JOHNSONMECHBUFF2.RADIALCENTER.NAME">MECH OVERCHARGE II</str>
 	<str id="UIENT.JOHNSONMECHBUFF2.RADIALEDGE.NAME">MECH OVERCHARGE II</str>
 	<str id="UIENT.JOHNSONMECHBUFF2.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.JOHNSONMECHBUFF2.RADIALEDGE.SALESPITCH">For a short time, all mechs you control become invulnerable and receive a speed boost.</str>
-	<str id="UIENT.JOHNSONMECHBUFF2.RADIALEDGE.SHORTDESCR">Activate to make all mechs temporarily invulnerable and receive a speed boost.</str>
+	<str id="UIENT.JOHNSONMECHBUFF2.RADIALEDGE.SALESPITCH">For a short time, all mechs you control receive an armor buff and a speed boost.</str>
+	<str id="UIENT.JOHNSONMECHBUFF2.RADIALEDGE.SHORTDESCR">Activate to give all mechs a 65% armor buff and a 60% speed boost for 10 seconds.</str>
 	<str id="UIENT.Kill.RadialCenter.Name">RECYCLE</str>
 	<str id="UIENT.Kill.RadialEdge.Name">RECYCLE</str>
 	<str id="UIENT.KILL.RADIALEDGE.ROLE" />
@@ -2187,11 +2191,13 @@ Increases damage of friendly air and vehicles.</str>
 	<str id="UIENT.LEKGOLOSWARMHEAL3_SP.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.LEKGOLOSWARMHEAL3_SP.RADIALEDGE.SHORTDESCR">Activate to call in Engineers to heal and repair units for a duration.</str>
 	<str id="UIENT.LEKGOLOSWARMHEAL3_SP.RADIALEDGE.UPGRADEPITCH">Adds another Engineer and further increases their duration and target area.</str>
-	<str id="UIENT.LEKGOLOWALLS1.RADIALCENTER.NAME">LIVING BARRIER I</str>
-	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.NAME">LIVING BARRIER I</str>
+	<str id="UIENT.LEKGOLOWALLS1.RADIALCENTER.NAME">LIVING BARRIER</str>
+	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.NAME">LIVING BARRIER</str>
 	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.SALESPITCH">Drops a wall of Lekgolo to halt ground troop movement.</str>
-	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.SHORTDESCR">Activate to drop a wall of Lekgolo to halt ground troop movement.</str>
+	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.SALESPITCH">Drops a wall of Lekgolo to halt ground troop movement that buffs Lekgolo units and debuffs enemies.</str>
+	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.SHORTDESCR">Activate to drop a wall of Lekgolo to halt ground troop movement.
+Buffs Lekgolo unit armor and damage by 10%.
+Debuffs enemy unit armor by 10% and slows by 20%.</str>
 	<str id="UIENT.LEKGOLOWALLS1.RADIALEDGE.UPGRADEPITCH">Increases length, strength and duration.</str>
 	<str id="UIENT.LEKGOLOWALLS2.RADIALCENTER.NAME">LIVING BARRIER II</str>
 	<str id="UIENT.LEKGOLOWALLS2.RADIALEDGE.NAME">LIVING BARRIER II</str>
@@ -2206,13 +2212,13 @@ Increases damage of friendly air and vehicles.</str>
 	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALCENTER.NAME">VEHICLE SYMBIOTES I</str>
 	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.NAME">VEHICLE SYMBIOTES I</str>
 	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.SALESPITCH">Affected vehicles and buildings gain increased range and armor.</str>
-	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.SHORTDESCR">Activate to permanently increase the range and armor of all vehicles and buildings in the AoE. Does not stack.</str>
-	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.UPGRADEPITCH">Further increases the AoE, allowing you to affect more vehicles and buildings.</str>
+	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.SALESPITCH">Affected vehicles gain increased range and armor.</str>
+	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.SHORTDESCR">Activate to permanently increase the range (20%) and armor (10%) of all vehicles in the AoE. Does not stack.</str>
+	<str id="UIENT.LEKGOLOWORMBUFF1.RADIALEDGE.UPGRADEPITCH">Further increases the AoE, and allows you to affect Lekgolo type units (except Heroes).</str>
 	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALCENTER.NAME">VEHICLE SYMBIOTES II</str>
 	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.NAME">VEHICLE SYMBIOTES II</str>
 	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.SHORTDESCR">Activate to permanently increase the range and armor of all vehicles and buildings in the AoE. Does not stack.</str>
+	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.SHORTDESCR">Activate to permanently increase the range (20%) and armor (10%) of all vehicles and Lekgolo units in the AoE. Does not stack.</str>
 	<str id="UIENT.LEKGOLOWORMBUFF2.RADIALEDGE.UPGRADEPITCH">Further increases the AoE, allowing you to affect more vehicles and buildings.</str>
 	<str id="UIENT.LEKGOLOWORMBUFF3.RADIALCENTER.NAME">VEHICLE SYMBIOTES III</str>
 	<str id="UIENT.LEKGOLOWORMBUFF3.RADIALEDGE.NAME">VEHICLE SYMBIOTES III</str>
@@ -4339,8 +4345,8 @@ Upgrade to 2 roots with Cancerous Growth.</str>
 	<str id="UIENT.Flood_Barrage2.RADIALEDGE.NAME">CONVICTING PESTILENCE II</str>
 	<str id="UIENT.Flood_Barrage2.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.Flood_Barrage2.RADIALEDGE.SHORTDESCR">Activate to bombard a target area with infected debris from the Indulgence of Conviction.</str>
-	<str id="UIENT.Flood_InfantryRecycle.RADIALCENTER.NAME">GET BACK OUT THERE</str>
-	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.NAME">GET BACK OUT THERE</str>
+	<str id="UIENT.Flood_InfantryRecycle.RADIALCENTER.NAME">OUTBREAK</str>
+	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.NAME">OUTBREAK</str>
 	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.SALESPITCH">While active, the first 8 flood units you lose will respawn at your home base.
 Does not affect ABOMINATION, Egg, Hive, or Root.</str>
@@ -4686,14 +4692,19 @@ Has jump ability.</str>
 	<str id="UIENT.Unbrk_MegaTurretDrop.RADIALEDGE.SALESPITCH">Drops a temporary Mega Turret into battle.</str>
 	<str id="UIENT.Unbrk_MegaTurretDrop.RADIALEDGE.SHORTDESCR">Activate to drop a temporary Mega Turret into battle.</str>
 	<str id="UIENT.Unbrk_MegaTurretDrop.RADIALEDGE.UPGRADEPITCH">PLACEHOLDER TEXT</str>
-	<str id="UIENT.cov_leader_scatterbeam_buff_01.RadialCenter.Name">RAIN OF FIRE I</str>
-	<str id="UIENT.cov_leader_scatterbeam_buff_01.RadialEdge.Name">RAIN OF FIRE I</str>
-	<str id="UIENT.cov_leader_scatterbeam_buff_01.RADIALEDGE.ROLE">LEADER POWER</str>
-	<str id="UIENT.cov_leader_scatterbeam_buff_01.RadialEdge.ShortDescr">Increases beam amount and damage.</str>
-	<str id="UIENT.cov_leader_scatterbeam_buff_01.RADIALEDGE.UPGRADEPITCH">Increases beam amount and damage.</str>
-	<str id="UIENT.cov_leader_scatterbeam_buff_02.RadialCenter.Name">RAIN OF FIRE II</str>
-	<str id="UIENT.cov_leader_scatterbeam_buff_02.RadialEdge.Name">RAIN OF FIRE II</str>
-	<str id="UIENT.cov_leader_scatterbeam_buff_02.RADIALEDGE.ROLE">LEADER POWER</str>
-	<str id="UIENT.cov_leader_scatterbeam_buff_02.RadialEdge.ShortDescr">Increases beam amount and damage.</str>
-	<str id="UIENT.cov_leader_scatterbeam_buff_02.RADIALEDGE.UPGRADEPITCH">Increases beam amount and damage.</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_01.RadialCenter.Name">NUKE TECH I</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_01.RadialEdge.Name">NUKE TECH I</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_01.RADIALEDGE.ROLE">UPGRADE</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_01.RadialEdge.ShortDescr">Rain of Fire gains 1 extra beam and damage is increased 5%.</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_01.RADIALEDGE.UPGRADEPITCH">Rain of Fire gains 1 extra beam and damage is increased 5%.</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_02.RadialCenter.Name">NUKE TECH II</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_02.RadialEdge.Name">NUKE TECH II</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_02.RADIALEDGE.ROLE">UPGRADE</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_02.RadialEdge.ShortDescr">Rain of Fire gains 2 extra beams and damage is increased 10%.</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_02.RADIALEDGE.UPGRADEPITCH">Rain of Fire gains 2 extra beams and damage is increased 10%.</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_02.RadialCenter.Name">NUKE TECH III</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_03.RadialEdge.Name">NUKE TECH III</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_03.RADIALEDGE.ROLE">UPGRADE</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_03.RadialEdge.ShortDescr">Rain of Fire gains 3 extra beams and damage is increased 15%.</str>
+	<str id="UIENT.cov_leader_scatterbeam_buff_03.RADIALEDGE.UPGRADEPITCH">Rain of Fire gains 3 extra beams and damage is increased 15%.</str>
 </string_table>

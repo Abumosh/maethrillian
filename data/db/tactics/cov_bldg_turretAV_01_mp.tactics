@@ -21,21 +21,31 @@
 		<Hardpoint>Gun_Standard</Hardpoint>
 	</Weapon>
 	<Weapon>
-		<Name>AntiInfantryWeapon</Name>
-		<AttackRate>0.25</AttackRate>
+		<Name>AntiVehicleWeapon</Name>
+		<AttackRate>4</AttackRate>
 		<DamagePerSecond>110</DamagePerSecond>
-		<WeaponType>AntiInfantry</WeaponType>
-		<Projectile>fx_proj_needler_01</Projectile>
-		<ImpactEffect size="Medium">GruntGoblinNeedlerImpact</ImpactEffect>
-		<MaxVelocityLead>40</MaxVelocityLead>
+		<WeaponType>AntiVehicle</WeaponType>
+		<Projectile>fx_proj_fuelRod_01</Projectile>
+		<ImpactEffect size="Medium">FuelRodCannonAirImpact</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
-		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="Aircraft">-1</TargetPriority>
-		<TargetPriority type="GroundVehicle">-1</TargetPriority>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>400</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">-1</TargetPriority>
 		<TargetPriority type="TurretBuilding">-1</TargetPriority>
 		<TargetPriority type="Building">-1</TargetPriority>
+		<TargetPriority type="Flying">-1</TargetPriority>
 		<UseGroupRange />
-		<Hardpoint>Gun_AI</Hardpoint>
+		<Hardpoint>Gun_AV</Hardpoint>
 	</Weapon>
 	<Action>
 		<Name>DeliverBuilding</Name>
@@ -54,20 +64,21 @@
 		<FullBodyAttackAnim />
 	</Action>
 	<Action>
-		<Name>AntiInfantryAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>	
-		<Anim SoundLoopStartEvent="Play_SFX_3D_WPN_BAN_TurretAntiInfantry_FireLoop" SoundLoopEndEvent="Stop_SFX_3D_WPN_BAN_TurretAntiInfantry_FireLoop">Attack_AI</Anim>
-		<Weapon>AntiInfantryWeapon</Weapon>
+		<Name>AntiVehicleAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>AV_Attack</Anim>
+		<Weapon>AntiVehicleWeapon</Weapon>
+		<AttackPrimaryTargetOnly />
 	</Action>
 	<Tactic>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>Infantry</TargetType>
-			<Action>AntiInfantryAttackAction</Action>
+			<TargetType>GroundVehicle</TargetType>
+			<Action>AntiVehicleAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Infantry</TargetType>
 			<TargetType>Building</TargetType>
 			<TargetType>AttackMe</TargetType>
 			<TargetType>TurretBuilding</TargetType>

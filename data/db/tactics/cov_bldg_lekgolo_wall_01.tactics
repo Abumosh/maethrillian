@@ -23,6 +23,11 @@
 			<TargetTypes>
 				<Type>Military</Type>
 			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Building</Type>
+				<Type>Mine</Type>
+				<Type>Drone</Type>
+			</ExcludeTargetTypes>
 			<Relations>
 				<Relation>Enemy</Relation>
 			</Relations>

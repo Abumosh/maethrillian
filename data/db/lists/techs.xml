@@ -578,6 +578,70 @@
 			</Effect>
 		</Effects>
 	</Tech>
+		<Tech name="cov_leader_pincerbeam_buff_01" type="Normal">
+		<DisplayNameID>27088</DisplayNameID>
+		<RolloverTextID>27100</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<ResearchAnim>Research</ResearchAnim>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_pincerbeam_01</Target>
+				<Target type="ProtoUnit">pow_proj_pincerbeam_02</Target>
+				<Target type="ProtoUnit">pow_proj_pincerbeam_03</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_leader_pincerbeam_buff_02" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">cov_leader_pincerbeam_buff_01</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>80</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.130434783" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_pincerbeam_01</Target>
+				<Target type="ProtoUnit">pow_proj_pincerbeam_02</Target>
+				<Target type="ProtoUnit">pow_proj_pincerbeam_03</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_leader_pincerbeam_buff_03" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">cov_leader_pincerbeam_buff_02</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">800</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>100</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.115384615" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_pincerbeam_01</Target>
+				<Target type="ProtoUnit">pow_proj_pincerbeam_02</Target>
+				<Target type="ProtoUnit">pow_proj_pincerbeam_03</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="hook_turret_upgradeAI" type="Normal">
 		<DBID>1962</DBID>
 		<DisplayNameID>1156</DisplayNameID>
@@ -3238,10 +3302,22 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_beam_buff_03" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_pincerbeam_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_pincerbeam_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_pincerbeam_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_03" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_turret_unbreakablemegaturretupgrade_1" relativity="Absolute">
@@ -3412,6 +3488,9 @@
 		<DBID>1915</DBID>
 		<DisplayNameID>27494</DisplayNameID>
 		<RolloverTextID>27495</RolloverTextID>
+		<Prereqs>
+			<TechStatus status="Active">cov_turret_unbreakablemegaturretupgrade_1</TechStatus>
+		</Prereqs>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
@@ -3423,15 +3502,21 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_bldg_unbreakablemegadropturret_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="Unit" />
+			<Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_bldg_unbreakablemegadropturret_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">fx_proj_MegaTurretProjectile2</Target>
+			</Effect>	
 		</Effects>
 	</Tech>
 	<Tech name="cov_turret_unbreakablemegaturretupgrade_3" type="Normal">
 		<DBID>1915</DBID>
 		<DisplayNameID>27494</DisplayNameID>
 		<RolloverTextID>27495</RolloverTextID>
+		<Prereqs>
+			<TechStatus status="Active">cov_turret_unbreakablemegaturretupgrade_2</TechStatus>
+		</Prereqs>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">900</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
@@ -3443,12 +3528,18 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_bldg_unbreakablemegadropturret_01</Target>
 			</Effect>
-			<Effect type="Data" amount="10000" subtype="Shieldpoints" relativity="Absolute">
-				<Target type="Unit" />
+			<Effect type="Data" amount="5000" subtype="Shieldpoints" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_unbreakablemegadropturret_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_unbreakablemegadropturret_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1.666666667" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_bldg_unbreakablemegadropturret_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.666666667" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">fx_proj_MegaTurretProjectile2</Target>
+			</Effect>	
 		</Effects>
 	</Tech>
 	<Tech name="cov_strongholds_unbreakablemegaturretupgrade_1" type="Normal">
@@ -5532,17 +5623,15 @@
 			<Effect type="UnlockableGodPower" tier="1">CovLucrativeExpansion1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="CovLucrativeExpansion1">CovLucrativeExpansion2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">CovPlasmaMines1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="CovPlasmaMines1_MP">CovPlasmaMines2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2">CovDyingBreath</Effect>
 			<Effect type="UnlockableGodPower" tier="3">CovStructuralShielding1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovStructuralShielding1">CovStructuralShielding2</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovStructuralShielding2">CovStructuralShielding3</Effect>
 			<Effect type="UnlockableGodPower" tier="3">CovSpiritGunship1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovSpiritGunship1">CovSpiritGunship2</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovSpiritGunship2">CovSpiritGunship3</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovCleansingBeamPath1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovTeleport1</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovInvulnerability</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovPlanetaryCleansing</Effect>
@@ -6176,6 +6265,15 @@
 			<Effect type="UnlockableGodPower" tier="5">LekgoloEverlasting</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_pincerbeam_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_pincerbeam_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_pincerbeam_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
@@ -7122,20 +7220,19 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">Unbrk_OrbitalEye1_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="1">Unbrk_UltraMines1_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="1">Unbrk_Overcharge1_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_Overcharge1_mp">Unbrk_Overcharge2_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_Overcharge2_mp">Unbrk_Overcharge3_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="2">Unbrk_HealingArea1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="Unbrk_HealingArea1">Unbrk_HealingArea2</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="Unbrk_HealingArea2">Unbrk_HealingArea3</Effect>
-			<Effect type="UnlockableGodPower" tier="2">Unbrk_FullRecycle</Effect>
+			<Effect type="UnlockableGodPower" tier="2">Unbrk_OrbitalEye1_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Unbrk_ScatterBeam1_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam1_mp">Unbrk_ScatterBeam2_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam2_mp">Unbrk_ScatterBeam3_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="3">Unbrk_UltraMines1_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_UltraMines1_mp">Unbrk_UltraMines2_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="4">Unbrk_WraithAPC</Effect>
+			<Effect type="UnlockableGodPower" tier="3">Unbrk_WraithAPC</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovTeleport1</Effect>
 			<Effect type="UnlockableGodPower" tier="4">Unbrk_MegaTurretDrop</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Unbrk_InvulnerableStr</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Unbrk_LichAssault</Effect>
@@ -7143,6 +7240,9 @@
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_03" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_turret_unbreakablemegaturretupgrade_1" relativity="Absolute">
@@ -7236,9 +7336,9 @@
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1.05" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_01_mp</Target>
-				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_02_mp</Target>
-				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_03_mp</Target>
+				<Target type="ProtoUnit">pow_proj_unbrk_scatterbeam_01_mp</Target>
+				<Target type="ProtoUnit">pow_proj_unbrk_scatterbeam_02_mp</Target>
+				<Target type="ProtoUnit">pow_proj_unbrk_scatterbeam_03_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam1_mp" relativity="Absolute">
 				<Target type="Player" />
@@ -7266,10 +7366,41 @@
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.05" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_01_mp</Target>
-				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_02_mp</Target>
-				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_03_mp</Target>
+			<Effect type="Data" amount="1.0476190476" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_unbrk_scatterbeam_02_mp</Target>
+				<Target type="ProtoUnit">pow_proj_unbrk_scatterbeam_01_mp</Target>
+				<Target type="ProtoUnit">pow_proj_unbrk_scatterbeam_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam1_mp" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam2_mp" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam3_mp" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_leader_scatterbeam_buff_03" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">cov_leader_scatterbeam_buff_02</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">800</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>100</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.04545454545" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_unbrk_scatterbeam_01_mp</Target>
+				<Target type="ProtoUnit">pow_proj_unbrk_scatterbeam_02_mp</Target>
+				<Target type="ProtoUnit">pow_proj_unbrk_scatterbeam_03_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam1_mp" relativity="Absolute">
 				<Target type="Player" />
@@ -9466,6 +9597,7 @@
 				<Target type="ProtoSquad">flood_air_airborneinfector_01</Target>
 				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
 				<Target type="ProtoSquad">flood_inf_commander_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_bruteshot_01</Target>
 				<Target type="ProtoSquad">flood_inf_corruptedengineer_01</Target>
 				<Target type="ProtoSquad">flood_infectedbrute_carrier_01</Target>
 				<Target type="ProtoSquad">flood_inf_generic_core</Target>
@@ -9485,6 +9617,7 @@
 				<Target type="ProtoSquad">flood_air_airborneinfector_01</Target>
 				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
 				<Target type="ProtoSquad">flood_inf_commander_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_bruteshot_01</Target>
 				<Target type="ProtoSquad">flood_inf_corruptedengineer_01</Target>
 				<Target type="ProtoSquad">flood_infectedbrute_carrier_01</Target>
 				<Target type="ProtoSquad">flood_inf_generic_core</Target>
@@ -10295,6 +10428,33 @@
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Effects>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="LekgoloPincerBeam1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="LekgoloPincerBeam1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="LekgoloPincerBeam1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="LekgoloPincerBeam2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="LekgoloPincerBeam2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="LekgoloPincerBeam2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="LekgoloPincerBeam3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="LekgoloPincerBeam3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="LekgoloPincerBeam3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
 			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="Unbrk_ScatterBeam1_mp" relativity="Percent">
 				<Target type="Player" />
 			</Effect>
@@ -10500,6 +10660,20 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="test_LeaderCovy_nuke_upgrades" type="Normal">
+		<DBID>2041</DBID>
+		<DisplayNameID>1072</DisplayNameID>
+		<RolloverTextID>1073</RolloverTextID>
+		<ResearchPoints>5</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchAnim>Upgrade</ResearchAnim>
+		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_temple_01" ToType="cov_bldg_temple_01_mp_nuke" />
+		</Effects>
+	</Tech>
 	<Tech name="test_LeaderUNSC_Debug" type="Normal">
 		<DBID>1917</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -10611,7 +10785,9 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">CovBoundlessLeech</Effect>
+			<Effect type="UnlockableGodPower" tier="1">LekgoloPincerBeam1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="LekgoloPincerBeam1">LekgoloPincerBeam2</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="LekgoloPincerBeam2">LekgoloPincerBeam3</Effect>
 			<Effect type="UnlockableGodPower" tier="1">ArbiterConduitofRage1</Effect>
 			<Effect type="UnlockableGodPower" tier="2">ArbiterPlasmaBolt1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt1">ArbiterPlasmaBolt2</Effect>

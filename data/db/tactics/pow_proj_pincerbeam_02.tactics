@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>Cleansing</Name>
-		<DamagePerSecond>170</DamagePerSecond>
+		<DamagePerSecond>150</DamagePerSecond>
 		<WeaponType>leaderPower</WeaponType>
 		<Projectile>pow_proj_pincerbeam_02</Projectile>
 		<ImpactCameraShake duration="0.200000003" strength="0.150000006" />
@@ -18,8 +18,8 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>15</Radius>
-				<DamageRatio>5</DamageRatio>
+				<Radius>16</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
