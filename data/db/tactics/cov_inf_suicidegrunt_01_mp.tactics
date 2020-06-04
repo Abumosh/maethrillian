@@ -65,8 +65,6 @@
 				<FriendlyFire>false</FriendlyFire>
 				<DamageAllGarrisoned>True</DamageAllGarrisoned>
 			</Hitbox>
-		</AOEData>
-		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>12</Radius>
@@ -74,8 +72,6 @@
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
-		</AOEData>
-		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>14</Radius>
@@ -103,7 +99,7 @@
 		<UseDPSasDPA />
 		<WeaponType>SuicideGrunt</WeaponType>
 		<Projectile>fx_proj_suicide_plasmaGrenade_02</Projectile>
-		<MaxRange>5</MaxRange>
+		<MaxRange>8</MaxRange>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
@@ -113,8 +109,6 @@
 				<FriendlyFire>false</FriendlyFire>
 				<DamageAllGarrisoned>True</DamageAllGarrisoned>
 			</Hitbox>
-		</AOEData>
-		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>12</Radius>
@@ -122,8 +116,6 @@
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
-		</AOEData>
-		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>14</Radius>
@@ -138,7 +130,6 @@
 		<PhysicsForceMin>500</PhysicsForceMin>
 		<PhysicsForceMax>700</PhysicsForceMax>
 		<AOERadius>14</AOERadius>
-		<ImpactEffect size="Medium" doShockwaveAction="true">SuicideGruntBurn</ImpactEffect>
 		<Daze TargetType="GroundVehicle" MovementModifier="0" AOEEffect="false" SmartTargeting="false">3.0f</Daze>
 		<TargetPriority type="Infantry">7</TargetPriority>
 		<TargetPriority type="Building">2</TargetPriority>
