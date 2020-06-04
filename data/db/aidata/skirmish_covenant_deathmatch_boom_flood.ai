@@ -12,79 +12,149 @@
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
 		</Settings>
 		<LeaderPower>
-			<LeaderPowerType>CovRaidTech1</LeaderPowerType>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovExtraction1</LeaderPowerType>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
-			<NumberOfTimesToBeUsed>6</NumberOfTimesToBeUsed>
-			<MinimumHealPointsToHeal>1000</MinimumHealPointsToHeal>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovCleansingBeamPath1_MP</LeaderPowerType>
+			<LeaderPowerType>LekgoloWalls1</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
 			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>LekgoloSwarmHeal1</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<MinimumHealPointsToHeal>10000</MinimumHealPointsToHeal>
+			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CovWormBuff1</LeaderPowerType>
+			<TargetType>BasicVehicle</TargetType>
+			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
 			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CovAdvancedCloaking1</LeaderPowerType>
+			<LeaderPowerType>CovWormBuff2</LeaderPowerType>
+			<TargetType>BasicVehicle</TargetType>
+			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CovCleansingBeamPath2_MP</LeaderPowerType>
+			<LeaderPowerType>CovMassAssault</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CovHunterSpiritAssault</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CovInvisibleArmy</LeaderPowerType>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
+			<LeaderPowerType>LekgoloEverlasting</LeaderPowerType>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CovSlipstreamRift</LeaderPowerType>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovSpiritSupport1</LeaderPowerType>
+			<LeaderPowerType>LekgoloWalls2</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
+			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>40</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CovExtraction2</LeaderPowerType>
+			<LeaderPowerType>CovWormBuff3</LeaderPowerType>
+			<TargetType>BasicVehicle</TargetType>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<MinimumTargetPopToCast>40</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>LekgoloSwarmHeal2</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<MinimumHealPointsToHeal>15000</MinimumHealPointsToHeal>
+			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CutterBattleHardened1</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>LekgoloSwarmHeal3</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<MinimumHealPointsToHeal>20000</MinimumHealPointsToHeal>
+			<NumberOfTimesToBeUsed>10002</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>LekgoloPincerBeam1</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>LekgoloPincerBeam2</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>LekgoloPincerBeam3</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>45</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CovPlasmaMines1</LeaderPowerType>
+			<TargetType>_Minibase</TargetType>
+			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CovPlasmaMines2</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumHealPointsToHeal>1000</MinimumHealPointsToHeal>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovDisplacement</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovRaidTech2</LeaderPowerType>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovRaidTech3</LeaderPowerType>
 		</LeaderPower>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_arbitergruntsquad</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -92,7 +162,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_arbitergruntsquad</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -104,7 +174,7 @@
 		</Building>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_arbitergruntsquad</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -112,7 +182,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_arbitergruntsquad</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -120,7 +190,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_arbitergruntsquad</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -130,7 +200,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_arbitergruntsquad</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -140,7 +210,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_arbitergruntsquad</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -155,7 +225,7 @@
 		<Mission>
 			<MissionType>BaseScout</MissionType>
 			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
 		</Mission>
@@ -168,7 +238,7 @@
 		<Mission>
 			<MissionType>Defend</MissionType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
-			<SquadTypeToSend>cov_inf_generic_arbitergruntsquad</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
@@ -180,7 +250,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>unsc_inf_flamemarine_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
@@ -189,7 +259,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>unsc_inf_serina_cryomarines_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
@@ -198,7 +268,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>cov_inf_bruterider_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
@@ -207,7 +277,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>cov_inf_generic_brutejumppack</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
@@ -216,7 +286,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>cov_inf_generic_arbiterenforcer</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
@@ -225,7 +295,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>cov_inf_lekgologoliath_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>2</PrerequisiteSightingObjectCount>
@@ -234,7 +304,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>7</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>unsc_inf_flamemarine_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>8</PrerequisiteSightingObjectCount>
@@ -243,7 +313,16 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>7</NumberOfSquadsToSend>
+			<PrerequisiteSightingObjectType>unsc_inf_flamemarine_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>8</PrerequisiteSightingObjectCount>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>7</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>unsc_inf_serina_cryomarines_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>8</PrerequisiteSightingObjectCount>
@@ -252,16 +331,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>7</NumberOfSquadsToSend>
-			<PrerequisiteSightingObjectType>cov_inf_bruterider_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>8</PrerequisiteSightingObjectCount>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>7</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>cov_inf_generic_brutejumppack</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>8</PrerequisiteSightingObjectCount>
@@ -270,7 +340,16 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>7</NumberOfSquadsToSend>
+			<PrerequisiteSightingObjectType>unsc_inf_serina_cryomarines_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>8</PrerequisiteSightingObjectCount>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>7</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>cov_inf_generic_arbiterenforcer</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
@@ -279,7 +358,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>7</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>cov_inf_lekgologoliath_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>3</PrerequisiteSightingObjectCount>
@@ -313,12 +392,6 @@
 		<Building>
 			<BuildingType>cov_bldg_turret_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-			<PrerequisiteSightingObjectType>unsc_inf_flamemarine_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>3</PrerequisiteSightingObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>cov_bldg_turret_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
 			<PrerequisiteSightingObjectType>unsc_inf_serina_cryomarines_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>3</PrerequisiteSightingObjectCount>
 		</Building>
@@ -326,6 +399,12 @@
 			<BuildingType>cov_bldg_turret_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
 			<PrerequisiteSightingObjectType>cov_inf_bruterider_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>3</PrerequisiteSightingObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_turret_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<PrerequisiteSightingObjectType>unsc_inf_flamemarine_01</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>3</PrerequisiteSightingObjectCount>
 		</Building>
 		<Building>
@@ -415,8 +494,14 @@
 		<Building>
 			<BuildingType>cov_bldg_turret_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<PrerequisiteSightingObjectType>unsc_inf_serina_cryomarines_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_turret_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
 			<PrerequisiteSightingObjectType>cov_inf_bruterider_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>5</PrerequisiteSightingObjectCount>
+			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_turret_01</BuildingType>
@@ -457,19 +542,19 @@
 		<Building>
 			<BuildingType>cov_bldg_turret_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
-			<PrerequisiteSightingObjectType>cov_inf_generic_arbiterenforcer</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>cov_bldg_turret_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
 			<PrerequisiteSightingObjectType>unsc_inf_serina_cryomarines_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
+			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_turret_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
 			<PrerequisiteSightingObjectType>cov_inf_bruterider_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_turret_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
+			<PrerequisiteSightingObjectType>cov_inf_generic_arbiterenforcer</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
 		</Building>
 		<Building>
@@ -481,7 +566,7 @@
 		<Mission>
 			<MissionType>BaseScout</MissionType>
 			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
 		</Mission>
@@ -517,7 +602,7 @@
 		</Building>
 		<Tech>
 			<TechToResearch>cov_grunt_upgrade1</TechToResearch>
-			<PrerequisiteObtainedObjectType>cov_inf_generic_arbitergruntsquad</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_inf_generic_grunt</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>10</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Building>
@@ -550,7 +635,7 @@
 			<TargetBaseType>Mini</TargetBaseType>
 			<TargetType>_Settlement</TargetType>
 			<TargetBaseType>Mini</TargetBaseType>
-			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -561,7 +646,7 @@
 		</Mission>
 		<Tech>
 			<TechToResearch>cov_grunt_upgrade2</TechToResearch>
-			<PrerequisiteObtainedObjectType>cov_inf_generic_arbitergruntsquad</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_inf_generic_grunt</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>12</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Mission>
@@ -576,7 +661,7 @@
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<MissionID>1</MissionID>
-			<SquadTypeToSend>cov_inf_generic_arbitergruntsquad</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
 			<NumberOfSquadsToSend>13</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>8</MinimumNumberOfSquadsToSend>
 			<SquadTypeToSend>cov_inf_engineer_01</SquadTypeToSend>
@@ -606,7 +691,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_generic_arbitergruntsquad</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -712,7 +797,7 @@
 		<Mission>
 			<MissionType>Attack</MissionType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
-			<SquadTypeToSend>cov_inf_generic_arbitergruntsquad</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -724,7 +809,7 @@
 		<Mission>
 			<MissionType>Attack</MissionType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
-			<SquadTypeToSend>cov_inf_generic_arbitergruntsquad</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -757,7 +842,7 @@
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_inf_jackal_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
-			<SquadTypeToSend>cov_inf_elitecommando_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_impervioushunter_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
@@ -772,8 +857,8 @@
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
 		<Tech>
-			<TechToResearch>cov_elitecommando_upgrade1</TechToResearch>
-			<PrerequisiteObtainedObjectType>cov_inf_elitecommando_01</PrerequisiteObtainedObjectType>
+			<TechToResearch>cov_impervioushunter_upgrade1</TechToResearch>
+			<PrerequisiteObtainedObjectType>cov_inf_impervioushunter_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
@@ -847,8 +932,11 @@
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_veh_wraith_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<SquadTypeToSend>cov_inf_elitecommando_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_impervioushunter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<SquadTypeToSend>cov_veh_skitterer_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>0</NumberOfSquadsToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
@@ -918,13 +1006,13 @@
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>cov_elitecommando_upgrade2</TechToResearch>
-			<PrerequisiteObtainedObjectType>cov_inf_elitecommando_01</PrerequisiteObtainedObjectType>
+			<TechToResearch>cov_impervioushunter_upgrade2</TechToResearch>
+			<PrerequisiteObtainedObjectType>cov_inf_impervioushunter_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>cov_elitecommando_upgrade3</TechToResearch>
-			<PrerequisiteObtainedObjectType>cov_inf_elitecommando_01</PrerequisiteObtainedObjectType>
+			<TechToResearch>cov_impervioushunter_upgrade3</TechToResearch>
+			<PrerequisiteObtainedObjectType>cov_inf_impervioushunter_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
@@ -985,8 +1073,11 @@
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_air_shroud_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<SquadTypeToSend>cov_inf_elitecommando_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_impervioushunter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<SquadTypeToSend>cov_veh_skitterer_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>

@@ -12,15 +12,7 @@
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
 		</Settings>
 		<LeaderPower>
-			<LeaderPowerType>CovDyingBreath</LeaderPowerType>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovStructuralShielding3</LeaderPowerType>
+			<LeaderPowerType>LekgoloSwarmHeal3</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
@@ -29,13 +21,29 @@
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CovPlasmaMines2</LeaderPowerType>
-			<TargetType>_Minibase</TargetType>
+			<LeaderPowerType>LekgoloPincerBeam3</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CovTeleport1</LeaderPowerType>
+			<LeaderPowerType>LekgoloWalls2</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CovSkitterer</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CovWormBuff2</LeaderPowerType>
+			<TargetType>BasicVehicle</TargetType>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
@@ -43,22 +51,22 @@
 			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CovCleansingBeamPath2_MP</LeaderPowerType>
+			<LeaderPowerType>CovHunterSpiritAssault</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CovPlanetaryCleansing</LeaderPowerType>
+			<LeaderPowerType>CovMassAssault</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
 			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
+			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
 		</LeaderPower>
 		<Mission>
 			<MissionType>Scout</MissionType>
@@ -74,7 +82,7 @@
 			<TargetBaseType>Mini</TargetBaseType>
 			<TargetType>_Settlement</TargetType>
 			<TargetBaseType>Mini</TargetBaseType>
-			<SquadTypeToSend>cov_veh_brutechopper_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_ghost_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -371,7 +379,7 @@
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Start</TargetBaseType>
 			<MissionID>1</MissionID>
-			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_impervioushunter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_inf_engineer_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
@@ -383,7 +391,7 @@
 			<SquadTypeToSend>cov_inf_generic_suicidegrunt</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
-			<SquadTypeToSend>cov_inf_generic_brutejumppack</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_lekgologoliath_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -415,10 +423,12 @@
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Start</TargetBaseType>
 			<MissionID>2</MissionID>
-			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_impervioushunter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_inf_hunter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
+			<SquadTypeToSend>cov_inf_lekgologoliath_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_inf_jackal_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_veh_prowler_01</SquadTypeToSend>
@@ -520,9 +530,11 @@
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Start</TargetBaseType>
 			<MissionID>3</MissionID>
-			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_impervioushunter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_air_blisterback_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<SquadTypeToSend>cov_inf_lekgologoliath_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_veh_wraith_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
@@ -530,7 +542,7 @@
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_inf_engineer_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
 			<SquadTypeToSend>cov_inf_hunter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_inf_jackal_01</SquadTypeToSend>
