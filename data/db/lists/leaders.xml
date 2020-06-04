@@ -569,7 +569,7 @@
         <Civ>Covenant</Civ>
         <Tech>creep_LeaderFlood</Tech>
         <NameID>7014</NameID>
-        <RichPresenceID>LEADER_GRUNTLEADER</RichPresenceID>
+        <RichPresenceID>LEADER_FLOOD</RichPresenceID>
         <CmsId>14</CmsId>
         <DescriptionID>7015</DescriptionID>
         <FlashImg>prophet</FlashImg>
