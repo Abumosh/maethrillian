@@ -9378,10 +9378,6 @@
 		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
 		<Flag>UniqueProtoUnitInstance</Flag>
 		<Effects>
-			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_04" ToType="cov_bldg_builder_04_fl" />
-			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_03" ToType="cov_bldg_builder_03_fl" />
-			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_02" ToType="cov_bldg_builder_02_fl" />
-			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_01" ToType="cov_bldg_builder_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_barracks_01" ToType="cov_bldg_barracks_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_heavyfactory_01" ToType="cov_bldg_heavyfactory_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_lightfactory_01" ToType="cov_bldg_lightfactory_01_fl" />
