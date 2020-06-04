@@ -6148,6 +6148,15 @@
 		<value>upgrade</value>
 	</entry>
 	<entry>
+		<key>flood_base_upgrade_2</key>
+		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_02_stars_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_02_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_base_upgrade1.RadialCenter.Name</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
 		<key>flood_base_upgrade2</key>
 		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_03_stars_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_03_ability_icon</value>

@@ -12769,6 +12769,23 @@
 			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_builder_02_fl</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="flood_base_upgrade_2" type="Normal">
+		<DBID>2041</DBID>
+		<DisplayNameID>1074</DisplayNameID>
+		<RolloverTextID>1075</RolloverTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">1000</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>35</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchAnim>Upgrade</ResearchAnim>
+		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_builder_03_fl</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="flood_base_upgrade2" type="Normal">
 		<DBID>2041</DBID>
 		<DisplayNameID>1074</DisplayNameID>
