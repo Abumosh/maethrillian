@@ -767,6 +767,26 @@
 			<value>3</value>
 		</entry>
 		<entry>
+			<key>cov_bldg_builder_01_mp</key>
+			<value>banished_base</value>
+			<value>3</value>
+		</entry>
+		<entry>
+			<key>cov_bldg_builder_02_mp</key>
+			<value>banished_base</value>
+			<value>3</value>
+		</entry>
+		<entry>
+			<key>cov_bldg_builder_03_mp</key>
+			<value>banished_base</value>
+			<value>3</value>
+		</entry>
+		<entry>
+			<key>cov_bldg_builder_04_mp</key>
+			<value>banished_base</value>
+			<value>3</value>
+		</entry>
+		<entry>
 			<key>cov_bldg_minibase1sock_01</key>
 			<value>Banished_mini_base</value>
 			<value>3</value>
