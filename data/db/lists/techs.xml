@@ -10221,6 +10221,15 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_builder_01_fl" relativity="Absolute">
 				<Target type="ProtoUnit">game_base_Socket_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_base_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_base_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_base_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_fl</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_temple_01_fl" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_socket_01_fl</Target>
 			</Effect>
