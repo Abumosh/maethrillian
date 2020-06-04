@@ -12809,7 +12809,7 @@
 		<ResearchAnim>Upgrade</ResearchAnim>
 		<Flag>UniqueProtoUnitInstance</Flag>
 		<Effects>
-			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_builder_02_fl</Effect>
+			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_builder_03_fl</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="flood_base_upgrade2" type="Normal">
