@@ -2550,18 +2550,6 @@
 				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_03_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_04_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
