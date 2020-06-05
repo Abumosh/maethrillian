@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>Cleansing</Name>
-		<DamagePerSecond>130</DamagePerSecond>
+		<DamagePerSecond>160</DamagePerSecond>
 		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>pow_proj_cleansing_02</Projectile>
 		<ImpactCameraShake duration="0.200000003" strength="0.150000006" />
