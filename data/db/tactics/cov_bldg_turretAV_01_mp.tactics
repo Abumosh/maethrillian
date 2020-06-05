@@ -68,7 +68,6 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>AV_Attack</Anim>
 		<Weapon>AntiVehicleWeapon</Weapon>
-		<AttackPrimaryTargetOnly />
 	</Action>
 	<Tactic>
 		<TargetRule>
