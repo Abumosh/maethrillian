@@ -9347,33 +9347,6 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_gruntswarm_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_minibase3sock_01_base</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_base_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_base_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_base_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_03_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_base_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_base_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_base_upgrade_2" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_base_upgrade_2" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_base_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_base_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_03_fl</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="flood_instant_upgrade" type="Normal">
@@ -9387,6 +9360,10 @@
 		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
 		<Flag>UniqueProtoUnitInstance</Flag>
 		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_04" ToType="cov_bldg_builder_04_fl" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_03" ToType="cov_bldg_builder_03_fl" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_02" ToType="cov_bldg_builder_02_fl" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_01" ToType="cov_bldg_builder_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_barracks_01" ToType="cov_bldg_barracks_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_heavyfactory_01" ToType="cov_bldg_heavyfactory_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_lightfactory_01" ToType="cov_bldg_lightfactory_01_fl" />
