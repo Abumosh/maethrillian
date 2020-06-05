@@ -3,7 +3,7 @@
 	<Action>
 		<Name>AreaBuff</Name>
 		<ActionType>AreaBuff</ActionType>
-		<WorkRange>15</WorkRange>
+		<WorkRange>20</WorkRange>
 		<SpecificData>
 			<BuffParams BuffType="MethaneBuff" DamageMitigationScalar="0.9" DamageDealtModifier="1.1">1.0f</BuffParams>
 			<TargetTypes>
@@ -17,7 +17,7 @@
 	<Action>
 		<Name>AreaDebuff</Name>
 		<ActionType>AreaBuff</ActionType>
-		<WorkRange>15</WorkRange>
+		<WorkRange>20</WorkRange>
 		<SpecificData>
 			<BuffParams BuffType="MethaneDebuff" DamageMitigationScalar="1.1" SlowModifier="0.8">1.0f</BuffParams>
 			<TargetTypes>
