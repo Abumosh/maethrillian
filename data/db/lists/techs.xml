@@ -23709,6 +23709,7 @@
 				<Target type="ProtoSquad">pow_for_andersultimate_01</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_fullshield</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_halfshield</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="_RECORD_Vet2" type="Normal">
@@ -23821,6 +23822,7 @@
 				<Target type="ProtoSquad">pow_for_andersultimate_01</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_fullshield</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_halfshield</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="_RECORD_Vet3" type="Normal">
@@ -23933,6 +23935,7 @@
 				<Target type="ProtoSquad">pow_for_andersultimate_01</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_fullshield</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_halfshield</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 </TechTree>
