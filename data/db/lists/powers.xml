@@ -21,7 +21,7 @@
 	<Power name="CovCleansingBeamPath3Mission04">
 		<Attributes>
 			<Cost Supplies="800" Power="140" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>14</UIRadius>
@@ -56,7 +56,7 @@
 	<Power name="CovCleansingBeamPath3Mission04DecimusArena">
 		<Attributes>
 			<Cost Supplies="800" Power="140" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>14</UIRadius>
@@ -90,7 +90,7 @@
 	<Power name="CovCleansingBeamPathMission6">
 		<Attributes>
 			<Cost Supplies="800" Power="140" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>14</UIRadius>
@@ -124,7 +124,7 @@
 	<Power name="SP_CleansingBeam_1">
 		<Attributes>
 			<Cost Supplies="400" Power="60" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -284,7 +284,7 @@
 	<Power name="CovCleansingBeamPath1M01">
 		<Attributes>
 			<Cost Supplies="400" Power="60" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>10</UIRadius>
@@ -364,7 +364,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Ellipse</PatrolPatternType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>240000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<DisplayNameID>5010</DisplayNameID>
 			<RolloverTextID>5011</RolloverTextID>
@@ -532,7 +532,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="25" Power="100" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -583,7 +583,7 @@
 	<Power name="PR01_UnscBombingRun1">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>60000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -636,7 +636,7 @@
 	<Power name="PR01_UnscBombingRun2">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>60000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -689,7 +689,7 @@
 	<Power name="PR01_UnscBombingRun3">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>60000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -800,7 +800,7 @@
 			<BuffName>SkullFirestarterBuff</BuffName>
 			<ProcPowerName>SkullFirestarterBuffProc</ProcPowerName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -837,7 +837,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>5026</DisplayNameID>
 			<RolloverTextID>5027</RolloverTextID>
@@ -913,7 +913,7 @@
 			<BuffName>SkullBoomBuff</BuffName>
 			<ProcPowerName>SkullBoomBuffProc</ProcPowerName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -950,7 +950,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>5026</DisplayNameID>
 			<RolloverTextID>5027</RolloverTextID>
@@ -1095,7 +1095,7 @@
 	<Power name="SkullBoxDrop">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
-			<AutoRecharge>10000</AutoRecharge>
+			<AutoRecharge>1000</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -1139,7 +1139,7 @@
 	<Power name="CpgnOdstDrop">
 		<Attributes>
 			<Cost Supplies="100" Power="0" />
-			<AutoRecharge>20000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<SequentialRecharge />
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>5012</DisplayNameID>
@@ -1160,7 +1160,7 @@
 	<Power name="CpgnGiveUnitsToCoPlayer">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>1000</AutoRecharge>
+			<AutoRecharge>100</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<DisplayNameID>24685</DisplayNameID>
 			<RolloverTextID>24686</RolloverTextID>
@@ -1177,7 +1177,7 @@
 	<Power name="UnscCpgn1OrbitalBombard">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>1000</AutoRecharge>
+			<AutoRecharge>100</AutoRecharge>
 			<UIRadius>18</UIRadius>
 			<DisplayNameID>22300</DisplayNameID>
 			<RolloverTextID>5027</RolloverTextID>
@@ -1302,7 +1302,7 @@
 			<PrereqTextID>250</PrereqTextID>
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 			<IconLocation>3</IconLocation>
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UnitPower />
 			<ShowInPowerMenu>false</ShowInPowerMenu>
 			<FlashUI>
@@ -1320,7 +1320,7 @@
 			<PrereqTextID>250</PrereqTextID>
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 			<IconLocation>3</IconLocation>
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UnitPower />
 			<ShowInPowerMenu>false</ShowInPowerMenu>
 			<FlashUI>
@@ -1338,7 +1338,7 @@
 			<PrereqTextID>250</PrereqTextID>
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 			<IconLocation>3</IconLocation>
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UnitPower />
 			<ShowInPowerMenu>false</ShowInPowerMenu>
 			<FlashUI>
@@ -1356,7 +1356,7 @@
 			<PrereqTextID>250</PrereqTextID>
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 			<IconLocation>3</IconLocation>
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UnitPower />
 			<ShowInPowerMenu>false</ShowInPowerMenu>
 			<FlashUI>
@@ -1374,7 +1374,7 @@
 			<PrereqTextID>250</PrereqTextID>
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 			<IconLocation>3</IconLocation>
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UnitPower />
 			<ShowInPowerMenu>false</ShowInPowerMenu>
 			<FlashUI>
@@ -1392,7 +1392,7 @@
 			<PrereqTextID>250</PrereqTextID>
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 			<IconLocation>3</IconLocation>
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UnitPower />
 			<ShowInPowerMenu>false</ShowInPowerMenu>
 			<FlashUI>
@@ -1413,7 +1413,7 @@
 			<PrereqTextID>250</PrereqTextID>
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 			<IconLocation>3</IconLocation>
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UnitPower />
 			<ShowInPowerMenu>false</ShowInPowerMenu>
 			<FlashUI>
@@ -1431,7 +1431,7 @@
 			<PrereqTextID>250</PrereqTextID>
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 			<IconLocation>3</IconLocation>
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UnitPower />
 			<ShowInPowerMenu>false</ShowInPowerMenu>
 			<FlashUI>
@@ -1449,7 +1449,7 @@
 			<PrereqTextID>250</PrereqTextID>
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 			<IconLocation>3</IconLocation>
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UnitPower />
 			<ShowInPowerMenu>false</ShowInPowerMenu>
 			<FlashUI>
@@ -1463,7 +1463,7 @@
 		<Attributes>
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
-			<AutoRecharge>60000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>35</UIRadius>
 			<DisplayNameID>5000</DisplayNameID>
 			<RolloverTextID>5001</RolloverTextID>
@@ -1493,7 +1493,7 @@
 		<Attributes>
 			<PowerType>RosterReinforcementsA</PowerType>
 			<Cost Supplies="1000" />
-			<AutoRecharge>30000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>26290</DisplayNameID>
 			<RolloverTextID>26291</RolloverTextID>
@@ -1529,7 +1529,7 @@
 		<Attributes>
 			<PowerType>RosterReinforcementsB</PowerType>
 			<Cost Supplies="1000" />
-			<AutoRecharge>30000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>26293</DisplayNameID>
 			<RolloverTextID>26291</RolloverTextID>
@@ -1564,7 +1564,7 @@
 	<Power name="DecimusCleansingBeam1">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>360000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>5</UIRadius>
@@ -1596,7 +1596,7 @@
 	<Power name="DecimusCleansingBeam1_MP">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>360000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>5</UIRadius>
@@ -1628,7 +1628,7 @@
 	<Power name="VeterancyGainReduction">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>10000</AutoRecharge>
+			<AutoRecharge>1000</AutoRecharge>
 			<PowerType>TechScript</PowerType>
 			<TechScript>_POWER_veterancy_gain_reduction</TechScript>
 		</Attributes>
@@ -1636,7 +1636,7 @@
 	<Power name="CovCpgn04Lasers">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>10</UIRadius>
@@ -1669,7 +1669,7 @@
 	<Power name="CovCpgn04LasersStrong">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>10</UIRadius>
@@ -1702,7 +1702,7 @@
 	<Power name="CovCpgn04LaserErradication">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>36</UIRadius>
@@ -1741,7 +1741,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Pop type="Unit">4</Pop>
 			<Cost Supplies="240" Power="60" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1801,7 +1801,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="225" Power="225" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -1847,7 +1847,7 @@
 			<NotAffectedByCeasefire />
 			<PowerType>UnitDrop</PowerType>
 			<Cost Supplies="280" Power="40" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>5012</DisplayNameID>
 			<RolloverTextID>5013</RolloverTextID>
@@ -1930,7 +1930,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Adrenaline</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<DisplayNameID>5000</DisplayNameID>
 			<RolloverTextID>5001</RolloverTextID>
 			<LeaderPower />
@@ -2414,7 +2414,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>AdvancedOptics</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<DisplayNameID>5000</DisplayNameID>
 			<RolloverTextID>5001</RolloverTextID>
 			<LeaderPower />
@@ -2974,7 +2974,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>ConduitofRage</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>ConduitOfRage_Small</Decal>
 			<LeaderPower />
@@ -3201,7 +3201,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>ConduitofRage</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<LeaderPower />
@@ -3752,7 +3752,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="150" Power="100" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -3808,7 +3808,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="300" Power="200" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>12</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -3864,7 +3864,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="450" Power="300" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>14</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -3920,7 +3920,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -3981,7 +3981,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>12</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -4047,7 +4047,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>14</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -4158,7 +4158,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">12</Pop>
 			<Cost Supplies="400" Power="260" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -4213,7 +4213,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Stasis</AIPowerUseType>
 			<Cost Supplies="150" Power="150" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>15</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -4269,7 +4269,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Stasis</AIPowerUseType>
 			<Cost Supplies="200" Power="200" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -4419,7 +4419,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Stasis</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>15</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -4485,7 +4485,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Stasis</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -4946,7 +4946,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="75" Power="75" />
-			<AutoRecharge>105000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -5008,7 +5008,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="150" Power="150" />
-			<AutoRecharge>105000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -5069,7 +5069,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Stasis</AIPowerUseType>
 			<Cost Supplies="500" Power="500" />
-			<AutoRecharge>270000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -5172,7 +5172,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Stasis</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>360000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -5229,7 +5229,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Spokes</PatrolPatternType>
 			<Cost Supplies="650" Power="450" />
-			<AutoRecharge>280000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -5273,7 +5273,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="300" Power="200" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -5320,7 +5320,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="400" Power="300" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -5367,7 +5367,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="500" Power="400" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>35</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -5414,7 +5414,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="550" Power="80" />
-			<AutoRecharge>240000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<DisplayNameID>5010</DisplayNameID>
 			<RolloverTextID>5011</RolloverTextID>
@@ -5458,7 +5458,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="550" Power="80" />
-			<AutoRecharge>240000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<DisplayNameID>5010</DisplayNameID>
 			<RolloverTextID>5011</RolloverTextID>
@@ -5502,7 +5502,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="550" Power="80" />
-			<AutoRecharge>240000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>38</UIRadius>
 			<DisplayNameID>5010</DisplayNameID>
 			<RolloverTextID>5011</RolloverTextID>
@@ -5546,7 +5546,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -5593,7 +5593,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -5640,7 +5640,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>35</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -5686,7 +5686,7 @@
 			<PowerType>SpawnUnitsOnTargets</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="300" Power="30" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -5731,7 +5731,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -5788,7 +5788,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -5852,7 +5852,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -5900,7 +5900,7 @@
 	<Power name="UnscBombingRun1">
 		<Attributes>
 			<Cost Supplies="450" Power="275" />
-			<AutoRecharge>200000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -5954,7 +5954,7 @@
 	<Power name="UnscBombingRun2">
 		<Attributes>
 			<Cost Supplies="550" Power="400" />
-			<AutoRecharge>200000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -6008,7 +6008,7 @@
 	<Power name="UnscBombingRun3">
 		<Attributes>
 			<Cost Supplies="650" Power="525" />
-			<AutoRecharge>200000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -6062,7 +6062,7 @@
 	<Power name="UnscBombingRun1_MP">
 		<Attributes>
 			<Cost Supplies="300" Power="200" />
-			<AutoRecharge>200000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -6116,7 +6116,7 @@
 	<Power name="UnscBombingRun2_MP">
 		<Attributes>
 			<Cost Supplies="400" Power="300" />
-			<AutoRecharge>200000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -6170,7 +6170,7 @@
 	<Power name="UnscBombingRun3_MP">
 		<Attributes>
 			<Cost Supplies="500" Power="400" />
-			<AutoRecharge>200000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -6224,7 +6224,7 @@
 	<Power name="RMBombingRun">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>12</UIRadius>
@@ -6393,7 +6393,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Rage</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<DisplayNameID>5000</DisplayNameID>
 			<RolloverTextID>5001</RolloverTextID>
 			<LeaderPower />
@@ -6923,7 +6923,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LifeLeech</BuffName>
 			<Cost Supplies="300" Power="100" />
-			<AutoRecharge>175000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -6967,7 +6967,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LifeLeech</BuffName>
 			<Cost Supplies="400" Power="150" />
-			<AutoRecharge>175000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -7011,7 +7011,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LifeLeech</BuffName>
 			<Cost Supplies="500" Power="150" />
-			<AutoRecharge>175000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -7054,7 +7054,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Rage</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -7100,7 +7100,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Rage</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -7146,7 +7146,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Rage</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>12</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -7193,7 +7193,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Pop type="Unit">2</Pop>
 			<Cost Supplies="400" Power="0" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -7251,7 +7251,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Pop type="Unit">2</Pop>
 			<Cost Supplies="500" Power="0" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -7309,7 +7309,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Pop type="Unit">0</Pop>
 			<Cost Supplies="300" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -7367,7 +7367,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Pop type="Unit">0</Pop>
 			<Cost Supplies="400" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -7425,7 +7425,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Pop type="Unit">1</Pop>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -7484,7 +7484,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Pop type="Unit">1</Pop>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -7539,7 +7539,7 @@
 	<Power name="CovCleansingBeamPath1">
 		<Attributes>
 			<Cost Supplies="400" Power="250" />
-			<AutoRecharge>200000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>10</UIRadius>
@@ -7573,7 +7573,7 @@
 	<Power name="CovCleansingBeamPath2">
 		<Attributes>
 			<Cost Supplies="500" Power="385" />
-			<AutoRecharge>200000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>12</UIRadius>
@@ -7607,7 +7607,7 @@
 	<Power name="CovCleansingBeamPath3">
 		<Attributes>
 			<Cost Supplies="600" Power="500" />
-			<AutoRecharge>200000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>14</UIRadius>
@@ -7641,7 +7641,7 @@
 	<Power name="CovCleansingBeamPath1_MP">
 		<Attributes>
 			<Cost Supplies="350" Power="150" />
-			<AutoRecharge>230000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>10</UIRadius>
@@ -7675,7 +7675,7 @@
 	<Power name="CovCleansingBeamPath2_MP">
 		<Attributes>
 			<Cost Supplies="450" Power="250" />
-			<AutoRecharge>230000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>12</UIRadius>
@@ -7709,7 +7709,7 @@
 	<Power name="CovCleansingBeamPath3_MP">
 		<Attributes>
 			<Cost Supplies="550" Power="350" />
-			<AutoRecharge>230000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>14</UIRadius>
@@ -7743,7 +7743,7 @@
 	<Power name="RMCleansingBeam">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>10</UIRadius>
@@ -7782,7 +7782,7 @@
 	<Power name="RMCleansingBeam2">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>12</UIRadius>
@@ -7827,7 +7827,7 @@
 	<Power name="RMCleansingBeam3">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>14</UIRadius>
@@ -8471,7 +8471,7 @@
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">4</Pop>
 			<Cost Supplies="250" Power="20" />
-			<AutoRecharge>110000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -8522,7 +8522,7 @@
 			<AIPowerUseType>BuffCorruptedEnemies</AIPowerUseType>
 			<BuffName>Cataclysm</BuffName>
 			<Cost Supplies="600" Power="400" />
-			<AutoRecharge>235000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -8574,7 +8574,7 @@
 			<AIPowerUseType>BuffCorruptedEnemies</AIPowerUseType>
 			<BuffName>Cataclysm</BuffName>
 			<Cost Supplies="550" Power="550" />
-			<AutoRecharge>270000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -8626,7 +8626,7 @@
 			<AIPowerUseType>BuffCorruptedEnemies</AIPowerUseType>
 			<BuffName>Cataclysm</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>240000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -8673,7 +8673,7 @@
 			<AIPowerUseType>BuffCorruptedEnemies</AIPowerUseType>
 			<BuffName>CorruptionLifeDrain</BuffName>
 			<Cost Supplies="150" Power="50" />
-			<AutoRecharge>130000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -8730,7 +8730,7 @@
 			<AIPowerUseType>BuffCorruptedEnemies</AIPowerUseType>
 			<BuffName>CorruptionLifeDrain</BuffName>
 			<Cost Supplies="200" Power="75" />
-			<AutoRecharge>130000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -8787,7 +8787,7 @@
 			<AIPowerUseType>BuffCorruptedEnemies</AIPowerUseType>
 			<BuffName>CorruptionLifeDrain</BuffName>
 			<Cost Supplies="250" Power="100" />
-			<AutoRecharge>130000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -8844,7 +8844,7 @@
 			<AIPowerUseType>BuffCorruptedEnemies</AIPowerUseType>
 			<BuffName>CorruptionLifeDrain</BuffName>
 			<Cost Supplies="0" Power="70" />
-			<AutoRecharge>240000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -8898,7 +8898,7 @@
 			<AIPowerUseType>BuffCorruptedEnemies</AIPowerUseType>
 			<BuffName>CorruptionLifeDrain</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>240000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -8953,7 +8953,7 @@
 			<AIPowerUseType>BuffCorruptedEnemies</AIPowerUseType>
 			<BuffName>CorruptionLifeDrain</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>240000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -9287,7 +9287,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="85" Power="85" />
-			<AutoRecharge>80000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -9335,7 +9335,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="100" Power="100" />
-			<AutoRecharge>80000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -9383,7 +9383,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -9488,7 +9488,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="0" Power="500" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -9534,7 +9534,7 @@
 	<Power name="CorruptedSalvo1">
 		<Attributes>
 			<Cost Supplies="200" Power="200" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -9588,7 +9588,7 @@
 	<Power name="CorruptedSalvo2">
 		<Attributes>
 			<Cost Supplies="300" Power="300" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -9642,7 +9642,7 @@
 	<Power name="CorruptedSalvo3">
 		<Attributes>
 			<Cost Supplies="425" Power="425" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -9696,7 +9696,7 @@
 	<Power name="RMCorruptedSalvo">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>12</UIRadius>
@@ -9790,7 +9790,7 @@
 	<Power name="CorruptedVortex1">
 		<Attributes>
 			<Cost Supplies="350" Power="225" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>11</UIRadius>
@@ -9828,7 +9828,7 @@
 	<Power name="CorruptedVortex2">
 		<Attributes>
 			<Cost Supplies="450" Power="300" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>13</UIRadius>
@@ -9865,7 +9865,7 @@
 	<Power name="CorruptedVortex3">
 		<Attributes>
 			<Cost Supplies="550" Power="400" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>13</UIRadius>
@@ -9902,7 +9902,7 @@
 	<Power name="CorruptedVortex1_mp">
 		<Attributes>
 			<Cost Supplies="200" Power="125" />
-			<AutoRecharge>100000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>11</UIRadius>
@@ -9940,7 +9940,7 @@
 	<Power name="CorruptedVortex2_mp">
 		<Attributes>
 			<Cost Supplies="250" Power="175" />
-			<AutoRecharge>100000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>13</UIRadius>
@@ -9977,7 +9977,7 @@
 	<Power name="CorruptedVortex3_mp">
 		<Attributes>
 			<Cost Supplies="300" Power="225" />
-			<AutoRecharge>100000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>13</UIRadius>
@@ -10014,7 +10014,7 @@
 	<Power name="RMCorruptedVortex1">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>145000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>11</UIRadius>
@@ -10055,7 +10055,7 @@
 	<Power name="RMCorruptedVortex2">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>145000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>14</UIRadius>
@@ -10098,7 +10098,7 @@
 	<Power name="RMCorruptedVortex3">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>145000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>16</UIRadius>
@@ -10414,7 +10414,7 @@
 	<Power name="RMOldCorruptedVortex">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>6</UIRadius>
@@ -10546,7 +10546,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">7</Pop>
 			<Cost Supplies="600" Power="60" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>23</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -10600,7 +10600,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">16</Pop>
 			<Cost Supplies="1600" Power="170" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -10657,7 +10657,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>10</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -10711,7 +10711,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>10</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -10808,10 +10808,8 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>OrbBattleGroup</SoundName>
-			<Pop type="Unit">10</Pop>
-			<Pop type="Decimus">1</Pop>
 			<Cost Supplies="1000" Power="1000" />
-			<AutoRecharge>360000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -10858,7 +10856,7 @@
 			<PowerType>Transport</PowerType>
 			<AIPowerUseType>TransportEnemies</AIPowerUseType>
 			<Cost Supplies="0" Power="500" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -10909,7 +10907,7 @@
 			<ProcBuffName>CovDyingBreathProc</ProcBuffName>
 			<ProcOnTakeLethalDamage />
 			<Cost Supplies="300" Power="80" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -10964,7 +10962,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>InvisibleArmy</BuffName>
 			<Cost Supplies="800" Power="200" />
-			<AutoRecharge>245000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -11008,7 +11006,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>InvisibleArmy</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>240000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<DisplayNameID>5000</DisplayNameID>
 			<RolloverTextID>5001</RolloverTextID>
 			<LeaderPower />
@@ -11536,7 +11534,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>InvisibleArmy</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>240000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<DisplayNameID>5000</DisplayNameID>
 			<RolloverTextID>5001</RolloverTextID>
 			<LeaderPower />
@@ -12063,7 +12061,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Invulnerability</BuffName>
 			<Cost Supplies="1200" Power="800" />
-			<AutoRecharge>333000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -12123,7 +12121,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="25" Power="75" />
-			<AutoRecharge>70000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -12171,7 +12169,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="50" Power="150" />
-			<AutoRecharge>70000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -12273,7 +12271,7 @@
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">4</Pop>
 			<Cost Supplies="145" Power="180" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -12459,7 +12457,7 @@
 			<PowerType>AreaBuff</PowerType>
 			<BuffName>SwarmDOT</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -12521,7 +12519,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<NotDisruptable />
 			<Cost Supplies="500" Power="100" />
-			<AutoRecharge>30000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -12575,7 +12573,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="250" Power="0" />
-			<AutoRecharge>60000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>48</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -12628,7 +12626,7 @@
 	<Power name="ep2SentinelPincerBeam1">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>10</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>OrbitalWithDirection</AIPowerUseType>
 			<UIRadius>23.5</UIRadius>
@@ -12669,7 +12667,7 @@
 	<Power name="ep2SentinelPincerBeam2">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>10</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>OrbitalWithDirection</AIPowerUseType>
 			<UIRadius>28.5</UIRadius>
@@ -12714,7 +12712,7 @@
 			<AIPowerUseType>TransportExtraction</AIPowerUseType>
 			<ProcPowerName>CovExtractionHeal1</ProcPowerName>
 			<Cost Supplies="250" Power="75" />
-			<AutoRecharge>190000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -12765,7 +12763,7 @@
 			<AIPowerUseType>TransportExtraction</AIPowerUseType>
 			<ProcPowerName>CovExtractionHeal2</ProcPowerName>
 			<Cost Supplies="350" Power="125" />
-			<AutoRecharge>190000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -12816,7 +12814,7 @@
 			<AIPowerUseType>TransportExtraction</AIPowerUseType>
 			<ProcPowerName>CovExtractionHeal3</ProcPowerName>
 			<Cost Supplies="450" Power="175" />
-			<AutoRecharge>190000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -12996,7 +12994,7 @@
 			<NotAffectedByCeasefire />
 			<PowerType>UnitDrop</PowerType>
 			<Cost Supplies="280" Power="40" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>5012</DisplayNameID>
 			<RolloverTextID>5013</RolloverTextID>
@@ -13044,7 +13042,7 @@
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">21</Pop>
 			<Cost Supplies="1750" Power="300" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -13124,7 +13122,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="850" Power="0" />
 			<Pop type="Unit">12</Pop>
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -13188,7 +13186,7 @@
 			<AIPowerUseType>BuffEnemies</AIPowerUseType>
 			<BuffName>GhostInTheMachine</BuffName>
 			<Cost Supplies="850" Power="850" />
-			<AutoRecharge>360000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -13237,7 +13235,7 @@
 			<AIPowerUseType>BuffEnemies</AIPowerUseType>
 			<BuffName>GhostInTheMachine</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -13576,7 +13574,7 @@
 	<Power name="CovGravityVortex1">
 		<Attributes>
 			<Cost Supplies="150" Power="100" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -13614,7 +13612,7 @@
 	<Power name="CovGravityVortex2">
 		<Attributes>
 			<Cost Supplies="300" Power="200" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>10</UIRadius>
@@ -13651,7 +13649,7 @@
 	<Power name="RMGravityVortex">
 		<Attributes>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>6</UIRadius>
@@ -14085,7 +14083,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">30</Pop>
 			<Cost Supplies="2750" Power="450" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -14140,7 +14138,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="40" Power="40" />
-			<AutoRecharge>112000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -14188,7 +14186,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="60" Power="60" />
-			<AutoRecharge>112000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -14245,7 +14243,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="60" Power="60" />
-			<AutoRecharge>80000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -14294,7 +14292,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
 			<Pop type="Unit">0</Pop>
-			<AutoRecharge>70000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -14350,7 +14348,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
 			<Pop type="Unit">0</Pop>
-			<AutoRecharge>70000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -14403,7 +14401,7 @@
 		<Attributes>
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<ProcOnSquadSpawned />
 			<ProcWhenActiveOnly />
 			<BuffName>Ceasefire</BuffName>
@@ -14442,7 +14440,7 @@
 		<Attributes>
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<ProcOnSquadSpawned />
 			<ProcWhenActiveOnly />
 			<BuffName>Ceasefire</BuffName>
@@ -14739,7 +14737,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>VehicleRecycle</BuffName>
 			<Cost Supplies="300" Power="350" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -14786,7 +14784,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="700" Power="700" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -14897,7 +14895,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<BuffName>Rage</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -14939,7 +14937,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="400" Power="400" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -15070,7 +15068,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="300" Power="40" />
-			<AutoRecharge>225000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -15127,7 +15125,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="400" Power="60" />
-			<AutoRecharge>225000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -15184,7 +15182,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>125000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -15289,7 +15287,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="400" Power="100" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -15344,7 +15342,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="500" Power="150" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -15398,7 +15396,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="600" Power="200" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -15454,7 +15452,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -15508,7 +15506,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">16</Pop>
 			<Cost Supplies="800" Power="250" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>12</UIRadius>
 			<Decal>AoE_Medium</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -15570,7 +15568,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">26</Pop>
 			<Cost Supplies="1300" Power="320" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>22</UIRadius>
 			<Decal>AoE_Medium</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -15643,7 +15641,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Point</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -15744,7 +15742,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="200" Power="50" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -15790,7 +15788,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="400" Power="100" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -15836,7 +15834,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="600" Power="150" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -15882,7 +15880,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="600" Power="90" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -15935,7 +15933,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="600" Power="90" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -15992,7 +15990,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="600" Power="90" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -16412,7 +16410,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="100" Power="60" />
 			<Pop type="Unit">3</Pop>
-			<AutoRecharge>110000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -16463,7 +16461,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="200" Power="120" />
 			<Pop type="Unit">6</Pop>
-			<AutoRecharge>110000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -16522,7 +16520,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>OrbBattleGroup</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -16583,7 +16581,7 @@
 			<BuffName>InspireHeroism</BuffName>
 			<BuffNameToReplace>Inspire</BuffNameToReplace>
 			<Cost Supplies="400" Power="100" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -16636,7 +16634,7 @@
 			<BuffName>InspireHeroism</BuffName>
 			<BuffNameToReplace>Inspire</BuffNameToReplace>
 			<Cost Supplies="600" Power="200" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -16687,7 +16685,7 @@
 			<BuffName>InspireHeroism</BuffName>
 			<StackBuffOnKeyword>Rally</StackBuffOnKeyword>
 			<Cost Supplies="200" Power="50" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -17327,7 +17325,7 @@
 			<PowerType>HoloDecoy</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<Cost Supplies="200" Power="50" />
-			<AutoRecharge>130000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -17368,7 +17366,7 @@
 			<PowerType>HoloDecoy</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<Cost Supplies="350" Power="75" />
-			<AutoRecharge>130000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -17409,7 +17407,7 @@
 			<PowerType>HoloDecoy</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<Cost Supplies="100" Power="30" />
-			<AutoRecharge>110000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -17450,7 +17448,7 @@
 			<PowerType>HoloDecoy</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<Cost Supplies="200" Power="50" />
-			<AutoRecharge>110000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>34</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -17491,7 +17489,7 @@
 			<PowerType>HoloDecoy</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -17923,7 +17921,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="600" Power="600" />
-			<AutoRecharge>265000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -17977,7 +17975,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="1300" Power="325" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -18032,7 +18030,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="250" Power="250" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -18150,7 +18148,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="350" Power="350" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<IconLocation>0</IconLocation>
@@ -18293,7 +18291,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="450" Power="450" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<IconLocation>0</IconLocation>
@@ -18460,7 +18458,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="500" Power="90" />
-			<AutoRecharge>195000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -18579,7 +18577,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="700" Power="130" />
-			<AutoRecharge>195000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<IconLocation>0</IconLocation>
@@ -18723,7 +18721,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="700" Power="130" />
-			<AutoRecharge>195000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<IconLocation>0</IconLocation>
@@ -18910,7 +18908,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>JeromeFieldUpgrade</BuffName>
 			<Cost Supplies="800" Power="800" />
-			<AutoRecharge>270000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>14</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -19022,7 +19020,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="100" Power="60" />
 			<Pop type="Decimus">1</Pop>
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -19076,7 +19074,7 @@
 			<SoundName>UnscJeromeMechDrop2</SoundName>
 			<Cost Supplies="100" Power="60" />
 			<Pop type="Decimus">1</Pop>
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -19175,7 +19173,7 @@
 			<Cost Supplies="1800" Power="1800" />
 			<Pop type="Unit">30</Pop>
 			<Pop Type="Rhino">3</Pop>
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -19238,7 +19236,7 @@
 			<Cost Supplies="1600" Power="500" />
 			<Pop type="Unit">10</Pop>
 			<Pop Type="Rhino">1</Pop>
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -19295,7 +19293,7 @@
 			<Cost Supplies="1600" Power="500" />
 			<Pop type="Unit">10</Pop>
 			<Pop Type="Rhino">1</Pop>
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -19352,7 +19350,7 @@
 			<Cost Supplies="1600" Power="500" />
 			<Pop type="Unit">10</Pop>
 			<Pop Type="Rhino">1</Pop>
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -19408,7 +19406,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="85" Power="85" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -19468,7 +19466,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="160" Power="160" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -19528,7 +19526,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Inspire</BuffName>
 			<Cost Supplies="200" Power="50" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -19578,7 +19576,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Inspire</BuffName>
 			<Cost Supplies="200" Power="50" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -19628,7 +19626,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="350" Power="25" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -19683,7 +19681,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="600" Power="50" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -19739,7 +19737,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -19794,7 +19792,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="300" Power="200" />
-			<AutoRecharge>195000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>22</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -19848,7 +19846,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="400" Power="300" />
-			<AutoRecharge>195000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>26</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -19956,7 +19954,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<BuffName>JohnsonEMPBuff</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -20000,7 +19998,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<BuffName>JohnsonEMPBuff</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -20088,7 +20086,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="150" Power="150" />
-			<AutoRecharge>195000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -20142,7 +20140,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="250" Power="250" />
-			<AutoRecharge>195000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -20213,7 +20211,7 @@
 			<NotAffectedByCeasefire />
 			<PowerType>Repair</PowerType>
 			<Cost Supplies="200" Power="50" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -20257,7 +20255,7 @@
 			<NotAffectedByCeasefire />
 			<PowerType>Repair</PowerType>
 			<Cost Supplies="300" Power="75" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>27</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -20301,7 +20299,7 @@
 			<NotAffectedByCeasefire />
 			<PowerType>Repair</PowerType>
 			<Cost Supplies="400" Power="100" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -20345,7 +20343,7 @@
 			<NotAffectedByCeasefire />
 			<PowerType>Repair</PowerType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -20394,7 +20392,7 @@
 			<NotAffectedByCeasefire />
 			<PowerType>Repair</PowerType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -20446,7 +20444,7 @@
 			<NotAffectedByCeasefire />
 			<PowerType>Repair</PowerType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -20790,7 +20788,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Invulnerability</BuffName>
 			<Cost Supplies="500" Power="200" />
-			<AutoRecharge>240000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -20833,7 +20831,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Invulnerability</BuffName>
 			<Cost Supplies="700" Power="300" />
-			<AutoRecharge>240000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -20876,7 +20874,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Invulnerability</BuffName>
 			<Cost Supplies="650" Power="250" />
-			<AutoRecharge>333000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -21348,7 +21346,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="350" Power="125" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -21395,7 +21393,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="450" Power="175" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -21442,7 +21440,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="550" Power="225" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -21489,7 +21487,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>190000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -21541,7 +21539,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -21596,7 +21594,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="400" Power="100" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -21924,7 +21922,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="350" Power="125" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -21971,7 +21969,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="450" Power="175" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -22018,7 +22016,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="550" Power="225" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -22061,7 +22059,7 @@
 	<Power name="LekgoloPincerBeam1">
 		<Attributes>
 			<Cost Supplies="280" Power="175" />
-			<AutoRecharge>145000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>OrbitalWithDirection</AIPowerUseType>
 			<UIRadius>23.5</UIRadius>
@@ -22102,7 +22100,7 @@
 	<Power name="LekgoloPincerBeam2">
 		<Attributes>
 			<Cost Supplies="400" Power="300" />
-			<AutoRecharge>145000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>OrbitalWithDirection</AIPowerUseType>
 			<UIRadius>28.5</UIRadius>
@@ -22143,7 +22141,7 @@
 	<Power name="LekgoloPincerBeam3">
 		<Attributes>
 			<Cost Supplies="500" Power="415" />
-			<AutoRecharge>145000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>OrbitalWithDirection</AIPowerUseType>
 			<UIRadius>33</UIRadius>
@@ -22187,7 +22185,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">8</Pop>
 			<Cost Supplies="400" Power="175" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -22237,7 +22235,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">31</Pop>
 			<Cost Supplies="1950" Power="980" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -22308,7 +22306,7 @@
 			<AIPowerUseType>WallDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>3</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -22364,7 +22362,7 @@
 			<AIPowerUseType>WallDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>3</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -22419,7 +22417,7 @@
 			<AIPowerUseType>WallDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>3</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -22475,7 +22473,7 @@
 			<AIPowerUseType>WallDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>3</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -22531,7 +22529,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
 			<Cost Supplies="60" Power="30" />
-			<AutoRecharge>110000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>9</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -22579,7 +22577,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
 			<Cost Supplies="120" Power="60" />
-			<AutoRecharge>110000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>17</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -22627,7 +22625,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
 			<Cost Supplies="200" Power="100" />
-			<AutoRecharge>110000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -22674,7 +22672,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>10</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -22722,7 +22720,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
 			<Cost Supplies="200" Power="50" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>13</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -22780,7 +22778,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
 			<Cost Supplies="400" Power="100" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>17</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -22844,7 +22842,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
 			<Cost Supplies="600" Power="90" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -23453,7 +23451,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="75" Power="75" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -23513,7 +23511,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="150" Power="150" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -23573,7 +23571,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="75" Power="75" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -23633,7 +23631,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="150" Power="150" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -23746,7 +23744,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Ellipse</PatrolPatternType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>360000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<ShowTransportArrows>true</ShowTransportArrows>
 			<DisplayNameID>5010</DisplayNameID>
@@ -23797,7 +23795,7 @@
 		<Attributes>
 			<PowerType>Orbital</PowerType>
 			<Cost Supplies="150" Power="150" />
-			<AutoRecharge>195000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -23851,7 +23849,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="350" Power="250" />
-			<AutoRecharge>200000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -23905,7 +23903,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="450" Power="350" />
-			<AutoRecharge>200000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -23959,7 +23957,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="550" Power="450" />
-			<AutoRecharge>200000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -24013,7 +24011,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>22</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -24072,7 +24070,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>26</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -24136,7 +24134,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -24191,7 +24189,7 @@
 			<BuffName>GhostInTheMachine</BuffName>
 			<Cost Supplies="1200" Power="300" />
 			<Data type="bool" name="BuffDurationInfinite">true</Data>
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -24230,7 +24228,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="300" Power="100" />
-			<AutoRecharge>190000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -24274,7 +24272,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="400" Power="150" />
-			<AutoRecharge>190000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>27</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -24318,7 +24316,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="500" Power="200" />
-			<AutoRecharge>190000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -24361,7 +24359,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="300" Power="100" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -24405,7 +24403,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="350" Power="125" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>27</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -24449,7 +24447,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="400" Power="150" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -24494,7 +24492,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>190000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -24543,7 +24541,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>190000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -24595,7 +24593,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>190000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -24917,7 +24915,7 @@
 	<Power name="UnscNapalmMissiles1">
 		<Attributes>
 			<Cost Supplies="280" Power="175" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -24971,7 +24969,7 @@
 	<Power name="UnscNapalmMissiles2">
 		<Attributes>
 			<Cost Supplies="425" Power="325" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -25025,7 +25023,7 @@
 	<Power name="UnscNapalmMissiles3">
 		<Attributes>
 			<Cost Supplies="600" Power="500" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -25079,7 +25077,7 @@
 	<Power name="RMNapalmMissiles">
 		<Attributes>
 			<Cost Supplies="175" Power="175" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -25143,7 +25141,7 @@
 	<Power name="RMNapalmMissiles2">
 		<Attributes>
 			<Cost Supplies="300" Power="300" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -25217,7 +25215,7 @@
 	<Power name="RMNapalmMissiles3">
 		<Attributes>
 			<Cost Supplies="450" Power="450" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -25274,7 +25272,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="800" Power="0" />
 			<Pop type="Unit">12</Pop>
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -25334,7 +25332,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>OrbBattleGroup</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -25394,7 +25392,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="750" Power="0" />
 			<Pop type="Unit">15</Pop>
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -25454,7 +25452,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="750" Power="0" />
 			<Pop type="Unit">15</Pop>
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -25509,7 +25507,7 @@
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">27</Pop>
 			<Cost Supplies="1650" Power="625" />
-			<AutoRecharge>360000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -25585,7 +25583,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="1500" Power="0" />
-			<AutoRecharge>360000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -25631,7 +25629,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="900" Power="250" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -25679,7 +25677,7 @@
 			<Cost Supplies="0" Power="100" />
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
-			<AutoRecharge>100000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<ShowTransportArrows>true</ShowTransportArrows>
 			<DisplayNameID>5010</DisplayNameID>
 			<RolloverTextID>5011</RolloverTextID>
@@ -25725,7 +25723,7 @@
 			<Cost Supplies="0" Power="0" />
 			<UIRadius>36</UIRadius>
 			<Decal>AOE_Large</Decal>
-			<AutoRecharge>100000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<ShowTransportArrows>true</ShowTransportArrows>
 			<DisplayNameID>5010</DisplayNameID>
 			<RolloverTextID>5011</RolloverTextID>
@@ -26106,7 +26104,7 @@
 	<Power name="CovPlanetaryCleansing">
 		<Attributes>
 			<Cost Supplies="1000" Power="1000" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>36</UIRadius>
@@ -26142,7 +26140,7 @@
 	<Power name="RMPlanetaryCleansing">
 		<Attributes>
 			<Cost Supplies="1500" Power="400" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
 			<UIRadius>36</UIRadius>
@@ -26181,7 +26179,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="75" Power="75" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -26241,7 +26239,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="150" Power="150" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -26301,7 +26299,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="75" Power="75" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -26361,7 +26359,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="150" Power="150" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -26649,7 +26647,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>5014</DisplayNameID>
 			<RolloverTextID>5015</RolloverTextID>
@@ -26744,7 +26742,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<ProcBuffName>CovStructuralShielding1Buff</ProcBuffName>
 			<Cost Supplies="350" Power="125" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -26794,7 +26792,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<ProcBuffName>CovStructuralShielding2Buff</ProcBuffName>
 			<Cost Supplies="450" Power="175" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -26844,7 +26842,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<ProcBuffName>CovStructuralShielding3Buff</ProcBuffName>
 			<Cost Supplies="550" Power="225" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>36</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -26927,7 +26925,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<ProcBuffName>CovStructuralShielding1Buff</ProcBuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -26982,7 +26980,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<ProcBuffName>CovStructuralShielding2Buff</ProcBuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -27040,7 +27038,7 @@
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<ProcBuffName>CovStructuralShielding3Buff</ProcBuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -27372,7 +27370,7 @@
 			<Pop type="Unit">30</Pop>
 			<Pop type="Retriever">1</Pop>
 			<Cost Supplies="2000" Power="2000" />
-			<AutoRecharge>360000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>18</UIRadius>
 			<Decal>DropHQ</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -27456,7 +27454,7 @@
 			<NotAffectedByCeasefire />
 			<PowerType>UnitDrop</PowerType>
 			<Cost Supplies="280" Power="40" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>5012</DisplayNameID>
 			<RolloverTextID>5013</RolloverTextID>
@@ -27503,7 +27501,7 @@
 			<NotAffectedByCeasefire />
 			<PowerType>UnitDrop</PowerType>
 			<Cost Supplies="280" Power="40" />
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<DisplayNameID>5012</DisplayNameID>
 			<RolloverTextID>5013</RolloverTextID>
@@ -27551,7 +27549,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="300" Power="0" />
-			<AutoRecharge>30000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -27606,7 +27604,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">33</Pop>
 			<Cost Supplies="2000" Power="400" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -27658,7 +27656,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">33</Pop>
 			<Cost Supplies="2000" Power="400" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -27710,7 +27708,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">33</Pop>
 			<Cost Supplies="2000" Power="400" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -27771,7 +27769,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="300" Power="0" />
-			<AutoRecharge>30000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -27825,7 +27823,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="350" Power="275" />
-			<AutoRecharge>185000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -27974,7 +27972,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="450" Power="375" />
-			<AutoRecharge>185000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<IconLocation>0</IconLocation>
@@ -28166,7 +28164,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -28841,7 +28839,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -29060,7 +29058,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="200" Power="200" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -29114,7 +29112,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="300" Power="300" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -29168,7 +29166,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="400" Power="400" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -29222,7 +29220,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>195000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -29281,7 +29279,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="250" Power="250" />
-			<AutoRecharge>195000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -29345,7 +29343,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="350" Power="350" />
-			<AutoRecharge>195000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -29400,7 +29398,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>CryoMine</SoundName>
 			<Cost Supplies="75" Power="75" />
-			<AutoRecharge>105000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -29460,7 +29458,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>CryoMine</SoundName>
 			<Cost Supplies="150" Power="150" />
-			<AutoRecharge>105000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -29520,7 +29518,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>CryoMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>105000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -29668,7 +29666,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="100" Power="40" />
-			<AutoRecharge>140000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -29723,7 +29721,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="140" Power="60" />
-			<AutoRecharge>140000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -29778,7 +29776,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>110000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -29836,7 +29834,7 @@
 			<TechScript>_POWER_Serina_FrostDefence</TechScript>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>110000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -29892,7 +29890,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="450" Power="450" />
-			<AutoRecharge>290000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>42</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -29946,7 +29944,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>42</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -30001,7 +29999,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="450" Power="275" />
-			<AutoRecharge>200000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -30213,7 +30211,7 @@
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">24</Pop>
 			<Cost Supplies="1690" Power="380" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -30342,7 +30340,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>OrbitalShatter</AIPowerUseType>
 			<Cost Supplies="200" Power="200" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -30396,7 +30394,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>OrbitalShatter</AIPowerUseType>
 			<Cost Supplies="300" Power="300" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -30450,7 +30448,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>OrbitalShatter</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -30524,7 +30522,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>OrbitalShatter</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -30579,7 +30577,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -30762,7 +30760,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="900" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -30817,7 +30815,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="1100" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -30872,7 +30870,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -30928,7 +30926,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -30978,7 +30976,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -31031,7 +31029,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -31356,7 +31354,7 @@
 			<PowerType>Transport</PowerType>
 			<AIPowerUseType>TransportAllies</AIPowerUseType>
 			<Cost Supplies="0" Power="800" />
-			<AutoRecharge>270000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>Point</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -31421,7 +31419,7 @@
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">1</Pop>
 			<Cost Supplies="100" Power="0" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -31472,7 +31470,7 @@
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">1</Pop>
 			<Cost Supplies="100" Power="0" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -31521,7 +31519,7 @@
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">1</Pop>
 			<Cost Supplies="150" Power="0" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -31570,7 +31568,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Pop type="Unit">4</Pop>
 			<Cost Supplies="240" Power="60" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -31618,7 +31616,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Pop type="Unit">7</Pop>
 			<Cost Supplies="375" Power="140" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -31672,7 +31670,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Pop type="Unit">10</Pop>
 			<Cost Supplies="520" Power="220" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -31730,7 +31728,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Pop type="Unit">14</Pop>
 			<Cost Supplies="800" Power="500" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -31787,7 +31785,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Point</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -31923,7 +31921,7 @@
 			<AIPowerUseType>BuffEnemies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="300" Power="30" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -31964,7 +31962,7 @@
 			<PowerType>Transport</PowerType>
 			<AIPowerUseType>TransportAllies</AIPowerUseType>
 			<Cost Supplies="0" Power="200" />
-			<AutoRecharge>130000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -32015,7 +32013,7 @@
 			<PowerType>Transport</PowerType>
 			<AIPowerUseType>TransportAllies</AIPowerUseType>
 			<Cost Supplies="0" Power="350" />
-			<AutoRecharge>130000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -32066,7 +32064,7 @@
 			<PowerType>Transport</PowerType>
 			<AIPowerUseType>TransportAllies</AIPowerUseType>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -32410,7 +32408,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="400" Power="25" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -32465,7 +32463,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="550" Power="50" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -32520,7 +32518,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -32626,7 +32624,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="275" Power="85" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -32672,7 +32670,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="350" Power="135" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>36</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -32718,7 +32716,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="425" Power="175" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -32764,7 +32762,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="275" Power="85" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -32815,7 +32813,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="350" Power="135" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>36</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -32866,7 +32864,7 @@
 			<PowerType>Repair</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<Cost Supplies="425" Power="175" />
-			<AutoRecharge>170000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -33197,7 +33195,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Invulnerability</BuffName>
 			<Cost Supplies="425" Power="425" />
-			<AutoRecharge>300000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -33245,7 +33243,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="600" Power="600" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -33301,7 +33299,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>CryoMine</SoundName>
 			<Cost Supplies="1000" Power="200" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -33357,7 +33355,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="1500" Power="0" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -33404,7 +33402,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="900" Power="250" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -33449,7 +33447,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="250" Power="0" />
-			<AutoRecharge>60000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -33503,7 +33501,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="600" Power="600" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>25</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -33559,7 +33557,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>CryoMine</SoundName>
 			<Cost Supplies="1000" Power="200" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -33615,7 +33613,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="1500" Power="0" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -33681,7 +33679,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Pop type="Unit">1</Pop>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -33739,7 +33737,7 @@
 			<AIPowerUseType>Reveal</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="0" Power="100" />
-			<AutoRecharge>130000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -33789,7 +33787,7 @@
 			<AIPowerUseType>Reveal</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="0" Power="200" />
-			<AutoRecharge>130000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>60</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -33839,7 +33837,7 @@
 			<AIPowerUseType>Reveal</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="0" Power="50" />
-			<AutoRecharge>130000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -33889,7 +33887,7 @@
 			<AIPowerUseType>Reveal</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="0" Power="100" />
-			<AutoRecharge>130000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>60</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -33939,7 +33937,7 @@
 			<AIPowerUseType>Reveal</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="50" Power="200" />
-			<AutoRecharge>105000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>60</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -33989,7 +33987,7 @@
 			<AIPowerUseType>BuffOverchargeAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="100" Power="50" />
-			<AutoRecharge>140000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>9</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -34041,7 +34039,7 @@
 			<AIPowerUseType>BuffOverchargeAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="200" Power="100" />
-			<AutoRecharge>140000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>18</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -34093,7 +34091,7 @@
 			<AIPowerUseType>BuffOverchargeAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="300" Power="200" />
-			<AutoRecharge>140000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>25</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -34145,7 +34143,7 @@
 			<AIPowerUseType>BuffOverchargeAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="75" Power="25" />
-			<AutoRecharge>140000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>9</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -34197,7 +34195,7 @@
 			<AIPowerUseType>BuffOverchargeAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="150" Power="50" />
-			<AutoRecharge>140000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -34249,7 +34247,7 @@
 			<AIPowerUseType>BuffOverchargeAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="200" Power="100" />
-			<AutoRecharge>140000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>17</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -34301,7 +34299,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="200" Power="200" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -34352,7 +34350,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="300" Power="300" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -34403,7 +34401,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="400" Power="400" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -34454,7 +34452,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="350" Power="300" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -34505,7 +34503,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="450" Power="400" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -34556,7 +34554,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="550" Power="500" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -34607,7 +34605,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="200" Power="200" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -34666,7 +34664,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="300" Power="300" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -34725,7 +34723,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="400" Power="400" />
-			<AutoRecharge>135000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -34784,7 +34782,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="200" Power="200" />
-			<AutoRecharge>105000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -34856,7 +34854,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="330" Power="330" />
-			<AutoRecharge>105000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -34928,7 +34926,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="300" Power="300" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -35000,7 +34998,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="450" Power="450" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -35072,7 +35070,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>105000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -35274,7 +35272,7 @@
 			<BuffName>DeflectShield</BuffName>
 			<ProcPowerName>DeflectShieldProc</ProcPowerName>
 			<Cost Supplies="100" Power="300" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -35373,7 +35371,7 @@
 			<BuffName>UnstableConcoction</BuffName>
 			<ProcPowerName>UnstableConcoctionProc1</ProcPowerName>
 			<Cost Supplies="100" Power="50" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>15</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -35472,7 +35470,7 @@
 			<BuffName>UnstableConcoction</BuffName>
 			<ProcPowerName>UnstableConcoctionProc2</ProcPowerName>
 			<Cost Supplies="175" Power="100" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>22</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -35570,7 +35568,7 @@
 			<BuffName>UnstableConcoction</BuffName>
 			<ProcPowerName>UnstableConcoctionProc3</ProcPowerName>
 			<Cost Supplies="250" Power="150" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>29</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -35668,7 +35666,7 @@
 			<BuffName>UnstableConcoction</BuffName>
 			<ProcPowerName>RMUnstableConcoctionProc</ProcPowerName>
 			<Cost Supplies="250" Power="35" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>10</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -35774,7 +35772,7 @@
 			<BuffName>UnstableConcoction</BuffName>
 			<ProcPowerName>RMUnstableConcoctionProc2</ProcPowerName>
 			<Cost Supplies="400" Power="50" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>12</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -35883,7 +35881,7 @@
 			<BuffName>UnstableConcoction</BuffName>
 			<ProcPowerName>RMUnstableConcoctionProc3</ProcPowerName>
 			<Cost Supplies="550" Power="65" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>14</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -36405,7 +36403,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">12</Pop>
 			<Cost Supplies="1200" Power="0" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -36455,7 +36453,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">20</Pop>
 			<Cost Supplies="1700" Power="0" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -36513,7 +36511,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>VehicleRecycle</BuffName>
 			<Cost Supplies="1500" Power="1000" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -36561,7 +36559,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>VehicleRecycle</BuffName>
 			<Cost Supplies="1250" Power="350" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -37040,7 +37038,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -37098,7 +37096,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -37163,7 +37161,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -37214,7 +37212,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
