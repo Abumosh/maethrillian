@@ -1925,7 +1925,7 @@
 		<RolloverTextID>26111</RolloverTextID>
 		<PrereqTextID>367</PrereqTextID>
 		<Cost resourcetype="Supplies">100</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1939,7 +1939,7 @@
 		<RolloverTextID>26117</RolloverTextID>
 		<PrereqTextID>367</PrereqTextID>
 		<Cost resourcetype="Supplies">100</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1953,7 +1953,7 @@
 		<RolloverTextID>26123</RolloverTextID>
 		<PrereqTextID>367</PrereqTextID>
 		<Cost resourcetype="Supplies">100</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1967,7 +1967,7 @@
 		<RolloverTextID>26115</RolloverTextID>
 		<PrereqTextID>367</PrereqTextID>
 		<Cost resourcetype="Supplies">100</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1981,7 +1981,7 @@
 		<RolloverTextID>26121</RolloverTextID>
 		<PrereqTextID>367</PrereqTextID>
 		<Cost resourcetype="Supplies">100</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1995,7 +1995,7 @@
 		<RolloverTextID>26109</RolloverTextID>
 		<PrereqTextID>367</PrereqTextID>
 		<Cost resourcetype="Supplies">100</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -2009,7 +2009,7 @@
 		<RolloverTextID>26119</RolloverTextID>
 		<PrereqTextID>367</PrereqTextID>
 		<Cost resourcetype="Supplies">100</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -2023,7 +2023,7 @@
 		<RolloverTextID>26125</RolloverTextID>
 		<PrereqTextID>367</PrereqTextID>
 		<Cost resourcetype="Supplies">100</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -2956,7 +2956,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3007,7 +3007,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3040,7 +3040,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3076,7 +3076,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">350</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
 		<Effects>
@@ -3096,7 +3096,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
@@ -3120,7 +3120,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">550</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
@@ -3143,7 +3143,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
 		<Prereqs>
@@ -3185,7 +3185,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
 		<Prereqs>
@@ -3226,7 +3226,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_personalshield</ResearchCompleteSound>
@@ -3267,7 +3267,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">650</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_boost</ResearchCompleteSound>
@@ -3297,7 +3297,7 @@
 		<Cost resourcetype="Supplies">200</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -3314,7 +3314,7 @@
 		<Cost resourcetype="Supplies">150</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -3331,7 +3331,7 @@
 		<Cost resourcetype="Supplies">50</Cost>
 		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -3346,7 +3346,7 @@
 		<RolloverTextID>1071</RolloverTextID>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
-		<ResearchPoints>50</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_keep</ResearchCompleteSound>
@@ -3363,7 +3363,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">1000</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchAnim>Upgrade</ResearchAnim>
@@ -3380,7 +3380,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">1500</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>50</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchAnim>Upgrade</ResearchAnim>
@@ -3398,7 +3398,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3428,7 +3428,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3451,7 +3451,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3478,7 +3478,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">350</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3517,7 +3517,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3556,7 +3556,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3592,7 +3592,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_jumppack</ResearchCompleteSound>
@@ -3615,7 +3615,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3639,7 +3639,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">350</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3672,7 +3672,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3711,7 +3711,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3745,7 +3745,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
 		<Prereqs>
@@ -3778,7 +3778,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
 		<Prereqs>
@@ -3807,7 +3807,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_personalshield</ResearchCompleteSound>
@@ -3843,7 +3843,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_boostedram</ResearchCompleteSound>
@@ -3879,7 +3879,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">650</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -3911,7 +3911,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
@@ -3938,7 +3938,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">550</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
@@ -3963,7 +3963,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3996,7 +3996,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4029,7 +4029,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4065,7 +4065,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4098,7 +4098,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4125,7 +4125,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">350</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
@@ -4155,7 +4155,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">550</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
@@ -4180,7 +4180,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">900</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_assaultbeam</ResearchCompleteSound>
@@ -4211,7 +4211,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4247,7 +4247,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4289,7 +4289,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4351,7 +4351,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>40</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4396,7 +4396,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4447,7 +4447,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4492,7 +4492,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4537,7 +4537,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4559,7 +4559,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">800</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>40</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4581,7 +4581,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">700</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -4604,7 +4604,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_reactor</ResearchCompleteSound>
@@ -4619,7 +4619,7 @@
 		<RolloverTextID>1181</RolloverTextID>
 		<Cost resourcetype="Supplies">700</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_reactor</ResearchCompleteSound>
@@ -4674,7 +4674,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_assaultbeam</ResearchCompleteSound>
@@ -4735,7 +4735,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">350</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Flag>UniqueProtoUnitInstance</Flag>
@@ -4760,7 +4760,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Flag>UniqueProtoUnitInstance</Flag>
@@ -4780,7 +4780,7 @@
 		<RolloverTextID>24175</RolloverTextID>
 		<Cost resourcetype="Power">350</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<Effects>
@@ -4809,7 +4809,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Prereqs>
 			<TechStatus status="Active">cov_basic</TechStatus>
 		</Prereqs>
@@ -4832,7 +4832,7 @@
 		<PrereqTextID>243</PrereqTextID>
 		<Cost resourcetype="Power">200</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>18</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_warehouse</ResearchCompleteSound>
@@ -4848,7 +4848,7 @@
 		<PrereqTextID>243</PrereqTextID>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_warehouse</ResearchCompleteSound>
@@ -4862,7 +4862,7 @@
 		<RolloverTextID>24399</RolloverTextID>
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">400</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_shieldoftheforerunners</ResearchCompleteSound>
@@ -4914,7 +4914,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">750</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_followers</ResearchCompleteSound>
@@ -4933,7 +4933,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">1250</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_followers</ResearchCompleteSound>
@@ -4950,7 +4950,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">375</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -4978,7 +4978,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">575</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -5006,7 +5006,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">775</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -5031,7 +5031,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">375</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -5069,7 +5069,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">575</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -5107,7 +5107,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">775</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -5142,7 +5142,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -5168,7 +5168,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -5194,7 +5194,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">800</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -5217,7 +5217,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -5248,7 +5248,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">750</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -5279,7 +5279,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">1000</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -5307,7 +5307,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
@@ -5365,7 +5365,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">700</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
@@ -5423,7 +5423,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">900</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
@@ -5495,7 +5495,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">200</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
@@ -5525,7 +5525,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">200</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
@@ -5561,7 +5561,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">200</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
@@ -5591,7 +5591,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Flag>UniqueProtoUnitInstance</Flag>
@@ -5616,7 +5616,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Flag>UniqueProtoUnitInstance</Flag>
@@ -5638,7 +5638,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Flag>UniqueProtoUnitInstance</Flag>
@@ -5660,7 +5660,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>40</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -5690,7 +5690,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">850</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -8587,7 +8587,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">0</Cost>
-		<ResearchPoints>15</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
@@ -8604,7 +8604,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">0</Cost>
-		<ResearchPoints>15</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
@@ -8621,7 +8621,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">0</Cost>
-		<ResearchPoints>15</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
@@ -11046,7 +11046,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_volley</ResearchCompleteSound>
@@ -11085,7 +11085,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_volley</ResearchCompleteSound>
@@ -11112,7 +11112,7 @@
 		<Cost resourcetype="Supplies">200</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -11129,7 +11129,7 @@
 		<Cost resourcetype="Supplies">600</Cost>
 		<Cost resourcetype="Power">100</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -11146,7 +11146,7 @@
 		<Cost resourcetype="Supplies">300</Cost>
 		<Cost resourcetype="Power">100</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -11163,7 +11163,7 @@
 		<Cost resourcetype="Supplies">300</Cost>
 		<Cost resourcetype="Power">200</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -11180,7 +11180,7 @@
 		<Cost resourcetype="Supplies">300</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -11197,7 +11197,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">0</Cost>
-		<ResearchPoints>50</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_station</ResearchCompleteSound>
@@ -11214,7 +11214,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">1000</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_fortress</ResearchCompleteSound>
@@ -11231,7 +11231,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">1500</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>50</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_fortress</ResearchCompleteSound>
@@ -11248,7 +11248,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">700</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>40</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -11272,7 +11272,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">700</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>50</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -11301,7 +11301,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">700</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -11478,7 +11478,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">325</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -11511,7 +11511,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">550</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -11541,7 +11541,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">650</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -11574,7 +11574,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">750</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -11601,7 +11601,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_oxidetank</ResearchCompleteSound>
@@ -11651,7 +11651,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">325</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -11693,7 +11693,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">550</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -11732,7 +11732,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">650</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -11778,7 +11778,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">1000</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>50</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -11803,7 +11803,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">750</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
@@ -11832,7 +11832,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -11875,7 +11875,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
@@ -11920,7 +11920,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">750</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -11964,7 +11964,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -12000,7 +12000,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
@@ -12045,7 +12045,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>40</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -12139,7 +12139,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -12175,7 +12175,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">800</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -12205,7 +12205,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
@@ -12238,7 +12238,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rpg</ResearchCompleteSound>
@@ -12287,7 +12287,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">200</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -12317,7 +12317,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -12349,7 +12349,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_reactor</ResearchCompleteSound>
@@ -12365,7 +12365,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">1400</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_reactor</ResearchCompleteSound>
@@ -12383,7 +12383,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">900</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -12409,7 +12409,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -12453,7 +12453,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -12479,7 +12479,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -12521,7 +12521,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
@@ -12566,7 +12566,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -12626,7 +12626,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -12649,7 +12649,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">700</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -12678,7 +12678,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -12713,7 +12713,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -12748,7 +12748,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -12784,7 +12784,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
@@ -12819,7 +12819,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
@@ -12854,7 +12854,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
@@ -12889,7 +12889,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -12919,7 +12919,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -12949,7 +12949,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -12978,7 +12978,7 @@
 		<PrereqTextID>233</PrereqTextID>
 		<Cost resourcetype="Power">200</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>18</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_supplypad</ResearchCompleteSound>
@@ -12994,7 +12994,7 @@
 		<PrereqTextID>233</PrereqTextID>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_supplypad</ResearchCompleteSound>
@@ -13026,7 +13026,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -13054,7 +13054,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">650</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -13082,7 +13082,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">850</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -13106,7 +13106,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -13138,7 +13138,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -13170,7 +13170,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">800</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -13199,7 +13199,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -13225,7 +13225,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -13251,7 +13251,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">700</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -13275,7 +13275,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -13306,7 +13306,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">750</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -13337,7 +13337,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">1000</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -13364,7 +13364,7 @@
 		<PrereqTextID>231</PrereqTextID>
 		<Cost resourcetype="Supplies">250</Cost>
 		<Cost resourcetype="Power">0</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -13381,7 +13381,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
@@ -13429,7 +13429,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">700</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
@@ -13477,7 +13477,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">900</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
@@ -13522,7 +13522,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">750</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reinforcements</ResearchCompleteSound>
@@ -13542,7 +13542,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">1250</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reinforcements</ResearchCompleteSound>
@@ -13560,7 +13560,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -13583,7 +13583,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -13606,7 +13606,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -13632,7 +13632,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">750</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -14011,7 +14011,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14062,7 +14062,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14095,7 +14095,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14131,7 +14131,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
 		<Effects>
@@ -14151,7 +14151,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
@@ -14175,7 +14175,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
@@ -14198,7 +14198,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
 		<Prereqs>
@@ -14240,7 +14240,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
 		<Prereqs>
@@ -14281,7 +14281,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_personalshield</ResearchCompleteSound>
@@ -14322,7 +14322,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_boost</ResearchCompleteSound>
@@ -14352,7 +14352,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14382,7 +14382,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14405,7 +14405,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14432,7 +14432,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14471,7 +14471,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14510,7 +14510,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14546,7 +14546,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_jumppack</ResearchCompleteSound>
@@ -14569,7 +14569,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14593,7 +14593,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14626,7 +14626,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14665,7 +14665,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14699,7 +14699,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
 		<Prereqs>
@@ -14732,7 +14732,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
 		<Prereqs>
@@ -14761,7 +14761,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_personalshield</ResearchCompleteSound>
@@ -14797,7 +14797,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_boostedram</ResearchCompleteSound>
@@ -14833,7 +14833,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -14865,7 +14865,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
@@ -14892,7 +14892,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
@@ -14917,7 +14917,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14950,7 +14950,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -14983,7 +14983,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -15019,7 +15019,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -15052,7 +15052,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -15079,7 +15079,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
@@ -15109,7 +15109,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
@@ -15134,7 +15134,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_assaultbeam</ResearchCompleteSound>
@@ -15165,7 +15165,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -15201,7 +15201,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -15243,7 +15243,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -15279,7 +15279,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>40</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -15324,7 +15324,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -15375,7 +15375,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -15420,7 +15420,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -15465,7 +15465,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -15487,7 +15487,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>40</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -15509,7 +15509,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -15532,7 +15532,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">50</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_reactor</ResearchCompleteSound>
@@ -15549,7 +15549,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_assaultbeam</ResearchCompleteSound>
@@ -15609,7 +15609,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<Effects>
@@ -15638,7 +15638,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Prereqs>
 			<TechStatus status="Active">cov_basic</TechStatus>
 		</Prereqs>
@@ -15661,7 +15661,7 @@
 		<PrereqTextID>243</PrereqTextID>
 		<Cost resourcetype="Power">50</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>18</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_warehouse</ResearchCompleteSound>
@@ -15676,7 +15676,7 @@
 		<Cost resourcetype="Supplies">400</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_followers</ResearchCompleteSound>
@@ -15695,7 +15695,7 @@
 		<Cost resourcetype="Supplies">800</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_followers</ResearchCompleteSound>
@@ -15712,7 +15712,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -15740,7 +15740,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -15768,7 +15768,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -15793,7 +15793,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -15831,7 +15831,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -15869,7 +15869,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -15904,7 +15904,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -15930,7 +15930,7 @@
 		<Cost resourcetype="Supplies">1000</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -15956,7 +15956,7 @@
 		<Cost resourcetype="Supplies">1500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -15979,7 +15979,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -16010,7 +16010,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -16041,7 +16041,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -16069,7 +16069,7 @@
 		<Cost resourcetype="Supplies">150</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
@@ -16124,7 +16124,7 @@
 		<Cost resourcetype="Supplies">200</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
@@ -16179,7 +16179,7 @@
 		<Cost resourcetype="Supplies">300</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
@@ -16232,7 +16232,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
@@ -16262,7 +16262,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
@@ -16298,7 +16298,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
@@ -16328,7 +16328,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Flag>UniqueProtoUnitInstance</Flag>
@@ -16353,7 +16353,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Flag>UniqueProtoUnitInstance</Flag>
@@ -16375,7 +16375,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Flag>UniqueProtoUnitInstance</Flag>
@@ -16400,7 +16400,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -16422,7 +16422,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>40</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -17197,7 +17197,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">0</Cost>
-		<ResearchPoints>15</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
@@ -17214,7 +17214,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">0</Cost>
-		<ResearchPoints>15</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
@@ -17231,7 +17231,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">0</Cost>
-		<ResearchPoints>15</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
@@ -17467,7 +17467,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_volley</ResearchCompleteSound>
@@ -17506,7 +17506,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_volley</ResearchCompleteSound>
@@ -17533,7 +17533,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>40</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -17557,7 +17557,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>50</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -17586,7 +17586,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -17622,7 +17622,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -17655,7 +17655,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -17685,7 +17685,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -17718,7 +17718,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -17745,7 +17745,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_oxidetank</ResearchCompleteSound>
@@ -17788,7 +17788,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -17830,7 +17830,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -17869,7 +17869,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -17915,7 +17915,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>50</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -17940,7 +17940,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
@@ -17969,7 +17969,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -18012,7 +18012,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
@@ -18057,7 +18057,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -18101,7 +18101,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -18137,7 +18137,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
@@ -18182,7 +18182,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>40</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -18224,7 +18224,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -18260,7 +18260,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -18290,7 +18290,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
@@ -18323,7 +18323,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rpg</ResearchCompleteSound>
@@ -18372,7 +18372,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -18402,7 +18402,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -18437,7 +18437,7 @@
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">50</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_reactor</ResearchCompleteSound>
@@ -18455,7 +18455,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -18481,7 +18481,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -18525,7 +18525,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -18551,7 +18551,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -18593,7 +18593,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
@@ -18638,7 +18638,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -18685,7 +18685,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -18708,7 +18708,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -18737,7 +18737,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -18772,7 +18772,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -18807,7 +18807,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -18843,7 +18843,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
@@ -18878,7 +18878,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
@@ -18916,7 +18916,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
@@ -18951,7 +18951,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -18981,7 +18981,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -19011,7 +19011,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
@@ -19040,7 +19040,7 @@
 		<PrereqTextID>233</PrereqTextID>
 		<Cost resourcetype="Power">50</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>18</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_upgrade_supplypad</ResearchCompleteSound>
@@ -19056,7 +19056,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -19084,7 +19084,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -19112,7 +19112,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -19136,7 +19136,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -19168,7 +19168,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -19200,7 +19200,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -19229,7 +19229,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -19255,7 +19255,7 @@
 		<Cost resourcetype="Supplies">1000</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -19281,7 +19281,7 @@
 		<Cost resourcetype="Supplies">1500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -19305,7 +19305,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>60</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -19336,7 +19336,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -19367,7 +19367,7 @@
 		<Cost resourcetype="Supplies">500</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -19395,7 +19395,7 @@
 		<Cost resourcetype="Supplies">150</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>25</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
@@ -19442,7 +19442,7 @@
 		<Cost resourcetype="Supplies">200</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
@@ -19489,7 +19489,7 @@
 		<Cost resourcetype="Supplies">300</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
@@ -19533,7 +19533,7 @@
 		<Cost resourcetype="Supplies">400</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reinforcements</ResearchCompleteSound>
@@ -19553,7 +19553,7 @@
 		<Cost resourcetype="Supplies">800</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>35</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_reinforcements</ResearchCompleteSound>
@@ -19571,7 +19571,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -19594,7 +19594,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -19617,7 +19617,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>20</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -19643,7 +19643,7 @@
 		<Cost resourcetype="Supplies">100</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<ResearchPoints>1</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
