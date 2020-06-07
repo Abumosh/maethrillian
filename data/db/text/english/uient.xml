@@ -4187,4 +4187,8 @@ Units must die within the power's set time frame.</str>
 	<str id="UIENT._RECORD_Vet3.RADIALEDGE.NAME">VETERANCY</str>
 	<str id="UIENT._RECORD_Vet3.RADIALEDGE.ROLE">CHEAT</str>
 	<str id="UIENT._RECORD_Vet3.RADIALEDGE.SHORTDESCR">Adds +1 vet to all squads</str>
+	<str id="UIENT._RECORD_ALLUpgradesBanished.RADIALCENTER.NAME">Tier 4 Units</str>
+	<str id="UIENT._RECORD_ALLUpgradesBanished.RADIALEDGE.NAME">Tier 4 Units</str>
+	<str id="UIENT._RECORD_ALLUpgradesBanished.RADIALEDGE.ROLE">CHEAT</str>
+	<str id="UIENT._RECORD_ALLUpgradesBanished.RADIALEDGE.SHORTDESCR">Unlocks all Banished upgrades.</str>
 </string_table>
