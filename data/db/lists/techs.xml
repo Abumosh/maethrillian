@@ -24215,4 +24215,15 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="covenant_LeaderNoAi" type="Normal">
+		<DBID>2104</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 </TechTree>

@@ -113,6 +113,10 @@
 					<key>CovEverything</key>
 					<value>../textures/common/gamertag/img_leader_gamertag_Random</value>
 				</entry>
+				<entry>
+					<key>NoAI</key>
+					<value>../textures/common/gamertag/img_leader_gamertag_Random</value>
+				</entry>
 			</group>
 			<group name="carousel">
 				<entry>
@@ -234,6 +238,12 @@
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS</value>
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS</value>
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS_unselected</value>
+				</entry>
+				<entry>
+					<key>NoAI</key>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_RANDOM</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_RANDOM</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Random-_unselected</value>
 				</entry>
 			</group>
 			<group name="startingArmy">
