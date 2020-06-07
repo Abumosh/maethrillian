@@ -23709,6 +23709,10 @@
 				<Target type="ProtoSquad">pow_for_andersultimate_01</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_fullshield</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_halfshield</Target>
+				<Target type="ProtoSquad">cov_inf_rm_grunt_01</Target>
+				<Target type="ProtoSquad">cov_inf_rm_grunt_02</Target>
+				<Target type="ProtoSquad">cov_inf_rm_suicideGrunt_01</Target>
+				<Target type="ProtoSquad">cov_inf_rm_bruteJumpPack_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -23822,6 +23826,10 @@
 				<Target type="ProtoSquad">pow_for_andersultimate_01</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_fullshield</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_halfshield</Target>
+				<Target type="ProtoSquad">cov_inf_rm_grunt_01</Target>
+				<Target type="ProtoSquad">cov_inf_rm_grunt_02</Target>
+				<Target type="ProtoSquad">cov_inf_rm_suicideGrunt_01</Target>
+				<Target type="ProtoSquad">cov_inf_rm_bruteJumpPack_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -23935,6 +23943,10 @@
 				<Target type="ProtoSquad">pow_for_andersultimate_01</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_fullshield</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_halfshield</Target>
+				<Target type="ProtoSquad">cov_inf_rm_grunt_01</Target>
+				<Target type="ProtoSquad">cov_inf_rm_grunt_02</Target>
+				<Target type="ProtoSquad">cov_inf_rm_suicideGrunt_01</Target>
+				<Target type="ProtoSquad">cov_inf_rm_bruteJumpPack_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
