@@ -24224,6 +24224,18 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">gamemode_reparent_protos_mp</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_builder_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_minibase1sock_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_miniBase_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_minibase2sock_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_minibase2sock_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_minibase3sock_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_minibase2sock_01_base</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 </TechTree>
