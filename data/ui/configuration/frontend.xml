@@ -109,6 +109,10 @@
 					<key>UnbreakableBrute</key>
 					<value>../textures/common/gamertag/img_leader_gamertag_Pavium</value>
 				</entry>
+				<entry>
+					<key>CovEverything</key>
+					<value>../textures/common/gamertag/img_leader_gamertag_Random</value>
+				</entry>
 			</group>
 			<group name="carousel">
 				<entry>
@@ -224,6 +228,12 @@
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Pavium</value>
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_locked_Pavium</value>
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Pavium</value>
+				</entry>
+				<entry>
+					<key>CovEverything</key>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS_unselected</value>
 				</entry>
 			</group>
 			<group name="startingArmy">
@@ -787,6 +797,16 @@
 				<value>UIMP.FINDMATCH.NA</value>
 				<value>UIEP2.LEADERSELECT.ROLE02.UNBREAKABLE</value>
 				<value>UIEP2.LEADERSELECT.SHORTDESCR.UNBREAKABLE.BLITZ</value>
+			</entry>
+			<entry>
+				<key>CovEverything</key>
+				<value>UIENT.LEADERSELECT.TITLE.CovEverything</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.CovEverything</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
 			</entry>
 		</group>
 	</group>
