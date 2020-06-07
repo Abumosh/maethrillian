@@ -818,6 +818,16 @@
 				<value>UIMP.FINDMATCH.NA</value>
 				<value>UIMP.FINDMATCH.NA</value>
 			</entry>
+			<entry>
+				<key>NoAI</key>
+				<value>UIENT.LEADERSELECT.TITLE.NoAI</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.NoAI</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+			</entry>
 		</group>
 	</group>
 	<group name="gameType">
