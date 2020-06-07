@@ -114,6 +114,10 @@
 					<value>../textures/common/gamertag/img_leader_gamertag_Random</value>
 				</entry>
 				<entry>
+					<key>CovEverythingPassive</key>
+					<value>../textures/common/gamertag/img_leader_gamertag_Random</value>
+				</entry>
+				<entry>
 					<key>NoAI</key>
 					<value>../textures/common/gamertag/img_leader_gamertag_Random</value>
 				</entry>
@@ -235,6 +239,12 @@
 				</entry>
 				<entry>
 					<key>CovEverything</key>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS_unselected</value>
+				</entry>
+				<entry>
+					<key>CovEverythingPassive</key>
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS</value>
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS</value>
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS_unselected</value>
@@ -810,6 +820,16 @@
 			</entry>
 			<entry>
 				<key>CovEverything</key>
+				<value>UIENT.LEADERSELECT.TITLE.CovEverything</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.CovEverything</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+			</entry>
+			<entry>
+				<key>CovEverythingPassive</key>
 				<value>UIENT.LEADERSELECT.TITLE.CovEverything</value>
 				<value>UIENT.LEADERSELECT.SHORTDESCR.CovEverything</value>
 				<value>UIMP.FINDMATCH.NA</value>

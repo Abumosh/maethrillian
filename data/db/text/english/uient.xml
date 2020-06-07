@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<str id="UIENT.LEADERSELECT.TITLE.CovEverything">ALL UNITS BANISHED</str>
-	<str id="UIENT.LEADERSELECT.SHORTDESCR.CovEverything">Has access to all banished units</str>
+	<str id="UIENT.LEADERSELECT.SHORTDESCR.CovEverything">Has access to all banished units.</str>
+	<str id="UIENT.LEADERSELECT.TITLE.CovEverythingPassive">ALL UNITS BANISHED PASSIVE</str>
+	<str id="UIENT.LEADERSELECT.SHORTDESCR.CovEverythingPassive">Has access to all banished units with passive leader powers (buffs).</str>
 	<str id="UIENT.LEADERSELECT.TITLE.NoAI">NO AI</str>
-	<str id="UIENT.LEADERSELECT.SHORTDESCR.NoAI">Prevents the AI from doing anything</str>
+	<str id="UIENT.LEADERSELECT.SHORTDESCR.NoAI">Prevents the AI from doing anything.</str>
 	<str id="UIENT._RallyPoint.RadialCenter.Name">GLOBAL RALLY POINT</str>
 	<str id="UIENT._RallyPoint.RadialEdge.Name">GLOBAL RALLY POINT</str>
 	<str id="UIENT._RALLYPOINT.RADIALEDGE.ROLE">RALLY POINT</str>

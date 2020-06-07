@@ -24030,33 +24030,11 @@
             </Effect>
         </Effects>
     </Tech>
-	<Tech name="covenant_LeaderEverything" type="Normal">
-		<DBID>2104</DBID>
+    <Tech name="cheat_allBanishedunits" type="Normal">
+		<DBID>1963</DBID>
 		<ResearchPoints>0</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Flag>Shadow</Flag>
+		<Status>OBTAINABLE</Status>
 		<Effects>
-			<Effect type="Data" subtype="Enable">
-				<Target type="Tech">gamemode_reparent_protos_mp</Target>
-			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">Unbrk_MegaTurret</Effect>
-			<Effect type="UnlockableGodPower" tier="1">CovTeleport2</Effect>
-			<Effect type="UnlockableGodPower" tier="2">CovDisplacement</Effect>
-			<Effect type="UnlockableGodPower" tier="2">ArbiterPlasmaBolt1</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt1">ArbiterPlasmaBolt2</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt2">ArbiterPlasmaBolt3</Effect>
-			<Effect type="UnlockableGodPower" tier="3">Unbrk_ScatterBeam1_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam1_mp">Unbrk_ScatterBeam2_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam2_mp">Unbrk_ScatterBeam3_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="3">CovCleansingBeamPath1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="4">LekgoloPincerBeam1</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="LekgoloPincerBeam1">LekgoloPincerBeam2</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="LekgoloPincerBeam2">LekgoloPincerBeam3</Effect>
-			<Effect type="UnlockableGodPower" tier="4">CovSlipstreamRift</Effect>
-			<Effect type="UnlockableGodPower" tier="5">Grunt_MethaneBombing</Effect>
-			<Effect type="UnlockableGodPower" tier="5">CovPlanetaryCleansing</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_rm_bruteChopper_02</Target>
 			</Effect>
@@ -24213,6 +24191,72 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_generic_heavygrunt</Target>
 			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="covenant_LeaderEverything" type="Normal">
+		<DBID>2104</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">cheat_allBanishedunits</Target>
+			</Effect>
+			<Effect type="UnlockableGodPower" tier="1">Unbrk_MegaTurret</Effect>
+			<Effect type="UnlockableGodPower" tier="1">CovTeleport2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CovDisplacement</Effect>
+			<Effect type="UnlockableGodPower" tier="2">ArbiterPlasmaBolt1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt1">ArbiterPlasmaBolt2</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt2">ArbiterPlasmaBolt3</Effect>
+			<Effect type="UnlockableGodPower" tier="3">Unbrk_ScatterBeam1_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam1_mp">Unbrk_ScatterBeam2_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam2_mp">Unbrk_ScatterBeam3_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="3">CovCleansingBeamPath1_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="4">LekgoloPincerBeam1</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="LekgoloPincerBeam1">LekgoloPincerBeam2</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="LekgoloPincerBeam2">LekgoloPincerBeam3</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovSlipstreamRift</Effect>
+			<Effect type="UnlockableGodPower" tier="5">Grunt_MethaneBombing</Effect>
+			<Effect type="UnlockableGodPower" tier="5">CovPlanetaryCleansing</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="covenant_LeaderEverythingPassive" type="Normal">
+		<DBID>2104</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">cheat_allBanishedunits</Target>
+			</Effect>
+			<Effect type="UnlockableGodPower" tier="1">ArbiterConduitofRage1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="ArbiterConduitofRage1">ArbiterConduitofRage2</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="ArbiterConduitofRage2">ArbiterConduitofRage3</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="ArbiterConduitofRage3">ArbiterPlasmaBolt1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="ArbiterPlasmaBolt1">ArbiterPlasmaBolt2</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="ArbiterPlasmaBolt2">ArbiterPlasmaBolt3</Effect>
+			<Effect type="UnlockableGodPower" tier="1">LekgoloWormBuff1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="LekgoloWormBuff1">LekgoloWormBuff2</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="LekgoloWormBuff2">LekgoloWormBuff3</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CorruptedPoolbuff1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="CorruptedPoolbuff1">CorruptedPoolbuff2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CovBuffRage1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="CovBuffRage1">CovBuffRage2</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="CovBuffRage2">CovBuffRage3</Effect>
+			<Effect type="UnlockableGodPower" tier="3">CovTeleport2</Effect>
+			<Effect type="UnlockableGodPower" tier="3">CovBloodlust</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovBoundlessLeech</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovBoundlessRage</Effect>
+			<Effect type="UnlockableGodPower" tier="5">LekgoloEverlasting</Effect>
+			<Effect type="UnlockableGodPower" tier="5">CovDyingBreath</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="covenant_LeaderNoAi" type="Normal">
