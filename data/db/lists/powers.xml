@@ -22552,9 +22552,7 @@
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">8</Data>
-				<Data type="objecttype" name="FilterType">BasicVehicle</Data>
-				<Data type="objecttype" name="FilterType2">Building</Data>
-				<Data type="objecttype" name="FilterType3">TurretBuilding</Data>
+				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="float" name="BuffDuration">9999999</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
@@ -22600,9 +22598,7 @@
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">16</Data>
-				<Data type="objecttype" name="FilterType">BasicVehicle</Data>
-				<Data type="objecttype" name="FilterType2">Building</Data>
-				<Data type="objecttype" name="FilterType3">TurretBuilding</Data>
+				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="float" name="BuffDuration">9999999</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
@@ -22648,9 +22644,7 @@
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">23</Data>
-				<Data type="objecttype" name="FilterType">BasicVehicle</Data>
-				<Data type="objecttype" name="FilterType2">Building</Data>
-				<Data type="objecttype" name="FilterType3">TurretBuilding</Data>
+				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="float" name="BuffDuration">9999999</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
@@ -22695,9 +22689,7 @@
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">30</Data>
-				<Data type="objecttype" name="FilterType">BasicVehicle</Data>
-				<Data type="objecttype" name="FilterType2">Building</Data>
-				<Data type="objecttype" name="FilterType3">TurretBuilding</Data>
+				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="float" name="BuffDuration">9999999</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
