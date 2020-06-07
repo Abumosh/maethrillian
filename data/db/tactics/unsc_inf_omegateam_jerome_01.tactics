@@ -388,7 +388,6 @@
 			<TargetsGround />
 			<IgnoreOtherTargetsWhileTargetingGround />
 			<Action>FireFlareAction</Action>
-			<OwnersNumberOfSquadsLessThan>unsc_veh_jerome_mantis_01</OwnersNumberOfSquadsLessThan>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
@@ -402,7 +401,6 @@
 			<TargetsGround />
 			<IgnoreOtherTargetsWhileTargetingGround />
 			<Action>UpgradeFireFlareAction</Action>
-			<OwnersNumberOfSquadsLessThan>unsc_veh_jerome_mantis_01</OwnersNumberOfSquadsLessThan>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
