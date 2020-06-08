@@ -99,7 +99,7 @@
 		<Weapon>OnDeathDamageContained</Weapon>
 		<DontAutoRestart />
 		<ExplodeOnDeath />
-		<ProjectileInvokePower>LastStandBanishedDrop</ProjectileInvokePower>
+		<ProjectileInvokePower>UnscOdstDrop</ProjectileInvokePower>
 	</Action>
 	<Action>
 		<Name>BlisterbackArtilleryFireAction</Name>
