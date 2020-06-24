@@ -121,6 +121,14 @@
 					<key>NoAI</key>
 					<value>../textures/common/gamertag/img_leader_gamertag_Random</value>
 				</entry>
+				<entry>
+					<key>UNSCEverything</key>
+					<value>../textures/common/gamertag/img_leader_gamertag_Random</value>
+				</entry>
+				<entry>
+					<key>UNSCEverythingPassive</key>
+					<value>../textures/common/gamertag/img_leader_gamertag_Random</value>
+				</entry>
 			</group>
 			<group name="carousel">
 				<entry>
@@ -254,6 +262,18 @@
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_RANDOM</value>
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_RANDOM</value>
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Random-_unselected</value>
+				</entry>
+				<entry>
+					<key>UNSCEverything</key>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_UNSC</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_UNSC</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_UNSC_unselected</value>
+				</entry>
+				<entry>
+					<key>UNSCEverythingPassive</key>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_UNSC</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_UNSC</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_UNSC_unselected</value>
 				</entry>
 			</group>
 			<group name="startingArmy">
@@ -830,8 +850,8 @@
 			</entry>
 			<entry>
 				<key>CovEverythingPassive</key>
-				<value>UIENT.LEADERSELECT.TITLE.CovEverything</value>
-				<value>UIENT.LEADERSELECT.SHORTDESCR.CovEverything</value>
+				<value>UIENT.LEADERSELECT.TITLE.CovEverythingPassive</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.CovEverythingPassive</value>
 				<value>UIMP.FINDMATCH.NA</value>
 				<value>UIMP.FINDMATCH.NA</value>
 				<value>UIMP.FINDMATCH.NA</value>
@@ -842,6 +862,26 @@
 				<key>NoAI</key>
 				<value>UIENT.LEADERSELECT.TITLE.NoAI</value>
 				<value>UIENT.LEADERSELECT.SHORTDESCR.NoAI</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+			</entry>
+			<entry>
+				<key>UNSCEverything</key>
+				<value>UIENT.LEADERSELECT.TITLE.UNSCEverything</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.UNSCEverything</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+			</entry>
+			<entry>
+				<key>UNSCEverythingPassive</key>
+				<value>UIENT.LEADERSELECT.TITLE.UNSCEverythingPassive</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.UNSCEverythingPassive</value>
 				<value>UIMP.FINDMATCH.NA</value>
 				<value>UIMP.FINDMATCH.NA</value>
 				<value>UIMP.FINDMATCH.NA</value>

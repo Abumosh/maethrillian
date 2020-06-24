@@ -24282,4 +24282,216 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="_RECORD_ALLUpgradesUNSC" type="Normal">
+        <DisplayNameID>24398</DisplayNameID>
+        <RolloverTextID>24399</RolloverTextID>
+        <Cost resourcetype="Supplies">0</Cost>
+        <ResearchPoints>1</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <ResearchCompleteSound>play_vog_tech_shieldoftheforerunners</ResearchCompleteSound>
+        <Effects>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_tech_global_infantry_01</Target>
+                <Target type="Tech">unsc_tech_global_infantry_02</Target>
+                <Target type="Tech">unsc_tech_global_infantry_03</Target>
+                <Target type="Tech">unsc_tech_global_vehicle_01</Target>
+                <Target type="Tech">unsc_tech_global_vehicle_02</Target>
+                <Target type="Tech">unsc_tech_global_vehicle_03</Target>
+                <Target type="Tech">unsc_tech_global_aircraft_01</Target>
+                <Target type="Tech">unsc_tech_global_aircraft_02</Target>
+                <Target type="Tech">unsc_tech_global_aircraft_03</Target>
+                <Target type="Tech">unsc_tech_global_structure_01</Target>
+                <Target type="Tech">unsc_tech_global_structure_02</Target>
+                <Target type="Tech">unsc_tech_global_structure_03</Target>
+                <Target type="Tech">unsc_cyclops_upgrade1</Target>
+                <Target type="Tech">unsc_Sniper_upgrade0</Target>
+                <Target type="Tech">unsc_Sniper_upgrade1</Target>
+                <Target type="Tech">unsc_flameMarine_upgrade3</Target>
+                <Target type="Tech">unsc_serina_cryomarines_upgrade1</Target>
+                <Target type="Tech">unsc_aggressor_upgrade1</Target>
+                <Target type="Tech">unsc_aggressor_upgrade2</Target>
+                <Target type="Tech">unsc_mongoose_upgrade1</Target>
+                <Target type="Tech">unsc_mongoose_upgrade2</Target>
+                <Target type="Tech">unsc_marine_upgrade1</Target>
+                <Target type="Tech">unsc_marine_upgrade2</Target>
+                <Target type="Tech">unsc_battleapc_upgrade1</Target>
+                <Target type="Tech">unsc_serina_pegasus_upgrade1</Target>
+                <Target type="Tech">unsc_scorpion_upgrade2</Target>
+                <Target type="Tech">unsc_grizzly_upgrade1</Target>
+                <Target type="Tech">unsc_warthog_upgrade3</Target>
+                <Target type="Tech">unsc_flamehog_upgrade3</Target>
+                <Target type="Tech">unsc_colossus_upgrade1</Target>
+                <Target type="Tech">unsc_mantis_upgrade1</Target>
+                <Target type="Tech">unsc_mantis_upgrade2</Target>
+                <Target type="Tech">unsc_hornet_upgrade1</Target>
+                <Target type="Tech">unsc_spartan_upgrade1_chaingun</Target>
+                <Target type="Tech">unsc_spartan_upgrade1_rocket</Target>
+                <Target type="Tech">unsc_spartan_upgrade1_laser</Target>
+                <Target type="Tech">unsc_spartan_upgrade2_chaingun</Target>
+                <Target type="Tech">unsc_spartan_upgrade2_rocket</Target>
+                <Target type="Tech">unsc_spartan_upgrade2_laser</Target>
+                <Target type="Tech">unsc_spartan_upgrade3_chaingun</Target>
+                <Target type="Tech">unsc_spartan_upgrade3_rocket</Target>
+                <Target type="Tech">unsc_spartan_upgrade3_laser</Target>
+                <Target type="Tech">unsc_forgehog_upgrade1</Target>
+                <Target type="Tech">unsc_forgehog_upgrade2</Target>
+                <Target type="Tech">unsc_forgehog_upgrade3</Target>
+                <Target type="Tech">unsc_flamecyclops_upgrade1</Target>
+                <Target type="Tech">unsc_flamecyclops_upgrade2</Target>
+                <Target type="Tech">unsc_flamecyclops_upgrade3</Target>
+                <Target type="Tech">unsc_johnsonhero_upgrade1</Target>
+                <Target type="Tech">unsc_johnsonhero_upgrade2</Target>
+                <Target type="Tech">unsc_johnsonhero_upgrade3</Target>
+                <Target type="Tech">unsc_jerome_upgrade1</Target>
+                <Target type="Tech">unsc_jerome_upgrade2</Target>
+                <Target type="Tech">unsc_jerome_upgrade3</Target>
+                <Target type="Tech">unsc_serinahero_upgrade1</Target>
+                <Target type="Tech">unsc_serinahero_upgrade2</Target>
+                <Target type="Tech">unsc_serinahero_upgrade3</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="_RECORD_ALLUpgradesMinorBanished" type="Normal">
+        <DisplayNameID>24398</DisplayNameID>
+        <RolloverTextID>24399</RolloverTextID>
+        <Cost resourcetype="Supplies">0</Cost>
+        <ResearchPoints>1</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <ResearchCompleteSound>play_vog_tech_shieldoftheforerunners</ResearchCompleteSound>
+        <Effects>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">cov_phantom_upgrade1</Target>
+                <Target type="Tech">cov_phantom_upgrade2</Target>
+                <Target type="Tech">cov_veh_wraithapc_01_upgrade1</Target>
+                <Target type="Tech">cov_skitterer_upgrade1</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="cheat_allUNSCunits" type="Normal">
+		<DBID>1963</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_generic_marine</Target>
+				<Target type="ProtoSquad">unsc_inf_flameMarine_01</Target>
+				<Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+				<Target type="ProtoSquad">unsc_inf_sniper_01</Target>
+				<Target type="ProtoSquad">unsc_inf_cyclops_01</Target>
+				<Target type="ProtoSquad">cov_veh_skitterer_01</Target>
+				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
+				<Target type="ProtoSquad">cov_air_phantom_01</Target>
+				<Target type="ProtoSquad">unsc_veh_jerome_mantis_01</Target>
+				<Target type="ProtoSquad">unsc_inf_omegateam_august_01</Target>
+				<Target type="ProtoSquad">unsc_inf_omegateam_leon_01</Target>
+				<Target type="ProtoSquad">unsc_inf_omegateam_robert_01</Target>
+				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
+				<Target type="ProtoSquad">unsc_veh_mongoose_01</Target>
+				<Target type="ProtoSquad">unsc_veh_battleapc_01</Target>
+				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
+				<Target type="ProtoSquad">unsc_veh_flamehog_01</Target>
+				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
+				<Target type="ProtoSquad">unsc_veh_foxcannon_01</Target>
+				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
+				<Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
+				<Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
+				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
+				<Target type="ProtoSquad">unsc_air_serina_pegasus_01</Target>
+				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
+				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
+				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
+				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
+				<Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
+				<Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
+				<Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
+				<Target type="ProtoSquad">unsc_inf_heroodst_01</Target>
+				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
+				<Target type="ProtoSquad">unsc_inf_rm_marineguard_01</Target>
+				<Target type="ProtoSquad">unsc_inf_rm_marinesiphon_01</Target>
+				<Target type="ProtoSquad">unsc_inf_rm_flamecyclops_01</Target>
+				<Target type="ProtoSquad">unsc_inf_rm_flameMarine_02</Target>
+				<Target type="ProtoSquad">unsc_veh_rm_forgehog_01</Target>
+				<Target type="ProtoSquad">unsc_veh_rm_gausswarthog_01</Target>
+				<Target type="ProtoSquad">unsc_veh_rm_grenadehog_01</Target>
+				<Target type="ProtoSquad">unsc_veh_rm_mongoose_02</Target>
+				<Target type="ProtoSquad">unsc_veh_rm_scorpion_02</Target>
+				<Target type="ProtoSquad">unsc_veh_rm_warthog_02</Target>
+				<Target type="ProtoSquad">unsc_air_rm_nightingale_02</Target>
+				<Target type="ProtoSquad">unsc_air_rm_wingmenhornet_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="UNSC_LeaderEverything" type="Normal">
+		<DBID>2104</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">cheat_allUNSCunits</Target>
+			</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscForgePelicanTransport2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscArkDefense1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="UnscArkDefense1">UnscArkDefense2</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="UnscArkDefense2">UnscArkDefense3</Effect>
+			<Effect type="UnlockableGodPower" tier="2">UnscMacBlast1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscMacBlast1">UnscMacBlast2</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscMacBlast2">UnscMacBlast3</Effect>
+			<Effect type="UnlockableGodPower" tier="2">UnscNapalmMissiles1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscNapalmMissiles1">UnscNapalmMissiles2</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscNapalmMissiles2">UnscNapalmMissiles3</Effect>
+			<Effect type="UnlockableGodPower" tier="3">UnscScatterbomb1</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="UnscScatterbomb1">UnscScatterbomb2</Effect>
+			<Effect type="UnlockableGodPower" tier="3">UnscBombingRun1_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="UnscBombingRun1_MP">UnscBombingRun2_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="UnscBombingRun2_MP">UnscBombingRun3_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="4">Jerome_Barrage1</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="Jerome_Barrage1">Jerome_Barrage2</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="Jerome_Barrage2">Jerome_Barrage3</Effect>
+			<Effect type="UnlockableGodPower" tier="4">UnscGhostInTheMachine</Effect>
+			<Effect type="UnlockableGodPower" tier="5">UnscPelicanGunship</Effect>
+			<Effect type="UnlockableGodPower" tier="5">UnscImmolation</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="UNSC_LeaderEverythingPassive" type="Normal">
+		<DBID>2104</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">gamemode_reparent_protos_mp</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">cheat_allUNSCunits</Target>
+			</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscForgePelicanTransport2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscHeavyMetal01</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHeavyMetal01">UnscHeavyMetal02</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHeavyMetal02">UnscHeavyMetal03</Effect>
+			<Effect type="UnlockableGodPower" tier="2">JohnsonEMPBlast1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="JohnsonEMPBlast1">JohnsonEMPBlast2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CovBuffRage1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="CovBuffRage1">CovBuffRage2</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="CovBuffRage2">CovBuffRage3</Effect>
+			<Effect type="UnlockableGodPower" tier="3">CovTeleport2</Effect>
+			<Effect type="UnlockableGodPower" tier="3">CovBloodlust</Effect>
+			<Effect type="UnlockableGodPower" tier="4">Jerome_LowPopInspire1</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="Jerome_LowPopInspire1">Jerome_LowPopInspire2</Effect>
+			<Effect type="UnlockableGodPower" tier="4">UnscHeroism1</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="UnscHeroism1">UnscHeroism2</Effect>
+			<Effect type="UnlockableGodPower" tier="5">LekgoloEverlasting</Effect>
+			<Effect type="UnlockableGodPower" tier="5">CovDyingBreath</Effect>
+		</Effects>
+	</Tech>
 </TechTree>

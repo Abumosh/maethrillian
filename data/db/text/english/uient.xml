@@ -6,6 +6,10 @@
 	<str id="UIENT.LEADERSELECT.SHORTDESCR.CovEverythingPassive">Has access to all banished units with passive leader powers (buffs).</str>
 	<str id="UIENT.LEADERSELECT.TITLE.NoAI">NO AI</str>
 	<str id="UIENT.LEADERSELECT.SHORTDESCR.NoAI">Prevents the AI from doing anything.</str>
+	<str id="UIENT.LEADERSELECT.TITLE.UNSCEverything">ALL UNITS UNSC</str>
+	<str id="UIENT.LEADERSELECT.SHORTDESCR.UNSCEverything">Has access to all UNSC units.</str>
+	<str id="UIENT.LEADERSELECT.TITLE.UNSCEverythingPassive">ALL UNITS UNSC PASSIVE</str>
+	<str id="UIENT.LEADERSELECT.SHORTDESCR.UNSCEverythingPassive">Has access to all UNSC units with passive leader powers (buffs).</str>
 	<str id="UIENT._RallyPoint.RadialCenter.Name">GLOBAL RALLY POINT</str>
 	<str id="UIENT._RallyPoint.RadialEdge.Name">GLOBAL RALLY POINT</str>
 	<str id="UIENT._RALLYPOINT.RADIALEDGE.ROLE">RALLY POINT</str>
@@ -4191,8 +4195,16 @@ Units must die within the power's set time frame.</str>
 	<str id="UIENT._RECORD_Vet3.RADIALEDGE.NAME">VETERANCY</str>
 	<str id="UIENT._RECORD_Vet3.RADIALEDGE.ROLE">CHEAT</str>
 	<str id="UIENT._RECORD_Vet3.RADIALEDGE.SHORTDESCR">Adds +1 vet to all squads</str>
-	<str id="UIENT._RECORD_ALLUpgradesBanished.RADIALCENTER.NAME">Tier 4 Units</str>
-	<str id="UIENT._RECORD_ALLUpgradesBanished.RADIALEDGE.NAME">Tier 4 Units</str>
+	<str id="UIENT._RECORD_ALLUpgradesBanished.RADIALCENTER.NAME">Tier 3 Units</str>
+	<str id="UIENT._RECORD_ALLUpgradesBanished.RADIALEDGE.NAME">Tier 3 Units</str>
 	<str id="UIENT._RECORD_ALLUpgradesBanished.RADIALEDGE.ROLE">CHEAT</str>
 	<str id="UIENT._RECORD_ALLUpgradesBanished.RADIALEDGE.SHORTDESCR">Unlocks all Banished upgrades.</str>
+	<str id="UIENT._RECORD_ALLUpgradesUNSC.RADIALCENTER.NAME">Tier 3 Units</str>
+	<str id="UIENT._RECORD_ALLUpgradesUNSC.RADIALEDGE.NAME">Tier 3 Units</str>
+	<str id="UIENT._RECORD_ALLUpgradesUNSC.RADIALEDGE.ROLE">CHEAT</str>
+	<str id="UIENT._RECORD_ALLUpgradesUNSC.RADIALEDGE.SHORTDESCR">Unlocks all Banished upgrades.</str>
+	<str id="UIENT._RECORD_ALLUpgradesMinorBanished.RADIALCENTER.NAME">Tier 3 Units</str>
+	<str id="UIENT._RECORD_ALLUpgradesMinorBanished.RADIALEDGE.NAME">Tier 3 Units</str>
+	<str id="UIENT._RECORD_ALLUpgradesMinorBanished.RADIALEDGE.ROLE">CHEAT</str>
+	<str id="UIENT._RECORD_ALLUpgradesMinorBanished.RADIALEDGE.SHORTDESCR">Unlocks all Skitter, Phantom and limo upgrades.</str>
 </string_table>

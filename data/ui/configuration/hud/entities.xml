@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <group>
 	<entry>
+		<key>_RECORD_ALLUpgradesUNSC</key>
+		<value>..\textures\hud\icons\entityIcons\archetypes_forerunner_pieces_forerunnermagcannon_icon</value>
+		<value>..\textures\hud\icons\entityIcons\archetypes_forerunner_pieces_forerunnermagcannon_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT._RECORD_ALLUpgradesUNSC.RadialEdge.Name</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>_RECORD_ALLUpgradesMinorBanished</key>
+		<value>..\textures\hud\icons\entityIcons\archetypes_forerunner_pieces_forerunnermagcannon_icon</value>
+		<value>..\textures\hud\icons\entityIcons\archetypes_forerunner_pieces_forerunnermagcannon_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT._RECORD_ALLUpgradesMinorBanished.RadialEdge.Name</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
 		<key>_RECORD_ALLUpgradesBanished</key>
 		<value>..\textures\hud\icons\entityIcons\archetypes_forerunner_pieces_forerunnermagcannon_icon</value>
 		<value>..\textures\hud\icons\entityIcons\archetypes_forerunner_pieces_forerunnermagcannon_ability_icon</value>
