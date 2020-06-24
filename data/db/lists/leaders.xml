@@ -601,7 +601,31 @@
 		<Resource Type="Supplies">600</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">400</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_04" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_everything" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="999">60</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Retriever" Max="999">999</Pop>
+	</Leader>
+	<Leader Name="UNSCEverythingPassive" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" GUID="#2BBE175C-7DE4-44A3-A9DC-92571626BFA2">
+		<Civ>UNSC</Civ>
+		<Tech>UNSC_LeaderEverythingPassive</Tech>
+		<NameID>7004</NameID>
+		<DescriptionID>7005</DescriptionID>
+		<RichPresenceID>LEADER_ANDERS</RichPresenceID>
+		<CmsId>3</CmsId>
+		<FlashImg>oni</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\Anders.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_anders.ddx</UIControlBackground>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">400</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_everything" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
