@@ -92,14 +92,18 @@
 		<WeaponType>Explosive</WeaponType>
 	</Weapon>
 	<Action>
-		<Name>ExplosiveManager</Name>
-		<ActionType>ExplosiveManager</ActionType>
-		<FuseType>Proximity</FuseType>
-		<WorkRange>0</WorkRange>
+		<Name>OnDeathDamageContained</Name>
+		<ActionType>Detonate</ActionType>
+		<Anim>Idle</Anim>
+		<Duration>0</Duration>
+		<SpecificData>
+			<CleansingBeams>
+				<Beam>
+					<PowerName>LastStandBanishedDrop</PowerName>
+				</Beam>
+			</CleansingBeams>
+		</SpecificData>
 		<Weapon>OnDeathDamageContained</Weapon>
-		<DontAutoRestart />
-		<ExplodeOnDeath />
-		<ProjectileInvokePower>LastStandBanishedDrop</ProjectileInvokePower>
 	</Action>
 	<Action>
 		<Name>BlisterbackArtilleryFireAction</Name>
@@ -162,7 +166,6 @@
 		<WorkRange>1.84500003</WorkRange>
 	</Action>
 	<Tactic>
-		<PersistentAction>ExplosiveManager</PersistentAction>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
