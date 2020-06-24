@@ -85,30 +85,21 @@
 		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
 	<Weapon>
-		<Name>StandardDetonate</Name>
-		<AttackRate>5</AttackRate>
+		<Name>PlasmaMine</Name>
+		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>0</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
-		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>
-		<ImpactEffect size="Large" alwaysHorizontal="true">MethaneShellExplosion</ImpactEffect>
-		<MaxRange>14</MaxRange>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>500</PhysicsForceMin>
-		<PhysicsForceMax>700</PhysicsForceMax>
+		<WeaponType>Basic</WeaponType>
+		<Apply>0.5</Apply>
 	</Weapon>
 	<Action>
-		<Name>StandardDetonateAction</Name>
-		<ActionType>Detonate</ActionType>
-		<Weapon>StandardDetonate</Weapon>
-		<Anim>Death</Anim>
-		<FullBodyAttackAnim />
+		<Name>ExplosiveManager</Name>
+		<ActionType>ExplosiveManager</ActionType>
+		<FuseType>Proximity</FuseType>
+		<WorkRange>0</WorkRange>
+		<Weapon>PlasmaMine</Weapon>
 		<DontAutoRestart />
 		<DetonateOnDeath />
-		<ExplodeOnDeath />
-		<PlayDeathAnimation />
 		<ProjectileInvokePower>UnscOdstDrop</ProjectileInvokePower>
 	</Action>
 	<Action>
