@@ -850,8 +850,8 @@
 			</entry>
 			<entry>
 				<key>CovEverythingPassive</key>
-				<value>UIENT.LEADERSELECT.TITLE.CovEverything</value>
-				<value>UIENT.LEADERSELECT.SHORTDESCR.CovEverything</value>
+				<value>UIENT.LEADERSELECT.TITLE.CovEverythingPassive</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.CovEverythingPassive</value>
 				<value>UIMP.FINDMATCH.NA</value>
 				<value>UIMP.FINDMATCH.NA</value>
 				<value>UIMP.FINDMATCH.NA</value>
