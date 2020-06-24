@@ -9018,7 +9018,6 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<UnlockableActiveAbilityType>Hijack</UnlockableActiveAbilityType>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Rhino">1</Pop>
 		<Cost ResourceType="Supplies">700</Cost>
 		<Cost ResourceType="Power">200</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -9152,7 +9151,6 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<UnlockableActiveAbilityType>Hijack</UnlockableActiveAbilityType>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Rhino">1</Pop>
 		<Cost ResourceType="Supplies">700</Cost>
 		<Cost ResourceType="Power">200</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -9200,7 +9198,6 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<UnlockableActiveAbilityType>Hijack</UnlockableActiveAbilityType>
 		<BuildPoints>1</BuildPoints>
-		<Pop Type="Rhino">1</Pop>
 		<Cost ResourceType="Supplies">700</Cost>
 		<Cost ResourceType="Power">200</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>

@@ -4202,7 +4202,7 @@ Units must die within the power's set time frame.</str>
 	<str id="UIENT._RECORD_ALLUpgradesUNSC.RADIALCENTER.NAME">Tier 3 Units</str>
 	<str id="UIENT._RECORD_ALLUpgradesUNSC.RADIALEDGE.NAME">Tier 3 Units</str>
 	<str id="UIENT._RECORD_ALLUpgradesUNSC.RADIALEDGE.ROLE">CHEAT</str>
-	<str id="UIENT._RECORD_ALLUpgradesUNSC.RADIALEDGE.SHORTDESCR">Unlocks all Banished upgrades.</str>
+	<str id="UIENT._RECORD_ALLUpgradesUNSC.RADIALEDGE.SHORTDESCR">Unlocks all UNSC upgrades.</str>
 	<str id="UIENT._RECORD_ALLUpgradesMinorBanished.RADIALCENTER.NAME">Tier 3 Units</str>
 	<str id="UIENT._RECORD_ALLUpgradesMinorBanished.RADIALEDGE.NAME">Tier 3 Units</str>
 	<str id="UIENT._RECORD_ALLUpgradesMinorBanished.RADIALEDGE.ROLE">CHEAT</str>
