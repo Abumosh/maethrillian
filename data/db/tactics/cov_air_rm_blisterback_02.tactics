@@ -85,19 +85,18 @@
 		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
 	<Weapon>
-		<Name>PlasmaMine</Name>
-		<AttackRate>0.5</AttackRate>
+		<Name>OnDeathDamageContained</Name>
+		<AttackRate>5</AttackRate>
 		<DamagePerSecond>0</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Basic</WeaponType>
-		<Apply>0.5</Apply>
+		<WeaponType>Explosive</WeaponType>
 	</Weapon>
 	<Action>
 		<Name>ExplosiveManager</Name>
 		<ActionType>ExplosiveManager</ActionType>
 		<FuseType>Proximity</FuseType>
 		<WorkRange>0</WorkRange>
-		<Weapon>PlasmaMine</Weapon>
+		<Weapon>OnDeathDamageContained</Weapon>
 		<DontAutoRestart />
 		<ExplodeOnDeath />
 		<ProjectileInvokePower>UnscOdstDrop</ProjectileInvokePower>
