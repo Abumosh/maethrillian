@@ -99,7 +99,7 @@
 		<WorkRange>0</WorkRange>
 		<Weapon>PlasmaMine</Weapon>
 		<DontAutoRestart />
-		<DetonateOnDeath />
+		<ExplodeOnDeath />
 		<ProjectileInvokePower>UnscOdstDrop</ProjectileInvokePower>
 	</Action>
 	<Action>
