@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <RosterSettings>
-	<StartValues Mana="50" />
-	<StartValues VictoryPoints="200" />
-	<StartValues MatchDurationSeconds="720" />
+	<StartValues Mana="50000" />
+	<StartValues VictoryPoints="200000" />
+	<StartValues MatchDurationSeconds="7200" />
 	<ManaGains RegenTime="666" />
 	<ManaGains RegenAmount="1" />
 	<ManaGains KillGainCostPercentage="0" />
 	<ManaGains DieGainCostPercentage="0.5" />
-	<ManaGains Cap="2000" UseCap="false" />
-	<ManaLoses Discard="5" />
+	<ManaGains Cap="20000" UseCap="false" />
+	<ManaLoses Discard="5000" />
 	<Sizes Deck="12" />
-	<Sizes Hand="4" />
-	<Sizes SameCardPerDeck="1" />
-	<Sizes PopulationCap="30" />
+	<Sizes Hand="6" />
+	<Sizes SameCardPerDeck="3" />
+	<Sizes PopulationCap="9999" />
 	<Sizes MaxDecksPerLeader="3" />
 	<DeckManagement ShuffleDecks="true" />
 	<DeckManagement UseGraveyard="false" />
