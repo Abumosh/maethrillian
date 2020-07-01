@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<CardsLevels>
+	<XPTable MaxLevel="10">
+		<Level Level="1" XP="1" />
+		<Level Level="2" XP="3" />
+		<Level Level="3" XP="7" />
+		<Level Level="4" XP="15" />
+		<Level Level="5" XP="31" />
+		<Level Level="6" XP="63" />
+		<Level Level="7" XP="127" />
+		<Level Level="8" XP="255" />
+		<Level Level="9" XP="511" />
+		<Level Level="10" XP="1023" />
+	</XPTable>
+</CardsLevels>

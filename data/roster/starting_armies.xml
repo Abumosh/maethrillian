@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<StartingArmies>
+	<StartingArmy Name="Cutter1" Leader="Cutter" LeaderRole="UIROST.LEADER.ROLE.CUTTER.1" GUID="{5833b12f-697d-4357-a789-ac1180b0da14}">
+		<Card Num="3">SA ODST</Card>
+		<Card Num="1">SA Nightingale</Card>
+	</StartingArmy>
+	<StartingArmy Name="Cutter2" Leader="Cutter" LeaderRole="UIROST.LEADER.ROLE.CUTTER.2" GUID="{70bab4a9-f827-4013-8adc-6221f205aa9a}">
+		<Card Num="3">SA Warthog</Card>
+	</StartingArmy>
+	<StartingArmy Name="Anders2" Leader="Anders" LeaderRole="UIROST.LEADER.ROLE.ANDERS.2" GUID="{a9353487-9afc-4007-8031-ed873329e4c1}">
+		<Card Num="2">SA Cyclops Reflect</Card>
+		<Card Num="1">SA Marines Guard</Card>
+		<Card Num="1">SA Marines Siphon</Card>
+		<Card Num="1">SA Wolverine</Card>
+	</StartingArmy>
+	<StartingArmy Name="Anders1" Leader="Anders" LeaderRole="UIROST.LEADER.ROLE.ANDERS.1" GUID="{edca64de-6631-4d0b-8975-1a8b08c3a0a3}">
+		<Card Num="3">SA Sentinel</Card>
+		<Card Num="1">SA Super Sentinel</Card>
+	</StartingArmy>
+	<StartingArmy Name="Isabel1" Leader="Isabel" LeaderRole="UIROST.LEADER.ROLE.ISABEL.1" GUID="{d4786f6d-f7c5-4bb2-ba49-deb70d944046}">
+		<Card Num="1">SA Jackrabbit</Card>
+		<Card Num="2">SA Jackrabbit Blast</Card>
+		<Card Num="1">SA Hornet</Card>
+	</StartingArmy>
+	<StartingArmy Name="Isabel2" Leader="Isabel" LeaderRole="UIROST.LEADER.ROLE.ISABEL.2" GUID="{9ecdc7c8-5a61-473f-877b-f41d917f0979}">
+		<Card Num="1">SA Scorpion Drain</Card>
+		<Card Num="1">SA Warthog Guard</Card>
+	</StartingArmy>
+	<StartingArmy Name="Atriox1" Leader="Atriox" LeaderRole="UIROST.LEADER.ROLE.ATRIOX.1" GUID="{27049b2d-ddeb-4a82-a8b1-c88ca03be08e}">
+		<Card Num="1">SA Marauder</Card>
+		<Card Num="2">SA Banshee</Card>
+		<Card Num="1">SA Brute Chopper</Card>
+	</StartingArmy>
+	<StartingArmy Name="Atriox2" Leader="Atriox" LeaderRole="UIROST.LEADER.ROLE.ATRIOX.2" GUID="{4c421d8f-539a-46df-99a5-ace562beb675}">
+		<Card Num="2">SA Grunts</Card>
+		<Card Num="1">SA Elite Rangers</Card>
+		<Card Num="1">SA Wraith Guard</Card>
+	</StartingArmy>
+	<StartingArmy Name="Decimus1" Leader="Decimus" LeaderRole="UIROST.LEADER.ROLE.DECIMUS.1" GUID="{ccd66afa-8920-4c6d-a013-5cef3d57363b}">
+		<Card Num="2">SA Jump Pack Brute</Card>
+		<Card Num="1">SA Grunts Blast</Card>
+		<Card Num="1">SA Reaver</Card>
+		<Card Num="1">SA Marauder Rally</Card>
+	</StartingArmy>
+	<StartingArmy Name="Decimus2" Leader="Decimus" LeaderRole="UIROST.LEADER.ROLE.DECIMUS.2" GUID="{bdc036dd-f53c-4c55-b25c-47f8340ddeae}">
+		<Card Num="4">SA Grunts Siphon</Card>
+		<Card Num="1">SA Brute Chopper Drain</Card>
+	</StartingArmy>
+	<StartingArmy Name="Shipmaster2" Leader="Shipmaster" LeaderRole="UIROST.LEADER.ROLE.SHIPMASTER.2" GUID="{7c2db2bc-d6f5-4f6e-94f5-bb6276b5fe66}">
+		<Card Num="3">SA Ghost</Card>
+	</StartingArmy>
+	<StartingArmy Name="Shipmaster1" Leader="Shipmaster" LeaderRole="UIROST.LEADER.ROLE.SHIPMASTER.1" GUID="{7b7eff79-2c30-46fb-aef9-f371465e2f71}">
+		<Card Num="2">SA Marauder Cloak</Card>
+		<Card Num="1">SA Reaver Cloak</Card>
+	</StartingArmy>
+	<StartingArmy Name="Forge1" Leader="Forge" LeaderRole="UIPO.LEADER.ROLE.FORGE.1" GUID="{a0bb79e9-9db1-4b6f-8caf-d6af4a22185d}">
+		<Card Num="1">SA Grizzly</Card>
+		<Card Num="2">SA Marines Reflect</Card>
+	</StartingArmy>
+	<StartingArmy Name="Forge2" Leader="Forge" LeaderRole="UIPO.LEADER.ROLE.FORGE.2" GUID="{4061b3d7-79a5-4caa-be02-fe6b74335f01}">
+		<Card Num="2">SA Jackrabbit Drone</Card>
+		<Card Num="1">SA Warthog</Card>
+		<Card Num="1">SA Wolverine Rush</Card>
+	</StartingArmy>
+	<StartingArmy Name="Kinsano1" Leader="Kinsano" LeaderRole="UIDLC1.LEADER.ROLE.KINSANO.1" GUID="{07e20ca2-671e-4cdd-9da0-e15e7df3d0b2}">
+		<Card Num="3">SA Hellbringers Upgrade</Card>
+		<Card Num="2">SA Flamehog</Card>
+	</StartingArmy>
+	<StartingArmy Name="Kinsano2" Leader="Kinsano" LeaderRole="UIDLC1.LEADER.ROLE.KINSANO.2" GUID="{fa148cce-2252-49d4-9801-9fc6bd569b4b}">
+		<Card Num="2">SA Grenadehog</Card>
+		<Card Num="1">SA Jackrabbit Drone</Card>
+	</StartingArmy>
+	<StartingArmy Name="Lekgolo1" Leader="Lekgolo" LeaderRole="UIDLC3.LEADERSELECT.ROLE01.LEKGOLO" GUID="{8fec62f1-f9c4-4d86-a60c-9e680e05066e}">
+		<Card Num="2">SA Goliath</Card>
+		<Card Num="1">SA Skitterer</Card>
+		<Card Num="3">SA Skitterer 2</Card>
+	</StartingArmy>
+	<StartingArmy Name="Lekgolo2" Leader="Lekgolo" LeaderRole="UIDLC3.LEADERSELECT.ROLE02.LEKGOLO" GUID="{b70ee9cd-b333-47c6-b3c0-0852bd1b255b}">
+		<Card Num="2">SA Veteran Hunter</Card>
+		<Card Num="1">SA Engineer</Card>
+		<Card Num="1">SA Skitterer</Card>
+		<Card Num="3">SA Skitterer 2</Card>
+	</StartingArmy>
+	<StartingArmy Name="Johnson1" Leader="Johnson" LeaderRole="DLC31JOH.LEADERSELECT.ROLE01.JOHNSON" GUID="{595704f8-f0a5-4a17-ba9b-461edef4f8ba}">
+		<Card Num="2">SA Mantis</Card>
+		<Card Num="1">SA Warthog</Card>
+	</StartingArmy>
+	<StartingArmy Name="Johnson2" Leader="Johnson" LeaderRole="DLC31JOH.LEADERSELECT.ROLE02.JOHNSON" GUID="{7ff7f4d6-b756-4c37-9427-29ed23ead821}">
+		<Card Num="2">SA Cyclops EMP</Card>
+		<Card Num="1">SA Sniper</Card>
+	</StartingArmy>
+	<StartingArmy Name="Arbiter1" Leader="Arbiter" LeaderRole="UIDLC2.LEADERSELECT.ROLE01.ARBITER" GUID="{5d91c781-b8c4-440b-8e72-2682b25b6389}">
+		<Card Num="2">SA Elite Assault Team</Card>
+		<Card Num="1">SA Elite Rangers</Card>
+		<Card Num="1">SA Phantom</Card>
+		<Card Num="1">SA Ghost</Card>
+	</StartingArmy>
+	<StartingArmy Name="Arbiter2" Leader="Arbiter" LeaderRole="UIDLC2.LEADERSELECT.ROLE02.ARBITER" GUID="{c847194d-d4b7-48e0-bdf4-c963f0a12dcd}">
+		<Card Num="1">SA Arbiter Hero</Card>
+		<Card Num="1">SA Ghost</Card>
+	</StartingArmy>
+	<StartingArmy Name="LeaderJerome1" Leader="LeaderJerome" LeaderRole="UIDLC2.LEADERSELECT.ROLE01.COMMANDERJEROME" GUID="{aae1e5a5-dd4d-4a0b-a64b-fd4550f2df65}">
+		<Card Num="1">SA Nightingale LastStand</Card>
+		<Card Num="1">SA Battle APC</Card>
+		<Card Num="2">SA Marines</Card>
+		<Card Num="1">SA Hellbringers</Card>
+	</StartingArmy>
+	<StartingArmy Name="LeaderJerome2" Leader="LeaderJerome" LeaderRole="UIDLC2.LEADERSELECT.ROLE02.COMMANDERJEROME" GUID="{0681650a-9754-4bc0-84de-cd426c9b95bd}">
+		<Card Num="1">SA Omega Team</Card>
+		<Card Num="1">SA Jackrabbit Drone</Card>
+	</StartingArmy>
+	<StartingArmy Name="Cryo1" Leader="Serina" LeaderRole="UIDLC4.LEADERSELECT.ROLE01.SERINA" GUID="{e4180522-387d-4937-b63d-0c53563061e1}">
+		<Card Num="1">SA Kodiak Cannon</Card>
+		<Card Num="1">SA Wolverine</Card>
+		<Card Num="1">SA Cryo Troopers</Card>
+		<Card Num="1">SA Cryo Troopers</Card>
+		<Card Num="1">SA Wolverine</Card>
+	</StartingArmy>
+	<StartingArmy Name="Cryo2" Leader="Serina" LeaderRole="UIDLC4.LEADERSELECT.ROLE02.SERINA" GUID="{dd80d765-7af6-4559-bfeb-102f31f0faf5}">
+		<Card Num="1">SA Vulture</Card>
+		<Card Num="1">SA Pegasus</Card>
+	</StartingArmy>
+	<StartingArmy Name="Grunt1" Leader="GruntGeneral" LeaderRole="UIDLC5.LEADERSELECT.ROLE01.GRUNT" GUID="{81b8eab5-486e-4590-a831-7d598d4c259a}">
+		<Card Num="1">SA Methane Wagon</Card>
+		<Card Num="2">SA Heavy Grunts</Card>
+		<Card Num="1">SA Grunt Swarm</Card>
+		<Card Num="4">SA Grunt Swarm2</Card>
+	</StartingArmy>
+	<StartingArmy Name="Grunt2" Leader="GruntGeneral" LeaderRole="UIDLC5.LEADERSELECT.ROLE02.GRUNT" GUID="{4e773b1c-7204-4fe6-a3e9-b910ca4090ce}">
+		<Card Num="3">SA Jump Pack Brute Blast</Card>
+		<Card Num="2">SA Brute Rider</Card>
+	</StartingArmy>
+	<StartingArmy Name="Corrupted1" Leader="CorruptBrute" LeaderRole="UIEP2.LEADERSELECT.ROLE01.CORRUPTED" GUID="{986edd2c-662c-4266-aa8f-31df7adfa757}">
+		<Card Num="2">SA Veteran Grenadiers</Card>
+		<Card Num="1">SA Reaver</Card>
+		<Card Num="2">SA Corrupted Engineer</Card>
+	</StartingArmy>
+	<StartingArmy Name="Corrupted2" Leader="CorruptBrute" LeaderRole="UIEP2.LEADERSELECT.ROLE02.CORRUPTED" GUID="{c07b0bfb-0f44-4699-92e0-ba65d9c43884}">
+		<Card Num="1">SA Wraith Drain</Card>
+		<Card Num="2">SA Brute Chopper</Card>
+	</StartingArmy>
+	<StartingArmy Name="Unbreakable1" Leader="UnbreakableBrute" LeaderRole="UIEP2.LEADERSELECT.ROLE01.UNBREAKABLE" GUID="{57d41eac-f253-4991-9d7b-4c09b913e8e5}">
+		<Card Num="1">SA Blisterback Guard</Card>
+		<Card Num="2">SA Engineer</Card>
+	</StartingArmy>
+	<StartingArmy Name="Unbreakable2" Leader="UnbreakableBrute" LeaderRole="UIEP2.LEADERSELECT.ROLE02.UNBREAKABLE" GUID="{353892a7-37d0-4649-aea4-9acecc81a16a}">
+		<Card Num="1">SA Wraith APC</Card>
+		<Card Num="1">SA Hunters</Card>
+		<Card Num="1">SA Elite Rangers</Card>
+	</StartingArmy>
+</StartingArmies>

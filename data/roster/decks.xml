@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Decks>
+	<Deck Name="Cutter_Starter" Faction="" Leader="" StartingArmy="Cutter1" PROTOTYPELeader="Cutter">
+		<Card Num="1">Bombing Run</Card>
+		<Card Num="2">Cyclops</Card>
+		<Card Num="2">Hellbringers</Card>
+		<Card Num="2">Hornet</Card>
+		<Card Num="1">Hornet LastStand</Card>
+		<Card Num="2">Jackrabbit</Card>
+		<Card Num="1">Kodiak Cannon</Card>
+		<Card Num="2">Lotus Mines</Card>
+		<Card Num="3">Marines</Card>
+		<Card Num="1">Nightingale</Card>
+		<Card Num="2">ODST Drop</Card>
+		<Card Num="1">Scorpion</Card>
+		<Card Num="2">Sniper</Card>
+		<Card Num="1">Spartan Recruit</Card>
+		<Card Num="2">Warthog</Card>
+		<Card Num="2">Warthog Rush</Card>
+		<Card Num="2">Wolverine</Card>
+	</Deck>
+	<Deck Name="Isabel_Starter" Faction="" Leader="" StartingArmy="Isabel1" PROTOTYPELeader="Isabel">
+		<Card Num="2">Kodiak Cannon</Card>
+		<Card Num="2">Cyclops</Card>
+		<Card Num="2">Hellbringers</Card>
+		<Card Num="2">Holo-Decoy</Card>
+		<Card Num="2">Hornet</Card>
+		<Card Num="1">Jackrabbit Blast</Card>
+		<Card Num="2">Jackrabbit</Card>
+		<Card Num="1">MAC Blast</Card>
+		<Card Num="2">Marines</Card>
+		<Card Num="1">Nightingale</Card>
+		<Card Num="1">Scorpion</Card>
+		<Card Num="1">Scorpion Drain</Card>
+		<Card Num="2">Lotus Mines</Card>
+		<Card Num="1">Vulture</Card>
+		<Card Num="2">Warthog</Card>
+		<Card Num="1">Warthog Gauss</Card>
+		<Card Num="2">Wolverine</Card>
+		<Card Num="2">Wolverine Guard</Card>
+		<Card Num="1">Vehicle Hack</Card>
+	</Deck>
+	<Deck Name="Anders_Starter" Faction="" Leader="" StartingArmy="Anders1" PROTOTYPELeader="Anders">
+		<Card Num="1">Cyclops</Card>
+		<Card Num="2">Cyclops Reflect</Card>
+		<Card Num="1">Energy Surge</Card>
+		<Card Num="2">Medical Drones</Card>
+		<Card Num="2">Hellbringers</Card>
+		<Card Num="3">Hornet</Card>
+		<Card Num="2">Jackrabbit</Card>
+		<Card Num="1">Kodiak Cannon</Card>
+		<Card Num="2">EMP MAC Blast</Card>
+		<Card Num="1">Marines</Card>
+		<Card Num="1">Marines</Card>
+		<Card Num="2">Nightingale</Card>
+		<Card Num="1">Scorpion</Card>
+		<Card Num="2">Sentinel</Card>
+		<Card Num="1">Spartan Recruit</Card>
+		<Card Num="2">Super Sentinel</Card>
+		<Card Num="1">Vulture</Card>
+		<Card Num="2">Warthog</Card>
+		<Card Num="1">Wolverine</Card>
+	</Deck>
+	<Deck Name="Atriox_Starter" Faction="" Leader="" StartingArmy="Atriox1" PROTOTYPELeader="Atriox">
+		<Card Num="3">Grunts</Card>
+		<Card Num="2">Wraith</Card>
+		<Card Num="2">Marauder</Card>
+		<Card Num="2">Locust</Card>
+		<Card Num="2">Reaver</Card>
+		<Card Num="2">Hunters</Card>
+		<Card Num="2">Banshee</Card>
+		<Card Num="2">Elite Rangers</Card>
+		<Card Num="2">Jump Pack Brute</Card>
+		<Card Num="2">Brute Chopper</Card>
+		<Card Num="3">Hunters</Card>
+		<Card Num="2">Hunters Guard</Card>
+		<Card Num="2">Engineer</Card>
+		<Card Num="2">Blisterback</Card>
+	</Deck>
+	<Deck Name="Decimus_Starter" Faction="" Leader="" StartingArmy="Decimus1" PROTOTYPELeader="Decimus">
+		<Card Num="2">Engineer</Card>
+		<Card Num="2">Marauder</Card>
+		<Card Num="2">Locust</Card>
+		<Card Num="2">Reaver</Card>
+		<Card Num="2">Hunters</Card>
+		<Card Num="2">Banshee</Card>
+		<Card Num="2">Elite Rangers</Card>
+		<Card Num="2">Grunts Siphon</Card>
+		<Card Num="2">Brute Chopper</Card>
+		<Card Num="2">Brute Chopper Drain</Card>
+		<Card Num="2">Plasma Mines</Card>
+		<Card Num="2">Grunts</Card>
+		<Card Num="1">Blisterback</Card>
+		<Card Num="2">Locust Siphon</Card>
+		<Card Num="1">Brute Honor Guard</Card>
+		<Card Num="2">Wraith</Card>
+	</Deck>
+	<Deck Name="Shipmaster_Starter" Faction="" Leader="" StartingArmy="Shipmaster1" PROTOTYPELeader="Shipmaster">
+		<Card Num="1">Brute Chopper</Card>
+		<Card Num="1">Cloak</Card>
+		<Card Num="2">Ghost</Card>
+		<Card Num="1">Teleport</Card>
+		<Card Num="1">Elite Rangers Rush</Card>
+		<Card Num="2">Elite Rangers</Card>
+		<Card Num="1">Shroud</Card>
+		<Card Num="2">Marauder</Card>
+		<Card Num="3">Banshee</Card>
+		<Card Num="2">Wraith</Card>
+		<Card Num="2">Grunts</Card>
+		<Card Num="2">Plasma Mines</Card>
+		<Card Num="2">Grunts Rushers</Card>
+		<Card Num="2">Jump Pack Brute</Card>
+		<Card Num="2">Cleansing Beam</Card>
+		<Card Num="2">Reaver</Card>
+		<Card Num="2">Locust</Card>
+	</Deck>
+	<Deck Name="Isabel_Max" Faction="" Leader="" StartingArmy="Isabel1">
+		<Card Num="3">Cyclops Reflect</Card>
+		<Card Num="3">Jackrabbit Blast</Card>
+		<Card Num="3">Wolverine Guard</Card>
+		<Card Num="3">Hornet</Card>
+		<Card Num="3">Hornet LastStand</Card>
+		<Card Num="3">Warthog</Card>
+		<Card Num="1">Holo-Decoy</Card>
+		<Card Num="3">Kodiak Cannon</Card>
+		<Card Num="1">Vehicle Hack</Card>
+		<Card Num="3">Vulture</Card>
+		<Card Num="1">Spartan Alice</Card>
+		<Card Num="1">Spartan Douglas</Card>
+		<Card Num="1">Grizzly Rally</Card>
+		<Card Num="1">Condor</Card>
+	</Deck>
+	<Deck Name="Atriox_Ben" Faction="" Leader="" StartingArmy="Atriox1">
+		<Card Num="3">Engineer</Card>
+		<Card Num="2">Banshee Reflect</Card>
+		<Card Num="1">Shroud</Card>
+		<Card Num="1">Blisterback</Card>
+		<Card Num="2">Brute Warchief</Card>
+		<Card Num="2">Elite Rangers</Card>
+		<Card Num="3">Hunters Guard</Card>
+		<Card Num="2">Jump Pack Blast</Card>
+		<Card Num="1">Holo-Decoy</Card>
+		<Card Num="1">Medical Drones</Card>
+		<Card Num="2">Brute Chopper Drain</Card>
+		<Card Num="2">Locust</Card>
+		<Card Num="3">Marauder LastStand</Card>
+		<Card Num="2">Reaver</Card>
+		<Card Num="3">Wraith</Card>
+	</Deck>
+	<Deck Name="Isabel_Ben" Faction="" Leader="" StartingArmy="Isabel1">
+		<Card Num="2">Hornet Blast</Card>
+		<Card Num="3">Nightingale</Card>
+		<Card Num="2">Vulture LastStand</Card>
+		<Card Num="2">Cyclops Reflect</Card>
+		<Card Num="2">Sniper</Card>
+		<Card Num="1">Spartan Jerome</Card>
+		<Card Num="1">Lotus Mines</Card>
+		<Card Num="2">Medical Drones</Card>
+		<Card Num="3">Jackrabbit Blast</Card>
+		<Card Num="2">Kodiak Cannon</Card>
+		<Card Num="2">Warthog</Card>
+		<Card Num="3">Wolverine Guard</Card>
+		<Card Num="2">Scorpion</Card>
+		<Card Num="1">Grizzly</Card>
+		<Card Num="2">Grizzly Rally</Card>
+	</Deck>
+	<Deck Name="Cutter_Clay" Faction="" Leader="" StartingArmy="Cutter1">
+		<Card Num="3">Hellbringers Blast</Card>
+		<Card Num="3">Cyclops Reflect</Card>
+		<Card Num="3">Wolverine</Card>
+		<Card Num="3">Hornet</Card>
+		<Card Num="3">Hornet LastStand</Card>
+		<Card Num="3">Sniper</Card>
+		<Card Num="3">ODST Drop</Card>
+		<Card Num="3">Warthog Rush</Card>
+		<Card Num="3">Kodiak Cannon</Card>
+		<Card Num="1">Orbital Battle Group</Card>
+		<Card Num="2">Scorpion</Card>
+	</Deck>
+	<Deck Name="Isabel_Graeme" Faction="" Leader="" StartingArmy="Isabel1">
+		<Card Num="3">Hornet</Card>
+		<Card Num="2">Cyclops</Card>
+		<Card Num="2">Cyclops Reflect</Card>
+		<Card Num="1">Marines</Card>
+		<Card Num="1">Sniper</Card>
+		<Card Num="3">Bombing Run</Card>
+		<Card Num="2">Medical Drones</Card>
+		<Card Num="2">MAC Blast</Card>
+		<Card Num="2">Kodiak Cannon</Card>
+		<Card Num="1">Warthog</Card>
+		<Card Num="2">Wolverine</Card>
+		<Card Num="2">Wolverine Guard</Card>
+		<Card Num="3">Scorpion</Card>
+		<Card Num="2">Grizzly Rally</Card>
+		<Card Num="2">Grizzly</Card>
+	</Deck>
+	<Deck Name="Anders_Kevin" Faction="" Leader="" StartingArmy="Anders1">
+		<Card Num="2">Hellbringers</Card>
+		<Card Num="2">Cyclops</Card>
+		<Card Num="2">Super Sentinel</Card>
+		<Card Num="2">Super Sentinel Drain</Card>
+		<Card Num="3">Wolverine</Card>
+		<Card Num="3">Medical Drones</Card>
+		<Card Num="3">Turret Drop</Card>
+		<Card Num="3">Warthog</Card>
+		<Card Num="2">Kodiak Cannon</Card>
+		<Card Num="2">Ark Defense</Card>
+		<Card Num="2">Scorpion</Card>
+		<Card Num="2">Vulture</Card>
+		<Card Num="1">Spartan Douglas</Card>
+		<Card Num="1">Retriever</Card>
+	</Deck>
+	<Deck Name="ShipMaster_Jeremy" Faction="" Leader="" StartingArmy="Shipmaster1">
+		<Card Num="1">Engineer</Card>
+		<Card Num="3">Banshee Reflect</Card>
+		<Card Num="2">Blisterback</Card>
+		<Card Num="3">Grunts</Card>
+		<Card Num="3">Elite Rangers</Card>
+		<Card Num="3">Hunters</Card>
+		<Card Num="3">Jump Pack Brute</Card>
+		<Card Num="3">Jump Pack Blast</Card>
+		<Card Num="1">Medical Drones</Card>
+		<Card Num="3">Ghost</Card>
+		<Card Num="3">Reaver</Card>
+		<Card Num="2">Wraith</Card>
+	</Deck>
+	<Deck Name="ShipMaster_Torey" Faction="" Leader="" StartingArmy="Shipmaster1">
+		<Card Num="2">Grunts Rushers</Card>
+		<Card Num="3">Ghost</Card>
+		<Card Num="3">Suicide Grunts</Card>
+		<Card Num="3">Brute Honor Guard</Card>
+		<Card Num="1">Elite Rangers</Card>
+		<Card Num="1">Reaver</Card>
+		<Card Num="1">Banshee Reflect</Card>
+		<Card Num="3">Hunters</Card>
+		<Card Num="1">Jump Pack Brute</Card>
+		<Card Num="1">Jump Pack Blast</Card>
+		<Card Num="3">Cleansing Beam</Card>
+		<Card Num="3">Wraith</Card>
+		<Card Num="2">Blisterback</Card>
+		<Card Num="2">Elite Honor Guard</Card>
+		<Card Num="1">Scarab</Card>
+	</Deck>
+	<Deck Name="Cutter_Torey" Faction="" Leader="" StartingArmy="Cutter1">
+		<Card Num="3">Hornet</Card>
+		<Card Num="2">Hornet Blast</Card>
+		<Card Num="3">Cyclops</Card>
+		<Card Num="3">Cyclops Reflect</Card>
+		<Card Num="3">Hellbringers Blast</Card>
+		<Card Num="3">Marines</Card>
+		<Card Num="1">Sniper</Card>
+		<Card Num="1">Spartan Douglas</Card>
+		<Card Num="1">Bombing Run</Card>
+		<Card Num="1">ODST Drop</Card>
+		<Card Num="1">Medical Drones</Card>
+		<Card Num="1">MAC Blast</Card>
+		<Card Num="3">Kodiak Cannon</Card>
+		<Card Num="3">Scorpion</Card>
+		<Card Num="1">Grizzly</Card>
+	</Deck>
+	<Deck Name="Cutter_Jon" Faction="" Leader="" StartingArmy="Cutter1">
+		<Card Num="3">Hornet</Card>
+		<Card Num="3">Hornet Blast</Card>
+		<Card Num="3">Vulture</Card>
+		<Card Num="3">Vulture LastStand</Card>
+		<Card Num="3">Cyclops Reflect</Card>
+		<Card Num="1">Hellbringers Blast</Card>
+		<Card Num="3">Marines</Card>
+		<Card Num="1">Sniper</Card>
+		<Card Num="1">Spartan Douglas</Card>
+		<Card Num="3">Wolverine</Card>
+		<Card Num="3">Scorpion</Card>
+		<Card Num="3">Grizzly</Card>
+	</Deck>
+	<Deck Name="Anders_David" Faction="" Leader="" StartingArmy="Anders1">
+		<Card Num="3">Hornet</Card>
+		<Card Num="3">Hornet Blast</Card>
+		<Card Num="2">Vulture LastStand</Card>
+		<Card Num="3">Cyclops</Card>
+		<Card Num="3">Cyclops Reflect</Card>
+		<Card Num="3">Marines</Card>
+		<Card Num="1">Spartan Alice</Card>
+		<Card Num="2">Holo-Decoy</Card>
+		<Card Num="1">Bombing Run</Card>
+		<Card Num="1">Medical Drones</Card>
+		<Card Num="1">MAC Blast</Card>
+		<Card Num="3">Warthog</Card>
+		<Card Num="3">Wolverine</Card>
+		<Card Num="1">Grizzly</Card>
+	</Deck>
+	<Deck Name="Isabel_Cassie" Faction="" Leader="" StartingArmy="Isabel1">
+		<Card Num="2">Marines</Card>
+		<Card Num="3">Cyclops Reflect</Card>
+		<Card Num="2">Nightingale</Card>
+		<Card Num="2">Kodiak Cannon</Card>
+		<Card Num="2">Lotus Mines</Card>
+		<Card Num="3">Hornet Blast</Card>
+		<Card Num="3">Wolverine Guard</Card>
+		<Card Num="2">Bombing Run</Card>
+		<Card Num="3">Scorpion</Card>
+		<Card Num="2">MAC Blast</Card>
+		<Card Num="2">Vulture LastStand</Card>
+		<Card Num="1">Spartan Jerome</Card>
+		<Card Num="3">Grizzly Rally</Card>
+	</Deck>
+	<Deck Name="Decimus_Cassie" Faction="" Leader="" StartingArmy="Decimus1">
+		<Card Num="2">Grunts Siphon</Card>
+		<Card Num="1">Engineer</Card>
+		<Card Num="2">Blisterback</Card>
+		<Card Num="3">Banshee Reflect</Card>
+		<Card Num="2">Brute Honor Guard</Card>
+		<Card Num="1">Brute Silverback</Card>
+		<Card Num="3">Jump Pack Blast</Card>
+		<Card Num="3">Cleansing Beam</Card>
+		<Card Num="2">Bombing Run</Card>
+		<Card Num="3">Brute Chopper Drain</Card>
+		<Card Num="2">Wraith</Card>
+		<Card Num="2">Elite Rangers</Card>
+		<Card Num="2">Marauder</Card>
+		<Card Num="2">Reaver</Card>
+	</Deck>
+	<Deck Name="ShipMaster_Al" Faction="" Leader="" StartingArmy="Shipmaster1">
+		<Card Num="3">Ghost</Card>
+		<Card Num="3">Suicide Grunts Rush</Card>
+		<Card Num="3">Brute Honor Guard</Card>
+		<Card Num="3">Elite Rangers</Card>
+		<Card Num="3">Hunters</Card>
+		<Card Num="3">Jump Pack Brute</Card>
+		<Card Num="2">Cleansing Beam</Card>
+		<Card Num="3">Elite Honor Guard</Card>
+		<Card Num="1">Bombing Run</Card>
+		<Card Num="3">Blisterback LastStand</Card>
+		<Card Num="3">Wraith</Card>
+	</Deck>
+	<Deck Name="Atriox_Oli" Faction="" Leader="" StartingArmy="Atriox1">
+		<Card Num="3">Grunts</Card>
+		<Card Num="2">Brute Chopper</Card>
+		<Card Num="2">Brute Chopper Drain</Card>
+		<Card Num="3">Banshee</Card>
+		<Card Num="3">Hunters Guard</Card>
+		<Card Num="2">Jump Pack Brute</Card>
+		<Card Num="2">Lotus Mines</Card>
+		<Card Num="3">Cleansing Beam</Card>
+		<Card Num="2">Jump Pack Blast</Card>
+		<Card Num="3">Reaver</Card>
+		<Card Num="3">Wraith</Card>
+		<Card Num="2">Medical Drones</Card>
+	</Deck>
+	<Deck Name="Cutter_Cassie" Faction="" Leader="" StartingArmy="Cutter1">
+		<Card Num="2">Cyclops Reflect</Card>
+		<Card Num="2">Hellbringers</Card>
+		<Card Num="2">Kodiak Cannon</Card>
+		<Card Num="3">Hornet Blast</Card>
+		<Card Num="1">Nightingale</Card>
+		<Card Num="2">Scorpion</Card>
+		<Card Num="1">Grizzly</Card>
+		<Card Num="3">Vulture LastStand</Card>
+		<Card Num="1">Spartan Douglas</Card>
+		<Card Num="1">Spartan Jerome</Card>
+		<Card Num="3">ODST Drop</Card>
+		<Card Num="3">MAC Blast</Card>
+		<Card Num="3">Warthog</Card>
+		<Card Num="3">Warthog Rush</Card>
+	</Deck>
+	<Deck Name="PowersTest" Faction="" Leader="" StartingArmy="Shipmaster1">
+		<Card Num="3">ARK Defense</Card>
+		<Card Num="3">Invulnerability</Card>
+		<Card Num="3">Structural Shielding</Card>
+		<Card Num="3">Planetary Cleansing</Card>
+		<Card Num="3">Vehicle Hack</Card>
+		<Card Num="3">Air Jack</Card>
+		<Card Num="3">Mind Control</Card>
+		<Card Num="3">Lotus Mines</Card>
+		<Card Num="3">Teleport</Card>
+		<Card Num="3">Stun Vortex</Card>
+		<Card Num="3">Pelican Sweep</Card>
+		<Card Num="3">Holo-Decoy</Card>
+		<Card Num="3">Cleansing Beam</Card>
+		<Card Num="3">Leech Upgrade</Card>
+		<Card Num="3">Spirit Assault</Card>
+		<Card Num="3">MAC Blast</Card>
+		<Card Num="3">Medical Drones</Card>
+		<Card Num="3">Bombing Run</Card>
+		<Card Num="3">Turret Drop</Card>
+		<Card Num="3">ODST Drop</Card>
+		<Card Num="3">Plasma Mines</Card>
+		<Card Num="3">Orbital Battle Group</Card>
+	</Deck>
+	<Deck Name="BanishedArmy" Faction="" Leader="" StartingArmy="ClassicBAN">
+		<Card Num="3">Grunts</Card>
+		<Card Num="2">Suicide Grunts</Card>
+		<Card Num="1">Engineer</Card>
+		<Card Num="2">Elite Rangers</Card>
+		<Card Num="1">Hunters</Card>
+		<Card Num="1">Jump Pack Brute</Card>
+		<Card Num="2">Brute Honor Guard</Card>
+		<Card Num="2">Brute Warchief</Card>
+		<Card Num="1">Decimus</Card>
+		<Card Num="2">Elite Honor Guard</Card>
+		<Card Num="3">Brute Chopper</Card>
+		<Card Num="1">Ghost</Card>
+		<Card Num="1">Marauder</Card>
+		<Card Num="1">Reaver</Card>
+		<Card Num="1">Locust</Card>
+		<Card Num="1">Scarab</Card>
+		<Card Num="3">Banshee</Card>
+		<Card Num="1">Blisterback</Card>
+		<Card Num="1">Shroud</Card>
+	</Deck>
+</Decks>

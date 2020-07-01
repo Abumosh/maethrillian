@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<UpgradeTables>
+	<UpgradeTable Name="NoUpgrades" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade LevelStart="2" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Core" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.0700000003" Shield="0" Damage="0.200000003" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0.0700000003" Shield="0" Damage="0.200000003" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.0799999982" Shield="0" Damage="0.200000003" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Harass" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.100000001" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.0599999987" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.349999994" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0.100000001" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.0700000003" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.100000001" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.0700000003" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.349999994" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Defence" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.0799999982" Shield="0" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.25" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0.0799999982" Shield="0" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.100000001" Shield="0" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.25" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Counter" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.200000003" DamageTaken="0" Accuracy="0" WeaponRange="0.0399999991" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0.150000006" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.300000012" DamageTaken="0" Accuracy="0" WeaponRange="0.0500000007" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.349999994" DamageTaken="0" Accuracy="0" WeaponRange="0.0599999987" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0.200000003" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Hero" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.0399999991" Shield="0" Damage="0.0799999982" DamageTaken="-0.0299999993" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0.0399999991" Shield="0" Damage="0.0799999982" DamageTaken="-0.0299999993" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0.0399999991" Shield="0" Damage="0.0799999982" DamageTaken="-0.0299999993" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.0399999991" Shield="0" Damage="0.0799999982" DamageTaken="-0.0299999993" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0.0399999991" Shield="0" Damage="0.0799999982" DamageTaken="-0.0299999993" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Healer" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.0799999982" Shield="0" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0.25" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0.0799999982" Shield="0" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.100000001" Shield="0" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0.25" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="CoreShield" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.0700000003" Shield="0.0599999987" Damage="0.200000003" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0.0700000003" Shield="0.0599999987" Damage="0.200000003" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.0799999982" Shield="0.0700000003" Damage="0.200000003" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0.00999999978" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="HarassShield" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.100000001" Shield="0.0799999982" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.0599999987" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.349999994" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0.100000001" Shield="0.0799999982" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.0700000003" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.100000001" Shield="0.0799999982" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.0700000003" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.349999994" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="DefenceShield" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.0799999982" Shield="0.0700000003" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.25" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0.0799999982" Shield="0.0700000003" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.100000001" Shield="0.0900000036" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.25" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="CounterShield" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.200000003" DamageTaken="0" Accuracy="0" WeaponRange="0.0399999991" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0.150000006" Shield="0.119999997" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.300000012" DamageTaken="0" Accuracy="0" WeaponRange="0.0500000007" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.349999994" DamageTaken="0" Accuracy="0" WeaponRange="0.0599999987" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0.200000003" Shield="0.170000002" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="HealerShield" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.0799999982" Shield="0.0599999987" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0.25" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0.0799999982" Shield="0.0700000003" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.100000001" Shield="0.0799999982" Damage="0" DamageTaken="-0.100000001" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0.25" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="LPDamage" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="CleansingBeam" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1.20000005" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="WatchTower" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.0599999987" Shield="0" Damage="0" DamageTaken="-0.0599999987" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0.0599999987" Shield="0" Damage="0" DamageTaken="-0.0599999987" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0.0700000003" Shield="0" Damage="0" DamageTaken="-0.0700000003" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.0700000003" Shield="0" Damage="0" DamageTaken="-0.0700000003" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0.0799999982" Shield="0" Damage="0" DamageTaken="-0.0900000036" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="BombingRun" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="MacBlast" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="MedDrones" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Restoration" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="SiphonPool" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0.00999999978" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0.00999999978" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="ShrapnelMines" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="ScorchMines" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="ArkDefence" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.0500000007" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="4" Health="0.0500000007" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.0500000007" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="SpiritGunship" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.200000003" DamageTaken="0" Accuracy="0" WeaponRange="0.0399999991" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0.150000006" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.300000012" DamageTaken="0" Accuracy="0" WeaponRange="0.0500000007" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.349999994" DamageTaken="0" Accuracy="0" WeaponRange="0.0599999987" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0.200000003" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="PlanetaryCleansing" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="PelicanSweep" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1.10000002" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Adrenaline" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="HoloDecoy" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="1" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="1" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="1" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="GhostMachine" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="AdvancedOptics" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.100000001" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.100000001" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.100000001" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.100000001" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.100000001" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="BlastHammer" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="1" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="1" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Vortex" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="0.00999999978" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Teleport" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade LevelStart="2" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Cloak" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade LevelStart="2" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="BoundlessFury" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="1" Duration="1" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="1" Duration="1" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Stun" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="1" Duration="1" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="1" Duration="1" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="PelicanTransport" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade LevelStart="2" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="CombatSalvage" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="1" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="1" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="1" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="HeavyMetal" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="ClusterMissiles" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="NapalmMissiles" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="UnstableConcoction" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Immolation" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="LekgoloWalls" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.0599999987" Shield="0" Damage="0" DamageTaken="-0.0700000003" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0.0599999987" Shield="0" Damage="0" DamageTaken="-0.0700000003" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0.0799999982" Shield="0" Damage="0" DamageTaken="-0.0700000003" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.0799999982" Shield="0" Damage="0" DamageTaken="-0.0700000003" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0.100000001" Shield="0.00999999978" Damage="0" DamageTaken="-0.0700000003" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="LekgoloPilot" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="HuragokSwarm" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="MechResilience" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="EMPBlast" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Bunker" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.0599999987" Shield="0" Damage="0" DamageTaken="-0.0599999987" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0.0599999987" Shield="0" Damage="0" DamageTaken="-0.0599999987" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0.0700000003" Shield="0" Damage="0" DamageTaken="-0.0599999987" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.0700000003" Shield="0" Damage="0" DamageTaken="-0.0599999987" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0.0799999982" Shield="0.00999999978" Damage="0" DamageTaken="-0.0599999987" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="PlasmaBolt" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="MassCloak" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.100000001" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="ConduitRage" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0.00999999978" Duration="1" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.100000001" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Stasis" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.100000001" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Heroism" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0.00999999978" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0.00999999978" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0.00999999978" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0.00999999978" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0.00999999978" Accuracy="0" WeaponRange="0" Velocity="0.00999999978" WorkRate="0" Power="0" Duration="1" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.100000001" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="SustainedBarrage" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="CryoBlast" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="CryoMines" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="IceBlock" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0.0599999987" Shield="0" Damage="0" DamageTaken="-0.0700000003" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0.0599999987" Shield="0" Damage="0" DamageTaken="-0.0700000003" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0.0799999982" Shield="0" Damage="0" DamageTaken="-0.0700000003" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0.0799999982" Shield="0" Damage="0" DamageTaken="-0.0700000003" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0.00999999978" Shield="0" Damage="-0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="SeismicCharge" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="MethaneBombing" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="CorruptionMines" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="RegenSiphons" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="CorruptionBall" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1.20000005" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="Cataclysm" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="ControlledHeal" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0.00999999978" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="ScatterBeams" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1.20000005" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0299999993" DamageTaken="0" Accuracy="0" WeaponRange="0.00999999978" Velocity="0" WorkRate="0" Power="0" Duration="0.00999999978" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="UltraMines" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="1" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+	<UpgradeTable Name="LichVanguard" NumLevels="99">
+		<Upgrade Level="1" Health="1" Shield="1" Damage="1.10000002" DamageTaken="1" Accuracy="1" WeaponRange="1" Velocity="1" WorkRate="1" Power="1" Duration="1" UnitCount="1" />
+		<Upgrade Level="2" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="3" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="4" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="5" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade Level="6" Health="0" Shield="0" Damage="0.0500000007" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+		<Upgrade LevelStart="7" LevelEnd="99" Health="0" Shield="0" Damage="0.00999999978" DamageTaken="0" Accuracy="0" WeaponRange="0" Velocity="0" WorkRate="0" Power="0" Duration="0" UnitCount="0" />
+	</UpgradeTable>
+</UpgradeTables>

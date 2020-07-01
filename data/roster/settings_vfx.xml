@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<SettingsVFX>
+	<SpawnVFXBaseName>vfx_RMvfx_rmUnitSpawn</SpawnVFXBaseName>
+	<Delays>
+		<Rarity Name="Common">
+			<Size Name="Small" Delay="500" />
+			<Size Name="Medium" Delay="500" />
+			<Size Name="Large" Delay="500" />
+		</Rarity>
+		<Rarity Name="Uncommon">
+			<Size Name="Small" Delay="500" />
+			<Size Name="Medium" Delay="500" />
+			<Size Name="Large" Delay="500" />
+		</Rarity>
+		<Rarity Name="Rare">
+			<Size Name="Small" Delay="500" />
+			<Size Name="Medium" Delay="500" />
+			<Size Name="Large" Delay="500" />
+		</Rarity>
+		<Rarity Name="Legendary">
+			<Size Name="Small" Delay="500" />
+			<Size Name="Medium" Delay="500" />
+			<Size Name="Large" Delay="500" />
+		</Rarity>
+	</Delays>
+	<Blast GoingToExplode="vfx_RMvfx_Keywords_rmBlastAura" />
+	<Guard Guarder="vfx_RMvfx_Keywords_rmGuardAura" Rotate="true" />
+	<Guard Guarded="vfx_RMvfx_Keywords_rmGuardUnit" />
+	<Rally DamageRallier="vfx_RMvfx_Keywords_rmRallyAura" Rotate="true" />
+	<Rally DamageRallied="vfx_RMvfx_Keywords_rmRallyUnit" />
+	<Rally ArmorRallier="vfx_RMvfx_Keywords_rmRallyAura" Rotate="true" />
+	<Rally ArmorRallied="vfx_RMvfx_Keywords_rmRallyUnit" />
+	<Drain DeadZoneDrainer="vfx_RMvfx_Keywords_rmDrainAura" Rotate="true" />
+	<Drain DeadZoneDrained="vfx_RMvfx_Keywords_rmDrainUnit" />
+	<Drain DamageDrainer="vfx_RMvfx_Keywords_rmDrainAura" Rotate="true" />
+	<Drain DamageDrained="vfx_RMvfx_Keywords_rmDrainUnit" />
+	<Drain ArmorDrainer="vfx_RMvfx_Keywords_rmDrainAura" Rotate="true" />
+	<Drain ArmorDrained="vfx_RMvfx_Keywords_rmDrainUnit" />
+	<Rush SpawnVFXBaseName="vfx_RMvfx_Keywords_rmUnitSpawnRush" />
+	<Reflect ContinuousEffect="vfx_rmmeshes_rmkeywordreflect" />
+	<Reflect ContinuousEffectLarge="vfx_episode2_rmkeywordreflectlarge" />
+	<Reflect Impact="vfx_RMvfx_Keywords_rmReflectImpact" />
+	<Reflect ImpactAttacker="vfx_RMvfx_Keywords_rmReflectImpact" />
+	<LastStand OnDeath="vfx_RMvfx_Keywords_rmLastStandUnit" />
+	<Siphon ContinuousEffect="vfx_RMvfx_Keywords_rmSyphonCont" />
+	<Siphon Impact="vfx_RMvfx_Keywords_rmSyphonAttack" />
+	<Siphon ImpactAttacker="vfx_RMvfx_Keywords_rmSyphonUnit" />
+	<Recycle OnDeath="" />
+	<Recycle OnRespawn="vfx_unitvfx_sharedunitvfx_sharedunitcommanderbuffs_vehrecyclingreverse" />
+</SettingsVFX>

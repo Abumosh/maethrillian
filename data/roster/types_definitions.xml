@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TypeDef>
+	<Versions>
+		<Edition Name="TEST" Icon="" LocID="UIROST.CARD.VERSION.HIDDEN" Released="false" />
+		<Edition Name="SA" Icon="" LocID="UIROST.CARD.VERSION.HIDDEN" Released="false" />
+		<Edition Name="Core" Icon="" LocID="UIROST.CARD.VERSION.LAUNCH1" Released="true" />
+		<Edition Name="Release" Icon="" LocID="UIROST.CARD.VERSION.LAUNCH2" Released="true" />
+		<Edition Name="Preorder" Icon="" LocID="UIROST.CARD.VERSION.DLC0" Released="true" />
+		<Edition Name="DLC01" Icon="" LocID="UIROST.CARD.VERSION.DLC1" Released="true" />
+		<Edition Name="DLC02" Icon="" LocID="UIROST.CARD.VERSION.DLC2" Released="true" />
+		<Edition Name="DLC03" Icon="" LocID="UIROST.CARD.VERSION.DLC3" Released="true" />
+		<Edition Name="DLC04" Icon="" LocID="UIROST.CARD.VERSION.DLC4" Released="true" />
+		<Edition Name="DLC06" Icon="" LocID="UIROST.CARD.VERSION.DLC6" Released="true" />
+		<Edition Name="DLC07" Icon="" LocID="UIROST.CARD.VERSION.DLC7" Released="true" />
+		<Edition Name="EP2" Icon="" LocID="UIROST.CARD.VERSION.EP2" Released="true" />
+	</Versions>
+	<Categories>
+		<Cat Name="Unit" Icon="" LocID="UIROST.CARD.CATEGORY.UNIT" />
+		<Cat Name="Power" Icon="" LocID="UIROST.CARD.CATEGORY.POWER" />
+	</Categories>
+	<Types>
+		<Type Name="Air" Icon="" LocID="UIROST.CARD.TYPE.AIR" Cat="Unit" />
+		<Type Name="Vehicle" Icon="" LocID="UIROST.CARD.TYPE.VEHICLE" Cat="Unit" />
+		<Type Name="Infantry" Icon="" LocID="UIROST.CARD.TYPE.INFANTRY" Cat="Unit" />
+		<Type Name="Power" Icon="" LocID="UIROST.CARD.TYPE.POWER" Cat="Power" />
+		<Type Name="Instant" Icon="" LocID="UIROST.CARD.TYPE.POWER.INSTANT" Cat="Power" />
+		<Type Name="Global" Icon="" LocID="UIROST.CARD.TYPE.POWER.GLOBAL" Cat="Power" />
+		<Type Name="Targeted" Icon="" LocID="UIROST.CARD.TYPE.POWER.TARGETED" Cat="Power" />
+	</Types>
+	<Subtypes>
+		<Subtype Name="Anti-Air" Icon="" LocID="" Cat="Unit" />
+		<Subtype Name="Anti-Infantry" Icon="" LocID="" Cat="Unit" />
+		<Subtype Name="Anti-Vehicle" Icon="" LocID="" Cat="Unit" />
+		<Subtype Name="Artillery" Icon="" LocID="" Cat="Unit" />
+		<Subtype Name="Siege" Icon="" LocID="" Cat="Unit" />
+		<Subtype Name="Support" Icon="" LocID="" Cat="Unit" />
+		<Subtype Name="Upgrade" Icon="" LocID="" Cat="Unit" />
+		<Subtype Name="Damage" Icon="" LocID="UIROST.CARD.ROLE.DAMAGE" Cat="Power" />
+		<Subtype Name="Spawn" Icon="" LocID="UIROST.CARD.ROLE.SPAWN" Cat="Power" />
+		<Subtype Name="Buff" Icon="" LocID="UIROST.CARD.ROLE.BUFF" Cat="Power" />
+		<Subtype Name="Debuff" Icon="" LocID="UIROST.CARD.ROLE.DEBUFF" Cat="Power" />
+		<Subtype Name="Effect" Icon="" LocID="UIROST.CARD.ROLE.UTILITY" Cat="Power" />
+	</Subtypes>
+</TypeDef>

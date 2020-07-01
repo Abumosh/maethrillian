@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<InputStates>
+	<State Name="Startup" Action="UpdateSet">
+		<Group Set="Activate" Name="rosterModeCommon" />
+		<Group Set="Activate" Name="DPadControls" IsRuntimeLabel="true" />
+		<Group Set="Activate" Name="KBrosterModeCommon" />
+		<Group Set="Activate" Name="rosterModeHandClosed" />
+		<Group Set="Activate" Name="KBrosterModeHandClosed" />
+		<Group Set="Deactivate" Name="userKBDefaultAndMiniMapControlGroups1to4" />
+		<Group Set="Deactivate" Name="rosterModeHandOpened" />
+		<Group Set="Deactivate" Name="KBrosterModeHandOpened" />
+	</State>
+	<State Name="HandOpened" Action="Push">
+		<Group Name="userKBCamera" />
+		<Group Name="ui.mouse" />
+		<Group Name="userKBDefaultAndMiniMap" />
+		<Group Name="userKBDefaultAndMiniMapControlGroups1to4RosterMode" />
+		<Group Name="rosterModeCommon" />
+		<Group Name="KBrosterModeCommon" />
+		<Group Name="rosterModeHandOpened" />
+		<Group Name="KBrosterModeHandOpened" />
+		<Group Name="DPadControls" IsRuntimeLabel="true" />
+	</State>
+	<State Name="HandClosed" Action="Pop" />
+	<State Name="BattleFinished" Action="UpdateSet">
+		<Group Set="Deactivate" Name="rosterModeCommon" />
+		<Group Set="Deactivate" Name="rosterModeCommonDefaultDpad" />
+		<Group Set="Deactivate" Name="rosterModeCommonAltDpad" />
+		<Group Set="Deactivate" Name="KBrosterModeCommon" />
+		<Group Set="Deactivate" Name="rosterModeHandClosed" />
+		<Group Set="Deactivate" Name="KBrosterModeHandClosed" />
+		<Group Set="Deactivate" Name="rosterModeHandOpened" />
+		<Group Set="Deactivate" Name="KBrosterModeHandOpened" />
+	</State>
+</InputStates>

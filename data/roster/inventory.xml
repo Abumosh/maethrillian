@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Inventory>
+	<Card Num="1" Name="Marines" />
+	<Card Num="1" Name="Marines Siphon" />
+	<Card Num="1" Name="Hellbringers" />
+	<Card Num="1" Name="Cyclops" />
+	<Card Num="1" Name="Cyclops Reflect" />
+	<Card Num="1" Name="Cyclops EMP" />
+	<Card Num="1" Name="Sniper" />
+	<Card Num="1" Name="Warthog" />
+	<Card Num="1" Name="Warthog LastStand" />
+	<Card Num="1" Name="Wolverine" />
+	<Card Num="1" Name="Wolverine Rush" />
+	<Card Num="1" Name="Kodiak Cannon" />
+	<Card Num="1" Name="Scorpion" />
+	<Card Num="1" Name="Jackrabbit" />
+	<Card Num="1" Name="Jackrabbit Drone" />
+	<Card Num="1" Name="Hornet" />
+	<Card Num="1" Name="Nightingale" />
+	<Card Num="1" Name="Vulture" />
+	<Card Num="1" Name="Condor" />
+	<Card Num="1" Name="Grunts" />
+	<Card Num="1" Name="Grunts Rush" />
+	<Card Num="1" Name="Grunts Blast" />
+	<Card Num="1" Name="Elite Rangers" />
+	<Card Num="1" Name="Elite Rangers Rush" />
+	<Card Num="1" Name="Hunters" />
+	<Card Num="1" Name="Jump Pack Brute" />
+	<Card Num="1" Name="Brute Chopper" />
+	<Card Num="1" Name="Marauder" />
+	<Card Num="1" Name="Reaver" />
+	<Card Num="1" Name="Reaver Cloak" />
+	<Card Num="1" Name="Locust" />
+	<Card Num="1" Name="Locust Siphon" />
+	<Card Num="1" Name="Scarab" />
+	<Card Num="1" Name="Wraith" />
+	<Card Num="1" Name="Wraith Guard" />
+	<Card Num="1" Name="Banshee" />
+	<Card Num="1" Name="Blisterback" />
+	<Card Num="1" Name="Engineer" />
+	<Card Num="1" Name="Spartan Jerome" />
+	<Card Num="1" Name="Hellbringers Blast" />
+	<Card Num="1" Name="Kodiak Cloak" />
+	<Card Num="1" Name="Hornet LastStand" />
+	<Card Num="1" Name="Bombing Run" />
+	<Card Num="1" Name="ODST Drop" />
+	<Card Num="1" Name="Pelican Sweep" />
+	<Card Num="1" Name="Adrenaline" />
+	<Card Num="1" Name="Spartan Alice" />
+	<Card Num="1" Name="Scorpion Drain" />
+	<Card Num="1" Name="Jackrabbit Blast" />
+	<Card Num="1" Name="Warthog Guard" />
+	<Card Num="1" Name="Ghost Machine" />
+	<Card Num="1" Name="Holo-Decoy" />
+	<Card Num="1" Name="MAC Blast" />
+	<Card Num="1" Name="Shrapnel Mines" />
+	<Card Num="1" Name="Spartan Douglas" />
+	<Card Num="1" Name="Marines Guard" />
+	<Card Num="1" Name="Sentinel" />
+	<Card Num="1" Name="Super Sentinel" />
+	<Card Num="1" Name="Lure Beacon" />
+	<Card Num="1" Name="Med Drones" />
+	<Card Num="1" Name="Advanced Optics" />
+	<Card Num="1" Name="Watchtower" />
+	<Card Num="1" Name="Brute Warlord" />
+	<Card Num="1" Name="Grunts Siphon" />
+	<Card Num="1" Name="Brute Chopper Drain" />
+	<Card Num="1" Name="Marauder Rally" />
+	<Card Num="1" Name="Vortex" />
+	<Card Num="1" Name="Blast Hammer" />
+	<Card Num="1" Name="Siphon Pool" />
+	<Card Num="1" Name="Boundless Rage" />
+	<Card Num="1" Name="Atriox Chosen" />
+	<Card Num="1" Name="Hunters Guard" />
+	<Card Num="1" Name="Blisterback LastStand" />
+	<Card Num="1" Name="Turret Drop" />
+	<Card Num="1" Name="Stun" />
+	<Card Num="1" Name="Restoration" />
+	<Card Num="1" Name="Planetary Cleansing" />
+	<Card Num="1" Name="Scorch Mines" />
+	<Card Num="1" Name="Elite Honor Guard" />
+	<Card Num="1" Name="Ghost" />
+	<Card Num="1" Name="Marauder Cloak" />
+	<Card Num="1" Name="Banshee Blast" />
+	<Card Num="1" Name="Cleansing Beam" />
+	<Card Num="1" Name="Teleport" />
+	<Card Num="1" Name="Spirit Gunship Assault" />
+	<Card Num="1" Name="Cloak Units" />
+	<Card Num="1" Name="Marines Reflect" />
+	<Card Num="1" Name="Grizzly" />
+	<Card Num="1" Name="Forge Hero" />
+	<Card Num="1" Name="Kodiak Rush" />
+	<Card Num="1" Name="Combat Salvage" />
+	<Card Num="1" Name="Cluster Missiles" />
+	<Card Num="1" Name="Heavy Metal" />
+	<Card Num="1" Name="Pelican Transport" />
+	<Card Num="1" Name="Immolation" />
+	<Card Num="1" Name="Unstable Concoction" />
+	<Card Num="1" Name="Napalm Missiles" />
+	<Card Num="1" Name="Helldrop" />
+	<Card Num="1" Name="Cyclops Hero" />
+	<Card Num="1" Name="Grenadehog" />
+	<Card Num="1" Name="Flamehog" />
+	<Card Num="1" Name="Hellbringers Upgrade" />
+	<Card Num="1" Name="Veteran Hunter" />
+	<Card Num="1" Name="Goliath" />
+	<Card Num="1" Name="Impervious Hunter" />
+	<Card Num="1" Name="Locust LastStand" />
+	<Card Num="1" Name="Skitterer Swarm" />
+	<Card Num="1" Name="Lekgolo Pilot" />
+	<Card Num="1" Name="Huragok Swarm" />
+	<Card Num="1" Name="Lekgolo Walls" />
+	<Card Num="1" Name="Mantis" />
+	<Card Num="1" Name="Veteran Mantis" />
+	<Card Num="1" Name="Colossus" />
+	<Card Num="1" Name="Johnson Hero" />
+	<Card Num="1" Name="Bunker Drop" />
+	<Card Num="1" Name="Siege Turret" />
+	<Card Num="1" Name="Mech Resilience" />
+	<Card Num="1" Name="EMP Blast" />
+	<Card Num="1" Name="Grunts Cloak" />
+	<Card Num="1" Name="Elite Assault Team" />
+	<Card Num="1" Name="Phantom" />
+	<Card Num="1" Name="Arbiter Hero" />
+	<Card Num="1" Name="Conduit Rage" />
+	<Card Num="1" Name="Stasis" />
+	<Card Num="1" Name="Invisible Army" />
+	<Card Num="1" Name="Plasma Bolt" />
+	<Card Num="1" Name="Veteran Sniper" />
+	<Card Num="1" Name="OTJerome" />
+	<Card Num="1" Name="Nightingale LastStand" />
+	<Card Num="1" Name="Battle APC" />
+	<Card Num="1" Name="Omega Team" />
+	<Card Num="1" Name="Heroism" />
+	<Card Num="1" Name="Sustained Barrage" />
+	<Card Num="1" Name="Victory Turret" />
+	<Card Num="1" Name="Cryo Bison" />
+	<Card Num="1" Name="Cryo Troopers" />
+	<Card Num="1" Name="Pegasus" />
+	<Card Num="1" Name="Cryo Blast" />
+	<Card Num="1" Name="Cryo Mines" />
+	<Card Num="1" Name="Cryo Storm" />
+	<Card Num="1" Name="Ice Block" />
+	<Card Num="1" Name="Seismic Charge" />
+	<Card Num="1" Name="Jump Pack Brute Blast" />
+	<Card Num="1" Name="Grunt Goblin" />
+	<Card Num="1" Name="Heavy Grunts" />
+	<Card Num="1" Name="Methane Wagon" />
+	<Card Num="1" Name="Brute Rider" />
+	<Card Num="1" Name="Methane Bombing" />
+	<Card Num="1" Name="Shield Tower" />
+	<Card Num="1" Name="Shade Turret" />
+	<Card Num="1" Name="Wraith Drain" />
+	<Card Num="1" Name="Veteran Grenadiers" />
+	<Card Num="1" Name="Corrupted Engineer" />
+	<Card Num="1" Name="Corrupted Warlord" />
+	<Card Num="1" Name="Corruption Mines" />
+	<Card Num="1" Name="Regenerating Siphons" />
+	<Card Num="1" Name="Corruption Ball" />
+	<Card Num="1" Name="Cataclysm" />
+	<Card Num="1" Name="Wraith APC" />
+	<Card Num="1" Name="Blisterback Guard" />
+	<Card Num="1" Name="Mortar Warlord" />
+	<Card Num="1" Name="Mega Turret Drop" />
+	<Card Num="1" Name="Controlled Heal" />
+	<Card Num="1" Name="Scatter Beams" />
+	<Card Num="1" Name="Ultra Mines" />
+	<Card Num="1" Name="Lich Vanguard" />
+	<Card Num="1" Name="SA Marines" />
+	<Card Num="1" Name="SA Marines Siphon" />
+	<Card Num="1" Name="SA Hellbringers" />
+	<Card Num="1" Name="SA Cyclops" />
+	<Card Num="1" Name="SA Cyclops Reflect" />
+	<Card Num="1" Name="SA Cyclops EMP" />
+	<Card Num="1" Name="SA Sniper" />
+	<Card Num="1" Name="SA Warthog" />
+	<Card Num="1" Name="SA Warthog LastStand" />
+	<Card Num="1" Name="SA Wolverine" />
+	<Card Num="1" Name="SA Wolverine Rush" />
+	<Card Num="1" Name="SA Kodiak Cannon" />
+	<Card Num="1" Name="SA Scorpion" />
+	<Card Num="1" Name="SA Jackrabbit" />
+	<Card Num="1" Name="SA Jackrabbit Drone" />
+	<Card Num="1" Name="SA Hornet" />
+	<Card Num="1" Name="SA Nightingale" />
+	<Card Num="1" Name="SA Vulture" />
+	<Card Num="1" Name="SA Condor" />
+	<Card Num="1" Name="SA Grunts" />
+	<Card Num="1" Name="SA Grunts Rush" />
+	<Card Num="1" Name="SA Grunts Blast" />
+	<Card Num="1" Name="SA Elite Rangers" />
+	<Card Num="1" Name="SA Elite Rangers Rush" />
+	<Card Num="1" Name="SA Hunters" />
+	<Card Num="1" Name="SA Jump Pack Brute" />
+	<Card Num="1" Name="SA Brute Chopper" />
+	<Card Num="1" Name="SA Marauder" />
+	<Card Num="1" Name="SA Reaver" />
+	<Card Num="1" Name="SA Reaver Cloak" />
+	<Card Num="1" Name="SA Locust" />
+	<Card Num="1" Name="SA Locust Siphon" />
+	<Card Num="1" Name="SA Scarab" />
+	<Card Num="1" Name="SA Wraith" />
+	<Card Num="1" Name="SA Wraith Guard" />
+	<Card Num="1" Name="SA Banshee" />
+	<Card Num="1" Name="SA Blisterback" />
+	<Card Num="1" Name="SA Engineer" />
+	<Card Num="1" Name="SA Spartan Jerome" />
+	<Card Num="1" Name="SA Hellbringers Blast" />
+	<Card Num="1" Name="SA Kodiak Cloak" />
+	<Card Num="1" Name="SA Hornet LastStand" />
+	<Card Num="1" Name="SA Spartan Alice" />
+	<Card Num="1" Name="SA Scorpion Drain" />
+	<Card Num="1" Name="SA Jackrabbit Blast" />
+	<Card Num="1" Name="SA Warthog Guard" />
+	<Card Num="1" Name="SA Spartan Douglas" />
+	<Card Num="1" Name="SA Marines Guard" />
+	<Card Num="1" Name="SA Sentinel" />
+	<Card Num="1" Name="SA Super Sentinel" />
+	<Card Num="1" Name="SA Brute Warlord" />
+	<Card Num="1" Name="SA Grunts Siphon" />
+	<Card Num="1" Name="SA Brute Chopper Drain" />
+	<Card Num="1" Name="SA Marauder Rally" />
+	<Card Num="1" Name="SA Atriox Chosen" />
+	<Card Num="1" Name="SA Hunters Guard" />
+	<Card Num="1" Name="SA Blisterback LastStand" />
+	<Card Num="1" Name="SA Elite Honor Guard" />
+	<Card Num="1" Name="SA Ghost" />
+	<Card Num="1" Name="SA Marauder Cloak" />
+	<Card Num="1" Name="SA Banshee Blast" />
+	<Card Num="1" Name="SA Marines Reflect" />
+	<Card Num="1" Name="SA Kodiak Rush" />
+	<Card Num="1" Name="SA Grizzly" />
+	<Card Num="1" Name="SA Forge Hero" />
+	<Card Num="1" Name="SA Cyclops Hero" />
+	<Card Num="1" Name="SA Grenadehog" />
+	<Card Num="1" Name="SA Flamehog" />
+	<Card Num="1" Name="SA Hellbringers Upgrade" />
+	<Card Num="1" Name="SA Veteran Hunter" />
+	<Card Num="1" Name="SA Goliath" />
+	<Card Num="1" Name="SA Impervious Hunter" />
+	<Card Num="1" Name="SA Locust LastStand" />
+	<Card Num="1" Name="SA Mantis" />
+	<Card Num="1" Name="SA Veteran Mantis" />
+	<Card Num="1" Name="SA Colossus" />
+	<Card Num="1" Name="SA Johnson Hero" />
+	<Card Num="1" Name="SA Grunts Cloak" />
+	<Card Num="1" Name="SA Elite Assault Team" />
+	<Card Num="1" Name="SA Phantom" />
+	<Card Num="1" Name="SA Arbiter Hero" />
+	<Card Num="1" Name="SA Veteran Sniper" />
+	<Card Num="1" Name="SA OTJerome" />
+	<Card Num="1" Name="SA Nightingale LastStand" />
+	<Card Num="1" Name="SA Battle APC" />
+	<Card Num="1" Name="SA Omega Team" />
+	<Card Num="1" Name="SA Cryo Bison" />
+	<Card Num="1" Name="SA Cryo Troopers" />
+	<Card Num="1" Name="SA Pegasus" />
+	<Card Num="1" Name="SA Jump Pack Brute Blast" />
+	<Card Num="1" Name="SA Grunt Goblin" />
+	<Card Num="1" Name="SA Heavy Grunts" />
+	<Card Num="1" Name="SA Methane Wagon" />
+	<Card Num="1" Name="SA Brute Rider" />
+	<Card Num="1" Name="SA Grunt Swarm" />
+	<Card Num="1" Name="SA Grunt Swarm2" />
+	<Card Num="1" Name="SA Wraith Drain" />
+	<Card Num="1" Name="SA Veteran Grenadiers" />
+	<Card Num="1" Name="SA Corrupted Engineer" />
+	<Card Num="1" Name="SA Corrupted Warlord" />
+	<Card Num="1" Name="SA Wraith APC" />
+	<Card Num="1" Name="SA Blisterback Guard" />
+	<Card Num="1" Name="SA Mortar Warlord" />
+	<Card Num="1" Name="SA Mega Turret" />
+	<Decks>
+		<Deck Name="Cutter01" Faction="UNSC" Leader="Cutter" StartingArmy="Cutter1" PROTOTYPELeader="Cutter" GUID="{c1d06e11-aa5e-4d05-8d87-83d61e4f0450}">
+			<Card>Marines</Card>
+			<Card>Hellbringers</Card>
+			<Card>Cyclops</Card>
+			<Card>Wolverine</Card>
+			<Card>Warthog</Card>
+			<Card>Nightingale</Card>
+			<Card>Hornet</Card>
+			<Card>Kodiak Cannon</Card>
+			<Card>Scorpion</Card>
+			<Card>Hornet LastStand</Card>
+			<Card>ODST Drop</Card>
+			<Card>Bombing Run</Card>
+		</Deck>
+		<Deck Name="Isabel01" Faction="UNSC" Leader="Isabel" StartingArmy="Isabel1" PROTOTYPELeader="Isabel" GUID="{21704039-0d74-4a71-b429-1e723ea5e10b}">
+			<Card>Marines</Card>
+			<Card>Hellbringers</Card>
+			<Card>Cyclops</Card>
+			<Card>Wolverine</Card>
+			<Card>Warthog</Card>
+			<Card>Jackrabbit Blast</Card>
+			<Card>Hornet</Card>
+			<Card>Kodiak Cannon</Card>
+			<Card>Scorpion</Card>
+			<Card>Vulture</Card>
+			<Card>Holo-Decoy</Card>
+			<Card>MAC Blast</Card>
+		</Deck>
+		<Deck Name="Anders01" Faction="UNSC" Leader="Anders" StartingArmy="Anders1" PROTOTYPELeader="Anders" GUID="{42e0ea4c-2dbe-4013-80f7-7cadf2281ce8}">
+			<Card>Marines</Card>
+			<Card>Hellbringers</Card>
+			<Card>Cyclops</Card>
+			<Card>Wolverine</Card>
+			<Card>Warthog</Card>
+			<Card>Nightingale</Card>
+			<Card>Sentinel</Card>
+			<Card>Kodiak Cannon</Card>
+			<Card>Jackrabbit</Card>
+			<Card>Vulture</Card>
+			<Card>Med Drones</Card>
+			<Card>Lure Beacon</Card>
+		</Deck>
+		<Deck Name="Atriox01" Faction="Covenant" Leader="Atriox" StartingArmy="Atriox1" PROTOTYPELeader="Atriox" GUID="{3c33f05d-1beb-4a2e-8fad-0cf0b08f1879}">
+			<Card>Grunts</Card>
+			<Card>Elite Rangers</Card>
+			<Card>Hunters Guard</Card>
+			<Card>Reaver</Card>
+			<Card>Marauder</Card>
+			<Card>Engineer</Card>
+			<Card>Banshee</Card>
+			<Card>Locust</Card>
+			<Card>Wraith</Card>
+			<Card>Grunts Blast</Card>
+			<Card>Scorch Mines</Card>
+			<Card>Restoration</Card>
+		</Deck>
+		<Deck Name="Decimus01" Faction="Covenant" Leader="Decimus" StartingArmy="Decimus1" PROTOTYPELeader="Decimus" GUID="{e32106d7-bb2c-4a41-b6d3-f213ec08e519}">
+			<Card>Grunts</Card>
+			<Card>Elite Rangers</Card>
+			<Card>Hunters</Card>
+			<Card>Reaver</Card>
+			<Card>Brute Chopper</Card>
+			<Card>Jump Pack Brute</Card>
+			<Card>Grunts Siphon</Card>
+			<Card>Locust</Card>
+			<Card>Wraith</Card>
+			<Card>Blisterback</Card>
+			<Card>Blast Hammer</Card>
+			<Card>Vortex</Card>
+		</Deck>
+		<Deck Name="Shipmaster01" Faction="Covenant" Leader="Shipmaster" StartingArmy="Shipmaster1" PROTOTYPELeader="Shipmaster" GUID="{7dadfe9b-bbbb-49af-af19-ee1886a183c8}">
+			<Card>Grunts</Card>
+			<Card>Elite Rangers</Card>
+			<Card>Hunters</Card>
+			<Card>Reaver</Card>
+			<Card>Marauder Cloak</Card>
+			<Card>Jump Pack Brute</Card>
+			<Card>Banshee</Card>
+			<Card>Locust</Card>
+			<Card>Wraith</Card>
+			<Card>Ghost</Card>
+			<Card>Teleport</Card>
+			<Card>Cleansing Beam</Card>
+		</Deck>
+		<Deck Name="Forge01" Faction="UNSC" Leader="Forge" StartingArmy="Forge1" PROTOTYPELeader="Forge" GUID="{e89ce164-9e4a-4897-ad3e-93ee83a009b4}">
+			<Card>Marines</Card>
+			<Card>Hellbringers</Card>
+			<Card>Cyclops</Card>
+			<Card>Wolverine</Card>
+			<Card>Warthog</Card>
+			<Card>Nightingale</Card>
+			<Card>Hornet</Card>
+			<Card>Kodiak Cannon</Card>
+			<Card>Scorpion</Card>
+			<Card>Grizzly</Card>
+			<Card>Heavy Metal</Card>
+			<Card>Cluster Missiles</Card>
+		</Deck>
+		<Deck Name="Kinsano01" Faction="UNSC" Leader="Kinsano" StartingArmy="Kinsano1" PROTOTYPELeader="Kinsano" GUID="{33c2e025-a3e1-47af-af00-9382443b3827}">
+			<Card>Hellbringers Upgrade</Card>
+			<Card>Flamehog</Card>
+			<Card>Grenadehog</Card>
+			<Card>Cyclops Hero</Card>
+			<Card>Helldrop</Card>
+			<Card>Napalm Missiles</Card>
+			<Card>Unstable Concoction</Card>
+			<Card>Immolation</Card>
+			<Card>Nightingale</Card>
+			<Card>Kodiak Cannon</Card>
+			<Card>Vulture</Card>
+			<Card>Jackrabbit</Card>
+		</Deck>
+		<Deck Name="Lekgolo01" Faction="Covenant" Leader="Lekgolo" StartingArmy="Lekgolo1" PROTOTYPELeader="Lekgolo" GUID="{5f2bbf89-d5ec-4000-b585-d08195a89de1}">
+			<Card>Goliath</Card>
+			<Card>Grunts</Card>
+			<Card>Marauder</Card>
+			<Card>Banshee</Card>
+			<Card>Locust</Card>
+			<Card>Wraith</Card>
+			<Card>Veteran Hunter</Card>
+			<Card>Elite Rangers</Card>
+			<Card>Reaver</Card>
+			<Card>Engineer</Card>
+			<Card>Lekgolo Pilot</Card>
+			<Card>Huragok Swarm</Card>
+		</Deck>
+		<Deck Name="Johnson01" Faction="UNSC" Leader="Johnson" StartingArmy="Johnson1" PROTOTYPELeader="Johnson" GUID="{67b004d2-5d65-49b9-a973-fe3f2337e41d}">
+			<Card>Marines</Card>
+			<Card>Hellbringers</Card>
+			<Card>Cyclops</Card>
+			<Card>EMP Blast</Card>
+			<Card>Mech Resilience</Card>
+			<Card>Mantis</Card>
+			<Card>Colossus</Card>
+			<Card>Kodiak Cannon</Card>
+			<Card>Nightingale</Card>
+			<Card>Wolverine</Card>
+			<Card>Hornet</Card>
+			<Card>Warthog</Card>
+		</Deck>
+		<Deck Name="Arbiter01" Faction="Covenant" Leader="Arbiter" StartingArmy="Arbiter1" PROTOTYPELeader="Arbiter" GUID="{fe67c897-eaad-4a88-a248-cc291397ce6f}">
+			<Card>Brute Chopper</Card>
+			<Card>Grunts Cloak</Card>
+			<Card>Elite Rangers</Card>
+			<Card>Elite Assault Team</Card>
+			<Card>Hunters</Card>
+			<Card>Reaver</Card>
+			<Card>Phantom</Card>
+			<Card>Blisterback</Card>
+			<Card>Wraith</Card>
+			<Card>Plasma Bolt</Card>
+			<Card>Conduit Rage</Card>
+			<Card>Stasis</Card>
+		</Deck>
+		<Deck Name="LeaderJerome01" Faction="UNSC" Leader="LeaderJerome" StartingArmy="LeaderJerome1" PROTOTYPELeader="LeaderJerome" GUID="{17464b29-7017-4ae3-b7a9-71099b080a8a}">
+			<Card>Hornet</Card>
+			<Card>Nightingale LastStand</Card>
+			<Card>Vulture</Card>
+			<Card>Cyclops</Card>
+			<Card>Marines</Card>
+			<Card>Veteran Sniper</Card>
+			<Card>Battle APC</Card>
+			<Card>Jackrabbit</Card>
+			<Card>Kodiak Cannon</Card>
+			<Card>Wolverine</Card>
+			<Card>Sustained Barrage</Card>
+			<Card>Victory Turret</Card>
+		</Deck>
+		<Deck Name="Cryo01" Faction="UNSC" Leader="Serina" StartingArmy="Cryo1" PROTOTYPELeader="Serina" GUID="{ace473c6-77a7-42a7-b5e7-90dce8d65fca}">
+			<Card>Marines</Card>
+			<Card>Cryo Troopers</Card>
+			<Card>Cyclops</Card>
+			<Card>Wolverine</Card>
+			<Card>Warthog</Card>
+			<Card>Hornet</Card>
+			<Card>Kodiak Cannon</Card>
+			<Card>Scorpion</Card>
+			<Card>Pegasus</Card>
+			<Card>Cryo Blast</Card>
+			<Card>Cryo Mines</Card>
+			<Card>Seismic Charge</Card>
+		</Deck>
+		<Deck Name="Grunt01" Faction="Covenant" Leader="GruntGeneral" StartingArmy="Grunt1" PROTOTYPELeader="GruntGeneral" GUID="{96bf4999-2933-405b-be65-96581b9c3771}">
+			<Card>Heavy Grunts</Card>
+			<Card>Grunts</Card>
+			<Card>Jump Pack Brute Blast</Card>
+			<Card>Reaver</Card>
+			<Card>Shade Turret</Card>
+			<Card>Engineer</Card>
+			<Card>Methane Wagon</Card>
+			<Card>Locust</Card>
+			<Card>Wraith</Card>
+			<Card>Brute Rider</Card>
+			<Card>Banshee</Card>
+			<Card>Brute Chopper</Card>
+		</Deck>
+		<Deck Name="Corrupted01" Faction="Covenant" Leader="CorruptBrute" StartingArmy="Corrupted1" PROTOTYPELeader="CorruptBrute" GUID="{6174af70-8ab8-4a01-8682-34b3d19c23d0}">
+			<Card>Brute Chopper</Card>
+			<Card>Jump Pack Brute</Card>
+			<Card>Wraith</Card>
+			<Card>Reaver</Card>
+			<Card>Hunters</Card>
+			<Card>Grunts Blast</Card>
+			<Card>Corrupted Engineer</Card>
+			<Card>Marauder</Card>
+			<Card>Regenerating Siphons</Card>
+			<Card>Veteran Grenadiers</Card>
+			<Card>Corruption Ball</Card>
+			<Card>Banshee</Card>
+		</Deck>
+		<Deck Name="Unbreakable01" Faction="Covenant" Leader="UnbreakableBrute" StartingArmy="Unbreakable1" PROTOTYPELeader="UnbreakableBrute" GUID="{856ceb42-1159-4368-8c7d-2aec051e7390}">
+			<Card>Grunts</Card>
+			<Card>Brute Chopper</Card>
+			<Card>Elite Rangers</Card>
+			<Card>Hunters</Card>
+			<Card>Locust</Card>
+			<Card>Wraith APC</Card>
+			<Card>Engineer</Card>
+			<Card>Controlled Heal</Card>
+			<Card>Reaver</Card>
+			<Card>Scatter Beams</Card>
+			<Card>Wraith</Card>
+			<Card>Blisterback Guard</Card>
+		</Deck>
+	</Decks>
+</Inventory>

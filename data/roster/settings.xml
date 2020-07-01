@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RosterSettings>
+	<StartValues Mana="50" />
+	<StartValues VictoryPoints="200" />
+	<StartValues MatchDurationSeconds="720" />
+	<ManaGains RegenTime="666" />
+	<ManaGains RegenAmount="1" />
+	<ManaGains KillGainCostPercentage="0" />
+	<ManaGains DieGainCostPercentage="0.5" />
+	<ManaGains Cap="2000" UseCap="false" />
+	<ManaLoses Discard="5" />
+	<Sizes Deck="12" />
+	<Sizes Hand="4" />
+	<Sizes SameCardPerDeck="1" />
+	<Sizes PopulationCap="30" />
+	<Sizes MaxDecksPerLeader="3" />
+	<DeckManagement ShuffleDecks="true" />
+	<DeckManagement UseGraveyard="false" />
+	<SpawnMode RangeCheckDistanceFromOtherUnits="30" />
+	<SpawnMode UseLOSForRangeCheck="true" />
+	<SpawnMode AddSpawnedSquadToCurrentSelectionGroup="false" />
+	<SpawnMode SetSpawnedSquadAsCurrentSelection="true" />
+	<Map RevealersRadius="50" />
+	<HUD AlwaysShowHPBar="false" />
+	<SummoningSickness DistanceFromForwardBase="33" />
+	<SummoningSickness DamageMultiplier="0.5" />
+	<SummoningSickness DurationSeconds="8" />
+	<SummoningSickness StartingHPMultiplier="0.5" />
+	<SummoningSickness RecoveryDurationSeconds="3" />
+	<SummoningSickness DamagePreventsHealthRecovery="true" />
+	<SupplyDrops Num1v1="2" />
+	<SupplyDrops Num2v2="3" />
+	<SupplyDrops Num3v3="4" />
+	<GravityWell Velocity="60" />
+	<DebugRadialMenu HorizontalRadius="200" />
+	<DebugRadialMenu VerticalRadius="40" />
+	<DebugRadialMenu Center="250,470,0" />
+	<DebugRadialMenu Active="true" />
+	<Announcer QueueTimeMS="200" />
+	<Announcer CanBeInterrupted="true" />
+	<VictoryConditions CrushingDifference="150" CrushingByTime="false" />
+	<VictoryConditions RegularDifference="30" />
+	<Notifications FirstScoreNotificationPercentage="0.5" />
+	<Notifications SecondScoreNotifcationPercentage="0.899999976" />
+	<Notifications ManaResourceWarningThreshold="500" />
+	<Notifications ManaResourceWarningRemiderPeriodMS="30000" />
+	<Notifications LowManaResourceWarningThreshold="15" />
+	<Notifications LowManaResourceWarningDelayMS="2000" />
+	<Notifications LowManaResourceWarningRemiderPeriodMS="76000" />
+	<Notifications ZoneCapturedAudioEvent="PLAY_SFX_2D_UI_RMCaptureZone" />
+	<Notifications ZoneLostAudioEvent="PLAY_SFX_2D_UI_RMLostZone" />
+	<WaveNotifications WaveType="0" Announcer="WAVE_START" Notification="rm_firefight_wave_boss" />
+	<WaveNotifications WaveType="1" Announcer="WAVE_START" Notification="rm_firefight_wave_infantry" />
+	<WaveNotifications WaveType="2" Announcer="WAVE_START" Notification="rm_firefight_wave_ground" />
+	<WaveNotifications WaveType="3" Announcer="WAVE_START" Notification="rm_firefight_wave_air" />
+	<WaveNotifications WaveType="4" Announcer="WAVE_START" Notification="rm_firefight_wave_mixed" />
+	<SoundFX UnaffordableCardSelectedAudioEvent="PLAY_SFX_2D_UI_Blitz_HUD_Hand_PlayCardUnnaffordable" />
+	<SoundFX CardPlayFailureLocationAudioEvent="PLAY_SFX_2D_UI_Blitz_HUD_Hand_PlayCardFailLocation" />
+	<SoundFX CardPlayFailureManaAudioEvent="PLAY_SFX_2D_UI_Blitz_HUD_Hand_PlayCardFailMana" />
+	<KillingSpreeConfig KillingSpreeMaxTimeMS="3000" />
+	<KillingSpreeConfig KillingSpreeMinTimeMS="3000" />
+	<KillingSpreeConfig KillingSpreeNotifyOthersDelayMS="2000" />
+	<KillingSpree NumKills="4" Announcer="_04" Notification="rm_kill_streak_one" NotifyOthers="" ScoreBonus="500" />
+	<KillingSpree NumKills="6" Announcer="_06" Notification="rm_kill_streak_two" NotifyOthers="" ScoreBonus="600" />
+	<KillingSpree NumKills="8" Announcer="_08" Notification="rm_kill_streak_three" NotifyOthers="" ScoreBonus="700" />
+	<KillingSpree NumKills="10" Announcer="_10" Notification="rm_kill_streak_four" NotifyOthers="rm_kill_streak_other_one" ScoreBonus="800" />
+	<KillingSpree NumKills="12" Announcer="_12" Notification="rm_kill_streak_five" NotifyOthers="" ScoreBonus="900" />
+	<KillingSpree NumKills="14" Announcer="_14" Notification="rm_kill_streak_six" NotifyOthers="" ScoreBonus="1000" />
+	<KillingSpree NumKills="16" Announcer="_16" Notification="rm_kill_streak_seven" NotifyOthers="" ScoreBonus="2000" />
+	<KillingSpree NumKills="18" Announcer="_18" Notification="rm_kill_streak_eight" NotifyOthers="" ScoreBonus="3000" />
+	<KillingSpree NumKills="20" Announcer="_20" Notification="rm_kill_streak_nine" NotifyOthers="rm_kill_streak_other_two" ScoreBonus="5000" />
+	<Stats PopulationAverageSampleMS="5000" />
+	<Stats TimeOnZonesSampleMS="777" />
+	<Recycle KeepsKeywords="true" />
+	<Recycle FirstDeathAwardsMana="false" />
+	<Recycle UseRevealerAtDeathsPosition="true" />
+	<Recycle RevealerRadius="10" />
+	<Recycle RevealerDurationMilliseconds="1500" />
+	<Recycle PingMapAtRespawnPosition="true" />
+	<PlayCardDecal UseDecal="true" UseDecalPower="true">
+		<CanPlayInfantry>
+			<PlayCardDecal SizeX="7" SizeZ="7" />
+			<PlayCardDecal ColorR="1" ColorG="1" ColorB="1" />
+			<PlayCardDecal Intensity="1.10000002" />
+			<PlayCardDecal YOffset="1" />
+		</CanPlayInfantry>
+		<CannotPlayInfantry>
+			<PlayCardDecal SizeX="7" SizeZ="7" />
+			<PlayCardDecal ColorR="1" ColorG="0" ColorB="0" />
+			<PlayCardDecal Intensity="1.5" />
+			<PlayCardDecal YOffset="1" />
+		</CannotPlayInfantry>
+		<CanPlayVehicle>
+			<PlayCardDecal SizeX="7" SizeZ="7" />
+			<PlayCardDecal ColorR="1" ColorG="1" ColorB="1" />
+			<PlayCardDecal Intensity="1.10000002" />
+			<PlayCardDecal YOffset="1" />
+		</CanPlayVehicle>
+		<CannotPlayVehicle>
+			<PlayCardDecal SizeX="7" SizeZ="7" />
+			<PlayCardDecal ColorR="1" ColorG="0" ColorB="0" />
+			<PlayCardDecal Intensity="1.5" />
+			<PlayCardDecal YOffset="1" />
+		</CannotPlayVehicle>
+		<CanPlayAir>
+			<PlayCardDecal SizeX="7" SizeZ="7" />
+			<PlayCardDecal ColorR="1" ColorG="1" ColorB="1" />
+			<PlayCardDecal Intensity="1.10000002" />
+			<PlayCardDecal YOffset="1" />
+		</CanPlayAir>
+		<CannotPlayAir>
+			<PlayCardDecal SizeX="7" SizeZ="7" />
+			<PlayCardDecal ColorR="1" ColorG="0" ColorB="0" />
+			<PlayCardDecal Intensity="1.5" />
+			<PlayCardDecal YOffset="1" />
+		</CannotPlayAir>
+		<CanPlayPower>
+			<PlayCardDecal SizeX="7" SizeZ="7" />
+			<PlayCardDecal ColorR="1" ColorG="1" ColorB="1" />
+			<PlayCardDecal Intensity="1.10000002" />
+			<PlayCardDecal YOffset="1" />
+		</CanPlayPower>
+		<CannotPlayPower>
+			<PlayCardDecal SizeX="7" SizeZ="7" />
+			<PlayCardDecal ColorR="1" ColorG="0" ColorB="0" />
+			<PlayCardDecal Intensity="1.5" />
+			<PlayCardDecal YOffset="1" />
+		</CannotPlayPower>
+	</PlayCardDecal>
+</RosterSettings>

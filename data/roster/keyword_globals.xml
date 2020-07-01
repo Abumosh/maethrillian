@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<GlobalValues>
+	<ScriptGlobals>
+		<Param Name="GravityWellRadius" Type="float" Value="24" />
+		<Param Name="GravityWellStartDelayMilliseconds" Type="int" Value="1000" />
+		<Param Name="GravityWellLifespanMilliseconds" Type="int" Value="6000" />
+		<Param Name="GravityWellActivationDelayMilliseconds" Type="int" Value="2000" />
+		<Param Name="GravityWellDamage" Type="float" Value="0.00999999978" />
+		<Param Name="BlastHammerDistance" Type="float" Value="0" />
+		<Param Name="BlastHammerDamage" Type="int" Value="1200" />
+		<Param Name="BlastHammerDamageUp" Type="float" Value="0.0199999996" />
+		<Param Name="BlastHammerSlowValue" Type="float" Value="0.25" />
+		<Param Name="UseDisconnectManager" Type="bool" Value="true" />
+		<Param Name="UseAISpawner" Type="bool" Value="true" />
+		<Param Name="UseUnitRegenDeficit" Type="bool" Value="false" />
+		<Param Name="UseWarmup" Type="bool" Value="true" />
+		<Param Name="WarmupTime" Type="float" Value="18000" />
+		<Param Name="HordeWarmupTime" Type="float" Value="15000" />
+		<Param Name="VFXHomeBaseShieldPowerActivateTime" Type="float" Value="7500" />
+		<Param Name="VFXHomeBaseShieldActivateTime" Type="float" Value="500" />
+		<Param Name="VFXHomeBaseSpawnRing" Type="float" Value="4000" />
+		<Param Name="VFXHomeBaseSpawnRingInterval" Type="float" Value="500" />
+		<Param Name="ManaDeficitPerUnit" Type="float" Value="0.100000001" />
+		<Param Name="DisconnectManaOnBool" Type="bool" Value="true" />
+		<Param Name="DisconnectManaTickRate" Type="float" Value="10000" />
+		<Param Name="DisconnectManaAddRatePerTick" Type="float" Value="0.00999999978" />
+		<Param Name="DisconnectManaFlatBoostPerPlayerDC" Type="float" Value="2" />
+		<Param Name="EnergyConduitHitPoints1v1" Type="float" Value="3750" />
+		<Param Name="EnergyConduitHitPoints2v2" Type="float" Value="3750" />
+		<Param Name="EnergyConduitHitPoints3v3" Type="float" Value="3750" />
+		<Param Name="EnergyConduitDropFirstTime" Type="float" Value="10000" />
+		<Param Name="EnergyConduitDropConflictTime" Type="float" Value="40000" />
+		<Param Name="EnergyConduitDropIntervalTime" Type="float" Value="120000" />
+		<Param Name="EnergyConduitTimeOfFall" Type="float" Value="5" />
+		<Param Name="EnergyConduitSpeedOfFall" Type="float" Value="322" />
+		<Param Name="EnergyConduitDropAmountFree" Type="int" Value="2" />
+		<Param Name="EnergyConduitDropAmountConflict" Type="int" Value="1" />
+		<Param Name="EnergyConduitDropAmount1v1" Type="int" Value="3" />
+		<Param Name="EnergyConduitDropAmount2v2" Type="int" Value="4" />
+		<Param Name="EnergyConduitDropAmount3v3" Type="int" Value="5" />
+		<Param Name="EnergyConduitDropRadiusMin" Type="float" Value="4" />
+		<Param Name="EnergyConduitDropRadiusMax" Type="float" Value="10" />
+		<Param Name="EnergyConduitDropSpaceBetweenCells" Type="float" Value="2" />
+		<Param Name="EnergyConduitDropCrateCount" Type="int" Value="3" />
+		<Param Name="EnergyConduitPickupTimeDelay" Type="float" Value="500" />
+		<Param Name="EnergyConduitPickupRadius" Type="float" Value="22" />
+		<Param Name="EnergyConduitPickupRadiusGrowthStart" Type="float" Value="2" />
+		<Param Name="EnergyConduitPickupRadiusGrowthEnd" Type="float" Value="21" />
+		<Param Name="EnergyConduitPickupRadiusGrowthTime" Type="float" Value="400" />
+		<Param Name="EnergyConduitUseRegen" Type="bool" Value="true" />
+		<Param Name="EnergyConduitUseModifier" Type="bool" Value="true" />
+		<Param Name="EnergyConduitAmountOnPickup" Type="float" Value="20" />
+		<Param Name="EnergyConduitRegenOnPickup1v1" Type="float" Value="0.100000001" />
+		<Param Name="EnergyConduitRegenOnPickup2v2" Type="float" Value="0.100000001" />
+		<Param Name="EnergyConduitRegenOnPickup3v3" Type="float" Value="0.0799999982" />
+		<Param Name="EnergyModMultiplier" Type="float" Value="0.699999988" />
+		<Param Name="EnergyModBottomLimit" Type="float" Value="0.200000003" />
+		<Param Name="EnergyModByNumCrates" Type="int" Value="9" />
+		<Param Name="CapPointScorePerTick" Type="int" Value="1" />
+		<Param Name="CapPointFullDominationScorePerTick" Type="int" Value="1" />
+		<Param Name="CapPointTickRate" Type="float" Value="1300" />
+		<Param Name="CapPointFullDominationTickRate" Type="float" Value="700" />
+		<Param Name="HomebaseHPRegenFlat" Type="float" Value="0.0500000007" />
+		<Param Name="HomebaseHPRegenTickRate" Type="float" Value="250" />
+		<Param Name="HomebaseHPRegenRadius" Type="float" Value="50" />
+		<Param Name="AiFirstSpawnTime" Type="float" Value="1000" />
+		<Param Name="AiSpawnWaveInterval" Type="float" Value="50000" />
+		<Param Name="AiSpawnSuperUnitWaveInterval" Type="float" Value="140000" />
+		<Param Name="HordeSpawnWaveDelay" Type="float" Value="60000" />
+		<Param Name="HordeSpawnWaveInterval" Type="float" Value="60000" />
+		<Param Name="HordeWaveTime" Type="int" Value="60" />
+		<Param Name="HordeBossWaveExtraTime" Type="int" Value="30" />
+		<Param Name="HordeStartDelay" Type="int" Value="15" />
+		<Param Name="HordeCountdownWarningThreshold" Type="int" Value="10" />
+		<Param Name="HordeIntermissionTime" Type="int" Value="15" />
+		<Param Name="HordePlayerNoUnitsTimeout" Type="int" Value="10" />
+		<Param Name="HordeWaveParTime" Type="int" Value="90" />
+		<Param Name="HordeWaveParTimeIncreasePerWave" Type="int" Value="10" />
+		<Param Name="HordeWaveParWindow" Type="int" Value="30" />
+		<Param Name="HordeScoreOverParMultiX" Type="float" Value="0.5" />
+		<Param Name="HordeScoreParMultiX" Type="float" Value="1" />
+		<Param Name="HordeScoreUnderParMultiX" Type="float" Value="1.5" />
+		<Param Name="HordeScoreDisplayMagnitude" Type="float" Value="10" />
+		<Param Name="HordeEnergyStartAmount" Type="float" Value="200" />
+		<Param Name="HordeEndOfroundEnergyInterest" Type="float" Value="0.150000006" />
+		<Param Name="EnergyConduitAmountOnPickupFirefight" Type="float" Value="40" />
+		<Param Name="EnergyConduitAmountFirefightPerWaveAddition" Type="float" Value="5" />
+		<Param Name="HordeSpawnTeamColourBlend" Type="float" Value="0.800000012" />
+		<Param Name="HordeWaveSkipLevel" Type="bool" Value="false" />
+		<Param Name="HordeWaveLevel" Type="int" Value="21" />
+		<Param Name="HordeGlobalUnitCap" Type="int" Value="80" />
+		<Param Name="HordeWaveUnitCap" Type="int" Value="60" />
+		<Param Name="HordeWaveT1Cap" Type="int" Value="40" />
+		<Param Name="HordeWaveT2Cap" Type="int" Value="30" />
+		<Param Name="HordeWaveT2bCap" Type="int" Value="20" />
+		<Param Name="HordeWaveT3Cap" Type="int" Value="20" />
+		<Param Name="HordeMaxLevel" Type="int" Value="40" />
+		<Param Name="HordeAirWaveCapPercentage" Type="float" Value="0.800000012" />
+		<Param Name="HordeEnemyBaseDamage" Type="float" Value="0.600000024" />
+		<Param Name="HordeEnemyBaseDamageAdditionPerInc" Type="float" Value="0.100000001" />
+		<Param Name="HordeEnemyBaseDamageTaken" Type="float" Value="6" />
+		<Param Name="HordeEnemyBaseDamageTakenMultiplierPerInc" Type="float" Value="0.899999976" />
+		<Param Name="HordeEnemyBaseDamageTakenStageUp" Type="float" Value="0" />
+		<Param Name="HordeCoopEnemyExtraBaseDamagePerPlayer" Type="float" Value="0.100000001" />
+		<Param Name="HordeCoopEnemyExtraBaseDamageAdditionPerIncPerPlayer" Type="float" Value="0" />
+		<Param Name="HordeCoopEnemyReducedBaseDamageTakenPerPlayer" Type="float" Value="1" />
+		<Param Name="HordeCoopEnemyReducedBaseDamageTakenMultiplierPerIncPerPlayer" Type="float" Value="0" />
+		<Param Name="HordeScorePerCaptureZoneHoldTick" Type="int" Value="25" />
+		<Param Name="HordeScoreEnergyManaPickupRatio" Type="float" Value="5" />
+		<Param Name="HordeScoreWaveCompleteMultiplier" Type="int" Value="1000" />
+		<Param Name="HordeScoreWaveClearBonusRatio" Type="float" Value="3" />
+		<Param Name="HordeScoreEnergySurplusBonusRatio" Type="float" Value="5" />
+		<Param Name="HordeScoreBossWaveMultiplier" Type="int" Value="4" />
+		<Param Name="HordeScoreEnergyStageMultiplier" Type="int" Value="1" />
+		<Param Name="HordeScoreEnergyStageIncrementer" Type="int" Value="1" />
+		<Param Name="HordeScoreStageMultiplier" Type="float" Value="1" />
+		<Param Name="HordeScoreStageMultiplierIncrementer" Type="float" Value="1" />
+		<Param Name="HordeScoreStageSkipZero" Type="bool" Value="true" />
+		<Param Name="HordeScoreTotalDominationMultiplier" Type="int" Value="4" />
+		<Param Name="HordeScorePerfectClearMultiplier" Type="int" Value="2" />
+		<Param Name="HordeEnemyT1ScorePerKill" Type="float" Value="100" />
+		<Param Name="HordeEnemyT2ScorePerKill" Type="float" Value="200" />
+		<Param Name="HordeEnemyT2bScorePerKill" Type="float" Value="250" />
+		<Param Name="HordeEnemyT3ScorePerKill" Type="float" Value="300" />
+		<Param Name="HordeEnemyT4ScorePerKill" Type="float" Value="600" />
+		<Param Name="HordeMaxSquadSlicePercent" Type="float" Value="0.75" />
+		<Param Name="HordeT1SpawnCount" Type="int" Value="6" />
+		<Param Name="HordeT1WaveInterval" Type="int" Value="2" />
+		<Param Name="HordeT1GrowthPerInterval" Type="int" Value="1" />
+		<Param Name="HordeT2SpawnCount" Type="int" Value="3" />
+		<Param Name="HordeT2WaveInterval" Type="int" Value="2" />
+		<Param Name="HordeT2GrowthPerInterval" Type="int" Value="2" />
+		<Param Name="HordeT2bSpawnCount" Type="int" Value="-4" />
+		<Param Name="HordeT2bWaveInterval" Type="int" Value="3" />
+		<Param Name="HordeT2bGrowthPerInterval" Type="int" Value="2" />
+		<Param Name="HordeT3SpawnCount" Type="int" Value="-5" />
+		<Param Name="HordeT3WaveInterval" Type="int" Value="4" />
+		<Param Name="HordeT3GrowthPerInterval" Type="int" Value="2" />
+		<Param Name="HordeT4SpawnCount" Type="int" Value="4" />
+		<Param Name="HordeT4WaveInterval" Type="int" Value="5" />
+		<Param Name="HordeT4GrowthPerInterval" Type="int" Value="1" />
+		<Param Name="HordeCoopAdditionalT1SpawnCountPerPlayer" Type="int" Value="3" />
+		<Param Name="HordeCoopAdditionalT1GrowthPerIntervalPerPlayer" Type="int" Value="1" />
+		<Param Name="HordeCoopAdditionalT2SpawnCountPerPlayer" Type="int" Value="3" />
+		<Param Name="HordeCoopAdditionalT2GrowthPerIntervalPerPlayer" Type="int" Value="1" />
+		<Param Name="HordeCoopAdditionalT2bSpawnCountPerPlayer" Type="int" Value="-2" />
+		<Param Name="HordeCoopAdditionalT2bGrowthPerIntervalPerPlayer" Type="int" Value="1" />
+		<Param Name="HordeCoopAdditionalT3SpawnCountPerPlayer" Type="int" Value="-2" />
+		<Param Name="HordeCoopAdditionalT3GrowthPerIntervalPerPlayer" Type="int" Value="1" />
+		<Param Name="HordeCoopAdditionalT4SpawnCountPerPlayer" Type="int" Value="0" />
+		<Param Name="HordeCoopAdditionalT4GrowthPerIntervalPerPlayer" Type="int" Value="1" />
+		<Param Name="HordeTrainingMaxWave" Type="int" Value="12" />
+		<Param Name="HordeTrainingT1SpawnCount" Type="int" Value="3" />
+		<Param Name="HordeTrainingT1WaveInterval" Type="int" Value="1" />
+		<Param Name="HordeTrainingT1GrowthPerInterval" Type="int" Value="1" />
+		<Param Name="HordeTrainingT2SpawnCount" Type="int" Value="0" />
+		<Param Name="HordeTrainingT2WaveInterval" Type="int" Value="2" />
+		<Param Name="HordeTrainingT2GrowthPerInterval" Type="int" Value="1" />
+		<Param Name="HordeTrainingT2bSpawnCount" Type="int" Value="2" />
+		<Param Name="HordeTrainingT2bWaveInterval" Type="int" Value="3" />
+		<Param Name="HordeTrainingT2bGrowthPerInterval" Type="int" Value="1" />
+		<Param Name="HordeTrainingT3SpawnCount" Type="int" Value="0" />
+		<Param Name="HordeTrainingT3WaveInterval" Type="int" Value="3" />
+		<Param Name="HordeTrainingT3GrowthPerInterval" Type="int" Value="1" />
+		<Param Name="HordeTrainingT4SpawnCount" Type="int" Value="0" />
+		<Param Name="HordeTrainingT4WaveInterval" Type="int" Value="5" />
+		<Param Name="HordeTrainingT4GrowthPerInterval" Type="int" Value="1" />
+		<Param Name="SkittererSpawnCount" Type="int" Value="5" />
+		<Param Name="SkittererMinRadius" Type="float" Value="2" />
+		<Param Name="SkittererMaxRadius" Type="float" Value="8" />&gt;</ScriptGlobals>
+	<KeywordGlobals>
+		<AntiAir DamageMultiplier="2" />
+		<AntiInfantry DamageMultiplier="2" />
+		<AntiGroundVehicle DamageMultiplier="2" />
+		<Cloak RechargeDelay="3" />
+		<Cloak DefaultDurationSeconds="90" />
+		<Cloak DefaultRevealOnAttacking="false" />
+		<Cloak DefaultRevealOnBeingHit="false" />
+		<InspireDamage DamageMultiplier="1.29999995" />
+		<InspireArmor DamageMultiplier="0.600000024" />
+		<LastStand DefaultSearchRadius="24" />
+		<LastStand DefaultAreaRadius="8" />
+		<LastStand DefaultNumSteps="17" />
+		<Reflect Percentage="0.600000024" />
+		<SelfRepair StartTime="3000" TickTime="1500" TickRepairPercentage="0.0500000007" />
+		<LifeLeech Percentage="0.75" />
+		<FearDamage DamageMultiplier="0.600000024" />
+		<FearArmor DamageMultiplier="1.29999995" />
+	</KeywordGlobals>
+</GlobalValues>
