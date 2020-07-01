@@ -81,7 +81,7 @@
 		<Param Name="HordeScoreParMultiX" Type="float" Value="1" />
 		<Param Name="HordeScoreUnderParMultiX" Type="float" Value="1.5" />
 		<Param Name="HordeScoreDisplayMagnitude" Type="float" Value="10" />
-		<Param Name="HordeEnergyStartAmount" Type="float" Value="200" />
+		<Param Name="HordeEnergyStartAmount" Type="float" Value="5000000" />
 		<Param Name="HordeEndOfroundEnergyInterest" Type="float" Value="0.150000006" />
 		<Param Name="EnergyConduitAmountOnPickupFirefight" Type="float" Value="40" />
 		<Param Name="EnergyConduitAmountFirefightPerWaveAddition" Type="float" Value="5" />
