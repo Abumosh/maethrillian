@@ -175,72 +175,116 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>units/covenant/infantry/stormgrunt01/ridermesh_stormgrunt01_shade_turret01</file>
+				<file>dlc5/pack2/units/covenant/infantry/bruterider01/ridermesh_stormgrunt01_bruterider01</file>
 			</asset>
 		</component>
 		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/shade_turret_drop_loop01</file>
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/bruterider_grunt_idle_01</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormgrunt01/shade_turret01_idle01</file>
+				<weight>4</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormgrunt01/shade_turret01_idle02</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/shade_turret_drop_loop01</file>
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/bruterider_grunt_idle_01</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormgrunt01/shade_turret01_idle01</file>
+				<weight>4</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormgrunt01/shade_turret01_idle02</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/shade_turret_drop_loop01</file>
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/bruterider_grunt_idle_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/shade_turret_drop_loop01</file>
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/bruterider_grunt_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormgrunt01/shade_turret01_idle01</file>
+				<weight>4</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormgrunt01/shade_turret01_idle02</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Gather" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/shade_turret_drop_loop01</file>
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/bruterider_grunt_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormgrunt01/shade_turret01_idle01</file>
+				<weight>4</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormgrunt01/shade_turret01_idle02</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="PlasmaCannonAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/shade_turret_drop_loop01</file>
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/bruterider_grunt_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormgrunt01/shade_turret01_attack01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Death" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/shade_turret_drop_loop01</file>
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/bruterider_grunt_idle_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="HijackIn" exitAction="Transition" tweenTime="10" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/shade_turret_drop_loop01</file>
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/bruterider_grunt_idle_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="HijackLoop" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/shade_turret_drop_loop01</file>
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/bruterider_grunt_idle_01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Rev" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/shade_turret_drop_loop01</file>
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/bruterider_grunt_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormgrunt01/shade_turret01_attack01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Ram" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/shade_turret_drop_loop01</file>
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/bruterider_grunt_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormgrunt01/shade_turret01_attack01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
