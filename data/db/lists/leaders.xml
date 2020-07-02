@@ -527,6 +527,11 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_everything" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">machinima_honorguard_noweapons</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">machinima_honorguard_dualplasmarifle</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">machinima_ghost_honorguard</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">machinima_ghost_grunt</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">test_object</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>

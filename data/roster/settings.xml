@@ -11,7 +11,7 @@
 	<ManaLoses Discard="5000" />
 	<Sizes Deck="12" />
 	<Sizes Hand="6" />
-	<Sizes SameCardPerDeck="3" />
+	<Sizes SameCardPerDeck="1" />
 	<Sizes PopulationCap="9999" />
 	<Sizes MaxDecksPerLeader="3" />
 	<DeckManagement ShuffleDecks="true" />
