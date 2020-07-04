@@ -10,7 +10,7 @@ PKG_BUILD_DIR="${ROOT_DIR}/build"
 PKG_DIFF_DIR="${PKG_BUILD_DIR}/diff"
 PKG_BUNDLE_DIR="${PKG_BUILD_DIR}/GTS/${GAME_VERSION}_active"
 
-PKG_DATA_EXTENSIONS='\.xml$|\.cfg$|\.ddx$|\.tactics$|\.ai$|\.vis$|\.triggerscript$|\.triggerscript_runtime$'
+PKG_DATA_EXTENSIONS='\.xml$|\.cfg$|\.ddx$|\.tactics$|\.ai$|\.vis$|\.triggerscript$|\.triggerscript_runtime$|\.scpt_runtime$|\.scpt_list$|\.scol_list$|\.scol$|\.scn$|\.mission_settings$|\.global_lights$'
 PKG_DATA_FILES=$(git diff --name-only HEAD ${PKG_BASE_COMMIT} | egrep ${PKG_DATA_EXTENSIONS})
 
 PKG_FILE_NAME="maethrillian.pkg"
