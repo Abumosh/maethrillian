@@ -16,7 +16,7 @@
 		<Value Name="PowerScoreMultiplier" Type="int" Value="25" />
 	</Table>
 	<Table Name="FirefightGameRulesEasy">
-		<Value Name="StartingWave" Type="int" Value="1" />
+		<Value Name="StartingWave" Type="int" Value="60" />
 		<Value Name="EndingWave" Type="int" Value="100" />
 		<Value Name="WavesInACycle" Type="int" Value="5" />
 		<Value Name="PopPerTerritory" Type="float" Value="10" />
@@ -140,7 +140,7 @@
 		<Value Name="StartingGarages?" Type="bool" Value="false" />
 		<Value Name="StartingAirpads?" Type="bool" Value="false" />
 		<Value Name="StartingArmoury?" Type="bool" Value="false" />
-		<Value Name="ExtraStartingUnits?" Type="bool" Value="false" />
+		<Value Name="ExtraStartingUnits?" Type="bool" Value="true" />
 		<Value Name="MoveUnitsToNexusFront?" Type="bool" Value="false" />
 		<Value Name="ExtraUnitsUNSC" Type="protosquad">
 			<Entry>unsc_inf_marine_01</Entry>
