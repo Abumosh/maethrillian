@@ -28793,8 +28793,8 @@
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Cost Supplies="0" Power="210" />
-			<Pop type="Unit">6</Pop>
+			<Cost Supplies="65" Power="200" />
+			<Pop type="Unit">4</Pop>
 			<AutoRecharge>60000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
@@ -28836,9 +28836,6 @@
 				<Data type="bool" name="OneProjectilePerUnit">true</Data>
 				<Data type="bool" name="CanDropOnSquads">true</Data>
 				<Data type="unitdrops" name="unitdrops">
-					<Drop>
-						<ProtoSquadID>unsc_inf_odst_01</ProtoSquadID>
-					</Drop>
 					<Drop>
 						<ProtoSquadID>unsc_inf_odst_01</ProtoSquadID>
 					</Drop>

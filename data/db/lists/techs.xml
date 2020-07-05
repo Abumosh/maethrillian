@@ -345,14 +345,13 @@
             <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
             <Effect type="UnlockableGodPower" tier="1">Serina_IceBlock1</Effect>
             <Effect type="UnlockableGodPower" tier="1" prereq="Serina_IceBlock1">Serina_IceBlock2</Effect>
-            <Effect type="UnlockableGodPower" tier="2">DropJackRab</Effect>
+            <Effect type="UnlockableGodPower" tier="2">DropMarines</Effect>
             <Effect type="UnlockableGodPower" tier="2">Up_SerHero1</Effect>
             <Effect type="UnlockableGodPower" tier="2" prereq="Up_SerHero1">Up_SerHero2</Effect>
             <Effect type="UnlockableGodPower" tier="2" prereq="Up_SerHero2">Up_SerHero3</Effect>
-            <Effect type="UnlockableGodPower" tier="3">DropMarines</Effect>
+            <Effect type="UnlockableGodPower" tier="3">DropCryoFlamers</Effect>
             <Effect type="UnlockableGodPower" tier="3">Up_Marine1</Effect>
-            <Effect type="UnlockableGodPower" tier="3" prereq="Up_Marine1">Up_Marine2</Effect>
-            <Effect type="UnlockableGodPower" tier="4">DropCryoFlamers</Effect>
+            <Effect type="UnlockableGodPower" tier="4">UnscOdstDrop</Effect>
             <Effect type="UnlockableGodPower" tier="4">Up_CryoMarines</Effect>
             <Effect type="UnlockableGodPower" tier="5">DropScorpion</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Scorpion</Effect>
@@ -396,15 +395,17 @@
         <Effects>
             <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
             <Effect type="UnlockableGodPower" tier="1">Jerome_AdvancedOptics</Effect>
-            <Effect type="UnlockableGodPower" tier="2">UnscOdstDrop</Effect>
-            <Effect type="UnlockableGodPower" tier="2">UnscSniperDrop</Effect>
-            <Effect type="UnlockableGodPower" tier="3">UnscHogDrop</Effect>
-            <Effect type="UnlockableGodPower" tier="3">Jerome_Omegateam</Effect>
-            <Effect type="UnlockableGodPower" tier="4">Up_Jerome1</Effect>
-            <Effect type="UnlockableGodPower" tier="4" prereq="Up_Jerome1">Up_Jerome2</Effect>
-            <Effect type="UnlockableGodPower" tier="4" prereq="Up_Jerome2">Up_Jerome3</Effect>
+            <Effect type="UnlockableGodPower" tier="2">DropJackRab</Effect>
+            <Effect type="UnlockableGodPower" tier="2" prereq="DropJackRab">UnscHogDrop</Effect>
+            <Effect type="UnlockableGodPower" tier="2">Up_Jerome1</Effect>
+            <Effect type="UnlockableGodPower" tier="2" prereq="Up_Jerome1">Up_Jerome2</Effect>
+            <Effect type="UnlockableGodPower" tier="2" prereq="Up_Jerome2">Up_Jerome3</Effect>
+            <Effect type="UnlockableGodPower" tier="3">DropMarines</Effect>
+            <Effect type="UnlockableGodPower" tier="3">Up_Marine1</Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="Up_Marine1">Up_Marine2</Effect>
+            <Effect type="UnlockableGodPower" tier="4">UnscSniperDrop</Effect>
             <Effect type="UnlockableGodPower" tier="4">Up_Sniper</Effect>
-            <Effect type="UnlockableGodPower" tier="5">Up_Hog</Effect>
+            <Effect type="UnlockableGodPower" tier="5">Jerome_Omegateam</Effect>
             <Effect type="UnlockableGodPower" tier="5">Jerome_LowPopInspire1</Effect>
             <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpalice_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
