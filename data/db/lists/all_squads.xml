@@ -6857,9 +6857,9 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>15.375</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
-		<BuildPoints>20</BuildPoints>
+		<BuildPoints>10</BuildPoints>
 		<Pop Type="Unit">1</Pop>
-		<Cost ResourceType="Power">150</Cost>
+		<Cost ResourceType="Power">100</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -6895,9 +6895,9 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>15.375</AggroDistance>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
-		<BuildPoints>20</BuildPoints>
+		<BuildPoints>12.5</BuildPoints>
 		<Pop Type="Unit">4</Pop>
-		<Cost ResourceType="Power">350</Cost>
+		<Cost ResourceType="Power">225</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>

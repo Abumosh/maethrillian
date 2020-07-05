@@ -34,6 +34,12 @@
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">for_air_sentineltier2_01</Target>
             </Effect>
+             <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase3sock_01" ToType="cov_bldg_minibase_3socket">
+            </Effect>
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase2sock_01" ToType="cov_bldg_minibase_2socket">
+            </Effect>
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase1sock_01" ToType="cov_bldg_minibase_1socket">
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_instant_forgebuff" type="Normal">
