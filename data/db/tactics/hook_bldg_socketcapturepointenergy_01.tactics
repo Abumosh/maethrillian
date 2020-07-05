@@ -29,6 +29,7 @@
 		<ActionType>SquadActionGather</ActionType>
 	</Action>
 	<Tactic>
+		<PersistentAction>CaptureFade</PersistentAction>
 		<PersistentAction>GatherPower</PersistentAction>
         <PersistentAction>GatherSupplies</PersistentAction>
 		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>

@@ -12,7 +12,7 @@
                 <Target type="ProtoSquad">unsc_inf_odst_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">for_air_sentinel_01</Target>
+                <Target type="ProtoSquad">for_air_sentinel_02</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">for_air_sentineltier2_01</Target>
@@ -29,7 +29,7 @@
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
         <Effects>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">for_air_sentinel_01</Target>
+                <Target type="ProtoSquad">for_air_sentinel_02</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">for_air_sentineltier2_01</Target>
