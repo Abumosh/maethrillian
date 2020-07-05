@@ -42,11 +42,6 @@
 			<value>3</value>
 		</entry>
 		<entry>
-			<key>hook_bldg_EnergyCapturePoint_base_01_base</key>
-			<value>banished_unit_vehicle</value>
-			<value>0</value>
-		</entry>
-		<entry>
 			<key>cov_bldg_builder_01_hive</key>
 			<value>EP2_FloodBase</value>
 			<value>3</value>
@@ -1057,37 +1052,7 @@
 			<value>4</value>
 		</entry>
 		<entry>
-			<key>hook_bldg_miniBase_noSocks</key>
-			<value>mini_base_slot</value>
-			<value>4</value>
-		</entry>
-		<entry>
-			<key>hook_bldg_minibase2sock_01</key>
-			<value>mini_base_slot</value>
-			<value>4</value>
-		</entry>
-		<entry>
-			<key>hook_bldg_minibase3sock_01</key>
-			<value>Stronghold_Base</value>
-			<value>4</value>
-		</entry>
-		<entry>
-			<key>hook_bldg_miniBase_01</key>
-			<value>mini_base_slot</value>
-			<value>4</value>
-		</entry>
-		<entry>
-			<key>hook_unsc_bldg_minibase3sockM06_01</key>
-			<value>mini_base_slot</value>
-			<value>4</value>
-		</entry>
-		<entry>
 			<key>hook_bldg_turretSocket_01</key>
-			<value>mini_base_slot</value>
-			<value>4</value>
-		</entry>
-		<entry>
-			<key>hook_bldg_minibase2sock_01_megaturret</key>
 			<value>mini_base_slot</value>
 			<value>4</value>
 		</entry>
