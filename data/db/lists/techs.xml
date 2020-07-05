@@ -11,12 +11,6 @@
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_odst_01</Target>
             </Effect>
-            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">for_air_sentinel_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">for_air_sentineltier2_01</Target>
-            </Effect>
         </Effects>
     </Tech>
     <Tech name="cov_instant_upgrade" type="Normal">
@@ -28,12 +22,6 @@
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
         <Effects>
-            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">for_air_sentinel_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">for_air_sentineltier2_01</Target>
-            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_instant_forgebuff" type="Normal">
