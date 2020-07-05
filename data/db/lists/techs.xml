@@ -17,6 +17,12 @@
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">for_air_sentineltier2_01</Target>
             </Effect>
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase3sock_01" ToType="unsc_bldg_minibase3sock_01_mp">
+            </Effect>
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase2sock_01" ToType="unsc_bldg_minibase2sock_01_mp">
+            </Effect>
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase1sock_01" ToType="unsc_bldg_minibase1sock_01_mp">
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="cov_instant_upgrade" type="Normal">
@@ -34,7 +40,7 @@
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">for_air_sentineltier2_01</Target>
             </Effect>
-             <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase3sock_01" ToType="cov_bldg_minibase_3socket">
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase3sock_01" ToType="cov_bldg_minibase_3socket">
             </Effect>
             <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase2sock_01" ToType="cov_bldg_minibase_2socket">
             </Effect>
@@ -16337,12 +16343,6 @@
             <Effect type="ReparentProtoObject" FromType="unsc_bldg_reactor_02" ToType="unsc_bldg_reactor_02_mp">
             </Effect>
             <Effect type="ReparentProtoObject" FromType="unsc_bldg_reactor_01" ToType="unsc_bldg_reactor_01_mp">
-            </Effect>
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase3sock_01" ToType="unsc_bldg_minibase3sock_01_mp">
-            </Effect>
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase2sock_01" ToType="unsc_bldg_minibase2sock_01_mp">
-            </Effect>
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase1sock_01" ToType="unsc_bldg_minibase1sock_01_mp">
             </Effect>
             <Effect type="ReparentProtoObject" FromType="unsc_bldg_fieldArmory_01" ToType="unsc_bldg_fieldArmory_01_mp">
             </Effect>
