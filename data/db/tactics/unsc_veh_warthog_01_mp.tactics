@@ -11,9 +11,9 @@
 		<MaxRange>50</MaxRange>
 		<MaxRangeThresholdFactor>1.10000002</MaxRangeThresholdFactor>
 		<MaxRangeThresholdTime>1</MaxRangeThresholdTime>
-		<Accuracy>0.100000001</Accuracy>
+		<Accuracy>0.4</Accuracy>
 		<MaxDeviation>1.5</MaxDeviation>
-		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingAccuracy>0.4</MovingAccuracy>
 		<MovingMaxDeviation>2</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>

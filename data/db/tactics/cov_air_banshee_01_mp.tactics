@@ -61,16 +61,16 @@
 		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
 		<Filter>Medium</Filter>
 		<TargetPriority type="Unit">1</TargetPriority>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.20000005</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1.20000005</PostAttackCooldownMax>
+		<PreAttackCooldownMin>1.5</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>PlasmaCannonSiphon</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>120</DamagePerSecond>
-		<WeaponType>BansheeChaingun</WeaponType>
+		<WeaponType>Chaingun</WeaponType>
 		<Projectile>fx_proj_plasmaCannon_01</Projectile>
 		<ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
@@ -109,7 +109,7 @@
 	<Weapon>
 		<Name>FuelRodCannonSiphon</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>45</DamagePerSecond>
+		<DamagePerSecond>60</DamagePerSecond>
 		<WeaponType>BansheeFuelRod</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>
 		<ImpactEffect size="Medium">FuelRodCannonAirImpact</ImpactEffect>
@@ -129,10 +129,10 @@
 		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
 		<Filter>Medium</Filter>
 		<TargetPriority type="Unit">1</TargetPriority>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.20000005</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1.20000005</PostAttackCooldownMax>
+		<PreAttackCooldownMin>1.5</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0</PostAttackCooldownMax>
 		<LifeStealRatio shield="false">0.5</LifeStealRatio>
 	</Weapon>
 	<Weapon>

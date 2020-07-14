@@ -17802,10 +17802,7 @@
 			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-100" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="-50" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
-			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.819999993" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-75" relativity="Absolute">
 				<Target type="Tech">cov_base_upgrade1</Target>
 			</Effect>
 			<Effect type="Data" subtype="Cost" Resource="Power" amount="-75" relativity="Absolute">
@@ -17842,9 +17839,6 @@
 				<Target type="ProtoUnit">cov_bldg_turret_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="0.819999993" relativity="Percent">
-				<Target type="ProtoUnit">cov_bldg_shieldtower_01</Target>
-			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.819999993" relativity="Percent">
 				<Target type="ProtoUnit">cov_bldg_shieldtower_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.819999993" relativity="Percent">
@@ -17902,10 +17896,7 @@
 			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-100" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="-25" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
-			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.823589981" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-75" relativity="Absolute">
 				<Target type="Tech">cov_base_upgrade1</Target>
 			</Effect>
 			<Effect type="Data" subtype="Cost" Resource="Power" amount="-75" relativity="Absolute">
@@ -17938,13 +17929,10 @@
 			<Effect type="Data" amount="0.40200001" subtype="ResearchPoints" allactions="1" relativity="Percent">
 				<Target type="Tech">cov_tech_global_structure_03</Target>
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="0.763589978" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-50" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_turret_01</Target>
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="0.763589978" relativity="Percent">
-				<Target type="ProtoUnit">cov_bldg_shieldtower_01</Target>
-			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.763589978" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-50" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_shieldtower_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.763589978" relativity="Percent">

@@ -35745,8 +35745,8 @@
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffOverchargeAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
-			<Cost Supplies="75" Power="25" />
-			<AutoRecharge>140000</AutoRecharge>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>9</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -35781,7 +35781,7 @@
 				<Data type="bool" name="AffectsSelfOnly">false</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="TurretDamageDealtScalar">1.2f</Data>
-				<Data type="float" name="ResourceRateScalar">1.1f</Data>
+				<Data type="float" name="ResourceRateScalar">5f</Data>
 				<Data type="float" name="ResearchProductionRateScalar">0f</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
@@ -35797,8 +35797,8 @@
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffOverchargeAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
-			<Cost Supplies="150" Power="50" />
-			<AutoRecharge>140000</AutoRecharge>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>1</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -35833,8 +35833,8 @@
 				<Data type="bool" name="AffectsSelfOnly">false</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="TurretDamageDealtScalar">1.2f</Data>
-				<Data type="float" name="ResourceRateScalar">1.15f</Data>
-				<Data type="float" name="ResearchProductionRateScalar">1.5f</Data>
+				<Data type="float" name="ResourceRateScalar">0f</Data>
+				<Data type="float" name="ResearchProductionRateScalar">5f</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
