@@ -23658,6 +23658,7 @@
 				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
 				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
 				<Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 				<Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
 				<Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
 				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
@@ -23787,6 +23788,7 @@
 				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
 				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
 				<Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 				<Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
 				<Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
 				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
@@ -23916,6 +23918,7 @@
 				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
 				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
 				<Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 				<Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
 				<Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
 				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
