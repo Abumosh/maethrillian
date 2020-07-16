@@ -8,7 +8,7 @@
 	<ManaGains KillGainCostPercentage="0" />
 	<ManaGains DieGainCostPercentage="0.5" />
 	<ManaGains Cap="20000" UseCap="false" />
-	<ManaLoses Discard="5000" />
+	<ManaLoses Discard="-5000" />
 	<Sizes Deck="12" />
 	<Sizes Hand="6" />
 	<Sizes SameCardPerDeck="1" />
