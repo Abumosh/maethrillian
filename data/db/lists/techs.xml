@@ -3944,11 +3944,10 @@
 		<PrereqTextID>240</PrereqTextID>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">600</Cost>
-		<Cost resourcetype="HQLevel">3</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>30</ResearchPoints>
 		<Prereqs>
 			<TechStatus status="Active">cov_basic</TechStatus>
-			<TechStatus status="Active">cov_suicideGrunt_upgrade1</TechStatus>
 		</Prereqs>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
