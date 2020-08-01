@@ -24232,6 +24232,82 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="cheat_allFloodunits" type="Normal">
+		<DBID>1963</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmacaster_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_gruntmelee_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_gruntpistol_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_gruntfuelrod_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_brutemelee_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_brutespiker_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_humelee_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_assaultrifle_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_assaultrifle_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_serina_cryomarines_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_grizzly_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="covenant_LeaderEverything" type="Normal">
 		<DBID>2104</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -24243,6 +24319,9 @@
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">cheat_allBanishedunits</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">cheat_allFloodunits</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">Unbrk_MegaTurret</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CovTeleport2</Effect>
@@ -24275,6 +24354,9 @@
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">cheat_allBanishedunits</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">cheat_allFloodunits</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">ArbiterConduitofRage1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="ArbiterConduitofRage1">ArbiterConduitofRage2</Effect>
