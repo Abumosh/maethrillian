@@ -4215,4 +4215,8 @@ Units must die within the power's set time frame.</str>
 	<str id="UIENT.unsc_veh_gremlin_01.RadialEdge.Name">GREMLIN</str>
 	<str id="UIENT.unsc_veh_gremlin_01.RadialEdge.Role">EMP WEAPON</str>
 	<str id="UIENT.unsc_veh_gremlin_01.RadialEdge.ShortDescr">The Gremlin is a lightly armored vehicle that fires an EMP gun. It is good against enemy ground vehicles but less effective against infantry.</str>
+	<str id="UIENT._RECORD_Vet99.RADIALCENTER.NAME">VETERANCY</str>
+	<str id="UIENT._RECORD_Vet99.RADIALEDGE.NAME">VETERANCY</str>
+	<str id="UIENT._RECORD_Vet99.RADIALEDGE.ROLE">CHEAT</str>
+	<str id="UIENT._RECORD_Vet99.RADIALEDGE.SHORTDESCR">Adds +96 vet to all squads</str>
 </string_table>
