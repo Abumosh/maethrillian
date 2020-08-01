@@ -23703,7 +23703,6 @@
 				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_laser_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_chaingun_01</Target>
-				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_01</Target>
 				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
 				<Target type="ProtoSquad">pow_for_andersultimate_01</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_fullshield</Target>
@@ -23728,7 +23727,6 @@
 				<Target type="ProtoSquad">machinima_ghost_grunt</Target>
 				<Target type="ProtoSquad">machinima_ghost_honorguard</Target>
 				<Target type="ProtoSquad">cov_inf_scarabhunter_01</Target>
-				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -23839,7 +23837,6 @@
 				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_laser_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_chaingun_01</Target>
-				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_01</Target>
 				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
 				<Target type="ProtoSquad">pow_for_andersultimate_01</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_fullshield</Target>
@@ -23864,7 +23861,6 @@
 				<Target type="ProtoSquad">machinima_ghost_grunt</Target>
 				<Target type="ProtoSquad">machinima_ghost_honorguard</Target>
 				<Target type="ProtoSquad">cov_inf_scarabhunter_01</Target>
-				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -23975,7 +23971,6 @@
 				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_laser_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_chaingun_01</Target>
-				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_01</Target>
 				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
 				<Target type="ProtoSquad">pow_for_andersultimate_01</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_fullshield</Target>
@@ -24000,7 +23995,6 @@
 				<Target type="ProtoSquad">machinima_ghost_grunt</Target>
 				<Target type="ProtoSquad">machinima_ghost_honorguard</Target>
 				<Target type="ProtoSquad">cov_inf_scarabhunter_01</Target>
-				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -24111,7 +24105,6 @@
 				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_laser_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_chaingun_01</Target>
-				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_01</Target>
 				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
 				<Target type="ProtoSquad">pow_for_andersultimate_01</Target>
 				<Target type="ProtoSquad">for_air_enforcer_m02_fullshield</Target>
@@ -24136,7 +24129,6 @@
 				<Target type="ProtoSquad">machinima_ghost_grunt</Target>
 				<Target type="ProtoSquad">machinima_ghost_honorguard</Target>
 				<Target type="ProtoSquad">cov_inf_scarabhunter_01</Target>
-				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
