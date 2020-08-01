@@ -467,31 +467,6 @@
 		<Pop Type="HonorGuard" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 	</Leader>
-	<Leader Name="NoAI" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#6AD87036-C53F-4444-AC2E-F8F0D3D520C5">
-		<Civ>Covenant</Civ>
-		<Tech>covenant_LeaderNoAi</Tech>
-		<NameID>7012</NameID>
-		<DescriptionID>7013</DescriptionID>
-		<RichPresenceID>LEADER_UNBREAKABLE</RichPresenceID>
-		<CmsId>15</CmsId>
-		<FlashImg>bruteleader</FlashImg>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
-		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
-		<Resource Type="Supplies">600</Resource>
-		<Resource Type="Collectable">0</Resource>
-		<Resource Type="Power">400</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_noai" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<RallyPointOffset>50,0,0</RallyPointOffset>
-		<RepairRate>1</RepairRate>
-		<RepairDelay>20</RepairDelay>
-		<RepairCost Type="Supplies">35</RepairCost>
-		<RepairTime>30</RepairTime>
-		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="999">0</Pop>
-		<Pop Type="Leader" Max="999">0</Pop>
-		<Pop Type="HonorGuard" Max="999">0</Pop>
-		<Pop Type="Reactor" Max="20">0</Pop>
-	</Leader>
 	<Leader Name="UNSCEverything" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" GUID="#2BBE175C-7DE4-44A3-A9DC-92571626BFA2">
 		<Civ>UNSC</Civ>
 		<Tech>UNSC_LeaderEverything</Tech>
