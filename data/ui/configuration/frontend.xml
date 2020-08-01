@@ -247,15 +247,15 @@
 				</entry>
 				<entry>
 					<key>CovEverything</key>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS</value>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS</value>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS_unselected</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_Banished</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_Banished</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_Banished</value>
 				</entry>
 				<entry>
 					<key>CovEverythingPassive</key>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS</value>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS</value>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_BANS_unselected</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_Banished</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_Banished</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_Banished</value>
 				</entry>
 				<entry>
 					<key>NoAI</key>
@@ -265,15 +265,21 @@
 				</entry>
 				<entry>
 					<key>UNSCEverything</key>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_UNSC</value>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_UNSC</value>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_UNSC_unselected</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_UNSC</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_UNSC</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_UNSC</value>
+				</entry>
+				<entry>
+					<key>UNSCEverythingNew</key>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_UNSC</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_UNSC</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_UNSC</value>
 				</entry>
 				<entry>
 					<key>UNSCEverythingPassive</key>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_UNSC</value>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_UNSC</value>
-					<value>../textures/frontend/LeaderSelect/img_leader_carousel_UNSC_unselected</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_UNSC</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_UNSC</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_UNSC</value>
 				</entry>
 			</group>
 			<group name="startingArmy">
@@ -870,6 +876,16 @@
 			</entry>
 			<entry>
 				<key>UNSCEverything</key>
+				<value>UIENT.LEADERSELECT.TITLE.UNSCEverything</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.UNSCEverything</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+			</entry>
+			<entry>
+				<key>UNSCEverythingNew</key>
 				<value>UIENT.LEADERSELECT.TITLE.UNSCEverything</value>
 				<value>UIENT.LEADERSELECT.SHORTDESCR.UNSCEverything</value>
 				<value>UIMP.FINDMATCH.NA</value>

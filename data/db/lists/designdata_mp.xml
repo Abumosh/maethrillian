@@ -5,5 +5,5 @@
 	<CovSupplyPadBonus>0.709999979</CovSupplyPadBonus>
 	<CovSupplyPadBreakEvenPoint>11</CovSupplyPadBreakEvenPoint>
 	<AutoCaptureDistance>10</AutoCaptureDistance>
-	<FatalityMinInterval>150</FatalityMinInterval>
+	<FatalityMinInterval>1</FatalityMinInterval>
 </GameData>
