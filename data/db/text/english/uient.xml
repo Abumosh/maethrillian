@@ -4207,4 +4207,12 @@ Units must die within the power's set time frame.</str>
 	<str id="UIENT._RECORD_ALLUpgradesMinorBanished.RADIALEDGE.NAME">Tier 3 Units</str>
 	<str id="UIENT._RECORD_ALLUpgradesMinorBanished.RADIALEDGE.ROLE">CHEAT</str>
 	<str id="UIENT._RECORD_ALLUpgradesMinorBanished.RADIALEDGE.SHORTDESCR">Unlocks all Skitter, Phantom and limo upgrades.</str>
+	<str id="UIENT.unsc_veh_cobra_01.RadialCenter.Name">COBRA</str>
+	<str id="UIENT.unsc_veh_cobra_01.RadialEdge.Name">COBRA</str>
+	<str id="UIENT.unsc_veh_cobra_01.RadialEdge.Role">MOBILE ARTILLERY</str>
+	<str id="UIENT.unsc_veh_cobra_01.RadialEdge.ShortDescr">The UNSC Cobra is an incredibly effective anti-vehicle threat. It's fast and agile against vehicles, but also has an active Unpack Ability that turns the Cobra into a long-range artillery unit that is excellent against buildings</str>
+	<str id="UIENT.unsc_veh_gremlin_01.RadialCenter.Name">GREMLIN</str>
+	<str id="UIENT.unsc_veh_gremlin_01.RadialEdge.Name">GREMLIN</str>
+	<str id="UIENT.unsc_veh_gremlin_01.RadialEdge.Role">EMP WEAPON</str>
+	<str id="UIENT.unsc_veh_gremlin_01.RadialEdge.ShortDescr">The Gremlin is a lightly armored vehicle that fires an EMP gun. It is good against enemy ground vehicles but less effective against infantry.</str>
 </string_table>
