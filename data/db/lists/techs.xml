@@ -23728,7 +23728,7 @@
 				<Target type="ProtoSquad">machinima_ghost_grunt</Target>
 				<Target type="ProtoSquad">machinima_ghost_honorguard</Target>
 				<Target type="ProtoSquad">cov_inf_scarabhunter_01</Target>
-				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_01</Target>
+				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -23864,7 +23864,7 @@
 				<Target type="ProtoSquad">machinima_ghost_grunt</Target>
 				<Target type="ProtoSquad">machinima_ghost_honorguard</Target>
 				<Target type="ProtoSquad">cov_inf_scarabhunter_01</Target>
-				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_01</Target>
+				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -24000,7 +24000,7 @@
 				<Target type="ProtoSquad">machinima_ghost_grunt</Target>
 				<Target type="ProtoSquad">machinima_ghost_honorguard</Target>
 				<Target type="ProtoSquad">cov_inf_scarabhunter_01</Target>
-				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_01</Target>
+				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -24136,7 +24136,7 @@
 				<Target type="ProtoSquad">machinima_ghost_grunt</Target>
 				<Target type="ProtoSquad">machinima_ghost_honorguard</Target>
 				<Target type="ProtoSquad">cov_inf_scarabhunter_01</Target>
-				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_01</Target>
+				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -24895,9 +24895,8 @@
 				<Target type="Tech">cheat_allUNSCunits</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscForgePelicanTransport2</Effect>
-			<Effect type="UnlockableGodPower" tier="1">UnscArkDefense1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="UnscArkDefense1">UnscArkDefense2</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="UnscArkDefense2">UnscArkDefense3</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscVehicleTech1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="UnscVehicleTech1">UnscVehicleTech2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscMacBlast1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscMacBlast1">UnscMacBlast2</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscMacBlast2">UnscMacBlast3</Effect>
@@ -24935,9 +24934,13 @@
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHeavyMetal02">UnscHeavyMetal03</Effect>
 			<Effect type="UnlockableGodPower" tier="2">JohnsonEMPBlast1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="JohnsonEMPBlast1">JohnsonEMPBlast2</Effect>
-			<Effect type="UnlockableGodPower" tier="2"></Effect>
-			<Effect type="UnlockableGodPower" tier="3"></Effect>
-			<Effect type="UnlockableGodPower" tier="3"></Effect>
+			<Effect type="UnlockableGodPower" tier="2">UnscUnstableCon1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscUnstableCon1">UnscUnstableCon2</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscUnstableCon2">UnscUnstableCon3</Effect>
+			<Effect type="UnlockableGodPower" tier="3">UNSCVehicleAdrenaline1</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="UNSCVehicleAdrenaline1">UNSCVehicleAdrenaline2</Effect>
+			<Effect type="UnlockableGodPower" tier="3">JohnsonMechBuff</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="JohnsonMechBuff">JohnsonMechBuff2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">Jerome_LowPopInspire1</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="Jerome_LowPopInspire1">Jerome_LowPopInspire2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscHeroism1</Effect>
