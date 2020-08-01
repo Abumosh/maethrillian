@@ -469,7 +469,7 @@
 	</Leader>
 	<Leader Name="UNSCEverythingNew" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" GUID="#2BBE175C-7DE4-44A3-A9DC-92571626BFA2">
 		<Civ>UNSC</Civ>
-		<Tech>UNSC_LeaderEverything</Tech>
+		<Tech>UNSC_LeaderEverythingPassive</Tech>
 		<NameID>7004</NameID>
 		<DescriptionID>7005</DescriptionID>
 		<RichPresenceID>LEADER_ANDERS</RichPresenceID>

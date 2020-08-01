@@ -23728,10 +23728,14 @@
 				<Target type="ProtoSquad">machinima_ghost_grunt</Target>
 				<Target type="ProtoSquad">machinima_ghost_honorguard</Target>
 				<Target type="ProtoSquad">cov_inf_scarabhunter_01</Target>
+				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="_RECORD_Vet2" type="Normal">
+		<Prereqs>
+			<TechStatus status="Active">_RECORD_Vet1</TechStatus>
+		</Prereqs>
 		<DisplayNameID>24398</DisplayNameID>
 		<RolloverTextID>24399</RolloverTextID>
 		<Cost resourcetype="Supplies">0</Cost>
@@ -23860,10 +23864,14 @@
 				<Target type="ProtoSquad">machinima_ghost_grunt</Target>
 				<Target type="ProtoSquad">machinima_ghost_honorguard</Target>
 				<Target type="ProtoSquad">cov_inf_scarabhunter_01</Target>
+				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="_RECORD_Vet3" type="Normal">
+		<Prereqs>
+			<TechStatus status="Active">_RECORD_Vet2</TechStatus>
+		</Prereqs>
 		<DisplayNameID>24398</DisplayNameID>
 		<RolloverTextID>24399</RolloverTextID>
 		<Cost resourcetype="Supplies">0</Cost>
@@ -23992,10 +24000,14 @@
 				<Target type="ProtoSquad">machinima_ghost_grunt</Target>
 				<Target type="ProtoSquad">machinima_ghost_honorguard</Target>
 				<Target type="ProtoSquad">cov_inf_scarabhunter_01</Target>
+				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="_RECORD_Vet99" type="Normal">
+		<Prereqs>
+			<TechStatus status="Active">_RECORD_Vet3</TechStatus>
+		</Prereqs>
 		<DisplayNameID>24398</DisplayNameID>
 		<RolloverTextID>24399</RolloverTextID>
 		<Cost resourcetype="Supplies">0</Cost>
@@ -24124,6 +24136,7 @@
 				<Target type="ProtoSquad">machinima_ghost_grunt</Target>
 				<Target type="ProtoSquad">machinima_ghost_honorguard</Target>
 				<Target type="ProtoSquad">cov_inf_scarabhunter_01</Target>
+				<Target type="ProtoSquad">cpgnh_p01_warthogspartan_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -24403,6 +24416,9 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_scarabhunter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

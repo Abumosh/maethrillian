@@ -10949,7 +10949,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="COV_Star_Scarab_Centered">COV_Star_Scarab</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">cov_veh_methanescarab_01_base</Unit>
+			<Unit count="1" role="normal">cov_veh_methanescarab_01</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
