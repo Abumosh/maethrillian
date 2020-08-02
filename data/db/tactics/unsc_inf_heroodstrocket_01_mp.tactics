@@ -178,7 +178,6 @@
 	</Action>
 	<Tactic>
 		<PersistentAction>SpawnDrone</PersistentAction>
-		<PersistentSquadAction>HealthRegen</PersistentSquadAction>
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>Garrison</TargetType>

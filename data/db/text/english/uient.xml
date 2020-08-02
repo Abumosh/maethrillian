@@ -4681,7 +4681,7 @@ Long range</str>
 	<str id="UIENT.cov_elitescout_upgrade2.RADIALCENTER.NAME">INFILTRATOR UPGRADE II</str>
 	<str id="UIENT.cov_elitescout_upgrade2.RADIALEDGE.NAME">INFILTRATOR UPGRADE II</str>
 	<str id="UIENT.cov_elitescout_upgrade2.RADIALEDGE.ROLE">UPGRADE</str>
-	<str id="UIENT.cov_elitescout_upgrade2.RADIALEDGE.SHORTDESCR">Adds a bigger aoe and damae over time effect to the grenade.</str>
+	<str id="UIENT.cov_elitescout_upgrade2.RADIALEDGE.SHORTDESCR">Adds a bigger aoe and damage over time effect to the grenade.</str>
 	<str id="UIENT.cov_veh_shadelocust_01.RADIALCENTER.NAME">SHADE LOCUST</str>
 	<str id="UIENT.cov_veh_shadelocust_01.RADIALEDGE.NAME">SHADE LOCUST</str>
 	<str id="UIENT.cov_veh_shadelocust_01.RADIALEDGE.ROLE">CORE MECH</str>

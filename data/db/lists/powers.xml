@@ -2,7 +2,6 @@
 <Powers>
 	<Power name="Forerunner_DisruptionBomb">
 		<Attributes>
-			<NotAffectedByCeasefire />
 			<PowerType>Disruption</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" />
@@ -19,7 +18,6 @@
 				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
-			<ProcOnLeaderPowerCast />
 			<ProcPowerName>Forerunner_PowerCancel</ProcPowerName>
 			<DataLevel level="0">
 				<Data type="float" name="DisruptionTimeSec">62</Data>
@@ -48,7 +46,7 @@
 			<Cost Supplies="250" Power="500" />
 			<AutoRecharge>240000</AutoRecharge>
 			<UIRadius>48</UIRadius>
-			<Decal>AOE_Large</Decal>
+			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
 			<RolloverTextID>5015</RolloverTextID>
 			<ShowLimit />
@@ -29300,7 +29298,7 @@
 				<Data type="int" name="NumGunships">3</Data>
 				<Data type="float" name="AOERadius">20</Data>
 				<Data type="float" name="WaitDuration">2</Data>
-				<Data type="protoobject" name="Gunship">unsc_air_pelicangunship_01</Data>
+				<Data type="protoobject" name="Gunship">flood_air_proj_ruptureemerge_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_GrizzlyBattalion</Data>
 				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
@@ -40467,20 +40465,20 @@
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_VehicleDrop_II</Data>
 				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
-						<ProtoSquadID>unsc_veh_warthog_01</ProtoSquadID>
-						<VeterancyLevel>1</VeterancyLevel>
+						<ProtoSquadID>unsc_veh_warthogguard_01</ProtoSquadID>
+						<VeterancyLevel>2</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>unsc_veh_warthog_01</ProtoSquadID>
-						<VeterancyLevel>1</VeterancyLevel>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>unsc_veh_foxcannon_01</ProtoSquadID>
+						<ProtoSquadID>unsc_veh_warthogguard_01</ProtoSquadID>
 						<VeterancyLevel>2</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>unsc_veh_foxcannon_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>unsc_veh_foxcannon_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>

@@ -6722,6 +6722,9 @@
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_scorpion_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicleDepot_01</Target>
+			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscRollingEconomy1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscRollingEconomy1">UnscRollingEconomy2</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscHeavyMetal01</Effect>
