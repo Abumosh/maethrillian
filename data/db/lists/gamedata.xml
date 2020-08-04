@@ -381,6 +381,9 @@
 		<InfectionMapEntry targetUnit="cov_inf_jackal_01">
 			<Infected weight="75" infectedUnit="flood_inf_infected_elitecarbine_01" infectedSquad="flood_inf_infected_elitecarbine_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_arbitersniper_01">
+			<Infected weight="75" infectedUnit="flood_inf_infectedarbitersniper" infectedSquad="flood_inf_infectedarbitersniper" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_bruteRider_01">
 			<Infected weight="99" infectedUnit="flood_inf_infected_brutemelee_01" infectedSquad="flood_inf_infected_brutemelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
