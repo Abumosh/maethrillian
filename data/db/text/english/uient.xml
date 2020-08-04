@@ -3803,8 +3803,14 @@ Does not require vision.</str>
 	<str id="UIENT.FloodGrizzlyBattalion.RADIALCENTER.NAME">GRIZZLY BATTALION</str>
 	<str id="UIENT.FloodGrizzlyBattalion.RADIALEDGE.NAME">GRIZZLY BATTALION</str>
 	<str id="UIENT.FloodGrizzlyBattalion.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.FloodGrizzlyBattalion.RADIALEDGE.SALESPITCH">Pelican Gunship drops-off 3 veteran Grizzlies.</str>
-	<str id="UIENT.FloodGrizzlyBattalion.RADIALEDGE.SHORTDESCR">Activate to get a deployment of 3 veteran Grizzly tanks.</str>
+	<str id="UIENT.FloodGrizzlyBattalion.RADIALEDGE.SALESPITCH">Activate to get a drop-off of:
+1 veteran Grizzly
+8 infected ODST
+2 infected Hellbringer.</str>
+	<str id="UIENT.FloodGrizzlyBattalion.RADIALEDGE.SHORTDESCR">Activate to get a drop-off of:
+1 veteran Grizzly
+8 infected ODST
+2 infected Hellbringer.</str>
 	<str id="UIENT.UnscHeavyMetal01.RadialCenter.Name">HEAVY METAL I</str>
 	<str id="UIENT.UnscHeavyMetal01.RadialEdge.Name">HEAVY METAL I</str>
 	<str id="UIENT.UNSCHEAVYMETAL01.RADIALEDGE.ROLE">ACTIVE POWER</str>

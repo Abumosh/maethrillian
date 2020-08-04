@@ -8111,7 +8111,7 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<Cost ResourceType="Supplies">75</Cost>
 		<Cost ResourceType="Power">80</Cost>
-		<Pop Type="Unit">0.699999988</Pop>
+		<Pop Type="Unit">0.5</Pop>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
