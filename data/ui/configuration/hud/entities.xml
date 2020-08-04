@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <group>
 	<entry>
-		<key>Forerunner_DisruptionBomb</key>
+		<key>UnscDeflectShield</key>
 		<value>..\textures\hud\icons\entityIcons\powers\Unbrk_EMPTower_icon</value>
 		<value>..\textures\hud\icons\entityIcons\powers\Unbrk_EMPTower_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
