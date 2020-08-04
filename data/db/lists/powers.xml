@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
-	<Power name="Forerunner_DisruptionBomb">
+	<Power name="Forerunner_PowerCancel">
 		<Attributes>
-			<PowerType>Disruption</PowerType>
+			<PowerType></PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="0" />
 			<AutoRecharge>0</AutoRecharge>
@@ -11,6 +11,9 @@
 			<RolloverTextID>5009</RolloverTextID>
 			<PrereqTextID>5009</PrereqTextID>
 			<ShowLimit />
+			<NotAffectedByCeasefire />
+			<IsProcPower />
+			<DontRecordGameStats />
 			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
 			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
 			<IconLocation>1</IconLocation>
@@ -39,7 +42,7 @@
 			</DataLevel>
 		</Attributes>
 	</Power>
-	<Power name="Forerunner_PowerCancel">
+	<Power name="Forerunner_DisruptionBomb">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
 			<SoundName>TurretDrop</SoundName>
