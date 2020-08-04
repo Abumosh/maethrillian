@@ -336,7 +336,7 @@
 		<InfectionMapEntry targetUnit="cov_inf_bruteHonour_01">
 			<Infected weight="50" infectedUnit="fld_custom_strongbrutehammer" infectedSquad="fld_custom_strongbrutehammer" deathByInfectionAnim="Transform" />
 			<Infected weight="50" infectedUnit="fld_custom_strongbrutehammer_t2" infectedSquad="fld_custom_strongbrutehammer_t2" deathByInfectionAnim="Transform" />
-			<Infected weight="50" infectedUnit="fld_custom_strongbrutehammer_t3" infectedSquad="fld_custom_strongbrutehammer_t3" deathByInfectionAnim="Transform" />
+			<Infected weight="15" infectedUnit="fld_custom_strongbrutehammer_t3" infectedSquad="fld_custom_strongbrutehammer_t3" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_eliteCommando_01">
 			<Infected weight="50" infectedUnit="fld_custom_weakswordelite" infectedSquad="fld_custom_weakswordelite" deathByInfectionAnim="Transform" />
@@ -459,9 +459,6 @@
 		<InfectionMapEntry targetUnit="cov_air_phantom_01">
 			<Infected infectedUnit="cov_air_phantom_01" infectedSquad="cov_air_phantom_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_bldg_grunt_shadeturret_01">
-			<Infected infectedUnit="cov_bldg_grunt_shadeturret_01" infectedSquad="cov_bldg_grunt_shadeturret_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_veh_ghost_01">
 			<Infected infectedUnit="flood_veh_infected_ghost_01" infectedSquad="flood_veh_infected_ghost_01" deathByInfectionAnim="HijackLoop" />
 		</InfectionMapEntry>
@@ -478,7 +475,7 @@
 			<Infected infectedUnit="flood_veh_infected_prowler_01_base" infectedSquad="flood_veh_infected_prowler_01_base" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_veh_wraith_01">
-			<Infected infectedUnit="flood_veh_infected_wraith_01_base" infectedSquad="flood_veh_infected_wraith_01_base_base" deathByInfectionAnim="Transform" />
+			<Infected infectedUnit="flood_veh_infected_wraith_01_base" infectedSquad="flood_veh_infected_wraith_01_base" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_veh_wraith_01_mp_fear">
 			<Infected infectedUnit="flood_veh_infected_wraith_01_base" infectedSquad="flood_veh_infected_wraith_01_base" deathByInfectionAnim="Transform" />
@@ -512,9 +509,6 @@
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_air_vulture_01">
 			<Infected infectedUnit="unsc_air_vulture_01" infectedSquad="unsc_air_vulture_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="unsc_air_nightingale_01">
-			<Infected infectedUnit="flood_inf_corruptedengineer_01" infectedSquad="flood_inf_corruptedengineer_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_air_serina_pegasus_01">
 			<Infected infectedUnit="unsc_air_serina_pegasus_01" infectedSquad="unsc_air_serina_pegasus_01" deathByInfectionAnim="Transform" />
