@@ -101,28 +101,28 @@
 		<Param Name="HordeEnemyBaseDamageTaken" Type="float" Value="6" />
 		<Param Name="HordeEnemyBaseDamageTakenMultiplierPerInc" Type="float" Value="0.899999976" />
 		<Param Name="HordeEnemyBaseDamageTakenStageUp" Type="float" Value="0" />
-		<Param Name="HordeCoopEnemyExtraBaseDamagePerPlayer" Type="float" Value="0.100000001" />
+		<Param Name="HordeCoopEnemyExtraBaseDamagePerPlayer" Type="float" Value="30.100000001" />
 		<Param Name="HordeCoopEnemyExtraBaseDamageAdditionPerIncPerPlayer" Type="float" Value="0" />
 		<Param Name="HordeCoopEnemyReducedBaseDamageTakenPerPlayer" Type="float" Value="1" />
 		<Param Name="HordeCoopEnemyReducedBaseDamageTakenMultiplierPerIncPerPlayer" Type="float" Value="0" />
 		<Param Name="HordeScorePerCaptureZoneHoldTick" Type="int" Value="25" />
-		<Param Name="HordeScoreEnergyManaPickupRatio" Type="float" Value="5" />
-		<Param Name="HordeScoreWaveCompleteMultiplier" Type="int" Value="1000" />
-		<Param Name="HordeScoreWaveClearBonusRatio" Type="float" Value="3" />
-		<Param Name="HordeScoreEnergySurplusBonusRatio" Type="float" Value="5" />
-		<Param Name="HordeScoreBossWaveMultiplier" Type="int" Value="4" />
+		<Param Name="HordeScoreEnergyManaPickupRatio" Type="float" Value="0" />
+		<Param Name="HordeScoreWaveCompleteMultiplier" Type="int" Value="0" />
+		<Param Name="HordeScoreWaveClearBonusRatio" Type="float" Value="0" />
+		<Param Name="HordeScoreEnergySurplusBonusRatio" Type="float" Value="0" />
+		<Param Name="HordeScoreBossWaveMultiplier" Type="int" Value="0" />
 		<Param Name="HordeScoreEnergyStageMultiplier" Type="int" Value="1" />
 		<Param Name="HordeScoreEnergyStageIncrementer" Type="int" Value="1" />
 		<Param Name="HordeScoreStageMultiplier" Type="float" Value="1" />
 		<Param Name="HordeScoreStageMultiplierIncrementer" Type="float" Value="1" />
 		<Param Name="HordeScoreStageSkipZero" Type="bool" Value="true" />
-		<Param Name="HordeScoreTotalDominationMultiplier" Type="int" Value="4" />
-		<Param Name="HordeScorePerfectClearMultiplier" Type="int" Value="2" />
-		<Param Name="HordeEnemyT1ScorePerKill" Type="float" Value="100" />
-		<Param Name="HordeEnemyT2ScorePerKill" Type="float" Value="200" />
-		<Param Name="HordeEnemyT2bScorePerKill" Type="float" Value="250" />
-		<Param Name="HordeEnemyT3ScorePerKill" Type="float" Value="300" />
-		<Param Name="HordeEnemyT4ScorePerKill" Type="float" Value="600" />
+		<Param Name="HordeScoreTotalDominationMultiplier" Type="int" Value="0" />
+		<Param Name="HordeScorePerfectClearMultiplier" Type="int" Value="0" />
+		<Param Name="HordeEnemyT1ScorePerKill" Type="float" Value="1" />
+		<Param Name="HordeEnemyT2ScorePerKill" Type="float" Value="1" />
+		<Param Name="HordeEnemyT2bScorePerKill" Type="float" Value="1" />
+		<Param Name="HordeEnemyT3ScorePerKill" Type="float" Value="1" />
+		<Param Name="HordeEnemyT4ScorePerKill" Type="float" Value="1" />
 		<Param Name="HordeMaxSquadSlicePercent" Type="float" Value="0.75" />
 		<Param Name="HordeT1SpawnCount" Type="int" Value="6" />
 		<Param Name="HordeT1WaveInterval" Type="int" Value="2" />
@@ -139,9 +139,9 @@
 		<Param Name="HordeT4SpawnCount" Type="int" Value="4" />
 		<Param Name="HordeT4WaveInterval" Type="int" Value="5" />
 		<Param Name="HordeT4GrowthPerInterval" Type="int" Value="1" />
-		<Param Name="HordeCoopAdditionalT1SpawnCountPerPlayer" Type="int" Value="3" />
+		<Param Name="HordeCoopAdditionalT1SpawnCountPerPlayer" Type="int" Value="30" />
 		<Param Name="HordeCoopAdditionalT1GrowthPerIntervalPerPlayer" Type="int" Value="1" />
-		<Param Name="HordeCoopAdditionalT2SpawnCountPerPlayer" Type="int" Value="3" />
+		<Param Name="HordeCoopAdditionalT2SpawnCountPerPlayer" Type="int" Value="30" />
 		<Param Name="HordeCoopAdditionalT2GrowthPerIntervalPerPlayer" Type="int" Value="1" />
 		<Param Name="HordeCoopAdditionalT2bSpawnCountPerPlayer" Type="int" Value="-2" />
 		<Param Name="HordeCoopAdditionalT2bGrowthPerIntervalPerPlayer" Type="int" Value="1" />
@@ -149,7 +149,7 @@
 		<Param Name="HordeCoopAdditionalT3GrowthPerIntervalPerPlayer" Type="int" Value="1" />
 		<Param Name="HordeCoopAdditionalT4SpawnCountPerPlayer" Type="int" Value="0" />
 		<Param Name="HordeCoopAdditionalT4GrowthPerIntervalPerPlayer" Type="int" Value="1" />
-		<Param Name="HordeTrainingMaxWave" Type="int" Value="12" />
+		<Param Name="HordeTrainingMaxWave" Type="int" Value="5" />
 		<Param Name="HordeTrainingT1SpawnCount" Type="int" Value="3" />
 		<Param Name="HordeTrainingT1WaveInterval" Type="int" Value="1" />
 		<Param Name="HordeTrainingT1GrowthPerInterval" Type="int" Value="1" />
