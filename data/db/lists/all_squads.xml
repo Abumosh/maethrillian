@@ -6877,8 +6877,8 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<BuildPoints>25</BuildPoints>
 		<Pop Type="Unit">4</Pop>
-		<Cost ResourceType="Supplies">250</Cost>
-		<Cost ResourceType="Power">30</Cost>
+		<Cost ResourceType="Supplies">200</Cost>
+		<Cost ResourceType="Power">15</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -7773,8 +7773,8 @@
 		<ActiveAbilityType>ShatterMissile</ActiveAbilityType>
 		<BuildPoints>30</BuildPoints>
 		<Pop Type="Unit">4</Pop>
-		<Cost ResourceType="Supplies">250</Cost>
-		<Cost ResourceType="Power">100</Cost>
+		<Cost ResourceType="Supplies">200</Cost>
+		<Cost ResourceType="Power">80</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,4.30499983,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -7917,6 +7917,9 @@
 	<Squad name="unsc_air_vulture_01_mp" parent_element="unsc_air_vulture_01_base" dbid="14030362448463887195">
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+		<Cost ResourceType="Supplies">750</Cost>
+		<Cost ResourceType="Power">100</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
 	</Squad>
 	<Squad name="unsc_air_vulture_01_sp" parent_element="unsc_air_vulture_01_base" dbid="14024728550882069381">
 		<DazeResist>0.25</DazeResist>

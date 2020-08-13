@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>SpartanLaser</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>912</DamagePerSecond>
+		<DamagePerSecond>545</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
@@ -17,20 +17,22 @@
 		<TargetPriority type="Building">2</TargetPriority>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Torso</Hardpoint>
-		<Hitbox>
-			<Type>Circle</Type>
-			<Radius>3</Radius>
-			<DamageRatio>100</DamageRatio>
-			<Origin>Target</Origin>
-			<FriendlyFire>false</FriendlyFire>
-		</Hitbox>
-		<Hitbox>
-			<Type>Circle</Type>
-			<Radius>6</Radius>
-			<DamageRatio>50</DamageRatio>
-			<Origin>Target</Origin>
-			<FriendlyFire>false</FriendlyFire>
-		</Hitbox>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>0.5</Radius>
+				<DamageRatio>105</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0.400000006</PostAttackCooldownMin>
@@ -56,15 +58,15 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>3</Radius>
-				<DamageRatio>100</DamageRatio>
+				<Radius>0.5</Radius>
+				<DamageRatio>105</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>6</Radius>
-				<DamageRatio>50</DamageRatio>
+				<Radius>4</Radius>
+				<DamageRatio>60</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>

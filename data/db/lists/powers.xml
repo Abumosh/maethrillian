@@ -7193,7 +7193,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Pop type="Unit">2</Pop>
 			<Cost Supplies="400" Power="0" />
-			<AutoRecharge>90000</AutoRecharge>
+			<AutoRecharge>6000</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -7309,7 +7309,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Pop type="Unit">0</Pop>
 			<Cost Supplies="300" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>90000</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -7367,7 +7367,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Pop type="Unit">0</Pop>
 			<Cost Supplies="400" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>90000</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -35395,14 +35395,14 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">15</Data>
+				<Data type="float" name="AreaRadius">20</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">20</Data>
-				<Data type="float" name="SlowModifier">1.14999998</Data>
-				<Data type="float" name="DamageDealtModifier">1.20000005</Data>
+				<Data type="float" name="BuffDuration">25</Data>
+				<Data type="float" name="SlowModifier">1.25</Data>
+				<Data type="float" name="DamageDealtModifier">1.14999998</Data>
 				<Data type="bool" name="ProcPowerOnSquadDeath">true</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
@@ -35494,13 +35494,13 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">22</Data>
+				<Data type="float" name="AreaRadius">30</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">20</Data>
-				<Data type="float" name="SlowModifier">1.14999998</Data>
+				<Data type="float" name="BuffDuration">40</Data>
+				<Data type="float" name="SlowModifier">1.29999995</Data>
 				<Data type="float" name="DamageDealtModifier">1.25</Data>
 				<Data type="bool" name="ProcPowerOnSquadDeath">true</Data>
 				<Data type="sound" name="HudUpSound" />
@@ -35592,14 +35592,14 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">29</Data>
+				<Data type="float" name="AreaRadius">40</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">20</Data>
-				<Data type="float" name="SlowModifier">1.14999998</Data>
-				<Data type="float" name="DamageDealtModifier">1.29999995</Data>
+				<Data type="float" name="BuffDuration">55</Data>
+				<Data type="float" name="SlowModifier">1.35000002</Data>
+				<Data type="float" name="DamageDealtModifier">1.35000002</Data>
 				<Data type="bool" name="ProcPowerOnSquadDeath">true</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />

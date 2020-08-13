@@ -251,11 +251,11 @@
 			<Radius>25</Radius>
 			<Tier1Buff>
 				<TotalCorruptionSizeToConsume>1</TotalCorruptionSizeToConsume>
-				<BuffParams BuffType="CorruptionConsume" SlowModifier="1.20000005" DamageMitigationScalar="0.600000024" DamageDealtModifier="2.1500001" BuffActivateFX="vfx_episode2_Units_GrenadierSiphonBuff1">12</BuffParams>
+				<BuffParams BuffType="CorruptionConsume" SlowModifier="1.20000005" DamageMitigationScalar="0.649999976" DamageDealtModifier="2.1500001" BuffActivateFX="vfx_episode2_Units_GrenadierSiphonBuff1">12</BuffParams>
 			</Tier1Buff>
 			<Tier2Buff>
 				<TotalCorruptionSizeToConsume>10</TotalCorruptionSizeToConsume>
-				<BuffParams BuffType="CorruptionConsume" SlowModifier="1.20000005" DamageMitigationScalar="0.600000024" DamageDealtModifier="2.29999995" BuffActivateFX="vfx_episode2_Units_GrenadierSiphonBuff2" OverwritesSelf="true">25</BuffParams>
+				<BuffParams BuffType="CorruptionConsume" SlowModifier="1.20000005" DamageMitigationScalar="0.649999976" DamageDealtModifier="2.29999995" BuffActivateFX="vfx_episode2_Units_GrenadierSiphonBuff2" OverwritesSelf="true">25</BuffParams>
 			</Tier2Buff>
 		</SpecificData>
 	</Action>

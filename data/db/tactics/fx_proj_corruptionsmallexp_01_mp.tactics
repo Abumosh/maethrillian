@@ -13,7 +13,7 @@
 		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
 		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
 		<ReapplyDamageOverArea />
-		<Shockwave duration="16" />
+		<Shockwave duration="13.6000004" />
 		<AOERadius>6</AOERadius>
 		<Corruption overlap="0.9f" />
 		<Buff targetType="Infantry" buffType="CorruptionDebuff" slowModifier="0.800000012">0.5</Buff>

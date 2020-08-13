@@ -91,7 +91,7 @@
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>8280</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Ultimates</WeaponType>
+		<WeaponType>VultureMissileMP</WeaponType>
 		<Projectile>fx_proj_vultureNuke_01</Projectile>
 		<ImpactEffect size="Large">LargeExplosionImpact</ImpactEffect>
 		<MaxVelocityLead>4</MaxVelocityLead>
