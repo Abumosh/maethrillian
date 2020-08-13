@@ -29310,7 +29310,7 @@
 				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
 				<Data type="float" name="AreaDropExpandingStep">25</Data>
 				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">25</Data>
-				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="bool" name="OneProjectilePerUnit">false</Data>
 				<Data type="bool" name="CanDropOnSquads">true</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
