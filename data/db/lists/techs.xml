@@ -12617,12 +12617,10 @@
 		</Effects>
 	</Tech>
 	<Tech name="unsc_Sniper_upgrade0" type="Normal">
+		<Flag>Shadow</Flag>
 		<DBID>1915</DBID>
 		<DisplayNameID>1082</DisplayNameID>
 		<RolloverTextID>1083</RolloverTextID>
-		<Prereqs>
-			<TechStatus status="Active">unsc_basic</TechStatus>
-		</Prereqs>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
@@ -12640,6 +12638,7 @@
 		</Effects>
 	</Tech>
 	<Tech name="unsc_Sniper_upgrade1" type="Normal">
+		<Flag>Shadow</Flag>
 		<DBID>1915</DBID>
 		<DisplayNameID>27218</DisplayNameID>
 		<RolloverTextID>27219</RolloverTextID>
