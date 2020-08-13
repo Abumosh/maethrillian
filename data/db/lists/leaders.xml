@@ -5,7 +5,7 @@
 	</Leader>
 	<Leader Name="Cutter" Icon="ui\game\icon\unsc\leader\Captain Cutter" GUID="#CEE2C115-EAB0-4183-ACC4-ED8342D9A84F">
 		<Civ>UNSC</Civ>
-		<Tech>unsc_LeaderCutter</Tech>
+		<Tech>covenant_LeaderNoAi</Tech>
 		<NameID>7000</NameID>
 		<RichPresenceID>LEADER_CUTTER</RichPresenceID>
 		<CmsId>1</CmsId>
@@ -16,7 +16,37 @@
 		<Resource Type="Supplies">600</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">400</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_04" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_noai" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_sniper_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_sniper_01_mp</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -40,6 +70,46 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_04" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_jackal_01_mp</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_jackal_01_mp</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
