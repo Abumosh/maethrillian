@@ -248,8 +248,8 @@
 		</Value>
 	</Table>
 	<Table Name="FirefightVeterancyRules">
-		<Value Name="MaxVeterancyLevel" Type="int" Value="99" />
-		<Value Name="DamagePerLevelVeterancyMultiplier" Type="float" Value="1.1" />
+		<Value Name="MaxVeterancyLevel" Type="int" Value="5" />
+		<Value Name="DamagePerLevelVeterancyMultiplier" Type="float" Value="1.2" />
 	</Table>
 	<Table Name="FirefightNexusRules">
 		<Value Name="NexusHitpoints" Type="float" Value="120000" />
