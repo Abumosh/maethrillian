@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TriggerSystem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<EditorData ID="#c17c4c6c-e0aa-4796-9c37-9e0d19672232">
+		<TriggerMappings>
+			<TriggerTemplateMapping X="2566" Y="285" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#25157065-c6d9-408d-90cc-fad32e3eb1a8" Name="\firefight\firefight_helper_hudstartwave.xml" TemplateMappingName="firefight_helper_hudstartwave" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="WaveNumber" SigID="-1" Optional="false" Type="Integer" BindID="#686dae49-267b-41e4-b1e8-c3065a05da79">#2af64408-bc75-4cad-92be-f97bdd95000e</InputMapping>
+				<InputMapping Name="WaveName" SigID="-1" Optional="false" Type="String" BindID="#840db0e5-c402-4682-8faa-f781baed5ddb">#2db89914-fa73-48f2-91b2-9e3bdfb7ab89</InputMapping>
+				<InputMapping Name="WaveDesc" SigID="-1" Optional="false" Type="String" BindID="#e0de0544-7fe4-4bc8-86f5-1219db06a680">#aa0f2ce6-9553-4e0d-8d48-d91b2df957be</InputMapping>
+				<InputMapping Name="HumanPlayers" SigID="-1" Optional="false" Type="PlayerList" BindID="#c9bc5ab9-3c77-48cb-a875-26f0d57df010">#d2c1cb5f-fe50-4f27-83d4-c8a2234e574b</InputMapping>
+				<InputMapping Name="WaveIcon" SigID="-1" Optional="true" Type="String" BindID="#a5a39a94-afc8-46bb-8ff3-af93b681e5ab">#c5747d84-fa0c-48ee-b2fb-ae6c5bf14673</InputMapping>
+				<InputMapping Name="IsBonusWave?" SigID="-1" Optional="true" Type="Bool" BindID="#c27578e9-ecce-452c-9568-1a28632a7cf4">#0b11c1f2-837d-59d1-f976-66765d6547b5</InputMapping>
+				<OutputMapping Name="HiddenWaveTimer" SigID="-1" Optional="false" Type="Integer" BindID="#2df2fa59-ef75-4e19-9a82-20df7e0f639e">#fb8565ba-79af-4fd5-8d8e-20b5d3d2d209</OutputMapping>
+				<TriggerInput Name="In" BindID="#db9d010f-00b5-4cb4-be9f-6ef5aa0be13d,Activate" Color="0,197,5" />
+				<TriggerOutput Name="Out" BindID="#50e3db23-ccb9-4660-9041-86a67e74ea3d,Effect.True" Color="0,170,255">#de21ffb2-88f6-4868-9367-51550ac03ad6,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="3706" Y="400" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#37e7cad2-e95c-49c7-bd8e-b08f7948e44b" Name="\firefight\firefight_helper_hudendwave.xml" TemplateMappingName="firefight_helper_hudendwave" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="WaveNumber" SigID="-1" Optional="false" Type="Integer" BindID="#686dae49-267b-41e4-b1e8-c3065a05da79">#2af64408-bc75-4cad-92be-f97bdd95000e</InputMapping>
+				<InputMapping Name="WaveTimer" SigID="-1" Optional="false" Type="Integer" BindID="#ba220d3f-7202-4c14-83dc-5645110c3a01">#fb8565ba-79af-4fd5-8d8e-20b5d3d2d209</InputMapping>
+				<TriggerInput Name="In" BindID="#db9d010f-00b5-4cb4-be9f-6ef5aa0be13d,Activate" Color="0,197,5" />
+				<TriggerOutput Name="Out" BindID="#50e3db23-ccb9-4660-9041-86a67e74ea3d,Effect.True" Color="0,170,255">#ea078c19-33b2-4701-8b87-fd865cccc5c1,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="2926" Y="574" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#3b4639db-f3d7-403b-888e-6596a5947b5c" Name="\firefight\firefight_helper_hudwaveprogress.xml" TemplateMappingName="HUD Wave Progress" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="AIPlayer" SigID="-1" Optional="false" Type="Player" BindID="#4c1efa59-d43d-438e-a955-9741300f58c8">#056f50f3-de1a-4147-8bdf-ff72c03684e6</InputMapping>
+				<InputMapping Name="SquadsSpawnedThisWave" SigID="-1" Optional="false" Type="SquadList" BindID="#63dcdf18-4316-4c40-83fa-78c67198c29b">#8435094b-a9ea-485f-adf8-d99423f6d18c</InputMapping>
+				<InputMapping Name="SquadsSpawnedThisWaveCount" SigID="-1" Optional="false" Type="Integer" BindID="#9f2e5659-9d03-4f60-b9ef-d2af8ff06ed6">#88009ef9-cc21-498e-9da9-55de460b852c</InputMapping>
+				<TriggerInput Name="In" BindID="#db9d010f-00b5-4cb4-be9f-6ef5aa0be13d,Activate" Color="0,197,5" />
+				<TriggerOutput Name="Out" BindID="#50e3db23-ccb9-4660-9041-86a67e74ea3d,Effect.True" Color="0,170,255" />
+				<TriggerOutput Name="Clear" BindID="#8cd73a50-febd-43a0-a625-5974aa7f3e84,Effect.True" Color="0,255,134">#d72a3381-8fda-4064-b171-9e181c86c061,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="3707" Y="289" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#40865ad8-e262-4392-8617-ef14158f5f24" Name="\firefight\firefight_helper_wavetimeout.xml" TemplateMappingName="Wave Timeout" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="HumanPlayers" SigID="-1" Optional="false" Type="PlayerList" BindID="#214cfc2d-4f82-40cc-9d2e-c556236d8fe7">#d2c1cb5f-fe50-4f27-83d4-c8a2234e574b</InputMapping>
+				<TriggerInput Name="In" BindID="#db9d010f-00b5-4cb4-be9f-6ef5aa0be13d,Activate" Color="0,197,5" />
+				<TriggerOutput Name="Out" BindID="#50e3db23-ccb9-4660-9041-86a67e74ea3d,Effect.True" Color="0,170,255">#37e7cad2-e95c-49c7-bd8e-b08f7948e44b,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="1765" Y="468" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#4780ce68-6f33-4b8a-9bc0-1acde0c2e7bc" Name="\firefight\firefight_helper_calculatenumberofroutestouse.xml" TemplateMappingName="CalculateNumberOfRoutesToUse" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="Cycle" SigID="-1" Optional="false" Type="Integer" BindID="#3614c75d-2d0c-462d-9454-eb4e9dc20fb5">#0781e699-a435-40d8-aec3-db74d5124c3f</InputMapping>
+				<InputMapping Name="PlayerCount" SigID="-1" Optional="false" Type="Integer" BindID="#c902f592-ae24-418b-b878-a29eeacc0fa8">#28ddad46-05a6-47fc-89c2-0d0b115acc1f</InputMapping>
+				<OutputMapping Name="RoutesToUse" SigID="-1" Optional="false" Type="Integer" BindID="#05e3af29-2bef-44ab-9cc1-ead1d2c54845">#f46abe67-b3df-4697-b333-7ab1d1e6de71</OutputMapping>
+				<TriggerInput Name="In" BindID="#db9d010f-00b5-4cb4-be9f-6ef5aa0be13d,Activate" Color="0,197,5" />
+				<TriggerOutput Name="Out" BindID="#50e3db23-ccb9-4660-9041-86a67e74ea3d,Effect.True" Color="0,170,255">#bc2772fb-875a-4de8-983f-d18a097a2d7b,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="910" Y="68" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#64beaaad-16f2-44f5-8030-7609169b790f" Name="\firefight\firefight_helper_wavevalidcheck.xml" TemplateMappingName="Firefight_Helper_WaveValidCheck" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="WaveNumber" SigID="-1" Optional="false" Type="Integer" BindID="#0a215bea-7824-4d02-9edc-0f4e1a14139e">#2af64408-bc75-4cad-92be-f97bdd95000e</InputMapping>
+				<InputMapping Name="WaveStart" SigID="-1" Optional="false" Type="Integer" BindID="#b3b0790a-e2ce-4e61-ac35-0db24df7ff3c">#23a39623-4a17-469c-91b0-18d81fc86341</InputMapping>
+				<InputMapping Name="WaveEnd" SigID="-1" Optional="false" Type="Integer" BindID="#9c55d1d1-45fe-463a-84bb-8445e0a19ff7">#d1ddc517-de67-4877-b715-a638c54ddb63</InputMapping>
+				<TriggerInput Name="In" BindID="#dc8563a2-f35c-4474-b17e-c8a32511ec55,Activate" />
+				<TriggerOutput Name="T" BindID="#4e2f4ebd-d8c3-49df-a62b-5407dd864331,Effect.True" Color="0,94,32">#99857ed6-f0be-4155-926a-545e4ea56290,In;</TriggerOutput>
+				<TriggerOutput Name="F" BindID="#4e2f4ebd-d8c3-49df-a62b-5407dd864331,Effect.False" Color="205,0,0">#3da05e9c-051e-4bd4-8d65-61ea242161c6,Activate;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="1760" Y="1228" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#6d1e98be-0d17-4218-82cc-4a206100860b" Name="\firefight\firefight_helper_calculatedamageout.xml" TemplateMappingName="CalculateDamageOut" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="Cycle" SigID="-1" Optional="false" Type="Integer" BindID="#3614c75d-2d0c-462d-9454-eb4e9dc20fb5">#0781e699-a435-40d8-aec3-db74d5124c3f</InputMapping>
+				<InputMapping Name="CycleAdd" SigID="-1" Optional="true" Type="Integer" BindID="#d124dc49-7eb1-4f2e-a09a-3455d680a8da">#e86854f3-3605-4977-85ef-e5b828eee625</InputMapping>
+				<OutputMapping Name="BaseDamageOut" SigID="-1" Optional="false" Type="Float" BindID="#1734b55e-8354-4ff3-8f51-092ea0268ec9">#3357d36c-c728-48d0-a6d1-b092f9aa6513</OutputMapping>
+				<TriggerInput Name="NewInputTrigger" BindID="#db9d010f-00b5-4cb4-be9f-6ef5aa0be13d,Activate" Color="0,197,5" />
+				<TriggerOutput Name="NewOutputTrigger" BindID="#50e3db23-ccb9-4660-9041-86a67e74ea3d,Effect.True" Color="0,170,255">#c2b3b67a-21c0-4e85-91bc-1eea653278cd,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="3716" Y="657" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#76d6bf18-b441-4857-955a-a2b3c084582d" Name="\firefight\firefight_helper_endcratespawn.xml" TemplateMappingName="firefight_helper_endcratespawn" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="WaveNumber" SigID="-1" Optional="false" Type="Integer" BindID="#3c8961fe-3ff1-40e3-adb6-9ac216ef2540">#2af64408-bc75-4cad-92be-f97bdd95000e</InputMapping>
+				<InputMapping Name="HumanPlayers" SigID="-1" Optional="false" Type="PlayerList" BindID="#d78f5e2f-eaaa-4e39-b09a-916b23b30381">#d2c1cb5f-fe50-4f27-83d4-c8a2234e574b</InputMapping>
+				<TriggerInput Name="In" BindID="#d7681b58-47ea-4227-a0e6-5790e43d992b,Activate" Color="0,94,32" />
+				<TriggerOutput Name="Out" BindID="#1b31fd1b-b19c-419b-a2fe-b215be1acb2e,Effect.True">#eea089fa-0590-4696-8fdc-b16364bd4d90,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="1758" Y="307" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#7b87c00a-d21b-4d87-8548-d25c8a904a2b" Name="\firefight\firefight_returncyclenumber.xml" TemplateMappingName="Return Cycle Number" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="CurrentWave" SigID="-1" Optional="false" Type="Integer" BindID="#a048dc02-a744-43b1-9550-14e4342fb1e6">#2af64408-bc75-4cad-92be-f97bdd95000e</InputMapping>
+				<OutputMapping Name="CurrentCycle" SigID="-1" Optional="false" Type="Integer" BindID="#eac371cc-073e-4790-b0ed-28b09bea6aab">#0781e699-a435-40d8-aec3-db74d5124c3f</OutputMapping>
+				<TriggerInput Name="In" BindID="#3f6bdc93-072b-441b-bf74-c7b6e6047081,Activate" Color="4,179,20">#abc6cd7f-d4ce-4070-b398-51ab4347bbf6,Effect.True;</TriggerInput>
+				<TriggerOutput Name="Out" BindID="#441d6dd4-329d-4a00-b2a7-dcbd479829c6,Effect.True" Color="0,121,255">#4780ce68-6f33-4b8a-9bc0-1acde0c2e7bc,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="1770" Y="886" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#89852e7b-3106-49c2-ad86-d5e1ab6f82b2" Name="\firefight\firefight_helper_calculatewavedeploytime.xml" TemplateMappingName="CalculateWaveDeployTime" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="Wave" SigID="-1" Optional="false" Type="Integer" BindID="#3614c75d-2d0c-462d-9454-eb4e9dc20fb5">#2af64408-bc75-4cad-92be-f97bdd95000e</InputMapping>
+				<InputMapping Name="BaseTime" SigID="-1" Optional="false" Type="Integer" BindID="#2c620cc8-b506-41f0-b7ba-f4d6a98587c3">#14c351bd-a32e-c542-d20f-cca6d1aae08d</InputMapping>
+				<InputMapping Name="WaveAdjustTime" SigID="-1" Optional="false" Type="Integer" BindID="#86494500-948d-45af-83eb-f004b348aaf3">#7979571d-00d8-d9c0-20cb-6df5b079e161</InputMapping>
+				<OutputMapping Name="WaveTime" SigID="-1" Optional="false" Type="Time" BindID="#ed9d8cbf-622b-4568-9bc9-781c399c5fd5">#47a8eab2-22fb-465f-a811-3361895bb06d</OutputMapping>
+				<TriggerInput Name="NewInputTrigger" BindID="#db9d010f-00b5-4cb4-be9f-6ef5aa0be13d,Activate" Color="0,197,5" />
+				<TriggerOutput Name="NewOutputTrigger" BindID="#50e3db23-ccb9-4660-9041-86a67e74ea3d,Effect.True" Color="0,170,255">#8f4ab668-24e4-4065-87b1-572716677db0,NewInputTrigger;#8f4ab668-24e4-4065-87b1-572716677db0,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="1757" Y="1067" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#8f4ab668-24e4-4065-87b1-572716677db0" Name="\firefight\firefight_helper_calculatedamagein.xml" TemplateMappingName="CalculateDamageIn" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="Cycle" SigID="-1" Optional="false" Type="Integer" BindID="#3614c75d-2d0c-462d-9454-eb4e9dc20fb5">#0781e699-a435-40d8-aec3-db74d5124c3f</InputMapping>
+				<InputMapping Name="CycleAdd" SigID="-1" Optional="true" Type="Integer" BindID="#619d87c4-3ad3-4c74-be74-7214ed01dffd">#8f6aa47e-2e33-4f15-9cd6-54d9cf0b15ff</InputMapping>
+				<OutputMapping Name="BaseDamageIn" SigID="-1" Optional="false" Type="Float" BindID="#1734b55e-8354-4ff3-8f51-092ea0268ec9">#811b7092-56e6-4512-a504-942f0eb86891</OutputMapping>
+				<TriggerInput Name="In" BindID="#db9d010f-00b5-4cb4-be9f-6ef5aa0be13d,Activate" Color="0,197,5" />
+				<TriggerOutput Name="Out" BindID="#50e3db23-ccb9-4660-9041-86a67e74ea3d,Effect.True" Color="0,170,255">#6d1e98be-0d17-4218-82cc-4a206100860b,NewInputTrigger;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="1333" Y="300" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#99857ed6-f0be-4155-926a-545e4ea56290" Name="\firefight\firefight_helper_readwavexmlcomposition.xml" TemplateMappingName="Read Wave XML Composition" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="WaveTable" SigID="-1" Optional="false" Type="String" BindID="#e3384ac3-1dd0-4706-a9e3-197e9748c4f9">#4fad168a-b4e6-4e25-b1cc-23c3502b4489</InputMapping>
+				<OutputMapping Name="Title" SigID="-1" Optional="true" Type="String" BindID="#f45ca4f6-b4be-4a19-9384-25182c27c572">#2db89914-fa73-48f2-91b2-9e3bdfb7ab89</OutputMapping>
+				<OutputMapping Name="Desc" SigID="-1" Optional="true" Type="String" BindID="#4c1d913b-c38e-4199-a401-6b15fd249781">#aa0f2ce6-9553-4e0d-8d48-d91b2df957be</OutputMapping>
+				<OutputMapping Name="Icon" SigID="-1" Optional="true" Type="String" BindID="#f649dc5b-eef3-46fb-aa6c-468bc9b80358">#c5747d84-fa0c-48ee-b2fb-ae6c5bf14673</OutputMapping>
+				<OutputMapping Name="Composition" SigID="-1" Optional="true" Type="ProtoSquadList" BindID="#ceda95fc-a90d-4d55-ba29-52ff978869e9">#e1c13fe6-e2a3-4857-a0a4-1896434e1010</OutputMapping>
+				<TriggerInput Name="In" BindID="#db9d010f-00b5-4cb4-be9f-6ef5aa0be13d,Activate" Color="0,197,5" />
+				<TriggerOutput Name="Out" BindID="#50e3db23-ccb9-4660-9041-86a67e74ea3d,Effect.True" Color="0,170,255">#7b87c00a-d21b-4d87-8548-d25c8a904a2b,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="443" Y="66" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#bb8ccad1-995b-44eb-84ed-2fcc8ec6a27c" Name="\firefight\firefight_helper_readwavexml.xml" TemplateMappingName="Read Wave XML Balance" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="WaveTableIn" SigID="-1" Optional="false" Type="String" BindID="#e3384ac3-1dd0-4706-a9e3-197e9748c4f9">#6594af4f-e502-433f-bc86-e8884a576710</InputMapping>
+				<OutputMapping Name="WaveTableINT" SigID="-1" Optional="true" Type="String" BindID="#d230e368-a2d8-457c-9020-82dcc80d6566">#4fad168a-b4e6-4e25-b1cc-23c3502b4489</OutputMapping>
+				<OutputMapping Name="StartWave" SigID="-1" Optional="true" Type="Integer" BindID="#e7334a65-85a4-417c-9f48-bc3e0553770d">#23a39623-4a17-469c-91b0-18d81fc86341</OutputMapping>
+				<OutputMapping Name="EndWave" SigID="-1" Optional="true" Type="Integer" BindID="#c81ddea6-b456-47e7-b190-bd8910d0a3ff">#d1ddc517-de67-4877-b715-a638c54ddb63</OutputMapping>
+				<OutputMapping Name="WaveSizeMultiplier" SigID="-1" Optional="true" Type="Float" BindID="#ad57b9ac-d89f-4edb-9ee1-d644e4726690">#49fdb501-cb84-4d7a-9b9f-b97e00d85910</OutputMapping>
+				<OutputMapping Name="WaveAtkMove" SigID="-1" Optional="true" Type="Float" BindID="#894c331d-8279-41f1-ac03-75319e66aa53">#a6837c07-6e7e-4caf-888a-88c129c0cdf4</OutputMapping>
+				<OutputMapping Name="WaveKeepComposition" SigID="-1" Optional="true" Type="Bool" BindID="#7fa1ba07-7461-41b2-8245-bedde23011b3">#8f8342c0-5cc7-7fc4-67b5-a263ebfc2edb</OutputMapping>
+				<OutputMapping Name="WaveDamInAdd" SigID="-1" Optional="true" Type="Integer" BindID="#1440f6b1-64ff-444c-8dc1-8233cbb00936">#8f6aa47e-2e33-4f15-9cd6-54d9cf0b15ff</OutputMapping>
+				<OutputMapping Name="WaveDamOutAdd" SigID="-1" Optional="true" Type="Integer" BindID="#ad87f4f4-c2a5-47b6-9840-1bc787fed6a2">#e86854f3-3605-4977-85ef-e5b828eee625</OutputMapping>
+				<OutputMapping Name="WaveBaseDeployTime" SigID="-1" Optional="true" Type="Integer" BindID="#da76ab96-2241-40f7-a391-f7d99999f3ad">#14c351bd-a32e-c542-d20f-cca6d1aae08d</OutputMapping>
+				<OutputMapping Name="WaveDeployTimeInc" SigID="-1" Optional="true" Type="Integer" BindID="#8fa712cf-efc9-457a-9c7e-9839a068d799">#7979571d-00d8-d9c0-20cb-6df5b079e161</OutputMapping>
+				<TriggerInput Name="In" BindID="#db9d010f-00b5-4cb4-be9f-6ef5aa0be13d,Activate" Color="0,197,5" />
+				<TriggerOutput Name="Out" BindID="#50e3db23-ccb9-4660-9041-86a67e74ea3d,Effect.True" Color="0,170,255">#64beaaad-16f2-44f5-8030-7609169b790f,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="1766" Y="623" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#bc2772fb-875a-4de8-983f-d18a097a2d7b" Name="\firefight\firefight_helper_calculatetimestospawn.xml" TemplateMappingName="firefight_helper_calculatetimestospawn" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="WaveOrCycleNum" SigID="-1" Optional="false" Type="Integer" BindID="#3614c75d-2d0c-462d-9454-eb4e9dc20fb5">#2af64408-bc75-4cad-92be-f97bdd95000e</InputMapping>
+				<InputMapping Name="PlayerCount" SigID="-1" Optional="false" Type="Integer" BindID="#c902f592-ae24-418b-b878-a29eeacc0fa8">#28ddad46-05a6-47fc-89c2-0d0b115acc1f</InputMapping>
+				<InputMapping Name="WaveMulti" SigID="-1" Optional="true" Type="Float" BindID="#3bcefdbd-325b-4065-acb3-019f0231e6a1">#49fdb501-cb84-4d7a-9b9f-b97e00d85910</InputMapping>
+				<InputMapping Name="OverrideBaseValues?" SigID="-1" Optional="true" Type="Bool" BindID="#20c9efa1-71fe-4f88-b7b9-c855f1a0d110">#dd322b1a-58d4-2a77-f725-8c0c2ca0447a</InputMapping>
+				<InputMapping Name="OverrideBaseSize" SigID="-1" Optional="true" Type="Integer" BindID="#a9cadaba-9ae6-4d59-8033-da477cb74478">#803f6249-a658-f132-aea1-162899a87aee</InputMapping>
+				<InputMapping Name="OverrideSizeIncrease" SigID="-1" Optional="true" Type="Integer" BindID="#9263bc04-265b-4f5e-9c1d-bf10988dec2e">#08681764-3936-8ccc-d89d-191edd11a180</InputMapping>
+				<InputMapping Name="AIPlayer" SigID="-1" Optional="false" Type="Player" BindID="#09e98b03-d805-4a95-bcf9-54de7df745cb">#056f50f3-de1a-4147-8bdf-ff72c03684e6</InputMapping>
+				<OutputMapping Name="TimesToSpawn" SigID="-1" Optional="false" Type="Integer" BindID="#05e3af29-2bef-44ab-9cc1-ead1d2c54845">#88009ef9-cc21-498e-9da9-55de460b852c</OutputMapping>
+				<TriggerInput Name="In" BindID="#db9d010f-00b5-4cb4-be9f-6ef5aa0be13d,Activate" Color="0,197,5" />
+				<TriggerOutput Name="Out" BindID="#50e3db23-ccb9-4660-9041-86a67e74ea3d,Effect.True" Color="0,170,255">#89852e7b-3106-49c2-ad86-d5e1ab6f82b2,NewInputTrigger;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="2158" Y="286" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#c2b3b67a-21c0-4e85-91bc-1eea653278cd" Name="\firefight\firefight_wave_intermission.xml" TemplateMappingName="Wave Intermission" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="HumanPlayers" SigID="-1" Optional="false" Type="PlayerList" BindID="#fffcd4d0-2ccb-4203-9cd4-72eaa062ecce">#d2c1cb5f-fe50-4f27-83d4-c8a2234e574b</InputMapping>
+				<InputMapping Name="WaveNumber" SigID="-1" Optional="false" Type="Integer" BindID="#72287871-0dd6-45dc-82b2-6e492cfabd70">#2af64408-bc75-4cad-92be-f97bdd95000e</InputMapping>
+				<InputMapping Name="IsBonusWave?" SigID="-1" Optional="true" Type="Bool" BindID="#80104b06-e088-4872-ae19-de7375f3ffc5">#9456f7b0-5aae-9e1d-ecdd-2607edb9d69b</InputMapping>
+				<TriggerInput Name="In" BindID="#db9d010f-00b5-4cb4-be9f-6ef5aa0be13d,Activate" Color="0,197,5" />
+				<TriggerOutput Name="Out" BindID="#50e3db23-ccb9-4660-9041-86a67e74ea3d,Effect.True" Color="0,170,255">#25157065-c6d9-408d-90cc-fad32e3eb1a8,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="56" Y="64" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#c8af3901-bf97-401b-846a-3b8b457789b7" Name="\firefight\firefight_wave_enter.xml" TemplateMappingName="Firefight Wave Enter" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<OutputMapping Name="WaveNumber" SigID="-1" Optional="false" Type="Integer" BindID="#8c09ede6-3ce3-48da-9787-be8cf7993823">#2af64408-bc75-4cad-92be-f97bdd95000e</OutputMapping>
+				<OutputMapping Name="AIWaveSpawnLocs" SigID="-1" Optional="false" Type="VectorList" BindID="#4811e0c9-f136-4fb5-9d41-f1484a680588">#2cddb777-01e4-4e25-9942-736b0aab8dec</OutputMapping>
+				<OutputMapping Name="CriticalTargetBuilding" SigID="-1" Optional="false" Type="Squad" BindID="#2465b2f5-7ff9-400b-a9b0-5cebcaef089d">#68903dce-7441-48aa-8ec8-fc5c19650cef</OutputMapping>
+				<OutputMapping Name="CriticalTargetLocation" SigID="-1" Optional="false" Type="Vector" BindID="#9600c2b1-38e0-4b56-8082-bacd93b5e676">#c306d34c-9237-4bd3-a494-1f84c4084194</OutputMapping>
+				<OutputMapping Name="AIPlayer" SigID="-1" Optional="false" Type="Player" BindID="#06fbcdff-1dc5-4d42-9c61-6c8bbf4ae4b7">#056f50f3-de1a-4147-8bdf-ff72c03684e6</OutputMapping>
+				<OutputMapping Name="HumanPlayers" SigID="-1" Optional="false" Type="PlayerList" BindID="#84b2c2ca-0924-4c24-8cc9-cadb61a012e1">#d2c1cb5f-fe50-4f27-83d4-c8a2234e574b</OutputMapping>
+				<OutputMapping Name="HumanPlayerCount" SigID="-1" Optional="false" Type="Integer" BindID="#4e86cece-51d6-4b5c-b335-53f1592c5167">#28ddad46-05a6-47fc-89c2-0d0b115acc1f</OutputMapping>
+				<OutputMapping Name="CivInt" SigID="-1" Optional="false" Type="Integer" BindID="#660cb6c6-8508-45cc-a48e-5fca585494ab">#36f78521-d260-4ae5-971b-228eb6bd3f28</OutputMapping>
+				<TriggerOutput Name="Out" BindID="#c475a970-477f-4ae7-b851-b8a3ab981a96,Effect.True">#bb8ccad1-995b-44eb-84ed-2fcc8ec6a27c,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="2927" Y="713" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#d72a3381-8fda-4064-b171-9e181c86c061" Name="\firefight\score\firefight_calculatewaveclearscores.xml" TemplateMappingName="firefight_calculatewaveclearscores" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="HumanPlayers" SigID="-1" Optional="false" Type="PlayerList" BindID="#8b326c72-a827-436f-abcc-c5850679796a">#d2c1cb5f-fe50-4f27-83d4-c8a2234e574b</InputMapping>
+				<InputMapping Name="WaveNo" SigID="-1" Optional="false" Type="Integer" BindID="#f41e6b1c-bf13-4980-89e9-5c9b257183f3">#2af64408-bc75-4cad-92be-f97bdd95000e</InputMapping>
+				<TriggerInput Name="In" BindID="#a21e51b3-4f80-41df-b43c-cd283d14a8ce,Activate" Color="20,206,64" />
+				<TriggerOutput Name="Out" BindID="#cabc4c0d-52fa-4c7e-a48b-586089606ab6,Effect.True" Color="35,191,207" />
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="2925" Y="285" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#de21ffb2-88f6-4868-9367-51550ac03ad6" Name="\firefight\firefight_helper_spawnsquadsinmultiplelanes.xml" TemplateMappingName="firefight_helper_spawnsquadsinmultiplelanes" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="PathsToUse" SigID="-1" Optional="false" Type="Integer" BindID="#92531689-87a2-4232-b56e-edf2fe076b4a">#f46abe67-b3df-4697-b333-7ab1d1e6de71</InputMapping>
+				<InputMapping Name="HumanPlayers" SigID="-1" Optional="false" Type="PlayerList" BindID="#7052da3b-cefc-4348-a0fd-f60985417562">#d2c1cb5f-fe50-4f27-83d4-c8a2234e574b</InputMapping>
+				<InputMapping Name="AIPlayer" SigID="-1" Optional="false" Type="Player" BindID="#bcae2f2c-ffe7-40de-9a13-31360e619ca0">#056f50f3-de1a-4147-8bdf-ff72c03684e6</InputMapping>
+				<InputMapping Name="TotalSquadsToSpawn" SigID="-1" Optional="false" Type="Integer" BindID="#3cc51966-ff2a-4d11-b798-9e125fb22cae">#88009ef9-cc21-498e-9da9-55de460b852c</InputMapping>
+				<InputMapping Name="TimeToSpawnOver" SigID="-1" Optional="false" Type="Time" BindID="#37fcd89c-4820-437b-a834-dbd3695b5400">#47a8eab2-22fb-465f-a811-3361895bb06d</InputMapping>
+				<InputMapping Name="ProtoSquadListToSpawn" SigID="-1" Optional="false" Type="ProtoSquadList" BindID="#7214f2be-38d3-46eb-b535-24cd79ede456">#e1c13fe6-e2a3-4857-a0a4-1896434e1010</InputMapping>
+				<InputMapping Name="SquadAtkMoveChance" SigID="-1" Optional="false" Type="Float" BindID="#f135577b-810e-4a88-abf4-f480e63e7c40">#a6837c07-6e7e-4caf-888a-88c129c0cdf4</InputMapping>
+				<InputMapping Name="SquadDamIn" SigID="-1" Optional="false" Type="Float" BindID="#d31f06fb-ff75-4de3-a230-2c99dbbb5f56">#811b7092-56e6-4512-a504-942f0eb86891</InputMapping>
+				<InputMapping Name="SquadDamOut" SigID="-1" Optional="false" Type="Float" BindID="#06ba8e0c-8a8c-4717-8509-7713f4ca0c94">#3357d36c-c728-48d0-a6d1-b092f9aa6513</InputMapping>
+				<InputMapping Name="KeepCompositionsTogether?" SigID="-1" Optional="false" Type="Bool" BindID="#047034fd-6daa-4bea-abd7-0d4474ebd72f">#8f8342c0-5cc7-7fc4-67b5-a263ebfc2edb</InputMapping>
+				<OutputMapping Name="SquadsSpawned" SigID="-1" Optional="false" Type="SquadList" BindID="#3c38dc18-352f-466d-9c64-1737565c7d8a">#8435094b-a9ea-485f-adf8-d99423f6d18c</OutputMapping>
+				<TriggerInput Name="In" BindID="#f76826d6-35e5-4dd9-bd46-1c512fb986f4,Activate" Color="4,179,20" />
+				<TriggerOutput Name="Out" BindID="#ec34b681-6084-4008-9ffe-306ba9cf933a,Effect.True" Color="0,121,255">#3b4639db-f3d7-403b-888e-6596a5947b5c,In;#40865ad8-e262-4392-8617-ef14158f5f24,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="3710" Y="526" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#ea078c19-33b2-4701-8b87-fd865cccc5c1" Name="\firefight\score\firefight_calculatewavescores.xml" TemplateMappingName="firefight_calculatewavescores" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="HumanPlayers" SigID="-1" Optional="false" Type="PlayerList" BindID="#8b326c72-a827-436f-abcc-c5850679796a">#d2c1cb5f-fe50-4f27-83d4-c8a2234e574b</InputMapping>
+				<InputMapping Name="WaveNo" SigID="-1" Optional="false" Type="Integer" BindID="#f41e6b1c-bf13-4980-89e9-5c9b257183f3">#2af64408-bc75-4cad-92be-f97bdd95000e</InputMapping>
+				<TriggerInput Name="In" BindID="#a21e51b3-4f80-41df-b43c-cd283d14a8ce,Activate" Color="20,206,64" />
+				<TriggerOutput Name="Out" BindID="#cabc4c0d-52fa-4c7e-a48b-586089606ab6,Effect.True" Color="35,191,207">#76d6bf18-b441-4857-955a-a2b3c084582d,In;</TriggerOutput>
+			</TriggerTemplateMapping>
+			<TriggerTemplateMapping X="4164" Y="68" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#eea089fa-0590-4696-8fdc-b16364bd4d90" Name="\firefight\firefight_wave_exit.xml" TemplateMappingName="Firefight Wave Exit" Image="" SizeX="150" SizeY="150" Minimized="false" CommentOut="false" Obsolete="false" DoNotUse="false">
+				<InputMapping Name="WaveNumber" SigID="-1" Optional="false" Type="Integer" BindID="#05425e1b-e4e7-4f65-a262-a43f2d1d053d">#2af64408-bc75-4cad-92be-f97bdd95000e</InputMapping>
+				<InputMapping Name="AIWaveSpawnLocs" SigID="-1" Optional="false" Type="VectorList" BindID="#33123a42-a04e-44b0-81d9-f9ea88303378">#2cddb777-01e4-4e25-9942-736b0aab8dec</InputMapping>
+				<InputMapping Name="CriticalTargetBuilding" SigID="-1" Optional="false" Type="Squad" BindID="#7f1b0a45-3f37-4404-89e5-1a8090fc0e4e">#68903dce-7441-48aa-8ec8-fc5c19650cef</InputMapping>
+				<InputMapping Name="CriticalTargetLocation" SigID="-1" Optional="false" Type="Vector" BindID="#75b57d2f-1f19-4af2-97a6-8e63326ba014">#c306d34c-9237-4bd3-a494-1f84c4084194</InputMapping>
+				<InputMapping Name="AIPlayer" SigID="-1" Optional="false" Type="Player" BindID="#73ae67b0-25bb-4ad8-8f98-0ed8cb98e3a3">#056f50f3-de1a-4147-8bdf-ff72c03684e6</InputMapping>
+				<InputMapping Name="RemoveScriptWhenDone?" SigID="-1" Optional="false" Type="Bool" BindID="#e6b0921a-38a5-4c2f-9183-da6ad004ba61">#a5178dad-fd4f-42ad-9243-cb7fffa28a2b</InputMapping>
+				<InputMapping Name="ThisCyclesCiv" SigID="-1" Optional="false" Type="Integer" BindID="#4e1dde7e-22a3-4f50-a2d0-126bf1264ed0">#36f78521-d260-4ae5-971b-228eb6bd3f28</InputMapping>
+				<TriggerInput Name="In" BindID="#77b982b8-7151-4c0c-acbb-c3a294230a54,Activate" Color="19,167,16">#652da4f7-2c5c-4131-86f0-264d144fac69,Effect.True;</TriggerInput>
+				<TriggerInput Name="Skip" BindID="#e57c7ad6-dea9-41f9-93c2-4b4df7e07d9a,Activate" Color="139,0,0">#3da05e9c-051e-4bd4-8d65-61ea242161c6,Effect.True;</TriggerInput>
+				<TriggerInput Name="Bonus" BindID="#5b2c9dbb-24ee-45e7-857e-bbd3145b4449,Activate" Color="0,131,221" />
+			</TriggerTemplateMapping>
+		</TriggerMappings>
+		<UIData>
+			<NoteNodes>
+				<NoteNodeXml X="2117" Y="237" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#ffffffff-ffff-ffff-ffff-ffffffffffff" Name="" Width="300" Height="30">
+					<Title>INIT Hud</Title>
+					<Description />
+				</NoteNodeXml>
+				<NoteNodeXml X="1780" Y="193" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#ffffffff-ffff-ffff-ffff-ffffffffffff" Name="" Width="263" Height="32">
+					<Title>Do Balance/Progression numbers</Title>
+					<Description />
+				</NoteNodeXml>
+				<NoteNodeXml X="2923" Y="242" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#ffffffff-ffff-ffff-ffff-ffffffffffff" Name="" Width="325" Height="30">
+					<Title>Spawn Grunts</Title>
+					<Description />
+				</NoteNodeXml>
+				<NoteNodeXml X="3692" Y="238" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#ffffffff-ffff-ffff-ffff-ffffffffffff" Name="" Width="325" Height="30">
+					<Title>End Condition</Title>
+					<Description />
+				</NoteNodeXml>
+				<NoteNodeXml X="1753" Y="413" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#ffffffff-ffff-ffff-ffff-ffffffffffff" Name="" Width="325" Height="30">
+					<Title>Calculate Number Of Units</Title>
+					<Description />
+				</NoteNodeXml>
+				<NoteNodeXml X="1747" Y="245" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#ffffffff-ffff-ffff-ffff-ffffffffffff" Name="" Width="325" Height="30">
+					<Title>Get Cycle</Title>
+					<Description />
+				</NoteNodeXml>
+				<NoteNodeXml X="1317" Y="247" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#ffffffff-ffff-ffff-ffff-ffffffffffff" Name="" Width="325" Height="30">
+					<Title>INIT Wave</Title>
+					<Description />
+				</NoteNodeXml>
+				<NoteNodeXml X="1762" Y="845" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#ffffffff-ffff-ffff-ffff-ffffffffffff" Name="" Width="325" Height="30">
+					<Title>Calculate Time To Spawn Units Over</Title>
+					<Description />
+				</NoteNodeXml>
+				<NoteNodeXml X="1758" Y="1027" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#ffffffff-ffff-ffff-ffff-ffffffffffff" Name="" Width="325" Height="30">
+					<Title>Damage In</Title>
+					<Description />
+				</NoteNodeXml>
+				<NoteNodeXml X="1752" Y="1188" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#ffffffff-ffff-ffff-ffff-ffffffffffff" Name="" Width="325" Height="30">
+					<Title>Damage Out</Title>
+					<Description />
+				</NoteNodeXml>
+				<NoteNodeXml X="3695" Y="193" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#ffffffff-ffff-ffff-ffff-ffffffffffff" Name="" Width="325" Height="30">
+					<Title>End Condition Gate Keeper</Title>
+					<Description />
+				</NoteNodeXml>
+			</NoteNodes>
+			<Groups />
+		</UIData>
+		<TriggerSystem Name="WaveVehScorps.triggerscript" Type="TriggerScript" Tags="" External="false">
+			<TriggerVars>
+				<TriggerVar ID="#c306d34c-9237-4bd3-a494-1f84c4084194" Type="Vector" Name="CriticalTargetLocation" IsNull="false" />
+				<TriggerVar ID="#2cddb777-01e4-4e25-9942-736b0aab8dec" Type="VectorList" Name="SpawnLocations" IsNull="false" />
+				<TriggerVar ID="#2af64408-bc75-4cad-92be-f97bdd95000e" Type="Integer" Name="CurrentWave" IsNull="false" />
+				<TriggerVar ID="#8435094b-a9ea-485f-adf8-d99423f6d18c" Type="SquadList" Name="SquadsOut" IsNull="false" />
+				<TriggerVar ID="#056f50f3-de1a-4147-8bdf-ff72c03684e6" Type="Player" Name="AIPlayer" IsNull="false" />
+				<TriggerVar ID="#68903dce-7441-48aa-8ec8-fc5c19650cef" Type="Squad" Name="CriticalTargetBuildingVar1" IsNull="false" />
+				<TriggerVar ID="#a5178dad-fd4f-42ad-9243-cb7fffa28a2b" Type="Bool" Name="" IsNull="false">True</TriggerVar>
+				<TriggerVar ID="#d2c1cb5f-fe50-4f27-83d4-c8a2234e574b" Type="PlayerList" Name="HumanPlayers" IsNull="false" />
+				<TriggerVar ID="#28ddad46-05a6-47fc-89c2-0d0b115acc1f" Type="Integer" Name="Playercount" IsNull="false" />
+				<TriggerVar ID="#0781e699-a435-40d8-aec3-db74d5124c3f" Type="Integer" Name="CurrentCycle" IsNull="false" />
+				<TriggerVar ID="#f46abe67-b3df-4697-b333-7ab1d1e6de71" Type="Integer" Name="PathsToUseTotal" IsNull="false" />
+				<TriggerVar ID="#e1c13fe6-e2a3-4857-a0a4-1896434e1010" Type="ProtoSquadList" Name="ProtoSquadListToSpawn" IsNull="false" />
+				<TriggerVar ID="#88009ef9-cc21-498e-9da9-55de460b852c" Type="Integer" Name="TotalSquadsToSpawn" IsNull="false" />
+				<TriggerVar ID="#47a8eab2-22fb-465f-a811-3361895bb06d" Type="Time" Name="WaveTime" IsNull="false" />
+				<TriggerVar ID="#811b7092-56e6-4512-a504-942f0eb86891" Type="Float" Name="BaseDamageIn" IsNull="false" />
+				<TriggerVar ID="#3357d36c-c728-48d0-a6d1-b092f9aa6513" Type="Float" Name="BaseDamageOut" IsNull="false" />
+				<TriggerVar ID="#36f78521-d260-4ae5-971b-228eb6bd3f28" Type="Integer" Name="CivInt" IsNull="false" />
+				<TriggerVar ID="#dd322b1a-58d4-2a77-f725-8c0c2ca0447a" Type="Bool" Name="OverrideBaseValues?" IsNull="true">False</TriggerVar>
+				<TriggerVar ID="#803f6249-a658-f132-aea1-162899a87aee" Type="Integer" Name="OverrideBaseSize" IsNull="true" />
+				<TriggerVar ID="#08681764-3936-8ccc-d89d-191edd11a180" Type="Integer" Name="OverrideSizeIncrease" IsNull="true" />
+				<TriggerVar ID="#2db89914-fa73-48f2-91b2-9e3bdfb7ab89" Type="String" Name="WaveTitle" IsNull="false">WaveTitle</TriggerVar>
+				<TriggerVar ID="#aa0f2ce6-9553-4e0d-8d48-d91b2df957be" Type="String" Name="WaveDesc" IsNull="false">WaveTitle</TriggerVar>
+				<TriggerVar ID="#c5747d84-fa0c-48ee-b2fb-ae6c5bf14673" Type="String" Name="WaveIcon" IsNull="false">WaveTitle</TriggerVar>
+				<TriggerVar ID="#4fad168a-b4e6-4e25-b1cc-23c3502b4489" Type="String" Name="WaveTable" IsNull="false" />
+				<TriggerVar ID="#23a39623-4a17-469c-91b0-18d81fc86341" Type="Integer" Name="StartWave" IsNull="false" />
+				<TriggerVar ID="#d1ddc517-de67-4877-b715-a638c54ddb63" Type="Integer" Name="EndWave" IsNull="false" />
+				<TriggerVar ID="#49fdb501-cb84-4d7a-9b9f-b97e00d85910" Type="Float" Name="WaveSizeMultiplier" IsNull="false" />
+				<TriggerVar ID="#a6837c07-6e7e-4caf-888a-88c129c0cdf4" Type="Float" Name="WaveAtkMove" IsNull="false" />
+				<TriggerVar ID="#8f6aa47e-2e33-4f15-9cd6-54d9cf0b15ff" Type="Integer" Name="WaveDamInAdd" IsNull="false" />
+				<TriggerVar ID="#e86854f3-3605-4977-85ef-e5b828eee625" Type="Integer" Name="WaveDamOutAdd" IsNull="false" />
+				<TriggerVar ID="#8f8342c0-5cc7-7fc4-67b5-a263ebfc2edb" Type="Bool" Name="WaveKeepComposition" IsNull="false">False</TriggerVar>
+				<TriggerVar ID="#14c351bd-a32e-c542-d20f-cca6d1aae08d" Type="Integer" Name="WaveBaseDeployTime" IsNull="false" />
+				<TriggerVar ID="#7979571d-00d8-d9c0-20cb-6df5b079e161" Type="Integer" Name="WaveDeployTimeInc" IsNull="false" />
+				<TriggerVar ID="#6594af4f-e502-433f-bc86-e8884a576710" Type="String" Name="" IsNull="false">FirefightWavesBasicVehScorps</TriggerVar>
+				<TriggerVar ID="#fb8565ba-79af-4fd5-8d8e-20b5d3d2d209" Type="Integer" Name="HiddenWaveTimerVar1" IsNull="false" />
+				<TriggerVar ID="#e1c13fe6-e2a3-4857-a0a4-1896434e1010" Type="ProtoSquadList" Name="ProtoSquadListToSpawn" IsNull="false" />
+				<TriggerVar ID="#0b11c1f2-837d-59d1-f976-66765d6547b5" Type="Bool" Name="IsBonusWave?" IsNull="true">False</TriggerVar>
+				<TriggerVar ID="#9456f7b0-5aae-9e1d-ecdd-2607edb9d69b" Type="Bool" Name="IsBonusWave?" IsNull="true">False</TriggerVar>
+			</TriggerVars>
+			<Triggers>
+				<Trigger X="1336" Y="82" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#3da05e9c-051e-4bd4-8d65-61ea242161c6" Name="Skip" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+					<TriggerConditions>
+						<And />
+					</TriggerConditions>
+					<TriggerEffectsOnTrue />
+					<TriggerEffectsOnFalse />
+				</Trigger>
+			</Triggers>
+		</TriggerSystem>
+	</EditorData>
+</TriggerSystem>
