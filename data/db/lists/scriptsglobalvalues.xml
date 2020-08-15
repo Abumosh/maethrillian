@@ -701,7 +701,7 @@
 		<Value Name="AddDamageInCycles" Type="int" Value="0" />
 		<Value Name="AddDamageOutCycles" Type="int" Value="0" />
 		<Value Name="KeepCompositionTogether" Type="bool" Value="false" />
-		<Value Name="Title" Type="string" Value="UIEP2FIRE.WAVETITLES.BASIC.AIRHEAVY.UNSC" />
+		<Value Name="Title" Type="string" Value="UIENT.WAVETITLES.BASIC.AIRHEAVYMIX.UNSC" />
 		<Value Name="Description" Type="string" Value="UIENT.WAVETITLES.BASIC.AIRHEAVYMIX.UNSC" />
 		<Value Name="Icon" Type="string" Value="AirHeavy_icon" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000009" />
