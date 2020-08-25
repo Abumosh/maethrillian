@@ -33,33 +33,6 @@
 		<DamagePerSecond>65</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_chaingunapc_01</Projectile>
-		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
-		<MaxVelocityLead>27.6749992</MaxVelocityLead>
-		<MaxRange>50</MaxRange>
-		<MaxRangeThresholdFactor>1.10000002</MaxRangeThresholdFactor>
-		<MaxRangeThresholdTime>1</MaxRangeThresholdTime>
-		<Accuracy>1</Accuracy>
-		<MaxDeviation>1.5</MaxDeviation>
-		<MovingAccuracy>0.100000001</MovingAccuracy>
-		<MovingMaxDeviation>2</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
-		<Hardpoint>Turret</Hardpoint>
-		<TargetPriority type="Infantry">7</TargetPriority>
-		<TargetPriority type="Aircraft">5</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<TargetPriority type="GroundVehicle">-1</TargetPriority>
-		<PreAttackCooldownMin>0.5</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0</PostAttackCooldownMax>
-		<Filter>Medium</Filter>
-	</Weapon>
-	<Weapon>
-		<Name>GunArmorPierce</Name>
-		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>84.5</DamagePerSecond>
-		<WeaponType>MediumArms</WeaponType>
-		<Projectile>fx_proj_chaingunapc_01</Projectile>
 		<ImpactEffect size="Medium">CobraCannonImpact</ImpactEffect>
 		<MaxVelocityLead>27.6749992</MaxVelocityLead>
 		<MaxRange>50</MaxRange>
@@ -71,7 +44,11 @@
 		<MovingMaxDeviation>2</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>
-		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">7</TargetPriority>
+		<Buff TargetType="Military" BuffType="VortexDebuff" DeprioritiseAffectedTargets="true" DamageMitigationScalar="1.15">1.0f</Buff>
 		<PreAttackCooldownMin>0.5</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0</PostAttackCooldownMin>
@@ -122,17 +99,6 @@
 		<StartDisabled />
 	</Action>
 	<Action>
-		<Name>GunArmorPierceAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>CannonAttack</Anim>
-		<Weapon>GunArmorPierce</Weapon>
-		<Duration DurationSpread="0.5">3.5</Duration>
-		<Beam collideWithUnits="false" collideWithTerrain="false" />
-		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
-		<LoopAttackAnim />
-		<StartDisabled />
-	</Action>
-	<Action>
 		<Name>UnloadContained</Name>
 		<ActionType>UnloadContained</ActionType>
 		<WorkRange>8</WorkRange>
@@ -158,12 +124,6 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>GunAttackAction</Action>
-			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>GroundVehicle</TargetType>
-			<Action>GunArmorPierceAction</Action>
 			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
 		</TargetRule>
 		<TargetRule>
