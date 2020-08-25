@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>UnstableConcoctionMissile</Name>
-		<DamagePerSecond>1200</DamagePerSecond>
+		<DamagePerSecond>850</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Leaderpower</WeaponType>
 		<Projectile>pow_proj_unstableconcoction_02</Projectile>

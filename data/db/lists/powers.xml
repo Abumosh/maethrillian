@@ -3069,7 +3069,7 @@
 					<UIRadius>65</UIRadius>
 				</Data>
 			</DataLevel>
-			<DataLevel level="1">
+			<DataLevel level="2">
 				<Data type="float" name="AreaRadius">90</Data>
 				<Data type="float" name="BuffDuration">10</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
@@ -3091,7 +3091,7 @@
 					<UIRadius>85</UIRadius>
 				</Data>
 			</DataLevel>
-			<DataLevel level="2">
+			<DataLevel level="3">
 				<Data type="float" name="AreaRadius">110</Data>
 				<Data type="float" name="BuffDuration">10</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
@@ -10611,7 +10611,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">7</Pop>
-			<Cost Supplies="530" Power="160" />
+			<Cost Supplies="530" Power="160" HQLevel="2" />
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>23</UIRadius>
 			<Decal>AOE_Medium</Decal>
@@ -10665,7 +10665,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">16</Pop>
-			<Cost Supplies="1430" Power="290" />
+			<Cost Supplies="1430" Power="290" HQLevel="3" />
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -33083,7 +33083,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Pop type="Unit">14</Pop>
-			<Cost Supplies="730" Power="230" />
+			<Cost Supplies="730" Power="230" HQLevel="2" />
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
@@ -33112,7 +33112,7 @@
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
 				<Data type="int" name="NumGunships">1</Data>
-				<Data type="float" name="WaitDuration">30</Data>
+				<Data type="float" name="WaitDuration">10</Data>
 				<Data type="protoobject" name="Gunship">cov_air_ShipmasterGunship_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritAssault_I</Data>
 			</BaseDataLevel>
@@ -33144,7 +33144,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Pop type="Unit">21</Pop>
-			<Cost Supplies="1130" Power="310" />
+			<Cost Supplies="1130" Power="310" HQLevel="2" />
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
@@ -33173,7 +33173,7 @@
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
 				<Data type="int" name="NumGunships">2</Data>
-				<Data type="float" name="WaitDuration">30</Data>
+				<Data type="float" name="WaitDuration">10</Data>
 				<Data type="protoobject" name="Gunship">cov_air_ShipmasterGunship_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritAssault_II</Data>
 			</BaseDataLevel>
@@ -33272,7 +33272,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Pop type="Unit">14</Pop>
-			<Cost Supplies="730" Power="475" />
+			<Cost Supplies="730" Power="475" HQLevel="2"/>
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
@@ -37019,7 +37019,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">22</Data>
+				<Data type="float" name="BuffDuration">25</Data>
 				<Data type="float" name="SlowModifier">1.14999998</Data>
 				<Data type="float" name="DamageDealtModifier">1.20000005</Data>
 				<Data type="bool" name="ProcPowerOnSquadDeath">true</Data>
@@ -37118,7 +37118,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">24</Data>
+				<Data type="float" name="BuffDuration">30</Data>
 				<Data type="float" name="SlowModifier">1.14999998</Data>
 				<Data type="float" name="DamageDealtModifier">1.25</Data>
 				<Data type="bool" name="ProcPowerOnSquadDeath">true</Data>
@@ -37126,7 +37126,7 @@
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_OFF_UnstableConcoction</Data>
-				<Data type="protoobject" name="BuffActivateFX">vfx_dlc1_powers_unstableconcoctionunit</Data>
+				<Data type="protoobject" name="BuffActivateFX">vfx_dlc1_powers_unstableconcoctionunit2</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -37216,7 +37216,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">26</Data>
+				<Data type="float" name="BuffDuration">35</Data>
 				<Data type="float" name="SlowModifier">1.14999998</Data>
 				<Data type="float" name="DamageDealtModifier">1.29999995</Data>
 				<Data type="bool" name="ProcPowerOnSquadDeath">true</Data>
@@ -37224,7 +37224,7 @@
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_OFF_UnstableConcoction</Data>
-				<Data type="protoobject" name="BuffActivateFX">vfx_dlc1_powers_unstableconcoctionunit</Data>
+				<Data type="protoobject" name="BuffActivateFX">vfx_dlc1_powers_unstableconcoctionunit3</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>

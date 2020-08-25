@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>PlasmaSwordInfantry</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>725</DamagePerSecond>
+		<DamagePerSecond>750</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<MaxVelocityLead>30</MaxVelocityLead>
 		<MaxRange>5</MaxRange>
@@ -35,7 +35,7 @@
 	<Weapon>
 		<Name>PlasmaSwordVehiclesandBuildings</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>575</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<MaxVelocityLead>30</MaxVelocityLead>
 		<MaxRange>5</MaxRange>
