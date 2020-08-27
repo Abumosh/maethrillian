@@ -135,7 +135,7 @@
 	<Weapon>
 		<Name>Ram</Name>
 		<WeaponType>WarthogRam</WeaponType>
-		<DamagePerSecond>650</DamagePerSecond>
+		<DamagePerSecond>585</DamagePerSecond>
 		<ThrowUnits />
 		<FlailThrownUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>

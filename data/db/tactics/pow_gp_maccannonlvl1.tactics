@@ -20,9 +20,9 @@
 	</Weapon>
 	<Weapon>
 		<Name>OrbitalBombardment</Name>
-		<DamagePerSecond>5775</DamagePerSecond>
+		<DamagePerSecond>6352</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>LeaderPower</WeaponType>
+		<WeaponType>MACBlast</WeaponType>
 		<Projectile>pow_gp_macCannonLVL1</Projectile>
 		<ImpactEffect size="Large">MacBlastL1Impact</ImpactEffect>
 		<ImpactAdvancedCameraShake fadein="0.5" duration="0.00999999978" fadeout="0.600000024" yawpitchstrength="2" rollstrength="1" rotationfrequency="9" translationstrength="0" translationfrequency="6" />

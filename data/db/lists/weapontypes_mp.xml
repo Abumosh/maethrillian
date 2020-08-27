@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <WeaponTypes>
 	<WeaponType>
+		<Name>Mines</Name>
+		<DamageModifier rating="1" type="Building">0.5</DamageModifier>
+	</WeaponType>
+	<WeaponType>
 		<Name>HornetChaingun</Name>
 		<DamageModifier rating="1" type="MediumAA">0.699999988</DamageModifier>
 	</WeaponType>
