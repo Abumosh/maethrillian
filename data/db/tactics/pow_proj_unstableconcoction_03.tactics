@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>UnstableConcoctionMissile</Name>
-		<DamagePerSecond>900</DamagePerSecond>
+		<DamagePerSecond>800</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>pow_proj_unstableconcoction_03</Projectile>
