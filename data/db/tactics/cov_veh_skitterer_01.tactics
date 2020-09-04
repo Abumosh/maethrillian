@@ -180,7 +180,6 @@
 			<DeltaHeightMultipleDrones>4</DeltaHeightMultipleDrones>
 			<HeightDifferenceClimbSpeed>15</HeightDifferenceClimbSpeed>
 		</SpecificData>
-		<InvalidTarget>cov_veh_skitterer_01</InvalidTarget>
 		<InvalidTarget>cov_inf_suicideGrunt_01</InvalidTarget>
 	</Action>
 	<Action>
@@ -194,7 +193,6 @@
 			<DeltaHeightMultipleDrones>4</DeltaHeightMultipleDrones>
 			<HeightDifferenceClimbSpeed>15</HeightDifferenceClimbSpeed>
 		</SpecificData>
-		<InvalidTarget>cov_veh_skitterer_01</InvalidTarget>
 		<InvalidTarget>cov_inf_suicideGrunt_01</InvalidTarget>
 	</Action>
 	<Action>
@@ -208,7 +206,6 @@
 			<DeltaHeightMultipleDrones>4</DeltaHeightMultipleDrones>
 			<HeightDifferenceClimbSpeed>15</HeightDifferenceClimbSpeed>
 		</SpecificData>
-		<InvalidTarget>cov_veh_skitterer_01</InvalidTarget>
 		<InvalidTarget>cov_inf_suicideGrunt_01</InvalidTarget>
 	</Action>
 	<Action>
@@ -222,7 +219,6 @@
 			<DeltaHeightMultipleDrones>4</DeltaHeightMultipleDrones>
 			<HeightDifferenceClimbSpeed>5</HeightDifferenceClimbSpeed>
 		</SpecificData>
-		<InvalidTarget>cov_veh_skitterer_01</InvalidTarget>
 		<InvalidTarget>cov_inf_suicideGrunt_01</InvalidTarget>
 	</Action>
 	<Action>
