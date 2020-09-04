@@ -2999,13 +2999,14 @@
 		<TurnRadius min="0.100000001" max="4" />
 		<AvoidanceMass>Light</AvoidanceMass>
 		<Counters>Skitterer_01</Counters>
-		<MaxConvertedtoDroneSlots>0</MaxConvertedtoDroneSlots>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_veh_skitterer_01_mp" parent_element="cov_veh_skitterer_01_base" dbid="17771439386822844047">
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">20</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
-		<BuildPoints>18</BuildPoints>
+		<BuildPoints>2</BuildPoints>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_veh_skitterer_01_sp" parent_element="cov_veh_skitterer_01_base" dbid="17788622554545119505" />
 	<Squad name="cov_veh_skitterer_01_yapyap" parent_element="cov_veh_skitterer_01_base" dbid="9133652020447386002">
