@@ -231,12 +231,11 @@
 		<WorkRange>14</WorkRange>
 		<DontAutoRestart />
 		<SpecificData>
-			<TargetHealthModifier>2400</TargetHealthModifier>
+			<TargetHealthModifier>10000</TargetHealthModifier>
 			<HeightDifference>8</HeightDifference>
 			<DeltaHeightMultipleDrones>4</DeltaHeightMultipleDrones>
 			<HeightDifferenceClimbSpeed>5</HeightDifferenceClimbSpeed>
 		</SpecificData>
-		<InvalidTarget>cov_veh_skitterer_01</InvalidTarget>
 		<InvalidTarget>cov_inf_suicideGrunt_01</InvalidTarget>
 	</Action>
 	<Action>
