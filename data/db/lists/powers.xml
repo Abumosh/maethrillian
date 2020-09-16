@@ -9985,8 +9985,8 @@
 				<Data type="float" name="MaxBeamDistance">70</Data>
 				<Data type="float" name="TickLength">0.200000003</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
-				<Data type="float" name="MaxBeamSpeed">20</Data>
-				<Data type="float" name="Duration">7</Data>
+				<Data type="float" name="MaxBeamSpeed">18</Data>
+				<Data type="float" name="Duration">6</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
 				<Data type="int" name="NumPlayerWaypoints">3</Data>
 				<Data type="sound" name="FiredSound" />
@@ -10023,8 +10023,8 @@
 				<Data type="float" name="MaxBeamDistance">70</Data>
 				<Data type="float" name="TickLength">0.200000003</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
-				<Data type="float" name="MaxBeamSpeed">22</Data>
-				<Data type="float" name="Duration">8</Data>
+				<Data type="float" name="MaxBeamSpeed">20</Data>
+				<Data type="float" name="Duration">7</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
 				<Data type="int" name="NumPlayerWaypoints">3</Data>
 				<Data type="sound" name="FiredSound" />
@@ -10060,8 +10060,8 @@
 				<Data type="float" name="MaxBeamDistance">70</Data>
 				<Data type="float" name="TickLength">0.200000003</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
-				<Data type="float" name="MaxBeamSpeed">24</Data>
-				<Data type="float" name="Duration">9</Data>
+				<Data type="float" name="MaxBeamSpeed">22</Data>
+				<Data type="float" name="Duration">8</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
 				<Data type="int" name="NumPlayerWaypoints">3</Data>
 				<Data type="sound" name="FiredSound" />
@@ -14908,8 +14908,9 @@
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>VehicleRecycle</BuffName>
-			<Cost Supplies="300" Power="350" />
-			<AutoRecharge>150000</AutoRecharge>
+			<ProcPowerName>UnstableConcoctionProc1</ProcPowerName>
+			<Cost Supplies="600" Power="400" />
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -14932,12 +14933,14 @@
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
 				<Data type="bool" name="AffectsAllByFilterType">true</Data>
-				<Data type="objecttype" name="FilterType">BasicInfantry</Data>
+				<Data type="objecttype" name="FilterType">Grunt</Data>
 				<Data type="objecttype" name="FilterExcludeType">GruntSwarm</Data>
-				<Data type="float" name="BuffDuration">150</Data>
+				<Data type="objecttype" name="FilterExcludeType2">Hero</Data>
+				<Data type="float" name="BuffDuration">90</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
-				<Data type="int" name="MaxProcsAllUnits">15</Data>
+				<Data type="int" name="MaxProcsAllUnits">12</Data>
+				<Data type="bool" name="ProcPowerOnSquadDeath">true</Data>
 				<Data type="protoobject" name="CastVfx">vfx_dlc5_powers_infrecyclingcast</Data>
 				<Data type="protoobject" name="BuffProcFX">vfx_dlc5_powers_infrecycling</Data>
 				<Data type="protoobject" name="BuffProcFX2">vfx_dlc5_powers_infrecyclingreverse</Data>

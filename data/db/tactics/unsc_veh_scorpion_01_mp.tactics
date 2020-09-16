@@ -74,7 +74,7 @@
 	<Weapon>
 		<Name>SpecialAttack</Name>
 		<AttackRate>45</AttackRate>
-		<DamagePerSecond>2100</DamagePerSecond>
+		<DamagePerSecond>2000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>TankSpecial</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>
@@ -118,7 +118,7 @@
 	<Weapon>
 		<Name>SpecialAttackScorpionTech</Name>
 		<AttackRate>45</AttackRate>
-		<DamagePerSecond>2400</DamagePerSecond>
+		<DamagePerSecond>2250</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>TankSpecial</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>
@@ -145,7 +145,7 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>14</Radius>
+				<Radius>16</Radius>
 				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
