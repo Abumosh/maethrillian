@@ -22,7 +22,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>Artillery</Name>
-		<DamagePerSecond>300</DamagePerSecond>
+		<DamagePerSecond>150</DamagePerSecond>
 		<Corruption />
 		<WeaponType>leaderpower</WeaponType>
 		<Projectile>unsc_air_odstPod_01</Projectile>
