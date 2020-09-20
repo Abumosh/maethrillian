@@ -3018,7 +3018,7 @@
 			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_arbiter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.75" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.5" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_arbiter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.75" subtype="Shieldpoints" relativity="Percent">
