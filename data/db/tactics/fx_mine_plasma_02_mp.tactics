@@ -11,7 +11,7 @@
 		<PhysicsForceMin>1500</PhysicsForceMin>
 		<PhysicsForceMax>2000</PhysicsForceMax>
 		<ReapplyDamageOverArea />
-		<Shockwave duration="60" />
+		<Shockwave duration="20" />
 		<AOERadius>11</AOERadius>
 	</Weapon>
 	<Weapon>
