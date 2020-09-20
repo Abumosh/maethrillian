@@ -15288,7 +15288,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="400" Power="100" />
+			<Cost Supplies="500" Power="200" />
 			<AutoRecharge>210000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
@@ -15343,7 +15343,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="500" Power="150" />
+			<Cost Supplies="600" Power="250" />
 			<AutoRecharge>210000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
@@ -15397,7 +15397,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="600" Power="200" />
+			<Cost Supplies="700" Power="300" />
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
