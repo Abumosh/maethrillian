@@ -15398,7 +15398,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="700" Power="300" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>210000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
