@@ -320,4 +320,9 @@
 		<DamageModifier rating="1" type="Heavy">0.600000024</DamageModifier>
 		<DamageModifier rating="1" type="Building">1.39999998</DamageModifier>
 	</WeaponType>
+	<WeaponType>
+		<Name>Melee</Name>
+		<DeathAnimation>DeathByMelee</DeathAnimation>
+		<DamageModifier rating="1" type="Building">0.4</DamageModifier>
+	</WeaponType>
 </WeaponTypes>
