@@ -91,7 +91,6 @@
 		<PhysicsForceMin>500</PhysicsForceMin>
 		<PhysicsForceMax>700</PhysicsForceMax>
 		<AOERadius>14</AOERadius>
-		<Daze TargetType="Building" MovementModifier="0" AOEEffect="true" SmartTargeting="false">6.5f</Daze>
 		<TargetPriority type="Infantry">7</TargetPriority>
 		<TargetPriority type="Building">2</TargetPriority>
 		<TargetPriority type="TurretBuilding">1</TargetPriority>
