@@ -55,7 +55,7 @@
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
-		<Daze TargetType="nonflying" MovementModifier="0.150000006" AOEEffect="true" SmartTargeting="false">4.0f</Daze>
+		<Slow TargetType="nonflying" MovementModifier="0.150000006" AOEEffect="true" SmartTargeting="false">4.0f</Slow>
 		<Filter>Medium</Filter>
 	</Weapon>
 	<Weapon>
@@ -89,7 +89,7 @@
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
-		<Daze TargetType="nonflying" MovementModifier="0.150000006" AOEDaze="true" SmartTargeting="false" FromMeleeOnly="true">2.0f</Daze>
+		<Slow TargetType="nonflying" MovementModifier="0.150000006" AOEDaze="true" SmartTargeting="false" FromMeleeOnly="true">2.0f</Slow>
 		<Filter>Medium</Filter>
 	</Weapon>
 	<Weapon>
