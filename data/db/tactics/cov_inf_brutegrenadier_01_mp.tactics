@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Bomb</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>420</DamagePerSecond>
+		<DamagePerSecond>340</DamagePerSecond>
 		<UseDPSasDPA />
 		<Corruption />
 		<WeaponType>CorruptedGrenadier</WeaponType>
