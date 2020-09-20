@@ -3024,10 +3024,10 @@
 				<Data type="protoobject" name="CastVfx">vfx_dlc2_powers_conduitofragecast2</Data>
 				<Data type="protoobject" name="BuffActivateFX">vfx_dlc2_powers_conduitofrageunit</Data>
 				<Data type="protoobject" name="BuffDeactivateFX">vfx_dlc2_powers_conduitofrageunitend</Data>
-				<Data type="float" name="SlowModifier">1.29999995</Data>
-				<Data type="float" name="DamageDealtModifier">1.35000002</Data>
+				<Data type="float" name="SlowModifier">1.275</Data>
+				<Data type="float" name="DamageDealtModifier">1.3</Data>
 				<Data type="float" name="HealPercentPerTick">0.0299999993</Data>
-				<Data type="float" name="HealTickRate">1.5</Data>
+				<Data type="float" name="HealTickRate">1.75</Data>
 				<Data type="decal" name="OverrideDecal">
 					<Name>ConduitOfRage_Medium</Name>
 					<UIRadius>80</UIRadius>
@@ -3046,10 +3046,10 @@
 				<Data type="protoobject" name="CastVfx">vfx_dlc2_powers_conduitofragecast3</Data>
 				<Data type="protoobject" name="BuffActivateFX">vfx_dlc2_powers_conduitofrageunit</Data>
 				<Data type="protoobject" name="BuffDeactivateFX">vfx_dlc2_powers_conduitofrageunitend</Data>
-				<Data type="float" name="SlowModifier">1.35000002</Data>
-				<Data type="float" name="DamageDealtModifier">1.45000005</Data>
+				<Data type="float" name="SlowModifier">1.3</Data>
+				<Data type="float" name="DamageDealtModifier">1.4</Data>
 				<Data type="float" name="HealPercentPerTick">0.0299999993</Data>
-				<Data type="float" name="HealTickRate">1</Data>
+				<Data type="float" name="HealTickRate">1.5</Data>
 				<Data type="decal" name="OverrideDecal">
 					<Name>ConduitOfRage_Large</Name>
 					<UIRadius>120</UIRadius>
