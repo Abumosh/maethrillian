@@ -7,7 +7,7 @@
 		<UseDPSasDPA />
 		<WeaponType>JPBMine</WeaponType>
 		<ImpactEffect size="Medium">BruteMineExplosion</ImpactEffect>
-		<Slow TargetType="infantry" MovementModifier="0.5" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">4.0f</Slow>
+		<Slow TargetType="infantry" MovementModifier="0.5" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">2.5f</Slow>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
