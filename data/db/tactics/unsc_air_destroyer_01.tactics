@@ -13,6 +13,7 @@
 		<PhysicsForceMin>200</PhysicsForceMin>
 		<PhysicsForceMax>400</PhysicsForceMax>
 		<MaxRange>95</MaxRange>
+		<MaxVelocityLead>40</MaxVelocityLead>
 		<Hardpoint>MacCannon</Hardpoint>
 		<AOEData>
 			<Hitbox>
@@ -107,6 +108,7 @@
 		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
 		<MaxRange>95</MaxRange>
+		<MaxVelocityLead>40</MaxVelocityLead>
 		<Hardpoint>FrontCentreGun</Hardpoint>
 		<UseGroupRange />
 		<CanOrientOwner>false</CanOrientOwner>
@@ -129,6 +131,7 @@
 		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
 		<MaxRange>95</MaxRange>
+		<MaxVelocityLead>40</MaxVelocityLead>
 		<Hardpoint>FrontRightGun</Hardpoint>
 		<UseGroupRange />
 		<CanOrientOwner>false</CanOrientOwner>
@@ -151,6 +154,7 @@
 		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
 		<MaxRange>95</MaxRange>
+		<MaxVelocityLead>40</MaxVelocityLead>
 		<Hardpoint>FrontLeftGun</Hardpoint>
 		<UseGroupRange />
 		<CanOrientOwner>false</CanOrientOwner>
@@ -173,6 +177,7 @@
 		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
 		<MaxRange>95</MaxRange>
+		<MaxVelocityLead>40</MaxVelocityLead>
 		<Hardpoint>RearRightGun</Hardpoint>
 		<UseGroupRange />
 		<CanOrientOwner>false</CanOrientOwner>
@@ -192,6 +197,7 @@
 		<AttackRate>3</AttackRate>
 		<DamagePerSecond>250</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
+		<MaxVelocityLead>40</MaxVelocityLead>
 		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
 		<MaxRange>95</MaxRange>
