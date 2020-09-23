@@ -18,8 +18,8 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>18</Radius>
-				<DamageRatio>70</DamageRatio>
+				<Radius>20</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>
@@ -44,7 +44,7 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>9</Radius>
+				<Radius>8</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -52,8 +52,8 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>13</Radius>
-				<DamageRatio>70</DamageRatio>
+				<Radius>14</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>

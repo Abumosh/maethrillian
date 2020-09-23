@@ -19,7 +19,7 @@
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>24</Radius>
-				<DamageRatio>70</DamageRatio>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>
@@ -53,7 +53,7 @@
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>18</Radius>
-				<DamageRatio>70</DamageRatio>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>
