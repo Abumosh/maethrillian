@@ -10393,7 +10393,7 @@
 			<Effect type="UnlockableGodPower" tier="3">Jerome_FieldPromotion4</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Jerome_FieldPromotion5</Effect>
 			<Effect type="UnlockableGodPower" tier="4">Jerome_FieldPromotion6</Effect>
-			<Effect type="UnlockableGodPower" tier="4">UnscCyclopsDrop</Effect>
+			<Effect type="UnlockableGodPower" tier="4">UnscMacBlast1</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscOrbitalBattleGroup</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscPelicanGunship</Effect>
 			<Effect type="Data" subtype="Enable">

@@ -24063,8 +24063,8 @@
 		<Attributes>
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
-			<Cost Supplies="350" Power="250" />
-			<AutoRecharge>200000</AutoRecharge>
+			<Cost Supplies="50" Power="50" />
+			<AutoRecharge>2000</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -24108,7 +24108,7 @@
 			</BaseDataLevel>
 			<DataLevel level="0">
 				<Data type="protoobject" name="Projectile">pow_gp_macCannonLVL1</Data>
-				<Data type="int" name="NumShots">1</Data>
+				<Data type="int" name="NumShots">3</Data>
 				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad20m2s</Data>
 			</DataLevel>
 		</Attributes>

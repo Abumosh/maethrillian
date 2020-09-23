@@ -20,7 +20,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>OrbitalBombardment</Name>
-		<DamagePerSecond>6352</DamagePerSecond>
+		<DamagePerSecond>10000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>MACBlast</WeaponType>
 		<Projectile>pow_gp_macCannonLVL1</Projectile>
@@ -60,7 +60,7 @@
 				<Radius>2</Radius>
 				<DamageRatio>125</DamageRatio>
 				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFire>true</FriendlyFire>
 				<IgnoreY>true</IgnoreY>
 			</Hitbox>
 			<Hitbox>
@@ -68,7 +68,7 @@
 				<Radius>6</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFire>true</FriendlyFire>
 				<IgnoreY>true</IgnoreY>
 			</Hitbox>
 			<Hitbox>
@@ -76,7 +76,7 @@
 				<Radius>16</Radius>
 				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFire>true</FriendlyFire>
 				<IgnoreY>true</IgnoreY>
 			</Hitbox>
 			<Hitbox>
@@ -84,7 +84,7 @@
 				<Radius>22</Radius>
 				<DamageRatio>40</DamageRatio>
 				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFire>true</FriendlyFire>
 				<IgnoreY>true</IgnoreY>
 			</Hitbox>
 		</AOEData>
