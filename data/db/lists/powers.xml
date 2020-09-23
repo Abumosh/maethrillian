@@ -12311,7 +12311,7 @@
 					<Drop>
 						<ProtoSquadID>unsc_inf_cyclops_01</ProtoSquadID>
 						<ProjectileOverride>unsc_air_odstPodcyclops_01</ProjectileOverride>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>
