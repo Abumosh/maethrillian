@@ -24,8 +24,8 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Spartan" Max="1">1</Pop>
+		<Pop Type="Unit" Max="500">200</Pop>
+		<Pop Type="Spartan" Max="10">10</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 	</Leader>
 	<Leader Name="Isabel" Icon="ui\game\icon\unsc\leader\Sergeant Forge" GUID="#60FD5487-3211-4F2B-B1C2-95993FB3A55A">

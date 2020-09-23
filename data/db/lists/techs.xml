@@ -10387,18 +10387,12 @@
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscRaidTech1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscRaidTech1">UnscRaidTech2</Effect>
-			<Effect type="UnlockableGodPower" tier="1">CutterBattleHardened1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="CutterBattleHardened1">CutterBattleHardened2</Effect>
-			<Effect type="UnlockableGodPower" tier="2">UnscLotusMines1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="2">UnscMedDrones1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="UnscMedDrones1_MP">UnscMedDrones2_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="UnscMedDrones2_MP">UnscMedDrones3_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3">UnscBombingRun1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="UnscBombingRun1_MP">UnscBombingRun2_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="UnscBombingRun2_MP">UnscBombingRun3_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3">UnscOdstDrop</Effect>
-			<Effect type="UnlockableGodPower" tier="4">UnscTurretDrop1</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="UnscTurretDrop1">UnscTurretDrop2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">Jerome_FieldPromotion</Effect>
+			<Effect type="UnlockableGodPower" tier="2">Jerome_FieldPromotion2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">Jerome_FieldPromotion3</Effect>
+			<Effect type="UnlockableGodPower" tier="3">Jerome_FieldPromotion4</Effect>
+			<Effect type="UnlockableGodPower" tier="3">Jerome_FieldPromotion5</Effect>
+			<Effect type="UnlockableGodPower" tier="4">Jerome_FieldPromotion6</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscCyclopsDrop</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscOrbitalBattleGroup</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscPelicanGunship</Effect>
