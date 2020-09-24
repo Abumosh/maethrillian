@@ -18975,6 +18975,7 @@
 			<DataLevel level="0">
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
+        <Data type="objecttype" name="FilterExcludeType2">Hero</Data>
 				<Data type="float" name="DamageDealtModifier">1.09f</Data>
 				<Data type="float" name="SlowModifier">1.14999998</Data>
 				<Data type="float" name="DamageMitigationScalar">0.920000017</Data>
@@ -18986,6 +18987,7 @@
 			</DataLevel>
 			<DataLevel level="1">
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
+        <Data type="objecttype" name="FilterExcludeType">Hero</Data>
 				<Data type="float" name="DamageDealtModifier">1.09f</Data>
 				<Data type="float" name="SlowModifier">1.14999998</Data>
 				<Data type="float" name="DamageMitigationScalar">0.920000017</Data>
