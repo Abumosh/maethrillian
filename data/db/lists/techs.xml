@@ -1263,7 +1263,7 @@
 			<Effect type="Data" amount="1.67999995" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_rm_flamecyclops_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.35" subtype="MaximumVelocity" relativity="Percent">
+			<Effect type="Data" amount="1.5" subtype="MaximumVelocity" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_rm_flamecyclops_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.20000005" subtype="Damage" allactions="1" relativity="Percent">
