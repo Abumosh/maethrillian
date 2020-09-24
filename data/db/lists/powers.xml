@@ -14139,7 +14139,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
-			<Cost Supplies="40" Power="40" />
+			<Cost Supplies="60" Power="60" />
 			<AutoRecharge>112000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
@@ -14187,7 +14187,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
-			<Cost Supplies="60" Power="60" />
+			<Cost Supplies="120" Power="120" />
 			<AutoRecharge>112000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
