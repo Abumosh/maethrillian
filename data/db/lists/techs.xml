@@ -3018,10 +3018,10 @@
 			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_arbiter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.5" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_arbiter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.75" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_arbiter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0.77777777800000003" subtype="AbilityRecoverTime" relativity="Percent" Ability="BanArbiterRage">
@@ -3051,10 +3051,10 @@
 			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_arbiter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.85000002" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_arbiter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.85000002" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_arbiter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="FiendishReturn" relativity="Absolute">
