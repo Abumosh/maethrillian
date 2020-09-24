@@ -11901,10 +11901,10 @@
 			<Effect type="Data" amount="1.45000005" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_jerome_mantis_01</Target>
 			</Effect>
-			<Effect type="Data" amount="2" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_jerome_mantis_01</Target>
 			</Effect>
-			<Effect type="Data" amount="2" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_jerome_mantis_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="OmegaTeam_Jerome_03">
@@ -11940,10 +11940,10 @@
 			<Effect type="Data" amount="1.5" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_jerome_mantis_01</Target>
 			</Effect>
-			<Effect type="Data" amount="2.20000005" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_jerome_mantis_01</Target>
 			</Effect>
-			<Effect type="Data" amount="2" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_jerome_mantis_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="FireFlareAction" relativity="Absolute">
