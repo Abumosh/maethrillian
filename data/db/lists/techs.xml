@@ -4458,10 +4458,10 @@
 			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_mortarwarlord_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.70000005" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_mortarwarlord_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.70000005" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_mortarwarlord_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="PaintTargetAction" relativity="Absolute">
@@ -4503,10 +4503,10 @@
 			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_mortarwarlord_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_mortarwarlord_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_mortarwarlord_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="RepairOther3" relativity="Absolute">
