@@ -115,7 +115,7 @@
 		<PullUnits />
 		<MinPullRange>22</MinPullRange>
 		<MaxPullRange>70</MaxPullRange>
-		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">1.0f</Daze>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">1.0f</Daze>
 		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
@@ -157,7 +157,7 @@
 		<PullUnits />
 		<MinPullRange>22</MinPullRange>
 		<MaxPullRange>70</MaxPullRange>
-		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">1.0f</Daze>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">1.0f</Daze>
 		<LifeStealRatio shield="false">0.699999988</LifeStealRatio>
 		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
@@ -202,7 +202,7 @@
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">6.0f</Daze>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">6.0f</Daze>
 	</Weapon>
 	<Weapon>
 		<Name>SelfHammerShockwave</Name>
@@ -242,7 +242,7 @@
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">6.0f</Daze>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">6.0f</Daze>
 		<AlwaysReplaceTargetWithItsPosition />
 	</Weapon>
 	<Action>
