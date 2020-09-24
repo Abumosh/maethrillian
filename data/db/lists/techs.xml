@@ -4258,10 +4258,10 @@
 			<Effect type="Data" amount="1.20000005" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.75" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.75" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="LeechBeamUpgradeAttackAction" relativity="Absolute">
@@ -4300,10 +4300,10 @@
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.85000002" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.85000002" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="TauntAction" relativity="Absolute">
