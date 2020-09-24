@@ -3788,10 +3788,10 @@
 			<Effect type="Data" amount="1.45000005" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.60000002" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.60000002" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="EliteHonour_03">
@@ -3818,10 +3818,10 @@
 			<Effect type="Data" amount="1.35000002" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.54999995" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.54999995" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
