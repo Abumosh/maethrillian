@@ -12870,10 +12870,10 @@
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_spartan_mpdoug_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_spartan_mpdoug_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_spartan_mpdoug_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
@@ -12960,10 +12960,10 @@
 			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_spartan_mpdoug_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.89999998" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_spartan_mpdoug_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.89999998" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_spartan_mpdoug_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
