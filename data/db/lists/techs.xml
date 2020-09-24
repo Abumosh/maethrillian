@@ -3683,10 +3683,10 @@
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Corruption2HammerAction" relativity="Absolute">
@@ -3722,10 +3722,10 @@
 			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.89999998" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.89999998" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.6" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="CorruptionCloak" relativity="Absolute">
