@@ -7,8 +7,8 @@
 		<UseDPSasDPA />
 		<WeaponType>GruntMine</WeaponType>
 		<ImpactEffect size="Medium">BruteMineExplosion</ImpactEffect>
-		<Slow TargetType="Infantry" MovementModifier="0.899999976" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">4</Slow>
-		<Slow TargetType="GroundVehicle" MovementModifier="0.5" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">4</Slow>
+		<Slow TargetType="Infantry" MovementModifier="0.899999976" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3</Slow>
+		<Slow TargetType="GroundVehicle" MovementModifier="0.75" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3</Slow>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
