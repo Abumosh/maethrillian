@@ -324,6 +324,7 @@
 		<Cost ResourceType="Supplies">400</Cost>
 		<Cost ResourceType="Power">60</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
+		<BuildPoints>28</BuildPoints>
 	</Squad>
 	<Squad name="cov_air_shroud_01_sp" parent_element="cov_air_shroud_01_base" dbid="17288770012400335300">
 		<LeashDistance>75</LeashDistance>
