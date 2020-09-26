@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Chaingun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>132</DamagePerSecond>
+		<DamagePerSecond>120</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_chaingunmantis_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -30,7 +30,7 @@
 	<Weapon>
 		<Name>GaussChaingun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>169</DamagePerSecond>
+		<DamagePerSecond>152</DamagePerSecond>
 		<WeaponType>GaussCannon</WeaponType>
 		<Projectile>fx_proj_guasschainGun_01</Projectile>
 		<ImpactEffect size="medium">GaussImpact</ImpactEffect>
@@ -57,7 +57,7 @@
 	<Weapon>
 		<Name>MissilePodBasic</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>31</DamagePerSecond>
+		<DamagePerSecond>28</DamagePerSecond>
 		<WeaponType>Missile</WeaponType>
 		<Projectile>fx_proj_johnson_mantis_missile_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">UNSCAntiAirExplosion</ImpactEffect>
@@ -106,7 +106,7 @@
 	<Weapon>
 		<Name>MissilePod</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>72</DamagePerSecond>
+		<DamagePerSecond>65</DamagePerSecond>
 		<WeaponType>Missile</WeaponType>
 		<Projectile>fx_proj_johnson_mantis_missile_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">UNSCAntiAirExplosion</ImpactEffect>

@@ -10354,8 +10354,8 @@
 		<Counters>Mantis_01</Counters>
 	</Squad>
 	<Squad name="unsc_veh_johnson_mantis_01_mp" parent_element="unsc_veh_johnson_mantis_01_base" dbid="18102962092921929431">
-		<BuildPoints>24</BuildPoints>
-		<Cost ResourceType="Supplies">325</Cost>
+		<BuildPoints>21</BuildPoints>
+		<Cost ResourceType="Supplies">290</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
 		<HealValue>1.39999998</HealValue>
