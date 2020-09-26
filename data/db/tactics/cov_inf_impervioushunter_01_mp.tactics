@@ -334,7 +334,7 @@
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<Slow TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">15.0f</Slow>
+		<Slow TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">8.0f</Slow>
 		<AlwaysReplaceTargetWithItsPosition />
 	</Weapon>
 	<Weapon>
@@ -361,7 +361,7 @@
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<Slow TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">15.0f</Slow>
+		<Slow TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">10.0f</Slow>
 		<AlwaysReplaceTargetWithItsPosition />
 	</Weapon>
 	<Action>
@@ -449,7 +449,7 @@
 		<DontAutoRestart />
 		<StartDisabled />
 		<SpecificData>
-			<TauntDuration>10</TauntDuration>
+			<TauntDuration>8</TauntDuration>
 			<TauntRange>25</TauntRange>
 			<TauntDamageModifier>1</TauntDamageModifier>
 			<VFX />
@@ -464,7 +464,7 @@
 		<DontAutoRestart />
 		<StartDisabled />
 		<SpecificData>
-			<TauntDuration>15</TauntDuration>
+			<TauntDuration>10</TauntDuration>
 			<TauntRange>40</TauntRange>
 			<TauntDamageModifier>0.699999988</TauntDamageModifier>
 		</SpecificData>
