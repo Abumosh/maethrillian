@@ -175,7 +175,7 @@
 		<WorkRange>12</WorkRange>
 		<DontAutoRestart />
 		<SpecificData>
-			<TargetHealthModifier>2900</TargetHealthModifier>
+			<TargetHealthModifier>2000</TargetHealthModifier>
 			<HeightDifference>22</HeightDifference>
 			<DeltaHeightMultipleDrones>4</DeltaHeightMultipleDrones>
 			<HeightDifferenceClimbSpeed>15</HeightDifferenceClimbSpeed>
