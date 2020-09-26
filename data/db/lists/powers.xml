@@ -14084,7 +14084,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">30</Pop>
-			<Cost Supplies="2750" Power="450" />
+			<Cost Supplies="2550" Power="400" />
 			<AutoRecharge>330000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>

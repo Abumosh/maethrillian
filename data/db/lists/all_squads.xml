@@ -10156,8 +10156,8 @@
 	</Squad>
 	<Squad name="unsc_veh_grizzly_01" dbid="6098115684249566326" parent_element="unsc_veh_grizzlybase_01">
 		<Pop Type="Unit">10</Pop>
-		<Cost ResourceType="Supplies">850</Cost>
-		<Cost ResourceType="Power">140</Cost>
+		<Cost ResourceType="Supplies">770</Cost>
+		<Cost ResourceType="Power">125</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<BuildPoints>43</BuildPoints>
 		<HealValue>3.25</HealValue>
