@@ -7659,7 +7659,7 @@
 				<Data type="float" name="TickLength">0.100000001</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
 				<Data type="float" name="MaxBeamSpeed">17</Data>
-				<Data type="float" name="Duration">10</Data>
+				<Data type="float" name="Duration">7</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
 				<Data type="int" name="NumPlayerWaypoints">4</Data>
 				<Data type="sound" name="FiredSound" />
@@ -7692,8 +7692,8 @@
 				<Data type="float" name="MaxBeamDistance">35</Data>
 				<Data type="float" name="TickLength">0.100000001</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
-				<Data type="float" name="MaxBeamSpeed">17</Data>
-				<Data type="float" name="Duration">10</Data>
+				<Data type="float" name="MaxBeamSpeed">18</Data>
+				<Data type="float" name="Duration">7</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
 				<Data type="int" name="NumPlayerWaypoints">4</Data>
 				<Data type="sound" name="FiredSound" />
@@ -7726,16 +7726,16 @@
 				<Data type="float" name="MaxBeamDistance">35</Data>
 				<Data type="float" name="TickLength">0.100000001</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
-				<Data type="float" name="MaxBeamSpeed">17</Data>
-				<Data type="float" name="Duration">10</Data>
+				<Data type="float" name="MaxBeamSpeed">18</Data>
+				<Data type="float" name="Duration">7</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
 				<Data type="int" name="NumPlayerWaypoints">4</Data>
 				<Data type="sound" name="FiredSound" />
 			</BaseDataLevel>
 			<DataLevel level="0">
 				<Data type="protoobject" name="Beam">pow_gp_cleansing_03</Data>
-				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad16m3s</Data>
-				<Data type="float" name="TelegraphDuration">3</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad14m2s</Data>
+				<Data type="float" name="TelegraphDuration">2</Data>
 				<Data type="protoobject" name="AirImpactObject">fx_cleansing_air_impact_small_01</Data>
 			</DataLevel>
 		</Attributes>
