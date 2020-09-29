@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>ScatterBomb</Name>
-		<DamagePerSecond>690</DamagePerSecond>
+		<DamagePerSecond>700</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>pow_proj_scatterbomb_01</Projectile>

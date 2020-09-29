@@ -6119,8 +6119,8 @@
 	</Power>
 	<Power name="UnscBombingRun1_MP">
 		<Attributes>
-			<Cost Supplies="300" Power="200" />
-			<AutoRecharge>200000</AutoRecharge>
+			<Cost Supplies="400" Power="200" />
+			<AutoRecharge>180000</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -6172,12 +6172,22 @@
 			<DataLevel level="1">
 				<Data type="int" name="MaxBombs">7</Data>
 				<Data type="float" name="MaxBombOffset">9</Data>
-				<Data type="float" name="BombSpacing">9</Data>
-				<Data type="float" name="LengthMultiplier">63</Data>
+				<Data type="float" name="BombSpacing">10</Data>
+				<Data type="float" name="LengthMultiplier">70</Data>
 				<Data type="float" name="WedgeLengthMultiplier">1</Data>
 				<Data type="float" name="WedgeMinOffset">1</Data>
 				<Data type="protoobject" name="Projectile">pow_proj_bombingrunmissile_01</Data>
-				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraphlane_telegraphlane60x10-2s</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraphlane_telegraphlane70x10-2s</Data>
+			</DataLevel>
+			<DataLevel level="2">
+				<Data type="int" name="MaxBombs">8</Data>
+				<Data type="float" name="MaxBombOffset">9</Data>
+				<Data type="float" name="BombSpacing">10</Data>
+				<Data type="float" name="LengthMultiplier">80</Data>
+				<Data type="float" name="WedgeLengthMultiplier">1</Data>
+				<Data type="float" name="WedgeMinOffset">1</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_bombingrunmissile_03</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraphlane_telegraphlane80x10-2s</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -29405,8 +29415,8 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
-			<Cost Supplies="350" Power="275" />
-			<AutoRecharge>185000</AutoRecharge>
+			<Cost Supplies="425" Power="275" />
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
