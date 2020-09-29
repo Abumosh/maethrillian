@@ -396,8 +396,8 @@
 		<RolloverTextID>27100</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<ResearchAnim>Research</ResearchAnim>
-		<Cost resourcetype="Supplies">400</Cost>
-		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="Supplies">500</Cost>
+		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
@@ -414,6 +414,9 @@
 				<Target type="ProtoUnit">pow_proj_napalmmissile_02</Target>
 				<Target type="ProtoUnit">pow_proj_napalmmissile_03</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="UnscNapalmMissiles1" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="unsc_kinsano_nuke_buff_02" type="Normal">
@@ -423,10 +426,10 @@
 		<Prereqs>
 			<TechStatus status="Active">unsc_kinsano_nuke_buff_01</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">600</Cost>
-		<Cost resourcetype="Power">600</Cost>
-		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">800</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>90</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -441,32 +444,8 @@
 				<Target type="ProtoUnit">pow_proj_napalmmissile_02</Target>
 				<Target type="ProtoUnit">pow_proj_napalmmissile_03</Target>
 			</Effect>
-		</Effects>
-	</Tech>
-	<Tech name="unsc_kinsano_nuke_buff_03" type="Normal">
-		<DisplayNameID>27089</DisplayNameID>
-		<RolloverTextID>27101</RolloverTextID>
-		<PrereqTextID>231</PrereqTextID>
-		<Prereqs>
-			<TechStatus status="Active">unsc_kinsano_nuke_buff_02</TechStatus>
-		</Prereqs>
-		<Cost resourcetype="Supplies">800</Cost>
-		<Cost resourcetype="Power">800</Cost>
-		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
-		<Status>OBTAINABLE</Status>
-		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
-		<Effects>
-			<Effect type="Data" amount="1.083333333334" subtype="Damage" action="BombingRunAttackAction" relativity="Percent">
-				<Target type="ProtoUnit">pow_proj_napalmmissile_01</Target>
-				<Target type="ProtoUnit">pow_proj_napalmmissile_02</Target>
-				<Target type="ProtoUnit">pow_proj_napalmmissile_03</Target>
-			</Effect>
-			<Effect type="Data" amount="1.142857142857" subtype="Damage" action="BombingRunDamageOverTimeAction" relativity="Percent">
-				<Target type="ProtoUnit">pow_proj_napalmmissile_01</Target>
-				<Target type="ProtoUnit">pow_proj_napalmmissile_02</Target>
-				<Target type="ProtoUnit">pow_proj_napalmmissile_03</Target>
+			<Effect type="Data" amount="2" subtype="PowerLevel" power="UnscNapalmMissiles1" relativity="Absolute">
+				<Target type="Player" />
 			</Effect>
 		</Effects>
 	</Tech>
@@ -6138,8 +6117,6 @@
 			<Effect type="UnlockableGodPower" tier="2">UNSCVehicleAdrenaline1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UNSCVehicleAdrenaline1">UNSCVehicleAdrenaline2</Effect>
 			<Effect type="UnlockableGodPower" tier="3">UnscNapalmMissiles1</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="UnscNapalmMissiles1">UnscNapalmMissiles2</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="UnscNapalmMissiles2">UnscNapalmMissiles3</Effect>
 			<Effect type="UnlockableGodPower" tier="3">UnscTurretDrop1</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="UnscTurretDrop1">UnscTurretDrop2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscMedDrones1_MP</Effect>

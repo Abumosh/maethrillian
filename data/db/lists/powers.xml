@@ -25344,8 +25344,8 @@
 	</Power>
 	<Power name="UnscNapalmMissiles1">
 		<Attributes>
-			<Cost Supplies="280" Power="175" />
-			<AutoRecharge>160000</AutoRecharge>
+			<Cost Supplies="375" Power="225" />
+			<AutoRecharge>180000</AutoRecharge>
 			<PowerType>CarpetBombing</PowerType>
 			<AIPowerUseType>CarpetBombing</AIPowerUseType>
 			<UIRadius>8</UIRadius>
@@ -25393,6 +25393,26 @@
 				<Data type="float" name="WedgeMinOffset">1</Data>
 				<Data type="protoobject" name="Projectile">pow_proj_napalmmissile_01</Data>
 				<Data type="protoobject" name="Telegraph">vfx_dlc1_telegraphlane_telegraphlane75x12-1s</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="int" name="MaxBombs">5</Data>
+				<Data type="float" name="MaxBombOffset">1</Data>
+				<Data type="float" name="BombSpacing">1</Data>
+				<Data type="float" name="LengthMultiplier">100</Data>
+				<Data type="float" name="WedgeLengthMultiplier">1</Data>
+				<Data type="float" name="WedgeMinOffset">1</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_napalmmissile_02</Data>
+				<Data type="protoobject" name="Telegraph">vfx_dlc1_telegraphlane_telegraphlane100x16-1s</Data>
+			</DataLevel>
+			<DataLevel level="2">
+				<Data type="int" name="MaxBombs">6</Data>
+				<Data type="float" name="MaxBombOffset">1</Data>
+				<Data type="float" name="BombSpacing">1</Data>
+				<Data type="float" name="LengthMultiplier">120</Data>
+				<Data type="float" name="WedgeLengthMultiplier">1</Data>
+				<Data type="float" name="WedgeMinOffset">1</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_napalmmissile_03</Data>
+				<Data type="protoobject" name="Telegraph">vfx_dlc1_telegraphlane_telegraphlane120x20-1s</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
