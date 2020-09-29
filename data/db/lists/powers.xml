@@ -16648,7 +16648,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="130" Power="140" />
 			<Pop type="Unit">3</Pop>
-			<AutoRecharge>12000</AutoRecharge>
+			<AutoRecharge>120000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -16699,7 +16699,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="210" Power="180" />
 			<Pop type="Unit">6</Pop>
-			<AutoRecharge>12000</AutoRecharge>
+			<AutoRecharge>120000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -34030,6 +34030,117 @@
 			</DataLevel>
 			<DataLevel level="99">
 				<Data type="float" name="MaxTransportDistance">343</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="UnscFireTurretDrop1">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<SoundName>TurretDrop</SoundName>
+			<Cost Supplies="400" Power="75" />
+			<AutoRecharge>170000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>true</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">true</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">false</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.200000003</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="sound" name="FiredSound" />
+				<Data type="protoobject" name="Projectile">unsc_air_helldrop_01</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>unsc_bldg_dropTurret_01</ProtoSquadID>
+						<ProjectileOverride>unsc_air_turretpod_01</ProjectileOverride>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="UnscFireTurretDrop2">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<SoundName>TurretDrop</SoundName>
+			<Cost Supplies="550" Power="100" />
+			<AutoRecharge>170000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>true</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">true</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">false</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.200000003</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="sound" name="FiredSound" />
+				<Data type="protoobject" name="Projectile">unsc_air_helldrop_01</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">2</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>unsc_bldg_dropTurret_01</ProtoSquadID>
+						<ProjectileOverride>unsc_air_turretpod_01</ProjectileOverride>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
+				</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>

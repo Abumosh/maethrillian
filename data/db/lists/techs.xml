@@ -6117,8 +6117,8 @@
 			<Effect type="UnlockableGodPower" tier="2">UNSCVehicleAdrenaline1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UNSCVehicleAdrenaline1">UNSCVehicleAdrenaline2</Effect>
 			<Effect type="UnlockableGodPower" tier="3">UnscNapalmMissiles1</Effect>
-			<Effect type="UnlockableGodPower" tier="3">UnscTurretDrop1</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="UnscTurretDrop1">UnscTurretDrop2</Effect>
+			<Effect type="UnlockableGodPower" tier="3">UnscFireTurretDrop1</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="UnscFireTurretDrop1">UnscFireTurretDrop2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscMedDrones1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="UnscMedDrones1_MP">UnscMedDrones2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="UnscMedDrones2_MP">UnscMedDrones3_MP</Effect>
