@@ -202,7 +202,7 @@
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">6.0f</Daze>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">3.0f</Daze>
 	</Weapon>
 	<Weapon>
 		<Name>SelfHammerShockwave</Name>
@@ -242,7 +242,7 @@
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">6.0f</Daze>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">3.0f</Daze>
 		<AlwaysReplaceTargetWithItsPosition />
 	</Weapon>
 	<Action>
