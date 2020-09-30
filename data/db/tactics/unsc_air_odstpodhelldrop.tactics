@@ -9,7 +9,7 @@
 		<ImpactRumble leftRumbleType="Decline" leftStrength="1" rightRumbleType="Decline" rightStrength="1" duration="0.300000012" />
 		<UseDPSasDPA />
 		<ImpactEffect size="Medium">ODSTHellDrop</ImpactEffect>
-		<Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
+		<Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">1.5f</Daze>
 		<MaxRange>92.25</MaxRange>
 		<AOEData>
 			<Hitbox>
