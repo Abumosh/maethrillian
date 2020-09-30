@@ -454,8 +454,8 @@
 		<RolloverTextID>27100</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<ResearchAnim>Research</ResearchAnim>
-		<Cost resourcetype="Supplies">400</Cost>
-		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="Supplies">500</Cost>
+		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>60</ResearchPoints>
 		<Status>OBTAINABLE</Status>
@@ -467,6 +467,9 @@
 				<Target type="ProtoUnit">pow_proj_cleansing_02_mp</Target>
 				<Target type="ProtoUnit">pow_proj_cleansing_03_mp</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="CovCleansingBeamPath1_MP" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_leader_beam_buff_02" type="Normal">
@@ -476,10 +479,10 @@
 		<Prereqs>
 			<TechStatus status="Active">cov_leader_beam_buff_01</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">600</Cost>
-		<Cost resourcetype="Power">600</Cost>
-		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>80</ResearchPoints>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">800</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>90</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
@@ -489,31 +492,12 @@
 				<Target type="ProtoUnit">pow_proj_cleansing_02_mp</Target>
 				<Target type="ProtoUnit">pow_proj_cleansing_03_mp</Target>
 			</Effect>
-		</Effects>
-	</Tech>
-	<Tech name="cov_leader_beam_buff_03" type="Normal">
-		<DisplayNameID>27089</DisplayNameID>
-		<RolloverTextID>27101</RolloverTextID>
-		<PrereqTextID>231</PrereqTextID>
-		<Prereqs>
-			<TechStatus status="Active">cov_leader_beam_buff_02</TechStatus>
-		</Prereqs>
-		<Cost resourcetype="Supplies">800</Cost>
-		<Cost resourcetype="Power">800</Cost>
-		<Cost resourcetype="HQLevel">3</Cost>
-		<ResearchPoints>100</ResearchPoints>
-		<Status>OBTAINABLE</Status>
-		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
-		<Effects>
-			<Effect type="Data" amount="1.142857142857" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">pow_proj_cleansing_01_mp</Target>
-				<Target type="ProtoUnit">pow_proj_cleansing_02_mp</Target>
-				<Target type="ProtoUnit">pow_proj_cleansing_03_mp</Target>
+			<Effect type="Data" amount="2" subtype="PowerLevel" power="CovCleansingBeamPath1_MP" relativity="Absolute">
+				<Target type="Player" />
 			</Effect>
 		</Effects>
 	</Tech>
-		<Tech name="cov_leader_pincerbeam_buff_01" type="Normal">
+	<Tech name="cov_leader_pincerbeam_buff_01" type="Normal">
 		<DisplayNameID>27088</DisplayNameID>
 		<RolloverTextID>27100</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
@@ -5450,8 +5434,6 @@
 			<Effect type="UnlockableGodPower" tier="2" prereq="CovBuffRage1">CovBuffRage2</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="CovBuffRage2">CovBuffRage3</Effect>
 			<Effect type="UnlockableGodPower" tier="3">CovCleansingBeamPath1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3">CovSpiritGunship1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovSpiritGunship1">CovSpiritGunship2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovTeleport1</Effect>
@@ -5564,8 +5546,6 @@
 			<Effect type="UnlockableGodPower" tier="3">CovSpiritGunship1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovSpiritGunship1">CovSpiritGunship2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovCleansingBeamPath1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovTeleport1</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovInvulnerability</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovPlanetaryCleansing</Effect>
@@ -5687,8 +5667,6 @@
 			<Effect type="UnlockableGodPower" tier="2">CovExtraction1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="CovExtraction1">CovExtraction2</Effect>
 			<Effect type="UnlockableGodPower" tier="3">CovCleansingBeamPath1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3">CovAdvancedCloaking1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovAdvancedCloaking1">CovAdvancedCloaking2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovSpiritSupport1</Effect>
@@ -6862,8 +6840,6 @@
 			<Effect type="UnlockableGodPower" tier="3">Grunt_ShadeDrop1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="Grunt_ShadeDrop1">Grunt_ShadeDrop2</Effect>
 			<Effect type="UnlockableGodPower" tier="3">CovCleansingBeamPath1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4">Grunt_ShieldTower1</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="Grunt_ShieldTower1">Grunt_ShieldTower2</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="Grunt_ShieldTower2">Grunt_ShieldTower3</Effect>

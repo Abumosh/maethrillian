@@ -7716,7 +7716,7 @@
 	</Power>
 	<Power name="CovCleansingBeamPath1_MP">
 		<Attributes>
-			<Cost Supplies="350" Power="150" />
+			<Cost Supplies="400" Power="200" />
 			<AutoRecharge>230000</AutoRecharge>
 			<PowerType>Cleansing</PowerType>
 			<AIPowerUseType>Cleansing</AIPowerUseType>
@@ -7729,20 +7729,34 @@
 			<MinDistanceToSquad>0</MinDistanceToSquad>
 			<MaxDistanceToSquad>35</MaxDistanceToSquad>
 			<BaseDataLevel>
-				<Data type="protoobject" name="Projectile">pow_proj_cleansing_01_mp</Data>
 				<Data type="float" name="MinBeamDistance">0</Data>
 				<Data type="float" name="MaxBeamDistance">35</Data>
 				<Data type="float" name="TickLength">0.100000001</Data>
 				<Data type="float" name="CommandInterval">0.1</Data>
-				<Data type="float" name="MaxBeamSpeed">17</Data>
-				<Data type="float" name="Duration">10</Data>
+				<Data type="float" name="MaxBeamSpeed">18</Data>
+				<Data type="float" name="Duration">8</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
 				<Data type="int" name="NumPlayerWaypoints">4</Data>
 				<Data type="sound" name="FiredSound" />
 			</BaseDataLevel>
 			<DataLevel level="0">
 				<Data type="protoobject" name="Beam">pow_gp_cleansing_01</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_cleansing_01_mp</Data>
 				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad10m2s</Data>
+				<Data type="float" name="TelegraphDuration">2</Data>
+				<Data type="protoobject" name="AirImpactObject">fx_cleansing_air_impact_small_01</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="protoobject" name="Beam">pow_gp_cleansing_02</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_cleansing_02_mp</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad12m2s</Data>
+				<Data type="float" name="TelegraphDuration">2</Data>
+				<Data type="protoobject" name="AirImpactObject">fx_cleansing_air_impact_small_01</Data>
+			</DataLevel>
+			<DataLevel level="2">
+				<Data type="protoobject" name="Beam">pow_gp_cleansing_03</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_cleansing_03_mp</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad14m2s</Data>
 				<Data type="float" name="TelegraphDuration">2</Data>
 				<Data type="protoobject" name="AirImpactObject">fx_cleansing_air_impact_small_01</Data>
 			</DataLevel>
