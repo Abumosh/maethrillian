@@ -8,7 +8,7 @@
 		<ImpactAdvancedCameraShake fadein="0" duration="0" fadeout="3" yawpitchstrength="2" rollstrength="1.5" rotationfrequency="4" translationstrength="0" translationfrequency="4" />
 		<UseDPSasDPA />
 		<ImpactEffect size="Medium">ODSTUnitPod</ImpactEffect>
-		<Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
+		<Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">1.5f</Daze>
 		<MaxRange>92.25</MaxRange>
 		<AOEData>
 			<Hitbox>

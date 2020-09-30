@@ -7,7 +7,7 @@
 		<Projectile>unsc_air_vehiclepod_01</Projectile>
 		<UseDPSasDPA />
 		<ImpactEffect size="Medium">LargeExplosionImpact</ImpactEffect>
-		<Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
+		<Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">1.5f</Daze>
 		<MaxRange>92.25</MaxRange>
 		<AOEData>
 			<Hitbox>
