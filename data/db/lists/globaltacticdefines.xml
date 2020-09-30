@@ -36,7 +36,7 @@
 			<PhysicsForceMax>400</PhysicsForceMax>
 			<Hardpoint>Torso</Hardpoint>
 			<ImpactEffect size="Medium">SpartanGroundPound</ImpactEffect>
-			<Daze TargetType="NonFlying" MovementModifier="0" AOEDaze="true" SmartTargeting="false">5.0f</Daze>
+			<Daze TargetType="NonFlying" MovementModifier="0" AOEDaze="true" SmartTargeting="false">2.5f</Daze>
 		</Weapon>
 	</Weapons>
 	<Actions>

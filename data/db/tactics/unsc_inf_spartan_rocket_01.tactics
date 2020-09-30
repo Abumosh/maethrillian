@@ -149,7 +149,7 @@
 			</Hitbox>
 		</AOEData>
 		<ImpactEffect size="Medium">SpartanGroundPound</ImpactEffect>
-		<Daze TargetType="NonFlying" MovementModifier="0" AOEDaze="true" SmartTargeting="false">5.0f</Daze>
+		<Daze TargetType="NonFlying" MovementModifier="0" AOEDaze="true" SmartTargeting="false">2.5f</Daze>
 	</Weapon>
 	<Weapon>
 		<Name>NukeGroundPound</Name>
@@ -181,7 +181,7 @@
 			</Hitbox>
 		</AOEData>
 		<ImpactEffect size="Medium">LargeExplosionImpact</ImpactEffect>
-		<Daze TargetType="NonFlying" MovementModifier="0" AOEDaze="true" SmartTargeting="false">5.0f</Daze>
+		<Daze TargetType="NonFlying" MovementModifier="0" AOEDaze="true" SmartTargeting="false">2.5f</Daze>
 	</Weapon>
 	<Action>
 		<Name>AntiAircraftRocketLauncherAttackAction</Name>
